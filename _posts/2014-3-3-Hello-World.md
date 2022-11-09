@@ -1,10 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: Hello World! (And GitHub Pages + Jekyll)
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+I decided to migrate my blog from WordPress to GitHub pages to save some monies. The added benefit is that I will learn new things and develop new skills. What a win-win! I'm planning to use this website to showcase my photography too. Now I have to figure out how to bring my old data here without breaking anything. See you soon in the next post. I'm so excited for this new start :D
