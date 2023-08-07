@@ -101,6 +101,7 @@ Squatting is fun, but it can end up taking too much time and mental energy. If y
 You can take an additional rest day if you feel like your body really needs rest. No shame in taking an additional rest day. Your body will let you know, listen to it. Push yourself hard, but be safe!
 
 - **Here’s an alternate routine**-
+
 ```
 	1.	Legs + abs
 	2.	Shoulders + triceps
