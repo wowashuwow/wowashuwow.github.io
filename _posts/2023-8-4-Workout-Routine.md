@@ -110,6 +110,7 @@ You can take an additional rest day if you feel like your body really needs rest
 	6.	Bicep
 	7.	Rest
 ```
+
 Choose this ☝️ routine if you enjoy leg days and want to grow your legs faster. Hitting legs twice a week is always good anyway.
 
 **⭐️ Most importantly have fun at the gym, and enjoy the physical and mental benefits of being strong, healthy and hot 👊**
