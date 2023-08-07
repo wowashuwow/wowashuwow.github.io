@@ -3,7 +3,9 @@ layout: post
 title: Workout Routine
 ---
 
-_**This post is currently a work in progress**_
+_This post is currently a work in progress_
+
+This is a workout routine for new lifters. This is the exact same workout routine that I used to build my physique. 
 
 Exercise 6 days a week, one day rest.
 
@@ -15,9 +17,9 @@ Exercise 6 days a week, one day rest.
 	6.	Biceps
 	7.	Rest
 
-(Note: If you’re short on time just do the exercises marked by ✅. These will be enough to sufficiently train the target muscle group.)
+(Note: When you’re short on time you can do the exercises marked by ✅ and call it a day. These will be just enough to sufficiently train the target muscle group.)
 
-Here’s the programming-
+Now, here’s the programming-
 
 Shoulders & triceps
 ```
@@ -29,23 +31,24 @@ Shoulders & triceps
  6.	Single arm cross cable tricep extensions
  7.	Cable lateral raises, lightweight, AMRAP (to burn out the side delts)
 ```
-Back
 
+Back
+```
 	1.	Lat pulldown ✅
 	2.	Seated horizontal rows ✅
 	3.	Shrugs (use dumbbells or barbell or Smith Machine whichever you find comfortable. I use Smith Machine.)
 	4.	Rear delt flyes ✅
-	5.	Hyperextension ✅```
+	5.	Hyperextension ✅
+```
 
 Chest
-
+```
 	1.	Decline DB bench press
 	2.	Flat DB bench press ✅
 	3.	Incline DB bench press 
 	4.	Machine chest press
 	5.	Pec flyes ✅
-
-Dips/weighted dips is a fun alternative to decline DB press for lower chest. Optional, only for fun.
+```
 
 Legs
 ```
@@ -58,21 +61,21 @@ Legs
 	6.	Seated/Lying Hamstring curl machine ✅
 ```
 Abs
-
+```
 	1.	Crunches
-
+```
 That’s it, workout done ✔️ 
 
 Jk jk 😆
-
+```
 	1.	Crunches ✅
 	2.	Cross crunches ✅
 	3.	Double crunch
 	4.	Leg raises
 	5.	Plank
-
-If you are doing legs 2x /week, 2 exercises of crunches will be enough for abs. Ab muscles are small and it doesn’t require a lot of work to make them big enough to show. Although, aesthetics aside, doing ab exercises will strengthen your core which is highly beneficial.
-
+```
+If you are doing legs 2x /week, 8-10 sets will be enough for abs. Ab muscles are small and don’t require too much work to get them big enough to show. Want visible abs? It's all about body fat percentage. But aesthetics aside, doing ab exercises will strengthen your core which is highly beneficial.
+ 
 Biceps
 ```
 	1.	DB curls ✅
@@ -84,6 +87,7 @@ Biceps
 ```
 
 **Notes**- 
+
 - **Squatting**-
 Squatting is fun, but it can end up taking too much time and mental energy. If you want to squat safely and save time, use a hack squat machine or the Smith Machine. All three variations will develop your quads, do what suits you best.
 
@@ -91,7 +95,9 @@ Squatting is fun, but it can end up taking too much time and mental energy. If y
 
 - **Calves**- If you want to grow your calves faster, you can train them 2x/week. If you’re doing legs 1x /week, add calves to any other workout day of your choice.
 
-- **Rest Days**- Take your rest day whenever you feel like your body needs rest. It’s not like you have to take it on Sunday only. For example, if you feel like your body needs rest after leg day, take it. Also, don’t take a rest day if you feel like you can go to the gym and don’t need the rest day. But one rest day per week is mandatory. 
+- **NEVER SKIP LEG DAY.**
+
+- **Rest Days**- One rest day per week is mandatory. Take your rest day whenever you feel like your body needs rest. It’s not like you have to take it only on Sundays. For example, if you feel like your body needs rest after a Monday leg day, rest on Tuesday.
 You can take an additional rest day if you feel like your body really needs rest. No shame in taking an additional rest day. Your body will let you know, listen to it. Push yourself hard, but be safe!
 
 - **Here’s an alternate routine**-
@@ -104,11 +110,8 @@ You can take an additional rest day if you feel like your body really needs rest
 	6.	Bicep
 	7.	Rest
 ```
+Choose this ☝️ routine if you enjoy leg days and want to grow your legs faster. Hitting legs twice a week is always good anyway.
 
-Choose this ☝️ routine if you enjoy leg days and want to grow your legs faster. Hitting legs twice a week is always good anyway. **NEVER SKIP LEG DAY!**
-
-
-
-**⭐️ Most importantly have fun at the gym, and enjoy the physical and mental health benefits of being strong, healthy and hot 👊**
+**⭐️ Most importantly have fun at the gym, and enjoy the physical and mental benefits of being strong, healthy and hot 👊**
 
 
