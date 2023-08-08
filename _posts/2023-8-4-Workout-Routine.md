@@ -10,14 +10,15 @@ _This post is currently a work in progress_
 This is a workout routine for new lifters. This is the exact same workout routine that I used to build my physique. 
 
 Exercise 6 days a week, one day rest.
-
-	1.	Shoulders & triceps
-	2.	Back
-	3.	Chest
-	4.	Legs
-	5.	Abs
-	6.	Biceps
-	7.	Rest
+```
+1.	Shoulders & triceps
+2.	Back
+3.	Chest
+4.	Legs
+5.	Abs
+6.	Biceps
+7.	Rest
+```
 
 (Note: When you’re short on time you can do the exercises marked by ✅ and call it a day. These will be just enough to sufficiently train the target muscle group.)
 
@@ -36,56 +37,56 @@ Shoulders & triceps
 
 Back
 ```
-	1.	Lat pulldown ✅
-	2.	Seated horizontal rows ✅
-	3.	Shrugs (use dumbbells or barbell or Smith Machine whichever you find comfortable. I use Smith Machine.)
-	4.	Rear delt flyes ✅
-	5.	Hyperextension ✅
+1.	Lat pulldown ✅
+2.	Seated horizontal rows ✅
+3.	Shrugs (use dumbbells or barbell or Smith Machine whichever you find comfortable. I use Smith Machine.)
+4.	Rear delt flyes ✅
+5.	Hyperextension ✅
 ```
 
 Chest
 ```
-	1.	Decline DB bench press
-	2.	Flat DB bench press ✅
-	3.	Incline DB bench press 
-	4.	Machine chest press
-	5.	Pec flyes ✅
+1.	Decline DB bench press
+2.	Flat DB bench press ✅
+3.	Incline DB bench press 
+4.	Machine chest press
+5.	Pec flyes ✅
 ```
 
 Legs
 ```
 ⭐️ Proper warm up is important 
-	1.	Squat / hack squat / Smith Machine squat ✅
-	2.	RDL
-	3.	Leg extension
-	4.	Single leg calf raises ✅
-	5.	Weighted calf raises (whichever machine is available or use Smith Machine)
-	6.	Seated/Lying Hamstring curl machine ✅
+1.	Squat / hack squat / Smith Machine squat ✅
+2.	RDL
+3.	Leg extension
+4.	Single leg calf raises ✅
+5.	Weighted calf raises (whichever machine is available or use Smith Machine)
+6.	Seated/Lying Hamstring curl machine ✅
 ```
 Abs
 ```
-	1.	Crunches
+1.	Crunches
 ```
 That’s it, workout done ✔️ 
 
 Jk jk 😆
 ```
-	1.	Crunches ✅
-	2.	Cross crunches ✅
-	3.	Double crunch
-	4.	Leg raises
-	5.	Plank
+1.	Crunches ✅
+2.	Cross crunches ✅
+3.	Double crunch
+4.	Leg raises
+5.	Plank
 ```
 If you are doing legs 2x /week, 8-10 sets will be enough for abs. Ab muscles are small and don’t require too much work to get them big enough to show. Want visible abs? It's all about body fat percentage. But aesthetics aside, doing ab exercises will strengthen your core which is highly beneficial.
  
 Biceps
 ```
-	1.	DB curls ✅
-	2.	Hammer curls ✅
-	3.	Preacher curls
-	4.	Concentration curls
-	5.	EZ bar curls
-	6.	Reverse grip curls (cable machine + bar) ✅ - lightweight, AMRAP
+1.	DB curls ✅
+2.	Hammer curls ✅
+3.	Preacher curls
+4.	Concentration curls
+5.	EZ bar curls
+6.	Reverse grip curls (cable machine + bar) ✅ - lightweight, AMRAP
 ```
 
 **Notes**- 
@@ -105,13 +106,13 @@ You can take an additional rest day if you feel like your body really needs rest
 - **Here’s an alternate routine**-
 
 ```
-	1.	Legs + abs
-	2.	Shoulders + triceps
-	3.	Back
-	4.	Chest
-	5.	Legs + abs
-	6.	Bicep
-	7.	Rest
+1.	Legs + abs
+2.	Shoulders + triceps
+3.	Back
+4.	Chest
+5.	Legs + abs
+6.	Bicep
+7.	Rest
 ```
 
 Choose this ☝️ routine if you enjoy leg days and want to grow your legs faster. Hitting legs twice a week is always good anyway.
