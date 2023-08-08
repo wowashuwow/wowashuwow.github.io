@@ -5,6 +5,8 @@ title: Workout Routine
 
 _This post is currently a work in progress_
 
+[comment]: # (Introduction points to include: consistency is key- show up to the gym. workout is most important, diet and sleep secondary. If your workout is shit you will not grow. Instructions on how to use the guide- search YT videos to see form, how to perform each exercise. how to exercise- 10-15 rep range -for 6months only?, last rep should fail or almost fail. First do circuit- add circuit workout also for 15 days- for absolute beginners. This workout routine is structure in a way that will develop your entire physique- all muscle groups. Nothing is left, if it is please mention in comments. Do this for one year. How to progressive overload. Once you are able to hit 12-15 reps x 3, increase the weight by 2.5kg.)
+
 This is a workout routine for new lifters. This is the exact same workout routine that I used to build my physique. 
 
 Exercise 6 days a week, one day rest.
