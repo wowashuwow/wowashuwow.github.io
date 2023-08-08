@@ -46,4 +46,4 @@ You can send me a message at ab @ ashutoshbhosale.com
 
 ## About this website
 
-This website is hosted on [GitHub pages](https://pages.github.com/) and runs on [Jekyll](https://jekyllrb.com/). The Photos page is hosted on [Adobe Portfolio](https://portfolio.adobe.com/).
+This website is hosted on [GitHub pages](https://pages.github.com/) and runs on [Jekyll](https://jekyllrb.com/) using the [Jekyll Now theme](https://github.com/barryclark/jekyll-now). The [Photos page](https://photos.ashutoshbhosale.com/) is hosted on [Adobe Portfolio](https://portfolio.adobe.com/).
