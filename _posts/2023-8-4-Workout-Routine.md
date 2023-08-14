@@ -10,7 +10,7 @@ _This post is currently a work in progress_
 
 Back in December 2021, I decided to go to the gym. And I did. Over time I became strong, healthy, fit, and hot. And don't even get me started on the mental health benefits. They are priceless.
 
-As of August 2022, I am still working out and I keep reaping the benefits by the day. I went from this to this. In this post I am writing down the exact same workout routine that I followed to build my physique. Good luck.
+As of August 2022, I am still working out and I keep reaping the benefits by the day. In this post I am writing down the exact same workout routine that I followed to build my physique. Good luck.
 
 ## How to use this workout routine:
 
