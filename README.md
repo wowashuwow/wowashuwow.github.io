@@ -1,1 +1,1 @@
-Created using Barry Clark's Jekyll Now theme.
+My personal blog, created using Barry Clark's Jekyll Now theme.
