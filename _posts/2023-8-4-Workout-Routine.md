@@ -124,13 +124,13 @@ Lower body day:
 ```
 Do this for two weeks. That's upper-lower-upper-lower-upper-lower-rest, x2.
 
-**Use only light weights for this circuit training. DO NOT USE HEAVY WEIGHTS.**
+Use only light weights for this circuit training. DO NOT USE HEAVY WEIGHTS.
 
 **Q:** What about diet?\
 **A:** Chicken.
 
 **Q:** No seriously, what about diet?\
-**A:** I am not going to talk much about diet in this post. Too much emphasis is laid on diet and sleep. Does it help to have proper diet and sleep? Sure. But let me tell you a fact. **The only thing that determines whether you'll put on muscle or not is what you do inside the gym.** If you are not working out hard enough, you will not build muscle. If you track your macros down to the last calorie, sleep for 9 hours, but don't work out hard enough, you will not build muscle. **[If your workout is shit, you will not build muscle](https://youtu.be/X3offZE1NJw).**
+**A:** I am not going to talk much about diet in this post. Too much emphasis is laid on diet and sleep. Does it help to have proper diet and sleep? Sure. But let me tell you a fact. The only thing that determines whether you'll put on muscle or not is what you do inside the gym. If you are not working out hard enough, you will not build muscle. If you track your macros down to the last calorie, sleep for 9 hours, but don't work out hard enough, you will not build muscle. [If your workout is shit, you will not build muscle](https://youtu.be/X3offZE1NJw).
 
 But here's what you can do- If you want to lose weight and build muscle, eat less and take enough protein. If you want to gain weight as well as build muscle, eat more and take enough protein. If you want to maintain your weight while losing fat and building muscle (this is called body recomposition), eat just enough and take enough protein. Aim to take 2x(your weight in kg) grams of protein every day.
 
