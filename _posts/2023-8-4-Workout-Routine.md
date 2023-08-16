@@ -132,9 +132,14 @@ Use only light weights for this circuit training. DO NOT USE HEAVY WEIGHTS.
 **Q:** No seriously, what about diet?\
 **A:** I am not going to talk much about diet in this post. Too much emphasis is laid on diet and sleep. Does it help to have proper diet and sleep? Sure. But let me tell you a fact. The only thing that determines whether you'll put on muscle or not is what you do inside the gym. If you are not working out hard enough, you will not build muscle. If you track your macros down to the last calorie, sleep for 9 hours, but don't work out hard enough, you will not build muscle. [If your workout is shit, you will not build muscle](https://youtu.be/X3offZE1NJw).
 
-But here's what you can do- If you want to lose weight and build muscle, eat less and take enough protein. If you want to gain weight as well as build muscle, eat more and take enough protein. If you want to maintain your weight while losing fat and building muscle (this is called body recomposition), eat just enough and take enough protein. Aim to take 2x(your weight in kg) grams of protein every day.
+But here's what you can do- If you want to lose weight and build muscle, eat less and take enough protein. If you want to gain weight as well as build muscle, eat more and take enough protein. If you want to maintain your weight while losing fat and building muscle (this is called body recomposition), eat just enough and take enough protein. Try to take 2x(your weight in kg) grams of protein every day. (Note: If you are overweight, this number might be too high. In that case, try to take grams of protein = your height in cm.)
 
-Cut out junk, avoid sugar, and prefer whole foods.
+Eating less= staying in a caloric deficit.\
+Eating more= staying in a caloric surplus.\
+Eating just enough= staying at maintenance or in a very slight caloric surplus.\
+There is no need to obsess over your calories. Just eat consciously according to your goal and count your protein, that's it. Cut out junk, avoid sugar, and prefer whole foods.
+
+You are free to research more on diet, it will help, but remember, if your workout is shit, you will not build muscle. And if you don't go to the gym, you will definitely not build muscle. The most important thing is getting your ass to the gym. I personally know jacked dudes who eat only four eggs a day and still have physiques to die for.
 
 **Q:** Do I need protein powder?\
 **A:** No, you don't need protein powder to build muscle. However, if you are finding it difficult to hit your protein goal, you may take whey protein.
@@ -170,12 +175,12 @@ Squatting is fun, but it can take up a lot of time and mental energy. If you wan
 - **Abs**- If you are doing legs 2x /week, 8-10 sets of ab exercises will be more than sufficient for abs. Your abs are already getting worked when you do all the other exercises. But if you want visible abs, it's all about body fat percentage. BF% is the name of the game. Aesthetics aside though, doing ab exercises will strengthen your core, which is highly beneficial not only for lifting but for everday life.
 
 - **Rest Days**- Take your rest day whenever you feel like your body needs rest. It’s not like you have to take it only on Sunday. For example, if you are sore and tired after a Monday leg day, take rest on Tuesday.
-You can take an additional rest day whenever you feel like it. No shame in taking an additional rest day. Your body will let you know when it wants to rest and needs time to recover. Listen to it. Push yourself hard, but be safe.
+You can take an additional rest day whenever you feel like it. No shame in taking an additional rest day. Your body will let you know when it wants to rest and needs time to recover. Listen to it. Push yourself hard, but be safe. Remember, your body builds muscle when it is resting. Try to get enough sleep.
 
 - **Progressive Overload**- Let's say a few weeks into following the routine, you find that "Hey, hitting 3 sets of 15 reps of this exercise at this weight feels way too easy now. Plus my body doesn't even hurt anymore." This is a sign that you should start applying progressive overload to your workout. What is progressive overload? **Once you are able to do 3 sets of 15 reps, increase the weight by 2.5kg.** Rinse and repeat. Simple. 
     
     **Q**: When should I start progressive overload?\
-    **A**: Don't think about it too much, you'll realize it yourself. But DO NOT start progressive overload before at least four weeks of consistently working out using your initial chosen weights. Your body needs time to get acclimatized to working out. Yes, that much time. Then you can start lifting heavier.
+    **A**: Don't think about it too much, you'll realize it yourself. But DO NOT start progressive overload before at least four weeks of consistently following the workout routine using your initial chosen weights (that's four weeks AFTER completing circuit training). Your body needs time to get acclimatized to working out. Yes, that much time. Then you can start lifting heavier.
 
     For some exercises like lateral raises and single leg calf raises, you'll find that you are not able to lift much weight and it is very difficult to progressively overload. That's completely normal. No need to start questioning your manhood here. For exercises like these volume is more important than lifting heavy. Increase the reps to 15-20, keep the weight reasonable and focus on your form. Don't ego-lift and swing the weights.
 
