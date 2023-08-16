@@ -37,8 +37,9 @@ You will exercise 6 days a week, and take one rest day.
 
 I have linked each exercise to a video to show how to perform it. If you need more clarity, ask someone in the gym.
 
-(Note: Whenever you’re short on time, just do the exercises marked by ✅. These are the important ones that you shouldn't skip. Besides, it's always better to go to the gym and do something than to not go and not do anything. **Consistency is key.**)
+(**Note**: Whenever you’re short on time, just do the exercises marked by ✅. These are the important ones that you shouldn't skip. Besides, it's always better to go to the gym and do something than to not go and not do anything. **Consistency is key.**)
 
+Warm up: neck rotations, wrist rotations, hip rotations, shoulder rotations, pushups. 10 each.
 
 ### Shoulders + Triceps
 
@@ -71,8 +72,8 @@ I have linked each exercise to a video to show how to perform it. If you need mo
 
 ### Legs
 
-⭐️ Proper warm up is important 
-1.	✅ [Squat](https://youtu.be/bEv6CCg2BC8) (or [hack squat](https://youtu.be/0tn5K9NlCfo) or [Smith Machine squat](https://youtu.be/AHnX-aimA4E))
+⭐️ Proper [legs warm up](https://youtube.com/shorts/BObYpTxU3aM?feature=share) is important 
+1.	✅ [Squat](https://youtu.be/bEv6CCg2BC8) (or [hack squat](https://youtu.be/0tn5K9NlCfo) or [Smith Machine squat](https://youtu.be/AHnX-aimA4E)) (do 2 lightweight/free sets before main sets for warm up)
 2.	[RDL](https://www.youtube.com/shorts/eHLuROg0FSI)
 3.	[Leg extension](https://musclewiki.com/machine/male/quads/machine-leg-extension)
 4.  ✅ [Seated/Lying Hamstring curl machine](https://musclewiki.com/machine/male/hamstrings/machine-hamstring-curl)
