@@ -39,7 +39,7 @@ I have linked each exercise to a video to show how to perform it. If you need mo
 
 (**Note**: Whenever you’re short on time, just do the exercises marked by ✅. These are the important ones that you shouldn't skip. Besides, it's always better to go to the gym and do something than to not go and not do anything. **Consistency is key.**)
 
-Warm up: neck rotations, wrist rotations, hip rotations, shoulder rotations, pushups. 10 each.
+Warm up: neck rotations, wrist rotations, hip rotations, shoulder rotations, pushups. 20 each. Add anything else that you like, the aim is to just get the blood flowing. Shouldn't take more than ten minutes.
 
 ### Shoulders + Triceps
 
