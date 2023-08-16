@@ -81,12 +81,6 @@ I have linked each exercise to a video to show how to perform it. If you need mo
 
 ### Abs
 
-1.	Crunches
-
-That’s it, workout done ✔️ 
-
-Jk jk 😆
-
 1.	[Crunches](https://youtube.com/shorts/ZKw4t23ERuw?feature=share) ✅
 2.	[Cross crunches](https://www.youtube.com/watch?v=wBuAqWdJCEo) ✅
 3.	[Double crunch](https://www.youtube.com/watch?v=dsb0Ay5e1Zc)
