@@ -42,9 +42,9 @@ I have linked each exercise to a video to show how to perform it. If you need mo
 
 ### Shoulders + Triceps
 
- 1.	[DB Lateral raises](https://youtu.be/v_ZkxWzYnMc?t=213) ✅ (DB=Dumbbell)
- 2.	[Straight bar cable pushdown](https://www.youtube.com/shorts/e0FrR9V0HEI) ✅
- 3.	[DB Seated Overhead Press](https://musclewiki.com/dumbbells/male/shoulders/dumbbell-seated-overhead-press) ✅
+ 1.	✅ [DB Lateral raises](https://youtu.be/v_ZkxWzYnMc?t=213) (DB=Dumbbell)
+ 2.	✅ [Straight bar cable pushdown](https://www.youtube.com/shorts/e0FrR9V0HEI)
+ 3.	✅ [DB Seated Overhead Press](https://musclewiki.com/dumbbells/male/shoulders/dumbbell-seated-overhead-press)
  4.	[Cable overhead tricep extension](https://youtube.com/shorts/Q3bO1Fh4734?feature=share)
  5.	[Front raises](https://musclewiki.com/dumbbells/male/shoulders/dumbbell-front-raise)
  6.	[Single arm cross cable tricep extensions](https://www.youtube.com/shorts/IbgxQXYxsIc)
@@ -53,36 +53,36 @@ I have linked each exercise to a video to show how to perform it. If you need mo
 
 ### Back
 
-1.	[Seated horizontal rows](https://youtube.com/shorts/auvunRjx_94?feature=share) (prefer using a [v bar]({{ site.baseurl }}/images/v_bar.jpg)) ✅
-2.	[Lat pulldown](https://www.youtube.com/shorts/77bPLrsMwiQ) ✅
+1.	✅ [Seated horizontal rows](https://youtube.com/shorts/auvunRjx_94?feature=share) (prefer using a [v bar]({{ site.baseurl }}/images/v_bar.jpg))
+2.	✅ [Lat pulldown](https://www.youtube.com/shorts/77bPLrsMwiQ)
 3.	[T bar rows](https://youtube.com/shorts/6OtcNinT0HM?feature=share) (if T bar machine is not available do [chest supported DB rows](https://www.youtube.com/shorts/tahGpBijHkY))
 4.  [Shrugs](https://youtu.be/C6sYjDFuq9I?t=196) (use dumbbells or barbell or Smith Machine whichever you prefer. I use Smith Machine)
-5.	[Hyperextension](https://youtube.com/shorts/1mQ7cHckWEE?feature=share) ✅
+5.	✅ [Hyperextension](https://youtube.com/shorts/1mQ7cHckWEE?feature=share)
 
 
 ### Chest
 
 1.	[Decline DB bench press](https://youtube.com/shorts/1OdTFeN90W4?feature=share)
-2.	[Flat DB bench press](https://youtu.be/VmB1G1K7v94) ✅
+2.	✅ [Flat DB bench press](https://youtu.be/VmB1G1K7v94)
 3.	[Incline DB bench press](https://www.youtube.com/shorts/5giKXkeGEVg) 
 4.	[Machine chest press](https://youtube.com/shorts/4SscB4eAxt4?feature=share) (optional)
-5.	[Pec flyes](https://www.youtube.com/shorts/kYw-bfn4sZw) ✅
+5.	✅ [Pec flyes](https://www.youtube.com/shorts/kYw-bfn4sZw)
 
 
 ### Legs
 
 ⭐️ Proper warm up is important 
-1.	[Squat](https://youtu.be/bEv6CCg2BC8) (or [hack squat](https://youtu.be/0tn5K9NlCfo) or [Smith Machine squat](https://youtu.be/AHnX-aimA4E)) ✅
+1.	✅ [Squat](https://youtu.be/bEv6CCg2BC8) (or [hack squat](https://youtu.be/0tn5K9NlCfo) or [Smith Machine squat](https://youtu.be/AHnX-aimA4E))
 2.	[RDL](https://www.youtube.com/shorts/eHLuROg0FSI)
 3.	[Leg extension](https://musclewiki.com/machine/male/quads/machine-leg-extension)
-4.  [Seated/Lying Hamstring curl machine](https://musclewiki.com/machine/male/hamstrings/machine-hamstring-curl) ✅
-5.	[Weighted calf raises](https://musclewiki.com/machine/male/calves/machine-seated-calf-raises) (whichever machine is available or use Smith Machine)
-6.  [Single leg calf raises](https://youtube.com/shorts/Bfl5du8ehao?feature=share) ✅
+4.  ✅ [Seated/Lying Hamstring curl machine](https://musclewiki.com/machine/male/hamstrings/machine-hamstring-curl)
+5.	[Weighted calf raises](https://musclewiki.com/machine/male/calves/machine-seated-calf-raises) (use whichever machine is available or use Smith Machine)
+6.  ✅ [Single leg calf raises](https://youtube.com/shorts/Bfl5du8ehao?feature=share)
 
 ### Abs
 
-1.	[Crunches](https://youtube.com/shorts/ZKw4t23ERuw?feature=share) ✅
-2.	[Cross crunches](https://www.youtube.com/watch?v=wBuAqWdJCEo) ✅
+1.	✅ [Crunches](https://youtube.com/shorts/ZKw4t23ERuw?feature=share)
+2.	✅ [Cross crunches](https://www.youtube.com/watch?v=wBuAqWdJCEo)
 3.	[Double crunch](https://www.youtube.com/watch?v=dsb0Ay5e1Zc)
 4.	[Leg raises](https://musclewiki.com/bodyweight/male/abdominals/laying-leg-raises)
 5.	[Plank](https://youtu.be/pSHjTRCQxIw)
@@ -90,12 +90,12 @@ I have linked each exercise to a video to show how to perform it. If you need mo
 
 ### Biceps + Rear Delts
 
-1.	[DB curls](https://musclewiki.com/dumbbells/male/biceps/dumbbell-curl) ✅
-2.	[Hammer curls](https://musclewiki.com/dumbbells/male/biceps/dumbbell-hammer-curl) ✅
+1.	✅ [DB curls](https://musclewiki.com/dumbbells/male/biceps/dumbbell-curl)
+2.	✅ [Hammer curls](https://musclewiki.com/dumbbells/male/biceps/dumbbell-hammer-curl)
 3.	[Preacher curls](https://youtube.com/shorts/dnJ1vNlhzHY?feature=share)
 4.	[Reverse pec deck](https://youtu.be/qfc70k40318?t=242)
-5.	[Face pulls](https://youtu.be/qfc70k40318?t=74)
-6.	[Reverse grip curls](https://youtu.be/VYeSqycso5s) (use cable machine + straight bar) ✅ - lightweight, AMRAP
+5.	✅ [Face pulls](https://youtu.be/qfc70k40318?t=74)
+6.	[Reverse grip curls](https://youtu.be/VYeSqycso5s) (use cable machine + straight bar) - lightweight, AMRAP
 
 
 ## FAQs
