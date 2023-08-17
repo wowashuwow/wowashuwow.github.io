@@ -3,8 +3,6 @@ layout: post
 title: Complete Gym Guide for Beginners
 ---
 
-[comment]: # (REMOVE FRONT RAISES??? Introduction points to include: consistency is key- show up to the gym. how to exercise- 10-15 rep range -for 6months only? This workout routine is structured in a way that will develop your entire physique- all muscle groups. Nothing is left, if it is please mention in comments. Do this for one year. Put Back Workout 2? Alternate between back Workout 1 and Back Workout 2.)
-
 Back in December 2021, I decided to go to the gym. And I did. Over time I became a strong, healthy, fit, and confident motherfucker. And don't even get me started on the mental health benefits. They are priceless.
 
 As of August 2022, I am still working out and I keep reaping the benefits by the day. I went from this-
