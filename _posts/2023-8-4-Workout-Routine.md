@@ -71,7 +71,7 @@ Warm up: neck rotations, wrist rotations, hip rotations, shoulder rotations, pus
 2.	[RDL](https://www.youtube.com/shorts/eHLuROg0FSI)
 3.	[Leg extension](https://musclewiki.com/machine/male/quads/machine-leg-extension)
 4.  ✅ [Seated/Lying Hamstring curl machine](https://musclewiki.com/machine/male/hamstrings/machine-hamstring-curl)
-5.	[Weighted calf raises](https://musclewiki.com/machine/male/calves/machine-seated-calf-raises) (use whichever machine is available or use Smith Machine)
+5.	[Weighted calf raises](https://musclewiki.com/machine/male/calves/machine-seated-calf-raises) (use whichever machine is available or [use Smith Machine](https://youtu.be/rh8L34lAKC0))
 6.  ✅ [Single leg calf raises](https://youtube.com/shorts/Bfl5du8ehao?feature=share)
 
 ### Abs
