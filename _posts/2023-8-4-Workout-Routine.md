@@ -3,11 +3,7 @@ layout: post
 title: Complete Gym Guide for Beginners
 ---
 
-_This post is currently a work in progress_
-
 [comment]: # (REMOVE FRONT RAISES??? Introduction points to include: consistency is key- show up to the gym. how to exercise- 10-15 rep range -for 6months only? This workout routine is structured in a way that will develop your entire physique- all muscle groups. Nothing is left, if it is please mention in comments. Do this for one year. Put Back Workout 2? Alternate between back Workout 1 and Back Workout 2.)
-
-[comment]: # (Relook diet para. Add circuit routine. Update exercise names with those from musclewiki. Add how to use- download musclewiki. add subscribe option to website- email subscription)
 
 Back in December 2021, I decided to go to the gym. And I did. Over time I became a strong, healthy, fit, and confident motherfucker. And don't even get me started on the mental health benefits. They are priceless.
 
@@ -115,13 +111,13 @@ Upper body day:
     1.  DB bench press
     2.  Lat pulldown
     3.  Standing DB overhead shoulder press
-    4.  Cable pushdown
+    4.  Straight bar cable pushdown
     5.  DB bicep curls
 Lower body day:
     1.  Empty Barbell squats
     2.  Hamstring curl machine (seated or lying)
-    3. Single leg calf raises
-    4. Crunches
+    3.  Single leg calf raises
+    4.  Crunches
 ```
 Do this for two weeks. That's upper-lower-upper-lower-upper-lower-rest, x2.
 
@@ -138,9 +134,9 @@ But here's what you can do- If you want to lose weight and build muscle, eat les
 Eating less= staying in a caloric deficit.\
 Eating more= staying in a caloric surplus.\
 Eating just enough= staying at maintenance or in a very slight caloric surplus.\
-There is no need to obsess over your calories. Just eat consciously according to your goal and count your protein, that's it. Cut out junk, avoid sugar, and prefer whole foods.
+There is no need to obsess over your calories. Just keep your goal in mind, be conscious of what you eat and count your protein. That's it. Cut out junk, avoid sugar, and prefer whole foods.
 
-You are free to research more on diet, it will help, but remember, if your workout is shit, you will not build muscle. And if you don't go to the gym, you will definitely not build muscle. The most important thing is getting your ass to the gym. I personally know jacked dudes who eat only four eggs a day and still have physiques to die for.
+You are free to research more on diet, it will help, but remember, if your workout is shit, you will not build muscle. And if you don't go to the gym, you will definitely not build muscle. The most important thing is getting your ass to the gym. I personally know dudes who eat only four eggs a day and are still jacked as fuck, with physiques to die for.
 
 **Q:** Do I need protein powder?\
 **A:** No, you don't need protein powder to build muscle. However, if you are finding it difficult to hit your protein goal, you may take whey protein.
@@ -189,7 +185,7 @@ You can take an additional rest day whenever you feel like it. No shame in takin
 1. [Jeff Nippard](https://www.youtube.com/@JeffNippard) - Jeff Nippard is one of the best content creators in the bodybuilding world. No bullshit, extremely knowledgeable, dedicated to the art and science of bodybuilding. I trust him because I haven't seen a single video of him promoting stupid tips and fads for views. His videos are an invaluable wealth of information on topics such as exercise techniques, scientific explanations and more. Highly recommend.
 2. [Natty Life](https://www.youtube.com/@NattyLifeYT) - Entertaining + educational bodybuilding and fitness content. No-bullshit guy.
 
-***Disclaimer**: I am not responsible if you fuck up. Push yourself hard, but be smart. Don't take unnecessary risks and don't injure yourself. If you don't know how to do something, ask someone in the gym. You'll be surprised how some of the biggest bros in the gym are also some of the nicest dudes on the planet.*
+***Disclaimer**: If you fuck up, I am not responsible. Push yourself hard, but be smart. Don't take unnecessary risks and don't injure yourself. Patience is key. Slow and gradual growth is where it's at. If you don't know how to do something, ask someone in the gym. You'll be surprised how some of the biggest bros in the gym are also some of the nicest dudes on the planet.*
 
 ***Acknowledgements**: The credit for my physique goes to my gym trainer, Mr Deepak Pawar. If he hadn't guided me when I was a noob, I wouldn't be here. Thanks to my friends Aditya and Rushabh for being my inspiration.*
 
