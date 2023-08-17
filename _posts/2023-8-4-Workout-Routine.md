@@ -188,14 +188,14 @@ You can take an additional rest day whenever you feel like it. No shame in takin
 1. [Jeff Nippard](https://www.youtube.com/@JeffNippard) - Jeff Nippard is one of the best content creators in the bodybuilding world. No bullshit, extremely knowledgeable, dedicated to the art and science of bodybuilding. I trust him because I haven't seen a single video of him promoting stupid tips and fads for views. His videos are an invaluable wealth of information on topics such as exercise techniques, scientific explanations and more. Highly recommend.
 2. [Natty Life](https://www.youtube.com/@NattyLifeYT) - Entertaining + educational bodybuilding and fitness content. No-bullshit guy.
 
-***Disclaimer**: If you fuck up, I am not responsible. Push yourself hard, but be smart. Don't take unnecessary risks and don't injure yourself. Patience is key. Slow and gradual growth is where it's at. If you don't know how to do something, ask someone in the gym. You'll be surprised how some of the biggest bros in the gym are also some of the nicest dudes on the planet.*
+***Disclaimer**: If you fuck up I am not responsible. Push yourself hard, but be smart. Don't take unnecessary risks and don't injure yourself. Patience is key. Slow and gradual growth is where it's at. If you don't know how to do something, ask someone in the gym. You'll be surprised how some of the biggest bros in the gym are also some of the nicest dudes on the planet.*
 
 ***Acknowledgements**: The credit for my physique goes to my gym trainer, Mr Deepak Pawar. If he hadn't guided me when I was a noob, I wouldn't be here. Thanks to my friends Aditya and Rushabh for being my inspiration.*
 
 *I will update this routine whenever I learn new stuff.*
 
-*Have questions, suggestions, criticisms? I'd love to hear from you. Please give me feedback. I'd love to hear about the littlest thing that came across your mind that you think can improve this guide. Email me at **ab (at) ashutoshbhosale (dot) com** or DM me on [Instagram](https://www.instagram.com/ashutoshb786/).*
+*Have questions, suggestions, criticisms? I'd love to hear from you. Please give me feedback. I'd love to hear about the littlest thing that came across your mind that you think can improve this guide. Email me at **ab (at) ashutoshbhosale (dot) com**.*
 
-*⭐️ Most importantly, have fun at the gym, and enjoy the physical and mental benefits of being strong, healthy and hot 👊*
+*⭐️ Most importantly, have fun at the gym and enjoy the physical and mental benefits of being strong, healthy and hot 👊*
 
 ***Know someone who would find this guide useful? Copy the link and share it with them!***
