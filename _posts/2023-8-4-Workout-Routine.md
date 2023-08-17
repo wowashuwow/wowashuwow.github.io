@@ -104,7 +104,7 @@ Warm up: neck rotations, wrist rotations, hip rotations, shoulder rotations, pus
 **Q:** How to breathe?\
 **A:** Use the [holding your breath technique](https://youtube.com/shorts/ELB0tEZz5Oo?feature=share). Take a deep breath before performing the rep, hold it as you perform it, exhale when you complete the rep. Repeat.
 
-[For example, for a squat](https://youtube.com/shorts/9hDc3LOu9r8?feature=share), take a deep breath at the top, hold it, do the squat, come back up, exhale. Similar for other exercises. If you get confused how to breathe, just remember this line- **breathing is before the rep**. For bench press, your rep begins at the top,  so you breathe at the top. For shoulder press, it begins at the bottom, so you breathe at the bottom. Easy.
+[For example, for a squat](https://youtube.com/shorts/9hDc3LOu9r8?feature=share), take a deep breath at the top, hold it, do the squat, come back up, exhale. Similar for other exercises. If you get confused how to breathe, just remember this line- *breathing is before the rep*. For bench press, your rep begins at the top,  so you breathe at the top. For shoulder press, it begins at the bottom, so you breathe at the bottom. Easy.
 
 **Q:** Hold on. I am completely new to exercise. Don't you have any special instructions for me?\
 **A:** If you are completely new to exercise, follow this circuit training for the first two weeks. This training will get your body gradually used to exercising and prevent you from suddenly overloading it. It will also help you develop the habit of going to the gym. You can start following the workout routine after completing this training. DO NOT skip to the workout routine without completing this training.
