@@ -3,7 +3,7 @@ layout: post
 title: How I Cracked the 6-month Internship at BMW
 ---
 
-Note to IIT Madras Students: Please use your S-Mail account to access linked documents.
+*Note to IIT Madras Students: Please use your S-Mail account to access linked documents.*
 
 Last year, for the first time ever, BMW came to our department to offer an internship. This was a first not just for our department but probably for our college too. I was one of the two students they selected. In this post I am going to talk about how I landed the internship and give you some tips to help you in your preparation and interview.
 
@@ -58,7 +58,10 @@ Now go get it! All the best.
 
 - Sometimes you never feel satisfied no matter how much effort you put in. You always keep feeling like you could have done better. I know, I've been there, and it's okay.
 
-**Summary**: 1. Feel free to ask around for help. 2. Prepare well. 3. Don't worry about the outcome.
+**Summary**:
+1. Feel free to ask around for help.
+2. Prepare well.
+3. Don't worry about the outcome.
 
 Links:
 - [Job description](https://drive.google.com/file/d/1vI6wJ8N467NLFVXOs1mZlsl5xGqbeOQa/view?usp=sharing)
