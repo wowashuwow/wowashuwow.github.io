@@ -59,3 +59,8 @@ Now go get it! All the best.
 - Sometimes you never feel satisfied no matter how much effort you put in. You always keep feeling like you could have done better. I know, I've been there, and it's okay.
 
 **Summary**: 1. Feel free to ask around for help. 2. Prepare well. 3. Don't worry about the outcome.
+
+Links:
+- [Job description](https://drive.google.com/file/d/1vI6wJ8N467NLFVXOs1mZlsl5xGqbeOQa/view?usp=sharing)
+- [Presentation instructions](https://drive.google.com/file/d/1_ow3MgCUJYztav6vW4C_-PowQrzsIpsB/view?usp=sharing)
+- [My presentation](https://docs.google.com/presentation/d/1fv2VwuGu_XgcKIZnW_QfpasPADpePc-wpJKBuRHyMBw/edit?usp=sharing)
