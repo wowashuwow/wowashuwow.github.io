@@ -3,10 +3,6 @@ layout: post
 title: How I Cracked the 6-month Internship at BMW
 ---
 
-<!-- 1. Here's the presentation.
-
-At the end I was surprised that I got the intern. Says a lot about what you can do if you just focus on the process and giving your best without worrying about the outcome. trying to intelligently optimize (or plan) for the best result, (actually know what the company or the role demands) but not worrying about it.) -->
-
 Note to IIT Madras Students: Please use your S-Mail account to access linked documents.
 
 Last year, for the first time ever, BMW came to our department to offer an internship. This was a first not just for our department but probably for our college too. I was one of the two students they selected. In this post I am going to talk about how I landed the internship and give you some tips to help you in your preparation and interview.
