@@ -3,7 +3,7 @@ layout: post
 title: Complete Gym Guide for Beginners
 ---
 
-Back in December 2021, I decided to go to the gym. And I did. Over time I became a strong, healthy, fit, and confident motherfucker. And don't even get me started on the mental health benefits. They are priceless.
+Back in December 2021, I decided to go to the gym. And I did. Over time I became a strong, healthy, fit, and confident person. And don't even get me started on the mental health benefits. They are priceless.
 
 As of August 2023, I am still working out and I keep reaping the benefits by the day. I went from this-
 
