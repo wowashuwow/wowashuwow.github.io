@@ -41,7 +41,7 @@ title: How I Use My Windows PC from Anywhere
 
 <p>All you have to do is create an account, and install Parsec on the host and client computers. As long as Parsec is running on the host computer, the host computer will show up in the “Computers” tab on all your other devices and you can remote desktop in one click.</p>
 
-<img src="{{ site.baseurl }}/images/parsec-screenshot.PNG" alt="screenshot of parsec dashboard">
+<img src="{{ site.baseurl }}/images/parsec-screenshot.png" alt="screenshot of parsec dashboard">
 
 <h2 class="has-large-font-size">Configuration</h2>
 
