@@ -11,7 +11,7 @@ Here's the story-
 
 ## Step 1: Getting Shortlisted
 
-We got the news that BMW is one of the companies participating in our department's 6-month internship program. We received a PDF of the [job description](https://drive.google.com/file/d/1vI6wJ8N467NLFVXOs1mZlsl5xGqbeOQa/view?usp=sharing). It gave some information about BMW Motorrad (BMW's motorcycle division), their India IPO (International Purchasing Office) which was offering the internship, and a brief outline of what the job would look like. Initially, I did not understand much from the job description, but after reading it many times over I got some clarity. I spent a week tailoring my resume to it and submitted it. I got shortlisted.
+We got the news that BMW is one of the companies participating in our department's 6-month internship program. We received a PDF of the [job description](https://drive.google.com/file/d/1vI6wJ8N467NLFVXOs1mZlsl5xGqbeOQa/view?usp=sharing). It gave some information about BMW Motorrad (BMW's motorcycle division), their India IPO (International Purchasing Office) which was offering the internship, and a brief outline of what the job would look like. Initially, I did not understand much from the job description, but after reading it many times over I got some clarity. I spent a week tailoring [my resume](https://drive.google.com/file/d/17y9U8O3QzBzdvSpeUt_waJZ5AKVx5tdI/view?usp=sharing) to it and submitted it. I got shortlisted.
 
 > ### 💡 Tip #1:
 > Spend time to read the JD. **Tailor your resume to it**. Make sure to include relevant courses and course projects.
@@ -65,5 +65,6 @@ Now go get it! All the best.
 
 Links:
 - [Job description](https://drive.google.com/file/d/1vI6wJ8N467NLFVXOs1mZlsl5xGqbeOQa/view?usp=sharing)
+- [The resume I submitted](https://drive.google.com/file/d/17y9U8O3QzBzdvSpeUt_waJZ5AKVx5tdI/view?usp=sharing)
 - [Presentation instructions](https://drive.google.com/file/d/1_ow3MgCUJYztav6vW4C_-PowQrzsIpsB/view?usp=sharing)
 - [My presentation](https://docs.google.com/presentation/d/1fv2VwuGu_XgcKIZnW_QfpasPADpePc-wpJKBuRHyMBw/edit?usp=sharing)
