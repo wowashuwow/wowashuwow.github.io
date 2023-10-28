@@ -5,7 +5,7 @@ title: Inspector Morse
 
 *[I’m going to start reading an Inspector Morse mystery tomorrow. I’m getting bored with the monotony that comes with being stuck inside.]*
 
-*
+<p style="text-align: center">*</p>
 
 <img src="{{ site.baseurl }}/images/inspector-morse-books.jpg" alt="photo of 3 Inspector Morse books on the terrace with coconut tree in background">
 
