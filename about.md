@@ -4,7 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Ashutosh. This is my little corner on the internet where I share my thoughts and pictures with the world.
+**Hi! I'm Ashutosh.**
+
+~~I’m a Digital Content Specialist currently working at [rtCamp](https://rtcamp.com/), an agency building web solutions for enterprises. I write a monthly newsletter around WordPress that is read by folks from Automattic, Google, Astra, and more.~~ I’m currently back in college. It’s a long story.
+
+I love reading, swimming, photography, and learning cool stuff on the internet.
 
 ## Photography Gear
 
