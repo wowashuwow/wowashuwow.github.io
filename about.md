@@ -1,12 +1,10 @@
 ---
 layout: page
-title: About
+title: Hi! I'm Ashutosh.
 permalink: /about/
 ---
 
-## Hi! I'm Ashutosh.
-
-~~I’m a Digital Content Specialist currently working at [rtCamp](https://rtcamp.com/), an agency building web solutions for enterprises. I write a monthly newsletter around WordPress that is read by folks from Automattic, Google, Astra, and more.~~ I’m currently back in college. It’s a long story.
+~~I’m a creative generalist currently working in content marketing at [rtCamp](https://rtcamp.com/), an agency building web solutions for enterprises. I write a monthly newsletter around WordPress that is loved by 4000+ people, including folks from Automattic, Google, Astra, and more.~~ I’m currently back in college. It’s a long story.
 
 I love reading, swimming, photography, and learning cool stuff on the internet.
 
@@ -34,10 +32,8 @@ I love reading, swimming, photography, and learning cool stuff on the internet.
 
 ## Contact me
 
-Email me at ab (at) ashutoshbhosale (dot) com.
+Email me at **ab *(at)* ashutoshbhosale *(dot)* com**.
 
 ## About this website
 
 This website is hosted on [GitHub pages](https://pages.github.com/) for free and runs on [Jekyll](https://jekyllrb.com/) using the [Jekyll Now theme](https://github.com/barryclark/jekyll-now). The [Photos page](https://photos.ashutoshbhosale.com/) is hosted on [Adobe Portfolio](https://portfolio.adobe.com/).
-
-  <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/wowashuwow" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/wowashuwow', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Subscribe for email updates. No spam. Pinky promise.</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form>
