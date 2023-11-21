@@ -8,7 +8,7 @@
     "favicon": "http://localhost:4000/favicon.ico",
     "expired": false,
     
-    "author": "{"twitter"=>"wowashuwow", "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}",
+    "author": "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}",
     
 "items": [
     
@@ -28,7 +28,7 @@
             "date_modified": "2023-08-22T00:00:00+05:30",
             
                 "author": 
-                "{"twitter"=>"wowashuwow", "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
                 
             
         },
@@ -49,7 +49,7 @@
             "date_modified": "2023-08-04T00:00:00+05:30",
             
                 "author": 
-                "{"twitter"=>"wowashuwow", "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
                 
             
         },
@@ -70,7 +70,7 @@
             "date_modified": "2023-03-03T00:00:00+05:30",
             
                 "author": 
-                "{"twitter"=>"wowashuwow", "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
                 
             
         },
@@ -91,7 +91,7 @@
             "date_modified": "2021-12-02T00:00:00+05:30",
             
                 "author": 
-                "{"twitter"=>"wowashuwow", "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
                 
             
         },
@@ -112,7 +112,7 @@
             "date_modified": "2021-11-07T00:00:00+05:30",
             
                 "author": 
-                "{"twitter"=>"wowashuwow", "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
                 
             
         },
@@ -133,7 +133,7 @@
             "date_modified": "2021-07-10T00:00:00+05:30",
             
                 "author": 
-                "{"twitter"=>"wowashuwow", "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
                 
             
         },
@@ -154,7 +154,7 @@
             "date_modified": "2021-05-27T00:00:00+05:30",
             
                 "author": 
-                "{"twitter"=>"wowashuwow", "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
                 
             
         },
@@ -175,7 +175,7 @@
             "date_modified": "2021-05-18T00:00:00+05:30",
             
                 "author": 
-                "{"twitter"=>"wowashuwow", "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
                 
             
         },
@@ -196,7 +196,7 @@
             "date_modified": "2021-05-17T00:00:00+05:30",
             
                 "author": 
-                "{"twitter"=>"wowashuwow", "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
                 
             
         },
@@ -217,7 +217,7 @@
             "date_modified": "2021-05-15T00:00:00+05:30",
             
                 "author": 
-                "{"twitter"=>"wowashuwow", "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
                 
             
         },
@@ -238,7 +238,7 @@
             "date_modified": "2021-05-13T00:00:00+05:30",
             
                 "author": 
-                "{"twitter"=>"wowashuwow", "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
                 
             
         },
@@ -259,7 +259,7 @@
             "date_modified": "2021-05-04T00:00:00+05:30",
             
                 "author": 
-                "{"twitter"=>"wowashuwow", "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
                 
             
         },
@@ -280,7 +280,7 @@
             "date_modified": "2021-05-02T00:00:00+05:30",
             
                 "author": 
-                "{"twitter"=>"wowashuwow", "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
                 
             
         },
@@ -301,7 +301,7 @@
             "date_modified": "2021-03-09T00:00:00+05:30",
             
                 "author": 
-                "{"twitter"=>"wowashuwow", "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
                 
             
         },
@@ -322,7 +322,7 @@
             "date_modified": "2017-08-01T00:00:00+05:30",
             
                 "author": 
-                "{"twitter"=>"wowashuwow", "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
+                "{"twitter"=>nil, "name"=>nil, "avatar"=>nil, "email"=>nil, "url"=>nil}"
                 
             
         }
