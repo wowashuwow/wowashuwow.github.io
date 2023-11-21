@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hi! I'm Ashutosh
+title: Hi! I'm Ashutosh.
 ---
 ~~I’m a creative generalist currently working in content marketing at [rtCamp](https://rtcamp.com/), an agency building web solutions for enterprises. I write a monthly newsletter around WordPress that is loved by 4000+ people, including folks from Automattic, Google, Astra, and more.~~
 
