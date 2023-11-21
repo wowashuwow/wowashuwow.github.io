@@ -4,7 +4,7 @@
  <title>Ashutosh Bhosale</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2023-11-21T20:51:58+05:30</updated>
+ <updated>2023-11-21T21:18:38+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -227,7 +227,7 @@
 
 &lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Hold on. I am completely new to exercise. Don’t you have any special instructions for me?&lt;br /&gt;
 &lt;strong&gt;A:&lt;/strong&gt; If you are completely new to exercise, follow this circuit training for the first two weeks. This training will get your body gradually used to exercising and prevent you from suddenly overloading it. It will also help you develop the habit of going to the gym. You can start following the workout routine after completing this training. DO NOT skip to the workout routine without completing this training.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;CIRCUIT TRAINING
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;CIRCUIT TRAINING
 Upper body day:
     1.  DB bench press
     2.  Lat pulldown
@@ -239,7 +239,7 @@ Lower body day:
     2.  Hamstring curl machine (seated or lying)
     3.  Single leg calf raises
     4.  Crunches
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Do this for two weeks. That’s upper-lower-upper-lower-upper-lower-rest, x2.&lt;/p&gt;
 
 &lt;p&gt;Use only light weights for this circuit training. DO NOT USE HEAVY WEIGHTS.&lt;/p&gt;
