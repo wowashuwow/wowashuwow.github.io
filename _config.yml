@@ -1,13 +1,13 @@
-site: Sidey
-url: #yoururl
-title: Sidey
-description: Simple and minimalistic jekyll blogging theme.
+site: Ashutosh Bhosale
+url: ashutoshbhosale.com
+title: Ashutosh Bhosale
+description: Engineer, Photographer, Writer
 twitter:
-  username: #yourusername
+  username: wowashuwow
   card: summary
   creator: #yourusername
 author:
-  twitter: #yourusername
+  twitter: wowashuwow
   name: #yourusername
   avatar:
   email: #youremail
@@ -40,7 +40,7 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /:year/:month/:day/:slug
+    permalink: /:title/
   
 defaults:
   -

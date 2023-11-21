@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Sidey</title>
+ <title>Ashutosh Bhosale</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2020-01-30T20:11:37+02:00</updated>
+ <updated>2023-11-21T20:05:47+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -13,387 +13,646 @@
 
  
  <entry>
-   <title>Difference between font formats</title>
-   <link href="http://localhost:4000/2019/08/31/difference-between-font-formats"/>
-   <updated>2019-08-31T00:00:00+03:00</updated>
-   <id>http://localhost:4000/2019/08/31/difference-between-font-formats</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
+   <title>How I Cracked the 6-month Internship at BMW</title>
+   <link href="http://localhost:4000/How-I-Cracked-The-BMW-Interview/"/>
+   <updated>2023-08-22T00:00:00+05:30</updated>
+   <id>http://localhost:4000/How-I-Cracked-The-BMW-Interview</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Note to IIT Madras Students: Please use your S-Mail account to access linked documents.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
+&lt;p&gt;Last year, for the first time ever, BMW came to our department to offer an internship. This was a first not just for our department but probably for our college too. I was one of the two students they selected. In this post I am going to talk about how I landed the internship and give you some tips to help you in your preparation and interview.&lt;/p&gt;
 
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
+&lt;p&gt;Here’s the story-&lt;/p&gt;
 
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
+&lt;h2 id=&quot;step-1-getting-shortlisted&quot;&gt;Step 1: Getting Shortlisted&lt;/h2&gt;
 
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
+&lt;p&gt;We got the news that BMW is one of the companies participating in our department’s 6-month internship program. We received a PDF of the &lt;a href=&quot;https://drive.google.com/file/d/1vI6wJ8N467NLFVXOs1mZlsl5xGqbeOQa/view?usp=sharing&quot;&gt;job description&lt;/a&gt;. It gave some information about BMW Motorrad (BMW’s motorcycle division), their India IPO (International Purchasing Office) which was offering the internship, and a brief outline of what the job would look like. Initially, I did not understand much from the job description, but after reading it many times over I got some clarity. I spent a week tailoring &lt;a href=&quot;https://drive.google.com/file/d/17y9U8O3QzBzdvSpeUt_waJZ5AKVx5tdI/view?usp=sharing&quot;&gt;my resume&lt;/a&gt; to it and submitted it. I got shortlisted.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;-tip-1&quot;&gt;💡 Tip #1:&lt;/h3&gt;
+  &lt;p&gt;Spend time to read the JD. &lt;strong&gt;Tailor your resume to it&lt;/strong&gt;. Make sure to include relevant courses and course projects.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;step-2-preparing-for-the-interview&quot;&gt;Step 2: Preparing for the Interview&lt;/h2&gt;
+
+&lt;p&gt;As part of the selection process, we &lt;a href=&quot;https://drive.google.com/file/d/1_ow3MgCUJYztav6vW4C_-PowQrzsIpsB/view?usp=sharing&quot;&gt;were asked&lt;/a&gt; to prepare a presentation about EV 2-wheelers. We were asked to cover the architecture, major electrical and electronic components, recent technologies and potential parts that can be sourced from India. I spent a lot of  time doing desktop research and understanding the technical stuff. I learned about different types of motors, how they work, batteries, battery chemistries, motor controllers and more.&lt;/p&gt;
+
+&lt;p&gt;As I had no idea what automotive parts sourcing was, I found a friend of a friend who was “working in EV bikes” and asked him for help. He said yes. I learned so much from him. The synopsis was this: if you want to build an EV 2 wheeler, all you need is a motor, a battery and some power electronics. Slap on it a body and bam! You have yourself an EV 2 wheeler. E-z p-z. He also gave me an overview of the working of EV 2 wheelers and some more nuggets about sourcing- where most companies get their motors and batteries from, etc.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;-tip-2&quot;&gt;💡 Tip #2:&lt;/h3&gt;
+  &lt;p&gt;Don’t be afraid to reach out for help. People usually want to help you.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now that I had a fair understanding of the role, I tried to find out what I could do differently that could set &lt;a href=&quot;https://docs.google.com/presentation/d/1fv2VwuGu_XgcKIZnW_QfpasPADpePc-wpJKBuRHyMBw/edit?usp=sharing&quot;&gt;my presentation&lt;/a&gt; apart from others. I took a deep dive into the internet and found out what motor the Ather 450 scooters were using. This was one of the unique points of my presentation. (When I was presenting this part I could tell that the interviewer was impressed.) This, in addition to the information about sourcing that I had got from my friend proved to be a huge advantage.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;-tip-3&quot;&gt;💡 Tip #3:&lt;/h3&gt;
+  &lt;p&gt;Understand the role properly. I am reiterating this as it is critical. It will allow you to spend your time on what actually matters (I spent a lot of time learning about the technical stuff and while that was important, learning about the sourcing part was actually more important). Understand properly what the company does, find out what the division (of the company) that is offering the internship does. Being clear about the role will give you a terrific advantage.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;-tip-4&quot;&gt;💡 Tip #4:&lt;/h3&gt;
+  &lt;p&gt;Think about how you can set yourself apart. I was able to stand out by putting something unique and high value in my presentation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;step-3-nailing-the-interview&quot;&gt;Step 3: Nailing the Interview&lt;/h2&gt;
+
+&lt;p&gt;The day of the interview, I was at ease. I told myself- I have given my best effort to prepare for the interview, now the rest is out of my hands. Let’s see what happens. Because of this, I was calm, confident and enthusiastic during the interview. I was also curious and happy to learn new stuff that the interviewer told me as I was really interested in the role. In the end, the interview went well and an hour later, I came to know that I had been selected.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;-tip-5&quot;&gt;💡 Tip #5:&lt;/h3&gt;
+  &lt;p&gt;Prepare well. This is a no-brainer. When you prepare well, you’ll have a sense of accomplishment just because you put in so much effort. Besides, it will let you have a clear conscience which will help your confidence.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;-tip-6&quot;&gt;💡 Tip #6:&lt;/h3&gt;
+  &lt;p&gt;Be prepared to not get the job. I mean, mentally prepare yourself to the very real possibility that you may not get the internship, and that it’s okay if you don’t. It’s just an internship. Big deal.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;-tip-7&quot;&gt;💡 Tip #7:&lt;/h3&gt;
+  &lt;p&gt;&lt;strong&gt;Give your &lt;em&gt;best effort&lt;/em&gt; and leave the rest to God.&lt;/strong&gt; When you know that you’ve given your best effort, you will be calm, confident, and have the right attitude during the interview. What is the right attitude during an interview? The right attitude during an interview is a beautiful balance of &lt;strong&gt;confident coolness&lt;/strong&gt; and &lt;strong&gt;humble curiosity&lt;/strong&gt;. Assert yourself with certainty, but be receptive to what the interviewer says. This is known as being confident without coming off as arrogant. Being able to listen to what the interviewer says is just as equally important as being confident.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Adopt a nothing-to-lose attitude. If you take away just one thing from this article, it should be this.&lt;/p&gt;
+
+&lt;p&gt;Remember, &lt;strong&gt;you have nothing to lose&lt;/strong&gt;. Think about this for a second…&lt;/p&gt;
+
+&lt;p&gt;Now go get it! All the best.&lt;/p&gt;
+
+&lt;h3 id=&quot;other-notes&quot;&gt;Other notes:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Being genuinely interested in the role helps.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sometimes you never feel satisfied no matter how much effort you put in. You always keep feeling like you could have done better. I know, I’ve been there, and it’s okay.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Feel free to ask around for help.&lt;/li&gt;
+  &lt;li&gt;Prepare well.&lt;/li&gt;
+  &lt;li&gt;Don’t worry about the outcome.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Links:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/1vI6wJ8N467NLFVXOs1mZlsl5xGqbeOQa/view?usp=sharing&quot;&gt;Job description&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/17y9U8O3QzBzdvSpeUt_waJZ5AKVx5tdI/view?usp=sharing&quot;&gt;The resume I submitted&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/1_ow3MgCUJYztav6vW4C_-PowQrzsIpsB/view?usp=sharing&quot;&gt;Presentation instructions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1fv2VwuGu_XgcKIZnW_QfpasPADpePc-wpJKBuRHyMBw/edit?usp=sharing&quot;&gt;My presentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
  <entry>
-   <title>Staticman comments on a Jekyll site</title>
-   <link href="http://localhost:4000/2019/07/23/staticman-comments-on-a-jekyll-site"/>
-   <updated>2019-07-23T00:00:00+03:00</updated>
-   <id>http://localhost:4000/2019/07/23/staticman-comments-on-a-jekyll-site</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Adding HTTP response headers to a Netlify static website</title>
-   <link href="http://localhost:4000/2019/05/23/adding-http-response-headers-to-a-netlify-static-website"/>
-   <updated>2019-05-23T00:00:00+03:00</updated>
-   <id>http://localhost:4000/2019/05/23/adding-http-response-headers-to-a-netlify-static-website</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Syntax highlight with Rouge in Jekyll</title>
-   <link href="http://localhost:4000/2018/12/23/syntax-highlight-with-rouge-in-jekyll"/>
-   <updated>2018-12-23T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2018/12/23/syntax-highlight-with-rouge-in-jekyll</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Page specific assets in Jekyll</title>
-   <link href="http://localhost:4000/2018/11/12/page-specific-assets-in-jekyll"/>
-   <updated>2018-11-12T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2018/11/12/page-specific-assets-in-jekyll</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.s&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Jekyll reading time without plugins</title>
-   <link href="http://localhost:4000/2018/09/20/jekyll-reading-time-without-plugins"/>
-   <updated>2018-09-20T00:00:00+03:00</updated>
-   <id>http://localhost:4000/2018/09/20/jekyll-reading-time-without-plugins</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>How to add an RSS feed to a Jekyll blog</title>
-   <link href="http://localhost:4000/2018/09/11/how-to-add-an-rss-feed-to-a-jekyll-blog"/>
-   <updated>2018-09-11T00:00:00+03:00</updated>
-   <id>http://localhost:4000/2018/09/11/how-to-add-an-rss-feed-to-a-jekyll-blog</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Top plugins for Wordpress websites</title>
-   <link href="http://localhost:4000/2018/08/18/top-plugins-for-wordpress-websites"/>
-   <updated>2018-08-18T00:00:00+03:00</updated>
-   <id>http://localhost:4000/2018/08/18/top-plugins-for-wordpress-websites</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Install Jekyll on Mac OS</title>
-   <link href="http://localhost:4000/2018/06/14/install-jekyll-on-mac-os"/>
-   <updated>2018-06-14T00:00:00+03:00</updated>
-   <id>http://localhost:4000/2018/06/14/install-jekyll-on-mac-os</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Applying the active class for the current page in Jekyll</title>
-   <link href="http://localhost:4000/2018/06/07/applying-the-active-class-for-the-current-page-in-jekyll"/>
-   <updated>2018-06-07T00:00:00+03:00</updated>
-   <id>http://localhost:4000/2018/06/07/applying-the-active-class-for-the-current-page-in-jekyll</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Displaying GitHub Gists in Jekyll sites</title>
-   <link href="http://localhost:4000/2018/05/13/displaying-github-gists-in-jekyll-sites"/>
-   <updated>2018-05-13T00:00:00+03:00</updated>
-   <id>http://localhost:4000/2018/05/13/displaying-github-gists-in-jekyll-sites</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Disable Jekyll's default syntax highlighter Rouge</title>
-   <link href="http://localhost:4000/2018/02/05/disable-jekylls-default-syntax-highlighter-rouge"/>
-   <updated>2018-02-05T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2018/02/05/disable-jekylls-default-syntax-highlighter-rouge</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Image caption in Jekyll</title>
-   <link href="http://localhost:4000/2018/02/03/image-captions-in-jekyll"/>
-   <updated>2018-02-03T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2018/02/03/image-captions-in-jekyll</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-
-</content>
- </entry>
- 
- <entry>
-   <title>Showing the word count in Jekyll</title>
-   <link href="http://localhost:4000/2018/01/17/showing-the-word-count"/>
-   <updated>2018-01-17T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2018/01/17/showing-the-word-count</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Custom 404 page for Jekyll on Github pages</title>
-   <link href="http://localhost:4000/2017/11/15/custom-404-page-for-jekyll-on-github-pages"/>
-   <updated>2017-11-15T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2017/11/15/custom-404-page-for-jekyll-on-github-pages</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Redirect Jekyll URLs</title>
-   <link href="http://localhost:4000/2017/11/10/redirect-jekyll-urls"/>
-   <updated>2017-11-10T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2017/11/10/redirect-jekyll-urls</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Creating navigation menu in Jekyll</title>
-   <link href="http://localhost:4000/2017/01/03/creating-navigation-menu-in-jekyll"/>
-   <updated>2017-01-03T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2017/01/03/creating-navigation-menu-in-jekyll</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Structured Data markup validation and testing tools</title>
-   <link href="http://localhost:4000/2016/12/11/structured-data-markup-validation-and-testing-tools"/>
-   <updated>2016-12-11T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2016/12/11/structured-data-markup-validation-and-testing-tools</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Top monospaced fonts for coding</title>
-   <link href="http://localhost:4000/2016/11/27/top-monospaced-fonts-for-coding"/>
-   <updated>2016-11-27T00:00:00+02:00</updated>
-   <id>http://localhost:4000/2016/11/27/top-monospaced-fonts-for-coding</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Places where you can learn how to code</title>
-   <link href="http://localhost:4000/2015/07/31/places-where-you-can-learn-how-to-code"/>
-   <updated>2015-07-31T00:00:00+03:00</updated>
-   <id>http://localhost:4000/2015/07/31/places-where-you-can-learn-how-to-code</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>CSS hacks you may not know</title>
-   <link href="http://localhost:4000/2014/05/12/css-hacks-you-may-not-know"/>
-   <updated>2014-05-12T00:00:00+03:00</updated>
-   <id>http://localhost:4000/2014/05/12/css-hacks-you-may-not-know</id>
-   <content type="html">&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
-
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
-
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
-
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
-
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;.♫ { background: #222; color: #FFF; } 
-.ಠ_ಠ { background: #ccc; color: #fff; }
+   <title>Complete Gym Guide for Beginners</title>
+   <link href="http://localhost:4000/Workout-Routine/"/>
+   <updated>2023-08-04T00:00:00+05:30</updated>
+   <id>http://localhost:4000/Workout-Routine</id>
+   <content type="html">&lt;p&gt;Back in December 2021, I decided to go to the gym. And I did. Over time I became a strong, healthy, fit, and confident person. And don’t even get me started on the mental health benefits. They are priceless.&lt;/p&gt;
+
+&lt;p&gt;As of August 2023, I am still working out and I keep reaping the benefits by the day. I went from this-&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/transformation_before.JPEG&quot; alt=&quot;image of physique before transformation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;to this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/transformation_after.JPEG&quot; alt=&quot;image of physique after transformation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In this post I am writing down the exact same workout routine that I followed to build my physique. Good luck.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-use-this-workout-routine&quot;&gt;How to use this workout routine:&lt;/h2&gt;
+
+&lt;p&gt;This workout routine is aimed at new lifters, but beginner-intermediate lifters will also benefit from it. If you follow it, you will build yourself a strong and aesthetic physique. It is designed for all-round development of the body. The exercise selection ensures that all muscle groups are targeted. Without further ado, here’s the routine:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Shoulders + Triceps&lt;/li&gt;
+  &lt;li&gt;Back&lt;/li&gt;
+  &lt;li&gt;Chest&lt;/li&gt;
+  &lt;li&gt;Legs&lt;/li&gt;
+  &lt;li&gt;Abs&lt;/li&gt;
+  &lt;li&gt;Biceps + Rear Delts&lt;/li&gt;
+  &lt;li&gt;Rest&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You will exercise 6 days a week, and take one rest day.&lt;/p&gt;
+
+&lt;p&gt;I have linked each exercise to a video to show how to perform it. If you need more clarity, ask someone in the gym.&lt;/p&gt;
+
+&lt;p&gt;(&lt;strong&gt;Note&lt;/strong&gt;: Whenever you’re short on time, just do the exercises marked by ✅. These are the important ones that you shouldn’t skip. Besides, it’s always better to go to the gym and do something than to not go and not do anything. &lt;strong&gt;Consistency is key.&lt;/strong&gt;)&lt;/p&gt;
+
+&lt;p&gt;Warm up: neck rotations, wrist rotations, hip rotations, shoulder rotations, pushups. 20 each. Add anything else that you like, the aim is to just get the blood flowing. Shouldn’t take more than ten minutes.&lt;/p&gt;
+
+&lt;h3 id=&quot;shoulders--triceps&quot;&gt;Shoulders + Triceps&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;✅ &lt;a href=&quot;https://youtu.be/v_ZkxWzYnMc?t=213&quot;&gt;DB Lateral raises&lt;/a&gt; (DB=Dumbbell)&lt;/li&gt;
+  &lt;li&gt;✅ &lt;a href=&quot;https://www.youtube.com/shorts/e0FrR9V0HEI&quot;&gt;Straight bar cable pushdown&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;✅ &lt;a href=&quot;https://musclewiki.com/dumbbells/male/shoulders/dumbbell-seated-overhead-press&quot;&gt;DB Seated Overhead Press&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtube.com/shorts/Q3bO1Fh4734?feature=share&quot;&gt;Cable overhead tricep extension&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://musclewiki.com/dumbbells/male/shoulders/dumbbell-front-raise&quot;&gt;Front raises&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/shorts/IbgxQXYxsIc&quot;&gt;Single arm cross cable tricep extensions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtube.com/shorts/1AmmsXlf8MU?feature=share&quot;&gt;Cable lateral raises&lt;/a&gt;- lightweight, AMRAP (AMRAP=As Many Reps As Possible)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;back&quot;&gt;Back&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;✅ &lt;a href=&quot;https://youtube.com/shorts/auvunRjx_94?feature=share&quot;&gt;Seated horizontal rows&lt;/a&gt; (prefer using a &lt;a href=&quot;/images/v_bar.jpg&quot;&gt;v bar&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;✅ &lt;a href=&quot;https://www.youtube.com/shorts/77bPLrsMwiQ&quot;&gt;Lat pulldown&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtube.com/shorts/6OtcNinT0HM?feature=share&quot;&gt;T bar rows&lt;/a&gt; (if T bar machine is not available do &lt;a href=&quot;https://www.youtube.com/shorts/tahGpBijHkY&quot;&gt;chest supported DB rows&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/C6sYjDFuq9I?t=196&quot;&gt;Shrugs&lt;/a&gt; (use dumbbells or barbell or Smith Machine whichever you prefer. I use Smith Machine)&lt;/li&gt;
+  &lt;li&gt;✅ &lt;a href=&quot;https://youtube.com/shorts/1mQ7cHckWEE?feature=share&quot;&gt;Hyperextension&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;chest&quot;&gt;Chest&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtube.com/shorts/1OdTFeN90W4?feature=share&quot;&gt;Decline DB bench press&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;✅ &lt;a href=&quot;https://youtu.be/VmB1G1K7v94&quot;&gt;Flat DB bench press&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/shorts/5giKXkeGEVg&quot;&gt;Incline DB bench press&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtube.com/shorts/4SscB4eAxt4?feature=share&quot;&gt;Machine chest press&lt;/a&gt; (optional)&lt;/li&gt;
+  &lt;li&gt;✅ &lt;a href=&quot;https://www.youtube.com/shorts/kYw-bfn4sZw&quot;&gt;Pec flyes&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;legs&quot;&gt;Legs&lt;/h3&gt;
+
+&lt;p&gt;⭐️ Proper &lt;a href=&quot;https://youtube.com/shorts/BObYpTxU3aM?feature=share&quot;&gt;legs warm up&lt;/a&gt; is important&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;✅ &lt;a href=&quot;https://youtu.be/bEv6CCg2BC8&quot;&gt;Squat&lt;/a&gt; (or &lt;a href=&quot;https://youtu.be/0tn5K9NlCfo&quot;&gt;hack squat&lt;/a&gt; or &lt;a href=&quot;https://youtu.be/AHnX-aimA4E&quot;&gt;Smith Machine squat&lt;/a&gt;) (do 2 lightweight/free sets before main sets for warm up)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/shorts/eHLuROg0FSI&quot;&gt;RDL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://musclewiki.com/machine/male/quads/machine-leg-extension&quot;&gt;Leg extension&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;✅ &lt;a href=&quot;https://musclewiki.com/machine/male/hamstrings/machine-hamstring-curl&quot;&gt;Seated/Lying Hamstring curl machine&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://musclewiki.com/machine/male/calves/machine-seated-calf-raises&quot;&gt;Weighted calf raises&lt;/a&gt; (use whichever machine is available or &lt;a href=&quot;https://youtu.be/rh8L34lAKC0&quot;&gt;use Smith Machine&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;✅ &lt;a href=&quot;https://youtube.com/shorts/Bfl5du8ehao?feature=share&quot;&gt;Single leg calf raises&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;abs&quot;&gt;Abs&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;✅ &lt;a href=&quot;https://youtube.com/shorts/ZKw4t23ERuw?feature=share&quot;&gt;Crunches&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;✅ &lt;a href=&quot;https://www.youtube.com/watch?v=wBuAqWdJCEo&quot;&gt;Cross crunches&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=dsb0Ay5e1Zc&quot;&gt;Double crunch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://musclewiki.com/bodyweight/male/abdominals/laying-leg-raises&quot;&gt;Leg raises&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/pSHjTRCQxIw&quot;&gt;Plank&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;biceps--rear-delts&quot;&gt;Biceps + Rear Delts&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;✅ &lt;a href=&quot;https://musclewiki.com/dumbbells/male/biceps/dumbbell-curl&quot;&gt;DB curls&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;✅ &lt;a href=&quot;https://musclewiki.com/dumbbells/male/biceps/dumbbell-hammer-curl&quot;&gt;Hammer curls&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtube.com/shorts/dnJ1vNlhzHY?feature=share&quot;&gt;Preacher curls&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/qfc70k40318?t=242&quot;&gt;Reverse pec deck&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;✅ &lt;a href=&quot;https://youtu.be/qfc70k40318?t=74&quot;&gt;Face pulls&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/VYeSqycso5s&quot;&gt;Reverse grip curls&lt;/a&gt; (use cable machine + straight bar) - lightweight, AMRAP&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;faqs&quot;&gt;FAQs&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; How many sets and how many reps should I perform?&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Perform each exercise for 3 sets of 15 reps.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; How much weight should I use for each exercise?&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Choose a weight such that you should reach failure or almost reach failure on the 15th rep. What is failure? Failure is when you cannot do any more reps, no matter how hard you try. What is almost reach failure? Almost reaching failure (on the 15th rep) means you can do 17-18 reps, but not more than that.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; How to breathe?&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Use the &lt;a href=&quot;https://youtube.com/shorts/ELB0tEZz5Oo?feature=share&quot;&gt;holding your breath technique&lt;/a&gt;. Take a deep breath before performing the rep, hold it as you perform it, exhale when you complete the rep. Repeat.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtube.com/shorts/9hDc3LOu9r8?feature=share&quot;&gt;For example, for a squat&lt;/a&gt;, take a deep breath at the top, hold it, do the squat, come back up, exhale. Similar for other exercises. If you get confused how to breathe, just remember this line- &lt;em&gt;breathing is before the rep&lt;/em&gt;. For bench press, your rep begins at the top,  so you breathe at the top. For shoulder press, it begins at the bottom, so you breathe at the bottom. Easy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Hold on. I am completely new to exercise. Don’t you have any special instructions for me?&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; If you are completely new to exercise, follow this circuit training for the first two weeks. This training will get your body gradually used to exercising and prevent you from suddenly overloading it. It will also help you develop the habit of going to the gym. You can start following the workout routine after completing this training. DO NOT skip to the workout routine without completing this training.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;CIRCUIT TRAINING
+Upper body day:
+    1.  DB bench press
+    2.  Lat pulldown
+    3.  Standing DB overhead shoulder press
+    4.  Straight bar cable pushdown
+    5.  DB bicep curls
+Lower body day:
+    1.  Empty Barbell squats
+    2.  Hamstring curl machine (seated or lying)
+    3.  Single leg calf raises
+    4.  Crunches
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Do this for two weeks. That’s upper-lower-upper-lower-upper-lower-rest, x2.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
+&lt;p&gt;Use only light weights for this circuit training. DO NOT USE HEAVY WEIGHTS.&lt;/p&gt;
 
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; What about diet?&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Chicken.&lt;/p&gt;
 
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; No seriously, what about diet?&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; I am not going to talk much about diet in this post. Too much emphasis is laid on diet and sleep. Does it help to have proper diet and sleep? Sure. But let me tell you a fact. The only thing that determines whether you’ll put on muscle or not is what you do inside the gym. If you are not working out hard enough, you will not build muscle. If you track your macros down to the last calorie, sleep for 9 hours, but don’t work out hard enough, you will not build muscle. &lt;a href=&quot;https://youtu.be/X3offZE1NJw&quot;&gt;If your workout is shit, you will not build muscle&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
+&lt;p&gt;But here’s what you can do- If you want to lose weight and build muscle, eat less and take enough protein. If you want to gain weight as well as build muscle, eat more and take enough protein. If you want to maintain your weight while losing fat and building muscle (this is called body recomposition), eat just enough and take enough protein. Try to take 2x(your weight in kg) grams of protein every day. (Note: If you are overweight, this number might be too high. In that case, try to take grams of protein = your height in cm.)&lt;/p&gt;
 
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
+&lt;p&gt;Eating less= staying in a caloric deficit.&lt;br /&gt;
+Eating more= staying in a caloric surplus.&lt;br /&gt;
+Eating just enough= staying at maintenance or in a very slight caloric surplus.&lt;br /&gt;
+There is no need to obsess over your calories. Just keep your goal in mind, be conscious of what you eat and count your protein. That’s it. Cut out junk, avoid sugar, and prefer whole foods.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;a { text-decoration: overline red wavy; }
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You are free to research more on diet, it will help, but remember, if your workout is shit, you will not build muscle. And if you don’t go to the gym, you will definitely not build muscle. The most important thing is getting your ass to the gym. I personally know dudes who eat only four eggs a day and are still jacked as fuck, with physiques to die for.&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor amet tousled viral art party blue bottle single-origin coffee cardigan, selvage man braid helvetica. Banh mi taxidermy meditation microdosing. Selvage cornhole YOLO, small batch vexillologist raclette VHS prism sustainable 8-bit ugh semiotics letterpress disrupt pop-up. Celiac shabby chic ugh, jianbing whatever kitsch tattooed edison bulb kogi irony etsy.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; Do I need protein powder?&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; No, you don’t need protein powder to build muscle. However, if you are finding it difficult to hit your protein goal, you may take whey protein.&lt;/p&gt;
 
-&lt;p&gt;Franzen polaroid hammock iceland blue bottle woke disrupt tilde kale chips raw denim ramps vaporware before they sold out irony. Narwhal vaporware offal shaman celiac kinfolk activated charcoal salvia lomo irony readymade normcore. Yr activated charcoal kombucha, man braid whatever biodiesel hella crucifix adaptogen bicycle rights small batch skateboard mixtape. Hot chicken sustainable green juice 90’s. Ennui kickstarter hella pug, meggings man bun shaman messenger bag. Chambray adaptogen kombucha pug affogato, kogi green juice distillery ugh banh mi.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q:&lt;/strong&gt; When will I see results?&lt;br /&gt;
+&lt;strong&gt;A:&lt;/strong&gt; Trust the process. The results will follow. I’ll be straight with you- It may take 2 months. Or it may take 6 months. It might even take the entire year to see any visible results. I don’t know. I don’t have the answer. It is different for every person. Because it all depends on the person. How bad do you want it? How hard will you work for it?&lt;br /&gt;
+I know this is not the answer you wanted. But this is how it is. Be brave, accept the uncertainty and continue to put in the work. Trust the process and the results will follow.&lt;/p&gt;
 
-&lt;p&gt;VHS roof party waistcoat cold-pressed, street art wolf master cleanse affogato franzen. Shaman iceland pour-over intelligentsia typewriter tilde, pitchfork copper mug. Wayfarers kickstarter adaptogen vinyl beard kombucha. Organic pinterest master cleanse, mixtape fam gentrify lo-fi kogi.&lt;/p&gt;
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
 
-&lt;p&gt;Salvia blue bottle fanny pack mlkshk normcore YOLO viral umami four dollar toast skateboard. Chambray taxidermy slow-carb street art chartreuse. Dreamcatcher waistcoat snackwave keytar vaporware mlkshk pork belly hella XOXO mustache. Tattooed semiotics edison bulb, disrupt polaroid craft beer vape enamel pin bespoke flannel letterpress brooklyn subway tile copper mug. Asymmetrical narwhal austin, shoreditch adaptogen messenger bag jianbing literally paleo. Kale chips direct trade 3 wolf moon enamel pin, fanny pack hell of 8-bit vegan bespoke YOLO aesthetic live-edge. Retro succulents before they sold out whatever bushwick.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;NEVER SKIP LEG DAY&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Squatting&lt;/strong&gt;-
+Squatting is fun, but it can take up a lot of time and mental energy. If you want to save time and make squatting safer too, you can use a hack squat machine or the Smith Machine. All three variations will work, do what you prefer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;FULL SQUAT. ASS TO GRASS. &lt;a href=&quot;https://youtu.be/N1cXazVYDQs&quot;&gt;SQUAT LIKE YOU SHIT&lt;/a&gt;.&lt;/strong&gt; This is the only secret to leg growth. Don’t ego lift, keep the weight low and focus on getting your form correct first. Always prioritize safety and use available safety measures when squatting.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Here’s an alternate routine&lt;/strong&gt;-&lt;/p&gt;
 
-&lt;p&gt;Actually hella you probably haven’t heard of them quinoa try-hard la croix. Street art schlitz actually hell of pour-over air plant. Post-ironic franzen brunch mumblecore readymade. Food truck photo booth polaroid, gochujang vegan street art yr before they sold out man bun. Tilde selfies chia pitchfork everyday carry post-ironic mumblecore sartorial VHS master cleanse activated charcoal biodiesel williamsburg cronut jean shorts. Poutine helvetica keffiyeh butcher pop-up.&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Legs + abs&lt;/li&gt;
+      &lt;li&gt;Shoulders + triceps&lt;/li&gt;
+      &lt;li&gt;Back&lt;/li&gt;
+      &lt;li&gt;Chest&lt;/li&gt;
+      &lt;li&gt;Legs + abs&lt;/li&gt;
+      &lt;li&gt;Biceps&lt;/li&gt;
+      &lt;li&gt;Rest&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;Choose this ☝️ routine if you enjoy leg days or want to grow your legs faster. Hitting legs twice a week is always good anyway. Growing your legs is what is going to give you that highly desired &lt;a href=&quot;https://body.io/the-x-frame-protocols-an-introduction-to-excellence/&quot;&gt;X-frame look&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Calves&lt;/strong&gt;- If you want to grow your calves faster, you can train them 2x/week. If you’re doing legs 1x /week, add calves to any other workout day of your choice.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Abs&lt;/strong&gt;- If you are doing legs 2x /week, 8-10 sets of ab exercises will be more than sufficient for abs. Your abs are already getting worked when you do all the other exercises. But if you want visible abs, it’s all about body fat percentage. BF% is the name of the game. Aesthetics aside though, doing ab exercises will strengthen your core, which is highly beneficial not only for lifting but for everday life.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Rest Days&lt;/strong&gt;- Take your rest day whenever you feel like your body needs rest. It’s not like you have to take it only on Sunday. For example, if you are sore and tired after a Monday leg day, take rest on Tuesday.
+You can take an additional rest day whenever you feel like it. No shame in taking an additional rest day. Your body will let you know when it wants to rest and needs time to recover. Listen to it. Push yourself hard, but be safe. Remember, your body builds muscle when it is resting. Try to get enough sleep.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Progressive Overload&lt;/strong&gt;- Let’s say a few weeks into following the routine, you find that “Hey, hitting 3 sets of 15 reps of this exercise at this weight feels way too easy now. Plus my body doesn’t even hurt anymore.” This is a sign that you should start applying progressive overload to your workout. What is progressive overload? &lt;strong&gt;Once you are able to do 3 sets of 15 reps, increase the weight by 2.5kg.&lt;/strong&gt; Rinse and repeat. Simple.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Q&lt;/strong&gt;: When should I start progressive overload?&lt;br /&gt;
+  &lt;strong&gt;A&lt;/strong&gt;: Don’t think about it too much, you’ll realize it yourself. But DO NOT start progressive overload before at least four weeks of consistently following the workout routine using your initial chosen weights (that’s four weeks AFTER completing circuit training). Your body needs time to get acclimatized to working out. Yes, that much time. Then you can start lifting heavier.&lt;/p&gt;
+
+    &lt;p&gt;For some exercises like lateral raises and single leg calf raises, you’ll find that you are not able to lift much weight and it is very difficult to progressively overload. That’s completely normal. No need to start questioning your manhood here. For exercises like these volume is more important than lifting heavy. Increase the reps to 15-20, keep the weight reasonable and focus on your form. Don’t ego-lift and swing the weights.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;bonus-content-awesome-people-i-trust&quot;&gt;Bonus content: Awesome people I trust&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@JeffNippard&quot;&gt;Jeff Nippard&lt;/a&gt; - Jeff Nippard is one of the best content creators in the bodybuilding world. No bullshit, extremely knowledgeable, dedicated to the art and science of bodybuilding. I trust him because I haven’t seen a single video of him promoting stupid tips and fads for views. His videos are an invaluable wealth of information on topics such as exercise techniques, scientific explanations and more. Highly recommend.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/@NattyLifeYT&quot;&gt;Natty Life&lt;/a&gt; - Entertaining + educational bodybuilding and fitness content. No-bullshit guy.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: If you fuck up I am not responsible. Push yourself hard, but be smart. Don’t take unnecessary risks and don’t injure yourself. Patience is key. Slow and gradual growth is where it’s at. If you don’t know how to do something, ask someone in the gym. You’ll be surprised how some of the biggest bros in the gym are also some of the nicest dudes on the planet.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Acknowledgements&lt;/strong&gt;: The credit for my physique goes to my gym trainer, Mr Deepak Pawar. If he hadn’t guided me when I was a noob, I wouldn’t be here. Thanks to my friends Aditya and Rushabh for being my inspiration.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I will update this routine whenever I learn new stuff.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Have questions, suggestions, criticisms? I’d love to hear from you. Please give me feedback. I’d love to hear about the littlest thing that came across your mind that you think can improve this guide. Email me at &lt;strong&gt;ab (at) ashutoshbhosale (dot) com&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;⭐️ Most importantly, have fun at the gym and enjoy the physical and mental benefits of being strong, healthy and hot 👊&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Know someone who would find this guide useful? Copy the link and share it with them!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hello World! (And GitHub Pages + Jekyll!)</title>
+   <link href="http://localhost:4000/Hello-World/"/>
+   <updated>2023-03-03T00:00:00+05:30</updated>
+   <id>http://localhost:4000/Hello-World</id>
+   <content type="html">&lt;p&gt;I decided to migrate my blog from WordPress to GitHub pages to save some monies. The added benefit is that I will learn new things and develop new skills. What a win-win! I’m planning to use this website to showcase my photography too. Now I have to figure out how to bring my old data here without breaking anything. See you soon in the next post. I’m excited for this new start!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>How I Use My Windows PC from Anywhere</title>
+   <link href="http://localhost:4000/How-I-Use-My-Windows-PC-From-Anywhere/"/>
+   <updated>2021-12-02T00:00:00+05:30</updated>
+   <id>http://localhost:4000/How-I-Use-My-Windows-PC-From-Anywhere</id>
+   <content type="html">&lt;p&gt;Sometimes, I want to be able to use my PC when I’m traveling. But carrying that big box  isn’t always feasible, nor is it ideal. I have postponed way too many trips just because I won’t be able to use my PC.&lt;/p&gt;
+
+&lt;p&gt;As a solution, I have looked into setting up remote desktop, but I’m not happy with the traditional method – using WoL (Wake on LAN) to switch on the computer and using a program like TeamViewer or Splashtop for remote access. With all the port forwarding that you have to configure on your router while ensuring network security, WoL was too much of a hassle. It also wasn’t 100% reliable.&lt;/p&gt;
+
+&lt;p&gt;I finally found an alternate solution:&lt;/p&gt;
+
+&lt;ol&gt;&lt;li&gt;Power on PC by BIOS RTC (Real Time Clock), and&lt;/li&gt;&lt;li&gt;Use &lt;a href=&quot;https://parsec.app/&quot;&gt;Parsec&lt;/a&gt; for remote access&lt;/li&gt;&lt;/ol&gt;
+
+&lt;p&gt;While this isn’t an ideal solution as you do not have complete control over when the PC boots (more on that in the notes), it works flawlessly and it can be implemented within 5 minutes.&lt;/p&gt;
+
+&lt;h2 class=&quot;has-large-font-size&quot;&gt;Power on by RTC&lt;/h2&gt;
+
+&lt;p&gt;Power on by RTC is a BIOS feature that boots the computer at a set time. You can find it under the APM (Advanced Power Management) settings in your BIOS. Here’s &lt;a href=&quot;https://www.asus.com/support/FAQ/1043640&quot;&gt;how to set up Power on by RTC&lt;/a&gt; on an ASUS motherboard. The instructions should be similar for other motherboard manufacturers. I have set my PC to boot everyday at 9am.&lt;/p&gt;
+
+&lt;h2 class=&quot;has-large-font-size&quot;&gt;Parsec&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://parsec.app/&quot;&gt;Parsec&lt;/a&gt; is a free remote desktop program. It’s incredibly easy to set up and use, and the remote desktop experience is honestly pretty rad. Having used TeamViewer and Splashtop before, I find Parsec to be better due to its excellent functionality, ease of use, and cost.&lt;/p&gt;
+
+&lt;p&gt;All you have to do is create an account, and install Parsec on the host and client computers. As long as Parsec is running on the host computer, the host computer will show up in the “Computers” tab on all your other devices and you can remote desktop in one click.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/parsec-screenshot.png&quot; alt=&quot;screenshot of parsec dashboard&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 class=&quot;has-large-font-size&quot;&gt;Configuration&lt;/h2&gt;
+
+&lt;p&gt;For this setup to work, your host Windows machine:&lt;/p&gt;
+
+&lt;ol&gt;&lt;li&gt;Should have only one user account&lt;/li&gt;&lt;li&gt;Require no login password&lt;/li&gt;&lt;/ol&gt;
+
+&lt;p&gt;This is necessary as the host computer needs to boot up &lt;em&gt;and&lt;/em&gt; login for the Parsec service to start.&lt;/p&gt;
+
+&lt;p&gt;That’s it! You have yourself a remote desktop solution that you set up and get running within five minutes.&lt;/p&gt;
+
+&lt;h2 class=&quot;has-large-font-size&quot;&gt;Notes / a few considerations:&lt;/h2&gt;
+
+&lt;p&gt;I realize this is not an ideal solution as you do not have complete control and you may have to leave your computer idling for long periods.&lt;/p&gt;
+
+&lt;h3 class=&quot;has-medium-font-size&quot;&gt;Running costs:&lt;/h3&gt;
+
+&lt;p&gt;Electricity is cheap and modern computers do not consume much power when idling. My build, which has pretty respectable specs (Ryzen 2600, GTX 1070, with a 650W PSU), probably consumes ~100W on idle. If I were to keep my system running for 24hrsX30days, it would cost me less than ₹400/month (~$5.4/month).&lt;/p&gt;
+
+&lt;h3 class=&quot;has-medium-font-size&quot;&gt;Control:&lt;/h3&gt;
+
+&lt;p&gt;If you shut down your system, you will be able to next use it only on the next day, when it boots at your set time. To avoid getting into situations where I might not be able to use my PC when I wanted to, I just leave it running for the entire day regardless of whether I use it or not. I usually shut down before I sleep. This saves some energy.&lt;/p&gt;
+
+&lt;h3 class=&quot;has-medium-font-size&quot;&gt;Caveats:&lt;/h3&gt;
+
+&lt;ul&gt;&lt;li&gt;Security (no password)&lt;/li&gt;&lt;li&gt;No multiple user accounts&lt;/li&gt;&lt;/ul&gt;
+
+&lt;h2 class=&quot;has-large-font-size&quot;&gt;A better solution&lt;/h2&gt;
+
+&lt;p&gt;Here’s an even better solution that does not involve setting up Wake on LAN, that offers more energy savings and a lot more control:&lt;/p&gt;
+
+&lt;p&gt;You can use an internet-connected &lt;b&gt;smart plug&lt;/b&gt; that can be switched on/off using a phone, in combination with the “Restore on AC Power Loss” BIOS feature of your motherboard. This will allow you to automatically power on the PC whenever you (remotely) switch on the smart plug.&lt;/p&gt;
+
+&lt;p class=&quot;has-text-align-center&quot;&gt;*&lt;/p&gt;
+
+&lt;p&gt;Comments and suggestions welcome.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Does MATLAB Work on M1 MacBooks?</title>
+   <link href="http://localhost:4000/Does-MATLAB-Work-On-M1_MacBooks/"/>
+   <updated>2021-11-07T00:00:00+05:30</updated>
+   <id>http://localhost:4000/Does-MATLAB-Work-On-M1_MacBooks</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;Short answer&lt;/strong&gt;: Yes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Long answer&lt;/strong&gt;: It does, but the user experience is subpar.&lt;/p&gt;
+
+&lt;p&gt;Matlab does work on Apple’s M1 chip machines. There isn’t a native ARM version for it yet, but it runs using Rosetta 2. Rosetta 2 is Apple’s software that allows x86 applications (like Matlab) to run on the M1 ARM chip through emulation.&lt;/p&gt;
+
+&lt;p&gt;But while Matlab does work on my M1 MacBook Air, the user experience is subpar. The UI can be extremely slow to respond sometimes. Besides, when using the Control System Designer toolbox, I found that the UI behaves really weird. When I select a setting that requires me to enter parameters, Matlab opens up a new dialog box for it but it always switches to the wrong one. I have do a three finger swipe and enter task view to select the right one. It is also too much of a hassle to get “characteristics” on plots to stay in place — The labels suddenly disappear and sometimes just refuse to show up. These things waste a lot of time and are extremely inconvenient, especially when you’re working on long projects and tight deadlines.&lt;/p&gt;
+
+&lt;p&gt;I feel the M1 machines are great devices for creators. But if you are an engineering student who needs Matlab and other software such as Abaqus, Autodesk Inventor, etc., I would pick a Windows laptop over this one if it’s going to be your only device.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>What I learned working on a Google project</title>
+   <link href="http://localhost:4000/What-I-learned-working-on-a-Google-project/"/>
+   <updated>2021-07-10T00:00:00+05:30</updated>
+   <id>http://localhost:4000/What-I-learned-working-on-a-Google-project</id>
+   <content type="html">&lt;p&gt;I recently got to work on a Google project as part of my work at &lt;a href=&quot;https://rtcamp.com/&quot;&gt;rtCamp&lt;/a&gt;. It is an amazing feeling to know that your work is going to be seen by thousands of people all over the world. It’s also kind of scary tbh.&lt;/p&gt;
+
+&lt;p&gt;The most important thing I learned is that the focus is on getting stuff out the door, even if it’s not perfect. I think it’s similar to the &lt;a href=&quot;https://en.wikipedia.org/wiki/Minimum_viable_product#Minimum_viable_brand_(MVB)&quot;&gt;MVP approach&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Shipping things »&amp;gt; Chasing perfection !!!&lt;/p&gt;
+
+&lt;p&gt;Another thing I learned is how you don’t worry and don’t spend too much time thinking about a problem; you just dive into it, riding on the belief that you’ll come up with a solution, and you do always come up with a solution. Now it may not always be the perfect or the most optimized solution, but it’s a solution that works, and that’s good enough.&lt;/p&gt;
+
+&lt;p&gt;That sounds like a great thing to apply in everyday life, doesn’t it?&lt;/p&gt;
+
+&lt;p&gt;PS. Yes, the primary motive of this post is to brag that I got to work on a Google project. But the takeaways still hold.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Exercise</title>
+   <link href="http://localhost:4000/Exercise/"/>
+   <updated>2021-05-27T00:00:00+05:30</updated>
+   <id>http://localhost:4000/Exercise</id>
+   <content type="html">&lt;p&gt;There is no doubt that exercise plays a major role in keeping us mentally stable and healthy. Well, it sure keeps me mentally stable and healthy. So why do so many of us not exercise? Why can’t we make ourselves spare a few minutes of the day for our body?&lt;/p&gt;
+
+&lt;p&gt;The first step is the most difficult thing for most people. Getting yourself up, making your mind and dragging your body to the gym or whatever place it is that you work out is the biggest problem, and that’s where most people give up. I’ve had this problem myself for a long time. So why not just cut out the complexity and start exercising right where you are? You don’t need a gym or a yoga mat or a stadium to exercise. It’s your mind, making excuses and resisting change.&lt;/p&gt;
+
+&lt;p&gt;10 minutes is all you need to do a decent workout. It makes you feel mentally satisfied that you’re working on your body, that you’re making an effort to keep yourself fit. 10 minutes. That’s all.&lt;/p&gt;
+
+&lt;p&gt;I started with a few push-ups every day before I take my bath (whether it’s in the morning or the evening). A few weeks later that grew into a full-body workout where I’m exercising everything from my arms, my legs, to my core. And it’s not like you have to do a full workout every single day. Nobody is going to punish you if you don’t. Something is always better than nothing. If I’m too busy, I make sure to do at least those 50-odd push-ups some time within the whole day. That leaves me feeling good and satisfied that I did something for my body today. It’s also fine if you skip a day. Having some kind of consistency is what’s important. (My workout routine is all bodyweight exercises and cardio, btw. No equipment, except a few times when I feel like it.)&lt;/p&gt;
+
+&lt;p&gt;Another major made-up problem that most people have, that I’ve had myself, is not exercising because you’re not following a diet. “Why should I exercise if I don’t have a good diet? It’s just going to go waste.” This is another excuse we give ourselves. Whatever diet you have is already good enough. You don’t need a perfect and accurate diet that has all the macros measured to the last milligram; all you need is a decent diet. And you already have that. The workout and exercise you do is never wasted. And in any case, it’s always better to be doing some kind of exercise and having a shit diet, rather than doing no exercise at all and having a shit diet anyway.&lt;/p&gt;
+
+&lt;p&gt;If you’ve come this far, I want to encourage you to start exercising, in case you aren’t already. It’s really not that hard. Start small. As small as you want. When you exercise you’ll feel great, have a well-maintained and reasonably fit body, and most importantly, you’ll be mentally satisfied and happy. Feeling depressed? Exercise! As ridiculous and antithetical as that sounds, it really works. Try it out. Having all that serotonin inside you every day is a great thing and it can do wonders to your daily mood and enthusiasm.&lt;/p&gt;
+
+&lt;p&gt;I intend to continue my exercise routine for a long time. On a side note, I also love that feeling I get while I’m working out. That satisfaction after being able to squeeze in a few extra reps than planned, and that sudden rush of blood and pain after a good set – it’s weirdly pleasurable. The day-long mental satisfaction that comes after is the cherry on top.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Inspector Morse</title>
+   <link href="http://localhost:4000/Inspector-Morse/"/>
+   <updated>2021-05-18T00:00:00+05:30</updated>
+   <id>http://localhost:4000/Inspector-Morse</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;[I’m going to start reading an Inspector Morse mystery tomorrow. I’m getting bored with the monotony that comes with being stuck inside.]&lt;/em&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;*&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/inspector-morse-books.jpg&quot; alt=&quot;photo of 3 Inspector Morse books on the terrace with coconut tree in background&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I first read an Inspector Morse mystery not too long ago – maybe a couple of years ago – although my dad had got me two Morse books from his trip to Mauritius way back in 2013. I’m not really sure why I did not get to reading them sooner. I think it was probably because the covers looked boring to me at the time, the synopses on the back of the books did not pique my interest, I had never heard of Colin Dexter, and I was in a fast-paced-thrillers-only phase. Now that I’ve read both the books though, the covers seem so interesting (photos at the bottom). I love how serene and mysterious they look. And now I find myself scouring Amazon for the rest of the books from that edition, to complete the set with the style of covers I did not like before. How ironic.&lt;/p&gt;
+
+&lt;p&gt;Anyway, Inspector Morse is an old-ish police detective solving crimes in 1970s Oxford. 1970s Oxford is beautiful – wet, soggy and foggy, gray and dreamy. Forest-y with lots of tall trees and not-too-large groups of houses that break up the forest. Misty roads. It’s a very atmospheric setting and I love it for that.&lt;/p&gt;
+
+&lt;p&gt;Inspector Morse is one hell of a protagonist, too. He’s old, but he has a charm and charisma that makes him a very intriguing character. He listens to classical music and 1920s, 1950s old songs on vinyl (I know vinyl is not a big deal and they just didn’t have many options back then, but the whole bygone-era oldness of vinyl records is just beautifully seductive), he drinks like an Englishman, he has romantic encounters, he can be eccentric and grumpy; all this in addition to his already unusual life as a detective.&lt;/p&gt;
+
+&lt;p&gt;The stories themselves are great, too. The plotlines are not too fast-paced, and other things happen in between the story – which lets you to get to know Morse on a personal level and actually connect with the character. I love how well Dexter describes the beautiful, hauntingly dreamy places and locations. You cannot help but get lost in them, long to be in them, and fall in love with them for a bit. The style of writing is just beautiful. I love the last-century calm English oldness of the language. It’s no fluff, no bullshit, plain good writing that you’ll love to read.&lt;/p&gt;
+
+&lt;p&gt;*&lt;/p&gt;
+
+&lt;p&gt;I’m picking up the first book in the series tomorrow, &lt;a href=&quot;https://www.goodreads.com/book/show/76909.Last_Bus_to_Woodstock&quot;&gt;Last Bus to Woodstock&lt;/a&gt;. The ones I read (and loved) are &lt;a href=&quot;https://www.goodreads.com/book/show/76917.The_Way_Through_The_Woods&quot;&gt;The Way Through the Woods&lt;/a&gt;, and &lt;a href=&quot;https://www.goodreads.com/book/show/76915.Service_of_All_the_Dead&quot;&gt;Service of All the Dead&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Stephen King On Writing</title>
+   <link href="http://localhost:4000/Stephen-King-On-Writing/"/>
+   <updated>2021-05-17T00:00:00+05:30</updated>
+   <id>http://localhost:4000/Stephen-King-On-Writing</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/10569.On_Writing&quot;&gt;On Writing by Stephen King&lt;/a&gt; is Stephen King’s autobiography mixed with tips on writing and being a writer.&lt;/p&gt;
+
+&lt;p&gt;I’m almost halfway through the book and it’s amazing how much this man has gone through. You really have to be brave to stick to something you want to do for so long, while doing odds and ends on the side to sustain yourself and your family, and not lose heart. If you’re a Stephen King fan, or even if you’re not even remotely interested in writing, I highly recommend reading this book. It’s such an inspiring story.&lt;/p&gt;
+
+&lt;p&gt;For most things we want to do in life, to actually be successful in doing something, you just have to sit down and do the thing without thinking too much. Thinking is a trap. Thinking is the enemy. You just have to start doing even if you feel like you have no clue what the fuck you’re doing.&lt;/p&gt;
+
+&lt;p&gt;I’d like to quote from the book. He’s talking about one of the things he learned when he was writing his very first novel. His very first book that got published, that turned his life around-&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Stopping a piece of work just because it’s hard, either emotionally or imaginatively, is a bad idea. Sometimes you have to go on when you don’t feel like it, and sometimes you’re doing good work when it feels like all you’re managing is to shovel shit from a sitting position.&lt;/p&gt;
+
+  &lt;p&gt;– Stephen King&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Resources to become a web developer</title>
+   <link href="http://localhost:4000/Resources-to-become-a-web-developer/"/>
+   <updated>2021-05-15T00:00:00+05:30</updated>
+   <id>http://localhost:4000/Resources-to-become-a-web-developer</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;[Thought I’ll list down some resources for anyone looking to get into web development from scratch.]&lt;/em&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;*&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: I am not a web developer. But being part of a company that does web development as its main business, I get to be around some of the brightest people who have been writing code for the internet for over a decade. Which puts me in a good position to know a few things.&lt;/p&gt;
+
+&lt;p&gt;So here are a few resources if you’re looking to get started in web development but don’t know where to begin.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/kamranahmedse/developer-roadmap&quot;&gt;Developer Roadmap&lt;/a&gt; – This is exactly what it says. A roadmap for becoming a web developer (frontend, backend, or devops), presented as a detailed chart. This will give you an overview of what the path looks like and expose you to new words and technologies for the very first time. As the author of the roadmap themselves have mentioned too – don’t be overwhelmed. You can literally just start “Googling” each of the steps given in the chart and start learning this way; and you’ll be surprised how much you can cover within one month by dedicating one hour of your time every day. Btw this really is an excellent roadmap. (Don’t take my word for it. Look, over 8k people on GitHub have starred it!)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.freecodecamp.org/&quot;&gt;freeCodeCamp&lt;/a&gt; is a great place to learn HTML, CSS, and JavaScript basics for free and &lt;strong&gt;in a non-boring way&lt;/strong&gt;. Seriously, it’s fun learning from freeCodeCamp. I’ve done it myself and highly recommend it.&lt;/p&gt;
+
+&lt;p&gt;If you’re looking to become a web developer specializing in WordPress, you should check out this &lt;a href=&quot;https://learn.rtcamp.com/courses/wordpress-training/&quot;&gt;WordPress course&lt;/a&gt; by rtCamp (which is where I work). This course too is more of a roadmap than an actual course with all the lessons in one place, and it will show you everything you need to learn to become an employable WordPress developer.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wordpress.org/&quot;&gt;WordPress&lt;/a&gt; is &lt;a href=&quot;https://opensource.org/faq&quot;&gt;open-source&lt;/a&gt; software that powers &lt;a href=&quot;https://w3techs.com/technologies/overview/content_management&quot;&gt;over 40%&lt;/a&gt; of all websites and is developed and maintained by a huge global community. &lt;a href=&quot;https://yoast.com/open-source-story/&quot;&gt;Open-source is beautiful&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mailbox.org – Privacy focused email</title>
+   <link href="http://localhost:4000/mailbox-org/"/>
+   <updated>2021-05-13T00:00:00+05:30</updated>
+   <id>http://localhost:4000/mailbox-org</id>
+   <content type="html">&lt;p&gt;I transferred my email setup once more. I don’t trust Zoho Mail. I experienced downtime with their service, it seems like there are issues with getting proper support, and privacy concerns as well.&lt;/p&gt;
+
+&lt;p&gt;I’m now on &lt;a href=&quot;https://mailbox.org/en/&quot;&gt;mailbox.org&lt;/a&gt;. They support custom domains, &lt;a href=&quot;https://kb.mailbox.org/display/MBOKBEN/Using+catch-all+alias+with+own+domain&quot;&gt;catch-all alias&lt;/a&gt;, plus-addressing, pretty much all I want. And they’re good for &lt;a href=&quot;https://mailbox.org/en/security#data-protection&quot;&gt;privacy&lt;/a&gt;. Plus they’re 100% powered by green energy. What more could you ask for? The &lt;a href=&quot;https://mailbox.org/en/services#tariffs&quot;&gt;pricing&lt;/a&gt; is decent as well.&lt;/p&gt;
+
+&lt;p&gt;The web interface looks basic and a bit outdated, but they have IMAP and SMTP support, so that’s not a problem. There’s also a full-blown office suite available, with calendar, contacts, and cloud storage. I haven’t used it yet. I might check it out sometime in the future.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re not paying for the product, you are the product.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Own Your Domain</title>
+   <link href="http://localhost:4000/own-your-domain/"/>
+   <updated>2021-05-04T00:00:00+05:30</updated>
+   <id>http://localhost:4000/own-your-domain</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;[I got my domain name (ashutoshbhosale.com) transferred to the new registrar today. The website is still on the old server though. I am planning to migrate it soon.]&lt;/em&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;*&lt;/p&gt;
+
+&lt;p&gt;If you ever build a website for yourself or get one built for you from someone, please &lt;strong&gt;own your domain&lt;/strong&gt;. You should register (or “buy”) your domain yourself and you should always have control over it. Why?&lt;/p&gt;
+
+&lt;p&gt;In case something goes wrong – for example, imagine you have a fight with the person or agency who manages your website and you don’t want to do business with them anymore. If you have access to your domain you can always set your website up on another server and set the DNS records of the domain to point to that server. Only because you have access to the domain.&lt;/p&gt;
+
+&lt;p&gt;But if you don’t have access to your domain, you cannot do anything. Owning your domain name is the most important thing. It is also good practice to decentralize your website’s different parts – keep the domain name and the server (and the email server too, if you want) with different companies so that one single entity does not have complete control over your website.&lt;/p&gt;
+
+&lt;p&gt;Hey, you never know.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>consume vs create</title>
+   <link href="http://localhost:4000/consume-vs-create/"/>
+   <updated>2021-05-02T00:00:00+05:30</updated>
+   <id>http://localhost:4000/consume-vs-create</id>
+   <content type="html">&lt;p&gt;It’s easy to consume, it’s hard to create. I think about this every day; like it’s an eternal battle going on in my head. So I’m just going to conduct an experiment. I’m going to try and post consistently for 30 days. Let’s see how it goes. If I get really stuck on a day, I will publish an empty post. Getting into the habit of hitting publish is what’s more important.&lt;/p&gt;
+
+&lt;p&gt;Where’s all this coming from?&lt;/p&gt;
+
+&lt;p&gt;For some of us (or many of us?), feeling that satisfaction of having created something is what keeps us sane. It’s definitely true for me. It is what keeps me sane. At the end of the day, I want to feel like I have done something worthwhile. With this lockdown, the difficulty is up a few levels. Weekends are just the worst. I do try to do something worthwhile though- learn something, or read a book, or just do something new. It feels so good when you’re creating something, however small that thing might be. I already feel so much better as I’m writing this post.&lt;/p&gt;
+
+&lt;p&gt;Don’t get me wrong. I’m grateful for what I have. I know a lot of people in this world have it a lot worse than me. It’s one of those thoughts- How does your little “problem” even matter? With people starving to death in the world all kinds of other shit? I’m grateful for what I have right now. A job, a roof over my head.&lt;/p&gt;
+
+&lt;p&gt;Taking some time out and writing down your thoughts makes your mind free. Clears up the clutter.&lt;/p&gt;
+
+&lt;p&gt;I’m migrating my site to a new server soon. It’s going to be a lot faster. I’m waiting for Monday to get the domain transferred and some other things figured out. I could’ve done it earlier, but didn’t want to launch on Friday. Just no.&lt;/p&gt;
+
+&lt;p&gt;I’m not satisfied with how this post looks, but I’m hitting publish. Hitting publish is what’s important. I have no idea what I’m going to write tomorrow, or the day after, or the day after that. But hey, I’ll figure it out. That’s what we do. We figure it out.&lt;/p&gt;
+
+&lt;p&gt;Alright! Until tomorrow!&lt;/p&gt;
+
+&lt;p&gt;PS. There’s this person called &lt;a href=&quot;https://chrislema.com/blog/&quot;&gt;Chris Lema&lt;/a&gt; who posts every day. Every single day. And he’s been doing it for a long time. That’s inspiring. I think posting every day is going to help me find answers to many questions and eventually improve my writing as well. Writing for yourself – how do you write for yourself? That’s one of the things I’m trying to figure out.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Bosch</title>
+   <link href="http://localhost:4000/Bosch/"/>
+   <updated>2021-03-09T00:00:00+05:30</updated>
+   <id>http://localhost:4000/Bosch</id>
+   <content type="html">&lt;p&gt;I finished watching Season 6 of &lt;a href=&quot;https://www.imdb.com/title/tt3502248/&quot;&gt;Bosch&lt;/a&gt; yesterday. Unsurprisingly, I loved it.&lt;/p&gt;
+
+&lt;p&gt;Bosch is one of those shows – a gritty crime drama that hooks you in, that you can’t stop watching until you’ve watched till the end. But it’s also so much more than that.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/images/bosch.jpg&quot; alt=&quot;Poster of the show, showing detective Bosch and his aide, Jerry, beside a car in the LA desert&quot; /&gt;
+&lt;figcaption style=&quot;text-align: center&quot;&gt;Image source: Amazon Prime Video&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Bosch is set in LA and Hieronymus “Harry” Bosch is a detective at Hollywood Station. Harry is a “good cop”, as good as they come. Firm of character, resolute with his morals and ideals, and to see that justice is served he’ll go to great lengths and do as much as is humanly possible. But this is not a cliché police drama where the cop is a saint who catches bad guys and there’s always a happy ending. There is depth.&lt;/p&gt;
+
+&lt;p&gt;The show tackles real issues and problems. Besides the issues it talks about through its imagery and words, it subtly alludes to things that happen that are uncomfortable to bring up and makes you think about them. For example, it hints at holes and faults in the law – the ones that don’t have an obvious solution, the ones that make the system unfair at times. I’ll leave it at that. There is a lot of depth.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;*&lt;/p&gt;
+
+&lt;p&gt;But Bosch is not a show that does pretentious indirect social commentary to be perceived as some intellectually superior work of art; that would be an untrue and probably the worst way to describe it. There is so much more to it (yes, I know I’ve said this before). The style, so distinct, is like that of a well-made true crime series with just the right amount of drama. There is little to no absurdity. It’s beautifully done. The cinematography, the plot lines, the way the story is told, the dialogues, the pace, the “vibe”.&lt;/p&gt;
+
+&lt;p&gt;It is atmospheric. And that’s what I love about it the most.&lt;/p&gt;
+
+&lt;p&gt;Harry Bosch’s home is this cantilevered masterpiece artwork of a house up in Hollywood Hills, with glass walls that overlook the city of LA, where he listens to jazz on his turntable on silent nights. The house appears several times throughout the six seasons, and never once have I not been struck by that view. If, like me, you’ve never been to LA, Bosch will make you fall in love and dream of this city. The atmosphere is so powerful, it appeals so much to my (two) senses and stirs up all kinds of emotions. I just want to go and fucking live there sometime.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/images/bosch-2.jpg&quot; alt=&quot;a still of Detective Bosch looking at the city of LA through the all-glass side of his house on the hill&quot; /&gt;
+    &lt;figcaption style=&quot;text-align: center&quot;&gt;Photo by &lt;a href=&quot;https://www.aaronepstein.com/&quot;&gt;Aaron Epstein&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;*&lt;/p&gt;
+
+&lt;p&gt;One of the things that impressed me is how the characters are so well done. They have their own personalities, and sometimes even their own stories that run in parallel to that of the protagonist’s, and it doesn’t feel like a muddled up mess. That is some brilliant screenwriting right there.&lt;/p&gt;
+
+&lt;p&gt;Bosch is an adaptation of a series of novels by &lt;a href=&quot;https://www.michaelconnelly.com/&quot;&gt;Michael Connelly&lt;/a&gt;. I recently found out that he is actively and heavily involved in the production of the show. He maintains a somewhat regular blog about it on his website, which is pretty cool. I look forward to picking up the books soon.&lt;/p&gt;
+
+&lt;p&gt;It’s late, I should sleep. Thanks for reading.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mist</title>
+   <link href="http://localhost:4000/mist/"/>
+   <updated>2017-08-01T00:00:00+05:30</updated>
+   <id>http://localhost:4000/mist</id>
+   <content type="html">&lt;p&gt;It is 3 o’clock in the afternoon and a slight drizzle is building up near Khardung village in Ladakh. An avalanche has blocked the roads and everyone is waiting in their vehicles for the snow to be cleared and the authorities to give the safety signal. Oh boy, this is going to take time.&lt;/p&gt;
+
+&lt;p&gt;After sitting in the car for what feels like an eternity but in reality is only an hour, I feel tired; frustrated. My feet are sore. I must get out of here. I cannot sit here anymore. I finally exit the car. A yawn. A stretch. Another yawn. Another stretch. A few nods and shakes. Ah! Much better.&lt;/p&gt;
+
+&lt;p&gt;I look towards my left, on the valley side of the road. There’s a stream, about 50 meters down the slope. I walk over to the bank and look down at the water gurgling inches away from my feet. A smile forms across my lips. Yes, the Himalayas are working their magic. The cool wind feels exhilarating in my hair. I kneel down and touch the water. It feels cooler than the wind. I splash some of it on my face. The water is cold. Cold, but soft. My gaze travels across the stream – to the opposite bank – to the terrain that rises again to gradually form The Mountains of The Himalayas. But I cannot see The Mountains. Their figures are draped in a shawl of white, hovering mist. My gaze continues upwards, into the sky. And then I see Them – Their crowns; towering above all else, rising through the mist, looking down upon the mortal world. And I say to myself, ‘This is it. This is God’s own country; heaven on earth.’&lt;/p&gt;
+
+&lt;p&gt;Until next time!&lt;/p&gt;
+
+&lt;p&gt;Ashutosh.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ladakh-stream.jpg&quot; alt=&quot;A stream in Ladakh, gurgling through rocks, mist and clouds&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
