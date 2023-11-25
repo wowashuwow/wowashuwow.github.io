@@ -3,9 +3,7 @@ links:
   url: /
 - title: Writing
   url: /blog
-- title: Search
-  url: /search
-- title: Rss
-  url: /atom.xml
 - title: Photos
   url: https://photos.ashutoshbhosale.com
+- title: Rss
+  url: /atom.xml

@@ -2,6 +2,9 @@
 layout: page
 title: Hi! I'm Ashutosh.
 ---
+
+<img src="{{ site.baseurl }}/images/self-portrait.jpg" alt="A self-portrait of Ashutosh, the author of this website.">
+
 ~~I’m a creative generalist currently working in content marketing at [rtCamp](https://rtcamp.com/), an agency building web solutions for enterprises. I write a monthly newsletter around WordPress that is loved by 4000+ people, including folks from Automattic, Google, Astra, and more.~~
 
 I’m currently back in college, finishing my degree. It’s a long story.
