@@ -11,4 +11,4 @@ I’m currently back in college, finishing my degree in automotive engineering a
 
 I love reading, swimming, photography, and learning cool stuff on the internet.
 
-Email me at ***ab (at) ashutoshbhosale (dot) com***, and I'll be sure to get back to you. Or we can also talk on [Twitter](https://twitter.com/wowashuwow) or [LinkedIn](https://www.linkedin.com/in/ashutoshbhosale/).
+Let's talk about films, fitness, books, or building your website. Shoot me a message at ***ab (at) ashutoshbhosale (dot) com*** and I'll be sure to get back to you.
