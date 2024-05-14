@@ -5,7 +5,7 @@ title: TV List
 
 ![Black and white picture of a middle aged man keenly watching an old television set with antennas in an apartment at night, with a metro skyline visible outside through the windows]({{ site.baseurl }}/images/man-watching-tv-bw.jpg)
 
-*I'm currently watching [Mad Men](https://www.imdb.com/title/tt0804503/). Here's a list of some of my favorite TV shows-*
+*I'm currently ~~watching [Mad Men](https://www.imdb.com/title/tt0804503/)~~ rewatching [SEAL Team](https://www.imdb.com/title/tt6473344/). Here's a list of some of my favorite TV shows-*
 
 ### ART 🤌
 - [Twin Peaks](https://www.imdb.com/title/tt0098936/)
@@ -38,6 +38,7 @@ title: TV List
 <p>&nbsp;</p>
 
 ### GREAT ENTERTAINERS
+- [SEAL Team](https://www.imdb.com/title/tt6473344/)
 - [Strike Back](https://www.imdb.com/title/tt1492179/)
 - [Narcos](https://www.imdb.com/title/tt2707408/)
 - [Jack Ryan](https://www.imdb.com/title/tt5057054/)
