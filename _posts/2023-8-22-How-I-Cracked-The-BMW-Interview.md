@@ -1,9 +1,9 @@
 ---
 layout: post
-title: How I Cracked the 6-month Internship at BMW
+title: How I Cracked the 6-month Internship at BMW (And How You Can Too)
 ---
 
-*Note to IIT Madras Students: Please use your S-Mail account to access linked documents.*
+*I primarily wrote this guide to help fellow IITM students prepare for internship interviews, but most of the concepts here apply to all kinds of interviews. Note to IIT Madras Students: Please use your S-Mail account to access linked documents.*
 
 Last year, for the first time ever, BMW came to our department to offer an internship. This was a first not just for our department but probably for our college too. I was one of the two students they selected. In this post I am going to talk about how I landed the internship and give you some tips to help you in your preparation and interview.
 
