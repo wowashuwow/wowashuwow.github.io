@@ -21,4 +21,4 @@ He also highlights the role of work in cultivating curiosity-
 
 _"Is there a way to cultivate curiosity? To start with, you want to avoid situations that suppress it. How much does the work you're currently doing engage your curiosity? If the answer is "not much," maybe you should change something."_
 
-We spend so much time of our lives at work. It is important to do something worthwhile, something that gives us an intellectual as well as an eerie inner satisfaction. Writing does that for me. 
+We spend so much time of our lives at work. It is important to do something worthwhile, something that gives us intellectual as well as that eerie inner satisfaction. Writing does that for me. 
