@@ -5,5 +5,7 @@ links:
   url: /blog
 - title: Photos
   url: https://photos.ashutoshbhosale.com
+- title: About this website
+  url: /about
 - title: Rss
   url: /atom.xml
