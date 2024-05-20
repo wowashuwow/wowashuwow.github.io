@@ -3,7 +3,7 @@ layout: page
 title: Hi! I'm Ashutosh.
 ---
 
-~~I’m a digital content specialist working in marketing at [rtCamp](https://rtcamp.com/), an agency building web solutions for enterprises. I write the company newsletter centered around WordPress that is loved by 4000+ people, including folks from Automattic, Google, Astra, and more.~~
+~~I’m a digital content specialist working in marketing at [rtCamp](https://rtcamp.com/), an agency building WordPress solutions for enterprises. I write the company newsletter centered around WordPress that is loved by folks from Automattic, Google, Astra, and more.~~
 
 ~~I’m currently back in college, finishing my degree in automotive engineering at IIT Madras. It’s a long story.~~
 
