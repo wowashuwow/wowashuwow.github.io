@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Hi! I'm Ashutosh.
+seo_title: Hi! I'm Ashutosh, and I'm a Technical Content Writer.
+excerpt: This is my personal blog.
+seo_description: Ashutosh Bhosale is a Technical Content Writer currently working at rtCamp, an enterprise WordPress agency. This is his personal blog.
 ---
 
 ~~I’m a digital content specialist working in marketing at [rtCamp](https://rtcamp.com/), an agency building WordPress solutions for enterprises. I write the company newsletter centered around WordPress that is loved by folks from Automattic, Google, Astra, and more.~~
