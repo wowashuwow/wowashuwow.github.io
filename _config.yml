@@ -3,16 +3,18 @@ url: https://ashutoshbhosale.com
 title: Ashutosh Bhosale
 description: Engineer, Photographer, Writer
 twitter:
-  username: #yourusername
-  card: summary
+  username: wowashuwow
+  card: summary_large_image
   creator: #yourusername
 author:
-  twitter: #yourusername
-  name: #yourusername
+  twitter: wowashuwow
+  name: Ashutosh Bhosale
   avatar:
   email: #youremail
   url: #yoururl
 permalink: pretty
+
+timezone: Asia/Kolkata
 
 baseurl: ""
 
