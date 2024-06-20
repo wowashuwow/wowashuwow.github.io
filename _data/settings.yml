@@ -1,9 +1,9 @@
 #-------------------------------
 # Site Settings
-title: Clancy
+title: Ashutosh Bhosale
 logo: # You can add own logo. For example '/images/logo.png'.
-author: Jason Collins
-description: Clancy is a elegant portfolio theme for Jekyll.
+author: Ashutosh Bhosale
+description: Ashutosh Bhosale is a writer, photographer, and engineer.
 
 
 #-------------------------------
@@ -25,14 +25,14 @@ menu__settings:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hello, my name’s Jason. I’m a Designer & Photographer based in San Francisco.
-  hero__description: I'm a freelance designer and photographer. For almost five years I have been working with clients from a variety of clients to create pieces that meet their goals. I invite you to navigate my portfolio to know a bit more about me and my work.
+  hero__title: Hi, I'm Ashutosh.
+  hero__description: I’m a Writer, Photographer, and Engineer. This is my personal blog.
 
 
 #-------------------------------
 # Portfolio Settings
 portfolio:
-  portfolio__title: Portfolio
+  portfolio__title: Photography
   portfolio__gallery:
     - image: /images/gallery-01.jpg
       title: Samantha Gades
