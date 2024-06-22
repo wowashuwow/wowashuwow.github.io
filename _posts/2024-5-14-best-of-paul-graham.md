@@ -3,7 +3,6 @@ layout: post
 title: Best of Paul Graham
 images: '/images/paul-graham.jpg'
 ---
-
 This is a continuously-updated collection of notes, snippets, and extracts from my favorite [Paul Graham](https://paulgraham.com/index.html) essays. 
 
 ## From _[How to think for yourself](https://paulgraham.com/think.html)_:
