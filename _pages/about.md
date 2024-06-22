@@ -1,9 +1,8 @@
 ---
 layout: page
-title: About
-permalink: /about/
-image: '/images/08.jpg'
+title: About this website
 ---
+
 This website is a constantly-evolving art project, a place of solace for my mind, an avenue for self-promotion. It's my home on the internet that keeps going through multiple servers, CMSes, and designs as I keep experimenting.
 
 It is currently hosted on [GitHub Pages](https://pages.github.com/) and runs on [Jekyll CMS](https://jekyllrb.com/) using the minimalistic [Sidey theme](https://github.com/ronv/sidey). I'm finding GitHub pages extremely cost-effective (it's free! lol), plus I get to play coder / hacker and build my web dev skills.

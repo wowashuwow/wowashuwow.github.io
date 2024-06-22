@@ -2,7 +2,6 @@
 layout: post
 title: Best of Paul Graham
 image: '/images/paul-graham.jpg'
-description: Notes, snippets and extracts from my favorite Paul Graham essays.
 ---
 This is a continuously-updated collection of notes, snippets, and extracts from my favorite [Paul Graham](https://paulgraham.com/index.html) essays. 
 
