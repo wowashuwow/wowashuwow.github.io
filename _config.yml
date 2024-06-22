@@ -9,9 +9,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
 permalink: /:title
 plugins:
+  - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-seo-tag
 
 paginate: 9
 paginate_path: "/blog/page/:num"
