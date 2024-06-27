@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Most Impactful Reads of 2023
+image: '/images/fi-most-impactful-reads-of-2023.jpg'
+description: Learnings from the most helpful articles and books I read in 2023
 ---
+<center>Photo by <a href="https://unsplash.com/@kimberlyfarmer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kimberly Farmer</a> on <a href="https://unsplash.com/photos/shallow-focus-photography-of-books-lUaaKCUANVI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></center><br>
 
 I want to share selected articles that I read in 2023 that had the most impact on my life. These articles helped me in taking important career decisions and taught me things that were "eye-opening." I wish I had come across them sooner. I have included snippets from each to give you a teaser of what you can expect to learn from them.
 
