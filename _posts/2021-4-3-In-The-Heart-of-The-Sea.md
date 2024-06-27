@@ -1,7 +1,7 @@
 ---
 layout: post
 title: In The Heart of The Sea
-image: 'images/in-the-heart-of-the-sea.jpg'
+image: '/images/in-the-heart-of-the-sea.jpg'
 ---
 
 *[Yesterday I decided to post every day for 30 days straight. Today is the second day. I’m not sure what I want to write about, so I’m just calling this post a log update. (You know, like sailors and ship captains keep logs? In the Heart of the Sea is one of my favorite movies, btw. You should watch it.) Oh great, I guess I’ll just talk about In the Heart of the Sea then.]*
