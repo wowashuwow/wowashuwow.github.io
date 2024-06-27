@@ -12,7 +12,7 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Blog'
+    - title: 'Writing'
       url: '/blog/'
     - title: 'About'
       url: '/about/'
@@ -21,8 +21,8 @@ menu__settings:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hi, I'm Ashutosh.
-  hero__description: I’m a Writer, Photographer, and Engineer. This is my personal blog.
+  hero__title: Hi, I'm Ashutosh 👋.
+  hero__description: I'm a creative generalist currently working in B2B content marketing. This is my personal website where I share my photography and write about fitness and personal development, among other things.
 
 
 #-------------------------------
