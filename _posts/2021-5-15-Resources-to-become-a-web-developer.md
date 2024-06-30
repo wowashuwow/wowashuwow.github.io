@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Resources to become a web developer
+image: '/images/fi-resources-to-become-a-web-developer.jpg'
 ---
 
 *[Thought I’ll list down some resources for anyone looking to get into web development from scratch.]*
 
 <p style="text-align: center">*</p>
 
-**Disclaimer**: I am not a web developer. But being part of a company that does web development as its main business, I get to be around some of the brightest people who have been writing code for the internet for over a decade. Which puts me in a good position to know a few things.
+**Disclaimer**: I am not a web developer. But being part of a company that does web development as its main business, I get to be around some of the brightest people who have been writing code for the internet for over a decade. This puts me in a good position to know a few things.
 
 So here are a few resources if you’re looking to get started in web development but don’t know where to begin.
 
@@ -15,6 +16,6 @@ So here are a few resources if you’re looking to get started in web developmen
 
 [freeCodeCamp](https://www.freecodecamp.org/) is a great place to learn HTML, CSS, and JavaScript basics for free and **in a non-boring way**. Seriously, it’s fun learning from freeCodeCamp. I’ve done it myself and highly recommend it.
 
-If you’re looking to become a web developer specializing in WordPress, you should check out this [WordPress course](https://learn.rtcamp.com/courses/wordpress-training/) by rtCamp (which is where I work). This course too is more of a roadmap than an actual course with all the lessons in one place, and it will show you everything you need to learn to become an employable WordPress developer.
+If you’re looking to become a web developer specializing in WordPress, you should check out this [WordPress course](https://learn.rtcamp.com/courses/wordpress-training/) by rtCamp (which is where I work). This course too is more of a roadmap than an actual course with all the lessons in one place, but it will show you everything you need to learn to become an employable WordPress developer.
 
 [WordPress](https://wordpress.org/) is [open-source](https://opensource.org/faq) software that powers [over 40%](https://w3techs.com/technologies/overview/content_management) of all websites and is developed and maintained by a huge global community. [Open-source is beautiful](https://yoast.com/open-source-story/).

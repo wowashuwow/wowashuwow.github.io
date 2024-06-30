@@ -2,7 +2,7 @@
 layout: post
 title: Most Impactful Reads of 2023
 image: '/images/fi-most-impactful-reads-of-2023.jpg'
-description: Learnings from the most helpful articles and books I read in 2023
+description: Learnings from the most helpful articles and books that I read in 2023
 ---
 <center>Photo by <a href="https://unsplash.com/@kimberlyfarmer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kimberly Farmer</a> on <a href="https://unsplash.com/photos/shallow-focus-photography-of-books-lUaaKCUANVI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></center><br>
 

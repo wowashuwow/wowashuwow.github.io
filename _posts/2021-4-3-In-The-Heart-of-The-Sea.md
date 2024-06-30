@@ -1,14 +1,11 @@
 ---
 layout: post
 title: In The Heart of The Sea
-image: '/images/in-the-heart-of-the-sea.jpg'
+image: '/images/fi-in-the-heart-of-the-sea.jpeg'
+description: A review of one of my favorite films, In The Heart of The Sea
 ---
 
 *[Yesterday I decided to post every day for 30 days straight. Today is the second day. I’m not sure what I want to write about, so I’m just calling this post a log update. (You know, like sailors and ship captains keep logs? In the Heart of the Sea is one of my favorite movies, btw. You should watch it.) Oh great, I guess I’ll just talk about In the Heart of the Sea then.]*
-
-*
-
-![Poster of In The Heart of The Sea showing the faces of Chris Hemsworth, Benjamin Walker, Cillian Murphy, and Tom Holland, above an of shipwrecked men in the sea with a huge whale's tail hovering above them, waiting to strike]({{ site.baseurl }}/images/in-the-heart-of-the-sea.jpg)
 
 I first watched In the Heart of the Sea around four years ago. I’ve watched it at least five times since then. It’s a beautiful film about survival, and the extent humans will go to to survive.
 
@@ -21,3 +18,5 @@ It’s a beautiful survival film but also more than just a “survival film.” 
 The film is based on a book of the same name by Nathaniel Philbrick. I ended up reading that book after watching the film and it was very good. The book goes into a lot more detail and focuses on facts but it’s not boring at all. It’s fun to read. The film deviates from the book a little bit to maintain sensationalism. But both are really good. I highly recommend this combo. 10/10. Great for temporary emotional damage and psychological crisis.
 
 PS. There’s Chris Hemsworth, Cillian Murphy, and a really young Tom Holland. In case you still weren’t sold.
+
+![Poster of In The Heart of The Sea showing the faces of Chris Hemsworth, Benjamin Walker, Cillian Murphy, and Tom Holland, above an of shipwrecked men in the sea with a huge whale's tail hovering above them, waiting to strike]({{ site.baseurl }}/images/in-the-heart-of-the-sea.jpg)

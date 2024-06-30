@@ -1,6 +1,8 @@
 ---
 layout: post
 title: What I learned working on a Google project
+image: '/images/fi-what-i-learned-working-on-a-google-project.jpeg'
+description: What I learned about building online products during my brief stint on a Google Project
 ---
 
 I recently got to work on a Google project as part of my work at [rtCamp](https://rtcamp.com/). It is an amazing feeling to know that your work is going to be seen by thousands of people all over the world. It’s also kind of scary tbh.

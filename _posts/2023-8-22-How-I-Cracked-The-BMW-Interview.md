@@ -2,7 +2,7 @@
 layout: post
 title: How I Cracked the 6-month Internship at BMW
 image: '/images/fi-how-i-cracked-the-bmw-interview.jpg'
-description: With tips for acing an internship interview
+description: The story of how I cracked the 6-month internship at BMW, along with tips for acing internship interviews
 ---
 <center>Photo by <a href="https://unsplash.com/@gn0me?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andrei Ianovskii</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-blue-and-black-motorcycle-vM4feBcDhP0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></center>
 <br>

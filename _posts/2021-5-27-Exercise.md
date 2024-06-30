@@ -1,7 +1,11 @@
 ---
 layout: post
 title: Exercise
+image: '/images/fi-exercise.jpg'
+description: Thoughts on exercise and how to get into the habit 
 ---
+<center>Photo by <a href="https://unsplash.com/@clemencebgnx?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clémence Bergougnoux</a> on <a href="https://unsplash.com/photos/woman-in-black-sports-bra-and-black-shorts-doing-yoga-on-green-grass-field-during-daytime-jNzqzVjMZr4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  </center><br>
 
 There is no doubt that exercise plays a major role in keeping us mentally stable and healthy. Well, it sure keeps me mentally stable and healthy. So why do so many of us not exercise? Why can’t we make ourselves spare a few minutes of the day for our body?
 

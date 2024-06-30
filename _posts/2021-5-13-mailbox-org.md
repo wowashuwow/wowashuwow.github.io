@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Mailbox.org – Privacy focused email
+image: '/images/fi-mailbox-org.avif'
 ---
-
-
 
 I transferred my email setup once more. I don’t trust Zoho Mail. I experienced downtime with their service, it seems like there are issues with getting proper support, and privacy concerns as well.
 

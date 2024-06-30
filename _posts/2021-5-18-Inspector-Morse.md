@@ -1,13 +1,12 @@
 ---
 layout: post
 title: Inspector Morse
+image: '/images/inspector-morse-books.jpg'
 ---
 
 *[I’m going to start reading an Inspector Morse mystery tomorrow. I’m getting bored with the monotony that comes with being stuck inside.]*
 
 <p style="text-align: center">*</p>
-
-<img src="{{ site.baseurl }}/images/inspector-morse-books.jpg" alt="photo of 3 Inspector Morse books on the terrace with coconut tree in background">
 
 I first read an Inspector Morse mystery not too long ago – maybe a couple of years ago – although my dad had got me two Morse books from his trip to Mauritius way back in 2013. I’m not really sure why I did not get to reading them sooner. I think it was probably because the covers looked boring to me at the time, the synopses on the back of the books did not pique my interest, I had never heard of Colin Dexter, and I was in a fast-paced-thrillers-only phase. Now that I’ve read both the books though, the covers seem so interesting (photos at the bottom). I love how serene and mysterious they look. And now I find myself scouring Amazon for the rest of the books from that edition, to complete the set with the style of covers I did not like before. How ironic.
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mr Oliver's Diary
+image: '/images/fi-mr-olivers-diary.jpeg'
 ---
 
 *[Oof! I’m early today! It’s 10pm. I usually post past 12am so you’re going to see two posts for May 5. I’m afraid this is (finally) going to be a log update. I exercised today after a month-long break. Nothing fancy, just some cardio and weights. Feels great. Exercise is like that go-to Ruskin Bond book I read when I need a quick mood boost. Mr Oliver’s Diary. Uh oh, looks like I have something to write about again.]*
