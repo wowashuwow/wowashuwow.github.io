@@ -3,6 +3,7 @@ layout: post
 title: Does MATLAB Work on M1 MacBooks?
 image: '/images/fi-matlab-m1-macbooks.jpg'
 description: My experience using MATLAB on an M1 MacBook (it's not great, get a Windows machine)
+tags: [Software Review]
 ---
 **Short answer**: Yes.
 

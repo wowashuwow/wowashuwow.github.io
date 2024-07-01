@@ -3,6 +3,7 @@ layout: post
 title: Own Your Domain
 image: '/images/fi-own-your-domain.jpg'
 description: If you're getting your website built from someone else, this is the single most important thing you need to know
+tags: [Guides, Building]
 ---
 
 

@@ -1,10 +1,13 @@
 ---
 layout: page
-title: Hi, I'm Ashutosh. 👋
+title: Hi, I'm Ashutosh 👋
 permalink: /about/
 image: '/images/andaman-me-testing-website.jpg'
 ---
-## Hi, I'm Ashutosh. 👋
+## About me
+I’m a 25 year old guy (gosh I’m 25?!) who likes strength training, running, photography, tinkering with technology, reading fiction, writing, day-dreaming about becoming a successful creator, swimming, dressing well, motorcycles, and fast cars. Honestly, I like way too many things. I currently do B2B content writing for a living.
+
+
 ~~I’m a digital content specialist working in marketing at [rtCamp](https://rtcamp.com/), an agency building WordPress solutions for enterprises. I write the company newsletter centered around WordPress that is loved by folks from Automattic, Google, Astra, and more.~~
 
 ~~I’m currently back in college, finishing my degree in automotive engineering at IIT Madras. It’s a long story.~~

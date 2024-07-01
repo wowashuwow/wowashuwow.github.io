@@ -2,6 +2,7 @@
 layout: post
 title: Inspector Morse
 image: '/images/inspector-morse-books.jpg'
+tags: [Books]
 ---
 
 *[I’m going to start reading an Inspector Morse mystery tomorrow. I’m getting bored with the monotony that comes with being stuck inside.]*

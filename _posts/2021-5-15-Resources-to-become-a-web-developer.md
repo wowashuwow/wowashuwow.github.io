@@ -2,6 +2,7 @@
 layout: post
 title: Resources to become a web developer
 image: '/images/fi-resources-to-become-a-web-developer.jpg'
+tags: [Guides]
 ---
 
 *[Thought I’ll list down some resources for anyone looking to get into web development from scratch.]*

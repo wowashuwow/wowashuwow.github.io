@@ -3,6 +3,7 @@ layout: post
 title: How I Use My Windows PC from Anywhere
 image: '/images/fi-How-I-Use-My-Windows-PC-From-Anywhere.jpg'
 description: Set up remote access for Windows in 10 minutes
+tags: [Guides]
 ---
 
 <p>Sometimes, I want to be able to use my PC when I’m traveling. But carrying that big box  isn’t always feasible, nor is it ideal. I have postponed way too many trips just because I won’t be able to use my PC.</p>

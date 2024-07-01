@@ -3,6 +3,7 @@ layout: post
 title: Stephen King On Writing
 image: '/images/fi-stephen-king-on-writing.jpg'
 description: I'm currently reading On Writing by Stephen King. Here's what I've learned from it so far
+tags: [Books]
 ---
 
 [On Writing by Stephen King](https://www.goodreads.com/book/show/10569.On_Writing) is Stephen King’s autobiography mixed with tips on writing and being a writer.

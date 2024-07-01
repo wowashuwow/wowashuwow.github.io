@@ -2,7 +2,9 @@
 layout: post
 title: Best of Paul Graham
 image: '/images/paul-graham.jpg'
-description: Notes from my favorite Paul Graham essays 
+description: Notes from my favorite Paul Graham essays
+tags: [Notes, Building]
+canonical_url : 'https://paulgraham.com/index.html'
 ---
 This is a continuously-updated collection of notes, snippets, and extracts from my favorite [Paul Graham](https://paulgraham.com/index.html) essays. 
 

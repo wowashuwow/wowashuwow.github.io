@@ -2,7 +2,8 @@
 layout: post
 title: Exercise
 image: '/images/fi-exercise.jpg'
-description: Thoughts on exercise and how to get into the habit 
+description: Thoughts on exercise, how I got into the habit, and how you can too
+tags: [Fitness, Thoughts]
 ---
 <center>Photo by <a href="https://unsplash.com/@clemencebgnx?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clémence Bergougnoux</a> on <a href="https://unsplash.com/photos/woman-in-black-sports-bra-and-black-shorts-doing-yoga-on-green-grass-field-during-daytime-jNzqzVjMZr4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   </center><br>

@@ -22,7 +22,7 @@ menu__settings:
 # Hero Settings
 hero:
   hero__title: Hi, I'm Ashutosh 👋
-  hero__description: I’m a 25 year old guy (gosh I’m 25?!) who likes strength training, running, photography, tinkering with technology, reading fiction, writing, day-dreaming about becoming a successful creator, swimming, dressing well, motorcycles, and fast cars. Honestly, I like way too many things. <a href="{{site.baseurl}}/about/">Read more about me.</a>
+  hero__description: This is my personal blog where I showcase my photography and write about fitness and personal development, among other things. <a href="{{site.baseurl}}about/">Read more about me.</a>
 
 
 #-------------------------------
@@ -60,7 +60,7 @@ portfolio:
 #-------------------------------
 # Subscribe Settings
 mailchimp:
-  mailchimp__title: Get updates and digital art inspiration # Add your Title
+  mailchimp__title: Get new posts delievered to your inbox # Add your Title
   mailchimp__identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
   mailchimp__button__text: Subscribe # Add your button text.
   mailchimp__bg__color: "#f2eef8" # To change the color of the figure, add a hexadecimal color code (HEX). For example - "#f2eef8" (You can generate any color here - https://htmlcolorcodes.com/).

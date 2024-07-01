@@ -2,7 +2,8 @@
 layout: post
 title: Complete Gym Guide for Beginners
 image: '/images/fi-complete-gym-guide-by-beginners.jpg'
-description: This is a step-by-step, detailed gym guide for absolute beginners 
+description: This is a step-by-step, detailed gym guide for absolute beginners
+tags: [Fitness, Guides] 
 ---
 <center>Photo by <a href="https://unsplash.com/@jelmerassink?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jelmer Assink</a> on <a href="https://unsplash.com/photos/barbell-on-rack-gzeTjGu3b_k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></center><br>
 

@@ -1,9 +1,8 @@
 ---
 layout: page
 title: TV List
+image: '/images/man-watching-tv-bw.jpg'
 ---
-
-![Black and white picture of a middle aged man keenly watching an old television set with antennas in an apartment at night, with a metro skyline visible outside the windows]({{ site.baseurl }}/images/man-watching-tv-bw.jpg)
 
 *I'm currently ~~watching [Mad Men](https://www.imdb.com/title/tt0804503/)~~ rewatching [SEAL Team](https://www.imdb.com/title/tt6473344/). Here's a list of some of my favorite TV shows-*
 
