@@ -3,7 +3,7 @@
 title: Ashutosh Bhosale
 logo: # logo format '/images/image.jpg'
 author: Ashutosh Bhosale
-description: Ashutosh Bhosale is a B2B content writer, photographer, and fitness enthusiast.
+description: Ashutosh Bhosale is a B2B content writer, fitness enthusiast, and photographer.
 
 
 #-------------------------------
@@ -22,7 +22,7 @@ menu__settings:
 # Hero Settings
 hero:
   hero__title: Hi, I'm Ashutosh 👋
-  hero__description: This is my personal blog where I showcase my photography and write about fitness and personal development, among other things. <a href="{{site.baseurl}}about/">Read more about me.</a>
+  hero__description: This is my home on the internet where I showcase my photography and write about fitness and personal development, among other things that matter. <br><a href="{{site.baseurl}}about/">Read more about me.</a>
 
 
 #-------------------------------

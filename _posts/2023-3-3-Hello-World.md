@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello World! (And GitHub Pages + Jekyll!)
+title: Hello, World!
 image: '/images/fi-hello-world-github-pages-jekyll.jpg'
 description: A new start with Jekyll and GitHub Pages
 tags: [Updates]

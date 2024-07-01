@@ -4,35 +4,33 @@ title: Hi, I'm Ashutosh 👋
 permalink: /about/
 image: '/images/andaman-me-testing-website.jpg'
 ---
-## About me
-I’m a 25 year old guy (gosh I’m 25?!) who likes strength training, running, photography, tinkering with technology, reading fiction, writing, day-dreaming about becoming a successful creator, swimming, dressing well, motorcycles, and fast cars. Honestly, I like way too many things. I currently do B2B content writing for a living.
 
+Let me break the ice by talking about my hobbies. I like strength training, running, photography, reading fiction, tinkering with technology (this website is a result of that), swimming, dressing well, motorcycles, fast cars, and of course, writing. I like waaaaay too many things. 
 
-~~I’m a digital content specialist working in marketing at [rtCamp](https://rtcamp.com/), an agency building WordPress solutions for enterprises. I write the company newsletter centered around WordPress that is loved by folks from Automattic, Google, Astra, and more.~~
+In my free time, I day-dream about becoming a successful creator and do B2B writing to make money. I believe work is something you do for leisure after you live your life, not the other way around. 
 
-~~I’m currently back in college, finishing my degree in automotive engineering at IIT Madras. It’s a long story.~~
+How did I get into writing? Well, it's a long story, but here's a tl;dr version-
 
-I got my degree and I'm back at [rtCamp](https://rtcamp.com/) as a Technical Content Writer. Hate the new job title but love the work. _(Technical Content Writer? Sounds so boring, aargh!)_
+Three years into my engineering degree, I had had enough. So I dropped out to pursue my life-long dream of becoming a writer. Granted I didn't write any New York Times bestsellers, but I did pretty okay as a content writer. Two years into it, it suddenly dawned on me that I'm no Bill Gates, so I went back to college and got that piece of paper. 
 
-The bio's always a work-in-progress, hence the strikethroughs.
+Now I work at [rtCamp](https://rtcamp.com/) as a "Technical Content Writer." Hate the job title but love the work. _(Technical Content Writer? Sounds so boring, aargh!)_
 
-I love reading, swimming, photography, and learning cool stuff on the internet.
-
-Let's talk about films, fitness, books, [TV](https://ashutoshbhosale.com/tv-list), or building your website. Shoot me a message at ***ab (at) ashutoshbhosale (dot) com*** and I'll be sure to get back to you.
+I love talking about fitness, books, films, [TV](https://ashutoshbhosale.com/tv-list), and building websites. Shoot me a message at ***ab (at) ashutoshbhosale (dot) com*** and I'll be sure to get back to you.
 
 ## About this website
 
-This website is a constantly-evolving art project, a place of solace for my mind, an avenue for self-promotion. It's my home on the internet that keeps going through multiple servers, CMSes, and designs as I keep experimenting.
+This website is a constantly-evolving art project, a place of solace for my mind, an avenue for self-promotion. It's my home on the internet that keeps going through multiple servers, CMSes and designs as I keep experimenting.
 
-It is currently hosted on [GitHub Pages](https://pages.github.com/) and runs on [Jekyll CMS](https://jekyllrb.com/) using the minimalistic [Sidey theme](https://github.com/ronv/sidey). I'm finding GitHub pages extremely cost-effective (it's free! lol), plus I get to play coder / hacker and build my web dev skills.
-
-The [Photos page](https://photos.ashutoshbhosale.com/) is hosted on [Adobe Portfolio](https://portfolio.adobe.com/), which I get as part of my [Adobe Lightroom](https://lightroom.adobe.com/) subscription.
+It is currently hosted on [GitHub Pages](https://pages.github.com/) and runs on [Jekyll](https://jekyllrb.com/), a static site generator. I'm finding GitHub pages extremely cost-effective (it's free! lol), plus I get to play coder / hacker and build my web dev skills.
 
 
-I use two [micro four thirds (m43) mount ](https://en.wikipedia.org/wiki/Micro_Four_Thirds_system)cameras to take pictures- 
-1. A [Panasonic Lumix G7](https://www.dpreview.com/reviews/panasonic-lumix-dmc-g7/8), launched 2016, bought in 2022, and
+I use [Adobe Lightroom](https://lightroom.adobe.com/) to edit my photos.
+
+
+I own two [micro four thirds mount ](https://en.wikipedia.org/wiki/Micro_Four_Thirds_system)cameras- 
+1. A [Panasonic Lumix G7](https://www.dpreview.com/reviews/panasonic-lumix-dmc-g7/8) (launched 2016) that I bought in 2022, and
 2. An [Olympus E-PL1](https://www.dpreview.com/reviews/olympusepl1) from 2010 that I bought second-hand in 2023.
 
 Both cameras take stunning pictures.
 
-I own a handful of lenses- a 42.5mm f/1.7, a 14mm f/1.7, a 14-42mm f/3.5-5.6, and my personal favorite, a 20mm f/1.7 pancake. I love the 20mm (40mm equivalent on full frame) because it's small, versatile, and sharp. All the lenses are from Lumix.
+I own a handful of lenses- a 42.5mm f/1.7, a 14mm f/2.5, a 20mm f/1.7 pancake, and the 14-42mm kit lens that came with the camera. All of these are from Panasonic Lumix. My favorite is the 20mm pancake because it's so small, versatile, and tack sharp. I take it everywhere.
