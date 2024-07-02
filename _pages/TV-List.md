@@ -1,6 +1,7 @@
 ---
 layout: page
 title: TV List
+permalink: /tv-list/
 image: '/images/man-watching-tv-bw.jpg'
 ---
 
