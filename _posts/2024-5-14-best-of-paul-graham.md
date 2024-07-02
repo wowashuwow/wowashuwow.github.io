@@ -6,6 +6,9 @@ description: Notes from my favorite Paul Graham essays
 tags: [Notes, Building]
 canonical_url : 'https://paulgraham.com/index.html'
 ---
+"[Paul Graham](https://www.flickr.com/photos/pragdave/albums/72157594177368505/)" by [Dave Thomas](https://www.flickr.com/photos/pragdave/) is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)
+{: style="font-size: 80%; text-align: center;"}
+
 This is a continuously-updated collection of notes, snippets, and extracts from my favorite [Paul Graham](https://paulgraham.com/index.html) essays. 
 
 ## From _[How to think for yourself](https://paulgraham.com/think.html)_:
