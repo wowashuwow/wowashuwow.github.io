@@ -22,5 +22,3 @@ I love talking about fitness, books, films, [TV](https://ashutoshbhosale.com/tv-
 This website is a constantly-evolving art project, a place of solace for my mind, an avenue for self-promotion. It's my home on the internet that keeps going through multiple servers, CMSes and designs as I keep experimenting.
 
 It is currently hosted on [GitHub Pages](https://pages.github.com/) and runs on [Jekyll](https://jekyllrb.com/), a static site generator. I'm finding GitHub pages extremely cost-effective (it's free! lol), plus I get to play coder / hacker and build my web dev skills.
-
-Testing new theme live.
