@@ -61,7 +61,7 @@ portfolio:
 # Subscribe Settings
 mailchimp:
   mailchimp__title: Get new posts delievered to your inbox # Add your Title
-  mailchimp__identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+  mailchimp__identifier: https://ashutoshbhosale.us17.list-manage.com/subscribe/post?u=41f63c372113f4aa7b95cdc8d&amp;id=68de2df724&amp;f_id=008ee0e0f0 # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
   mailchimp__button__text: Subscribe # Add your button text.
   mailchimp__bg__color: "#f2eef8" # To change the color of the figure, add a hexadecimal color code (HEX). For example - "#f2eef8" (You can generate any color here - https://htmlcolorcodes.com/).
 
