@@ -7,11 +7,11 @@ image: '/images/andaman-me-testing-website.jpg'
 
 Let me break the ice by talking about my hobbies. I like strength training, running, photography, reading fiction, tinkering with technology (this website is a result of that), swimming, dressing well, motorcycles, fast cars, and of course, writing. I like waaaaay too many things. 
 
-In my free time, I day-dream about becoming a successful creator and do B2B writing to make money. I believe work is something you do for leisure after you live your life, not the other way around. 
+In my free time, I day-dream about becoming a successful creator and do B2B writing to make a living. I believe work is something you do to keep yourself occupied after you live your life, not the other way around. 
 
 How did I get into writing? Well, it's a long story, but here's a tl;dr version-
 
-Three years into my engineering degree, I had had enough. So I dropped out to pursue my life-long dream of becoming a writer. Granted I didn't write any New York Times bestsellers, but I did pretty okay as a content writer. Two years into it, it suddenly dawned on me that I'm no Bill Gates, so I went back to college and got that piece of paper. 
+Three years into my engineering degree, I had had enough. So I dropped out to pursue my life-long dream of becoming a writer. I didn't end up writing any New York Times bestsellers, but I did okay as a content writer. Two years into that, it dawned on me that I'm no Bill Gates, so I went back to college and got that piece of paper. 
 
 Now I freelance as a B2B Content Writer. Email me if you're looking for one, or even if you aren't, say hi at ***ab (at) ashutoshbhosale (dot) com***! I'd love to have a conversation with you.
 
