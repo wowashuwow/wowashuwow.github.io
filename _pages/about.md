@@ -13,12 +13,10 @@ How did I get into writing? Well, it's a long story, but here's a tl;dr version-
 
 Three years into my engineering degree, I had had enough. So I dropped out to pursue my life-long dream of becoming a writer. Granted I didn't write any New York Times bestsellers, but I did pretty okay as a content writer. Two years into it, it suddenly dawned on me that I'm no Bill Gates, so I went back to college and got that piece of paper. 
 
-Now I work at [rtCamp](https://rtcamp.com/) as a "Technical Content Writer." Hate the job title but love the work. _(Technical Content Writer? Sounds so boring, aargh!)_
-
-I love talking about fitness, books, films, [TV](https://ashutoshbhosale.com/tv-list), and building websites. Shoot me a message at ***ab (at) ashutoshbhosale (dot) com*** and I'll be sure to get back to you.
+Now I freelance as a B2B Content Writer. Email me if you're looking for one, or even if you aren't, say hi at ***ab (at) ashutoshbhosale (dot) com***! I'd love to have a conversation with you.
 
 ## About this website
 
 This website is a constantly-evolving art project, a place of solace for my mind, an avenue for self-promotion. It's my home on the internet that keeps going through multiple servers, CMSes and designs as I keep experimenting.
 
-It is currently hosted on [GitHub Pages](https://pages.github.com/) and runs on [Jekyll](https://jekyllrb.com/), a static site generator. I'm finding GitHub pages extremely cost-effective (it's free! lol), plus I get to play coder / hacker and build my web dev skills.
+It is currently hosted on [GitHub Pages](https://pages.github.com/) and runs on [Jekyll](https://jekyllrb.com/), a static site generator. I'm finding GitHub pages extremely cost-effective (it's free! lol), plus I get to play coder / hacker and build my web dev skills. It's not as easy as WordPress, but overall, it's a win situation.
