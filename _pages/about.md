@@ -9,7 +9,7 @@ Let me break the ice by talking about my hobbies. I like strength training, runn
 
 In my free time, I day-dream about becoming a successful creator and do B2B writing for a living. I believe work is something you do to practice your intellect and curiosity; it's something to have fun with after you live your life, not the other way around. 
 
-How did I get into writing? Well, it's a long story, but here's a tl;dr version-
+**How did I get into writing?** Well, it's a long story, but here's a tl;dr version-
 
 Three years into my engineering degree, I had had enough. So I dropped out to pursue my life-long dream of becoming a writer. I didn't end up writing any New York Times bestsellers, but I did well as a content writer. Two years into that, I realized that I'm no Bill Gates, so I went back to college and got that piece of paper. 
 
