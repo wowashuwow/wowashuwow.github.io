@@ -12,7 +12,7 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Writing'
+    - title: 'Blog'
       url: '/blog/'
     - title: 'About'
       url: '/about/'
@@ -21,8 +21,8 @@ menu__settings:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hi, I'm Ashutosh 👋
-  hero__description: This is my home on the internet where I showcase my photography and write about fitness and personal development, among other things that matter. <br>👉 <a href="https://ashutoshbhosale.com/about/">Read more about me.</a>
+  hero__title: Hello, and welcome!
+  hero__description: This is my home on the internet where I showcase my photography and write about fitness and personal development, among other things that matter. <br>👉 <a href="https://ashutoshbhosale.com/about/">Who am I?</a>
 
 
 #-------------------------------
