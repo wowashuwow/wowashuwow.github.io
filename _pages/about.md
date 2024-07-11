@@ -7,7 +7,7 @@ image: '/images/andaman-me-testing-website.jpg'
 
 Let me break the ice by talking about my hobbies. I like strength training, running, photography, reading fiction, tinkering with technology (this website is a result of that), swimming, dressing well, motorcycles, fast cars, and of course, writing. Honestly, I like waaaaay too many things. 
 
-In my free time, I day-dream about becoming a successful creator and do B2B writing for a living. I believe work is something you do to practice your intellect and curiosity; it's something to have fun with after you live your life, not the other way around. 
+In my free time, I day-dream about becoming a successful creator and do B2B writing for work. I believe work is something you do in your free time to practice your intellect and curiosity; it's something to have fun with after you live your life, not the other way around. 
 
 **How did I get into writing?** Well, it's a long story, but here's a tl;dr version-
 
