@@ -6,11 +6,13 @@ sitemap: false
 ---
 I've worked as a Technical Content Writer at [rtCamp](https://rtcamp.com) for a total of one and a half years. 
 
-I crafted SEO content, thought leadership articles, and narrative-driven case studies for the company's content marketing efforts.
+I composed the company newsletter, wrote blog posts covering hiring, product launches, internal and external events, and other announcements.
 
-Besides that, I composed the company newsletter, wrote blog posts covering hiring, product launch announcements, and internal and external events. 
+I also crafted SEO content, thought leadership articles, and narrative-driven case studies for the company's content marketing efforts. 
 
-My work captured the publishing process from end to end- it involved talking to multiple people like project managers, developers, the delivery team and the SEO folks to get information and SEO inputs, and collaborating with designers to produce visuals.  
+My responsibilities included but were not limited to:
+- collaborating with designers to produce visuals
+- talking to project managers, developers, the delivery team and the SEO folks as needed to produce pieces  
 
 Here's some of my best work-
 
@@ -25,24 +27,26 @@ Here's some of my best work-
 - [Monthly Roundup June 2024](https://rtcamp.com/blog/monthly-roundup-april-2024/)
 
 ## Company updates:
-- [Google IO recap post](https://rtcamp.com/blog/google-io-2024-recap/) 
-- [Announcement for Campus Hiring program](https://rtcamp.com/blog/campus-hiring-2024/) 
-- [WordPress Contributors' Week](https://rtcamp.com/blog/celebrating-21-years-of-wordpress-with-contributors-week/)
+- [Google IO recap](https://rtcamp.com/blog/google-io-2024-recap/) 
+- [Announcement for rtCamp's campus hiring program](https://rtcamp.com/blog/campus-hiring-2024/) 
+- [Celebrating WordPress Contributors' Week](https://rtcamp.com/blog/celebrating-21-years-of-wordpress-with-contributors-week/)
 
 ## Content marketing:
 
 1. SEO-focused:
    - [Drupal to WordPress pre-migration checklist](https://rtcamp.com/blog/drupal-to-wordpress-pre-migration-checklist/) 
 
-2. Thought Leadership piece:
+2. Thought Leadership:
    - [Decoupled vs Headless WordPress](https://rtcamp.com/blog/decoupled-vs-headless-wordpress/) 
 
 ## Something Creative:
 [Why don’t rtCampers have dark circles?](https://rtcamp.com/blog/why-dont-rtcampers-have-dark-circles/) 
 
-I also did some [UX writing for a Google project](https://ashutoshbhosale.com/blog/what-i-learned-working-on-a-google-project).
+## Other:
+
+I did some [UX writing for a Google project](https://ashutoshbhosale.com/blog/what-i-learned-working-on-a-google-project).
 
 
-Before rtCamp, I wrote affiliate marketing content for The Drive. [Here's my author page](https://www.thedrive.com/authors/ashutosh-bhosale).
+Before rtCamp, I wrote affiliate marketing content for The Drive. [Check out my author page](https://www.thedrive.com/authors/ashutosh-bhosale).
 
-Do you like what you see? Awesome! I like fully-remote and async work wherever possible (minimal calls, please!). If this sounds like a match, please do get in touch, I would love to work with you!
+Do you like what you see? Awesome! I like fully-remote and async work (minimal calls, please!). If it sounds like a match, please shoot me a message at **ab (at) ashutoshbhosale.com**, I would love to work with you!

@@ -11,7 +11,7 @@ In my free time, I day-dream about becoming a successful creator and do B2B writ
 
 **How did I get into writing?** Well, it's a long story, but here's a tl;dr version-
 
-Three years into my engineering degree, I had had enough. So I dropped out to pursue my life-long dream of becoming a writer. I didn't end up writing any New York Times bestsellers, but I did well as a content writer. Two years into that, I realized that I'm no Bill Gates, so I went back to college and got that piece of paper. 
+Three years into my engineering degree, I had had enough. So I dropped out to pursue my life-long dream of becoming a writer. I didn't end up writing any New York Times bestsellers, but I did pretty okay as a content writer. Two years into that, I realized I'm no Bill Gates, so I went back to college to get that piece of paper. 
 
 Now I work as a freelance B2B Content Writer. Email me if you're looking for one, or even if you aren't, say hi at ***ab (at) ashutoshbhosale (dot) com***! I'd love to have a conversation with you.
 
