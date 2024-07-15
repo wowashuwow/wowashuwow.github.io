@@ -5,7 +5,7 @@ image: '/images/fi-own-your-domain.jpg'
 description: If you're getting your website built from someone else, this is the single most important thing you need to know
 tags: [Guides, Building]
 ---
-
+<center><i><a href="https://leonardo.ai/">Leonardo.Ai</a> illustration</i></center><br>
 
 
 *[I got my domain name (ashutoshbhosale.com) transferred to the new registrar today. The website is still on the old server though. I am planning to migrate it soon.]*

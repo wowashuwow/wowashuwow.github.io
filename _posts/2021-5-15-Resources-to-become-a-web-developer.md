@@ -4,6 +4,7 @@ title: Resources to become a web developer
 image: '/images/fi-resources-to-become-a-web-developer.jpg'
 tags: [Guides]
 ---
+<center><i><a href="https://leonardo.ai/">Leonardo.Ai</a> illustration</i></center><br>
 
 *[Thought I’ll list down some resources for anyone looking to get into web development from scratch.]*
 

@@ -5,6 +5,7 @@ image: '/images/fi-consume-vs-create.jpg'
 description: Thoughts on consuming vs creating, written during The Lockdown
 tags: [Thoughts, Building, Updates]
 ---
+<center><i><a href="https://leonardo.ai/">Leonardo.Ai</a> illustration</i></center><br>
 
 It’s easy to consume, it’s hard to create. I think about this every day; like it’s an eternal battle going on in my head. So I’m just going to conduct an experiment. I’m going to try and post consistently for 30 days. Let’s see how it goes. If I get really stuck on a day, I will publish an empty post. Getting into the habit of hitting publish is what’s more important.
 
