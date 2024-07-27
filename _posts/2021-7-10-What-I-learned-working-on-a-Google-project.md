@@ -13,7 +13,7 @@ I did some UX writing for the [Web Stories plugin](https://wordpress.org/plugins
 My work will help plugin users in choosing the right template for the job.
 
 ![Example of a description I wrote]({{site.baseurl}}/images/web-stories-template-descriptions.jpeg)
-*I wrote that description! ☝️*
+*I wrote that title and description! ☝️*
 
 It is an amazing feeling to know that your work is going to be seen by thousands of people all over the world. It’s also kind of scary tbh. 
 
