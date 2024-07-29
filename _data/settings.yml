@@ -33,23 +33,17 @@ portfolio:
   portfolio__title: Photography
   portfolio__gallery:
 
-    - image: /images/gallery-26-2.jpg
-  
-    - image: /images/gallery-25-2.jpg
+    - image: /images/gallery-42.jpg
 
-    - image: /images/gallery-27-2.jpg
+    - image: /images/gallery-37.jpg
+
+    - image: /images/gallery-43.jpg
 
     - image: /images/gallery-01.jpg
-      
-
-    - image: /images/gallery-02.jpg
-
 
     - image: /images/gallery-03.jpg
- 
 
-    - image: /images/gallery-04.jpg
-
+    - image: /images/gallery-34.jpg
 
     - image: /images/gallery-05.jpg
 
@@ -67,9 +61,11 @@ portfolio:
 
     - image: /images/gallery-10.jpg
 
-    - image: /images/gallery-14.jpg
+    - image: /images/gallery-41.jpg
 
     - image: /images/gallery-13.jpg
+
+    - image: /images/gallery-14.jpg
 
 
 
