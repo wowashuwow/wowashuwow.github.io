@@ -31,18 +31,26 @@ Here's some of my best work-
 
 ## UX Writing:
 
-[UX writing for Web Stories- a WordPress plugin by Google](https://ashutoshbhosale.com/blog/what-i-learned-working-on-a-google-project).
+- [UX writing for Web Stories- a WordPress plugin by Google](https://ashutoshbhosale.com/blog/what-i-learned-working-on-a-google-project)
 
-## Something Creative:
-[Why don’t rtCampers have dark circles?](https://rtcamp.com/blog/why-dont-rtcampers-have-dark-circles/) 
+## Something creative:
+- [Why don’t rtCampers have dark circles?](https://rtcamp.com/blog/why-dont-rtcampers-have-dark-circles/) 
+- [A shoal of marine employees](https://www.instagram.com/p/CLJz2zuK7VY/?igsh=MTQ3N2Q0eGRweWI3Mw==)
 
 <!-- My responsibilities included but were not limited to:
 - collaborating with designers to produce visuals
 - talking to project managers, developers, the delivery team and the SEO folks as needed to produce pieces --> 
 
-Before rtCamp, when I was freelancing, I wrote affiliate buying articles for [The Drive](https://www.thedrive.com/). Here are two of my favorites-
+## Affiliate marketing:
+
+Before rtCamp, I wrote affiliate buying guides for [The Drive](https://www.thedrive.com/). Here are two of my favorites-
 
 - [Best Dirt Bike Oils: Keep Your Bike’s Engine Trouble-Free](https://www.thedrive.com/reviews/31411/best-dirt-bike-oil)
 - [Best Cell Phone Boosters for RVs: Stay Connected off the Grid](https://www.thedrive.com/reviews/30344/best-cell-phone-boosters-rvs)
 
-If you are a [fully distributed company](https://blog.dropbox.com/topics/work-culture/the-crucial-difference-between-remote-work-and-distributed-work) and if this sounds like a match, please send me a message at **ab (at) ashutoshbhosale.com**. I would love to work with you! 🚀
+## Things to know about me
+- I hail from a small town called [Satara](https://en.wikipedia.org/wiki/Satara_(city)), in the state of Maharashtra in India.
+- I am more a [reader than a listener](https://arc.net/l/quote/wfvkkjhz).
+- I am looking to work with [fully distributed companies](https://blog.dropbox.com/topics/work-culture/the-crucial-difference-between-remote-work-and-distributed-work) with async work culture.
+
+If this sounds like a match, please send me a message at **ab (at) ashutoshbhosale.com**. I would love to work with you! 🚀
