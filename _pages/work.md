@@ -12,7 +12,7 @@ Here's some of my best work-
 
 ## Case studies-
 
-1. [Powering Grist’s award-winning journalism with custom development, content syndication, and Parse.ly analytics](https://rtcamp.com/case-studies/grist-managed-wordpress/) 
+1. [Grist](https://rtcamp.com/case-studies/grist-managed-wordpress/) (my personal favorite, it was featured in WordPress VIP's Partner Pulse newsletter sent to all partner agencies) 
 2. [AEM to WordPress Migration for Manheim](https://rtcamp.com/case-studies/aem-to-wordpress-migration-for-manheim/)
 3. [Custom CMS to WordPress Migration for Everyday Carry](https://rtcamp.com/case-studies/custom-cms-to-wordpress-migration-for-everyday-carry/)
 
