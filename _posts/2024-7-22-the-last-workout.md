@@ -5,17 +5,17 @@ image: '/images/the-last-workout-02.jpg'
 description: One final workout in the institute gym
 tags: [Fitness, Friends]
 ---
-*What is the gym? The gym is a temple. It is a place of meditation. It is also a place of power. You are in complete control, limited only by you. Just you and the weights. It is an unrestricted outlet for power.*
+*What is the gym? The gym is a temple. It is a place of meditation. It is also a place of power. You are in complete control, limited only by you. It is an unrestricted outlet for power.*
 
 ## Warm up
 
-Everywhere I've been- out of all the cities I've lived in, hobbies I have pursued, schools and colleges I have attended, subcultures I have infiltrated; the gym has been this singular venue where I've found the most like minded people- like minded at least in the areas of sheer willpower and grit- than anywhere else. It has given me some of my best friends. 
+Everywhere I've been- of all the cities I've lived in, hobbies I have pursued, schools and colleges I have attended, subcultures I have infiltrated; the gym has been this singular venue where I've found the most like minded people- like minded at least in the areas of sheer willpower and grit- than anywhere else. It has given me some of my best friends. 
 
 I had missed my college gym friends and our time together since I wrapped up my coursework and left the institute in March. So when I got the invite for the convocation- this would probably be the last time we'd all be together in one place- I gathered everyone on WhatsApp to plan one last workout. We decided to do a full body session. Squat, bench, deadlift, that's it.
 
 ## Main set
 
-We finally met at 7pm on the night before the convocation. Hugs were exchanged. Fists were bumped. Gym bros are terrible at expressing their emotions, so I'm finding it difficult to write this part. 
+We finally met at 7pm on the night before the convocation. Hugs were exchanged. Fists were bumped. Gym bros are terrible at expressing their emotions, so I'm finding this part difficult to write. 
 
 Just kidding. We started with squats. The energy was epic.
 
@@ -67,21 +67,16 @@ We took bench presses next. I don't have any pictures of us benching, but let me
 
 Prasad and Laveen have gotten really strong. They've joined the 225lbs club.
 
-I learned something new from Laveen. He taught me to properly arch my back and use leg drive to help with the push. Thanks to him, I was able to push 80kg on the bench. This was a PR for me. I took 85kg next, but failed. It's hard to progress on the bench press. Small weights make a big difference. We took one last set of AMRAP (as many reps as possible) with 50kg and ended the session.
+I learned something new from Laveen. He taught me to properly arch my back and use leg drive to help with the lift. Thanks to him, I was able to push 80kg on the bench. This was a PR for me. I took 85kg next, but failed. It's hard to progress on the bench press. Small weights make a big difference. We took one last set of AMRAP (as many reps as possible) with 50kg and ended the session.
 
 ## Cool down
 
 We took a few group photos.
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/the-last-workout-02.jpg">
-    <img src="/images/the-last-workout-03.jpg">
-  </div>
-  <em>Some friends couldn't stay for the workout, but they came and met anyway. It was awesome.</em>
-</div>
+![Ashutosh deadlifting 140kg once more]({{site.baseurl}}/images/the-last-workout-03.jpg)
+*Some friends couldn't stay for the workout, but they came and met anyway. It was awesome.*
 
-After everyone had left, Prasad, Laveen and I stayed back to take photos and talk. One of the things we realized was we have crazy body dysmorphia. Prasad thinks he's too bulky and huge. Laveen thinks he's too lean and small. And I think I don't even look like I go to the gym. We had deep, meaningful conversations.
+After everyone had left, Prasad, Laveen and I stayed back to take photos and talk. One of the things we realized was that we all have crazy body dysmorphia. Prasad thinks he's too bulky and huge. Laveen thinks he's too lean and small. And I think I don't even look like I go to the gym. We had deep, meaningful conversations.
 
 Here's a picture of the three of us.
 
