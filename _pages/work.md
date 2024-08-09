@@ -37,6 +37,9 @@ Here's some of my best work-
 - [Why don’t rtCampers have dark circles?](https://rtcamp.com/blog/why-dont-rtcampers-have-dark-circles/) 
 - [A shoal of marine employees](https://www.instagram.com/p/CLJz2zuK7VY/?igsh=MTQ3N2Q0eGRweWI3Mw==)
 
+## Social posts:
+- [LinkedIn](https://www.linkedin.com/posts/rtcamp_googleio-activity-7195778892698173442-208p?utm_source=share&utm_medium=member_desktop)
+
 <!-- My responsibilities included but were not limited to:
 - collaborating with designers to produce visuals
 - talking to project managers, developers, the delivery team and the SEO folks as needed to produce pieces --> 
