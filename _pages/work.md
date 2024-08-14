@@ -6,7 +6,7 @@ sitemap: false
 ---
 I've worked as a Technical Content Writer at [rtCamp](https://rtcamp.com) for a total of one and a half years and as a freelance content writer for one year. 
 
-At rtCamp, I composed the company newsletter, crafted narrative-driven case studies, wrote articles and blog posts for content marketing, hiring, product launches, internal and external events, and more.
+At rtCamp, I composed the company newsletter, crafted narrative-driven case studies, wrote articles and blog posts for content marketing, hiring, product launches, events, and more.
 
 Here's some of my best work-
 
@@ -38,7 +38,7 @@ Here's some of my best work-
 - [A shoal of marine employees](https://www.instagram.com/p/CLJz2zuK7VY/?igsh=MTQ3N2Q0eGRweWI3Mw==)
 
 ## Social posts:
-- [LinkedIn](https://www.linkedin.com/posts/rtcamp_googleio-activity-7195778892698173442-208p?utm_source=share&utm_medium=member_desktop)
+- [Example LinkedIn post](https://www.linkedin.com/posts/rtcamp_googleio-activity-7195778892698173442-208p?utm_source=share&utm_medium=member_desktop)
 
 <!-- My responsibilities included but were not limited to:
 - collaborating with designers to produce visuals
@@ -51,8 +51,8 @@ Before rtCamp, I wrote affiliate buying guides for [The Drive](https://www.thedr
 - [Best Dirt Bike Oils: Keep Your Bike’s Engine Trouble-Free](https://www.thedrive.com/reviews/31411/best-dirt-bike-oil)
 - [Best Cell Phone Boosters for RVs: Stay Connected off the Grid](https://www.thedrive.com/reviews/30344/best-cell-phone-boosters-rvs)
 
-## Things to know about me
-- I hail from a small town called [Satara](https://en.wikipedia.org/wiki/Satara_(city)), in the state of Maharashtra in India.
+## Get to know me
+- I hail from [Satara](https://en.wikipedia.org/wiki/Satara_(city)), a small town in the state of Maharashtra in India.
 - I am more a [reader than a listener](https://arc.net/l/quote/wfvkkjhz).
 - I am looking to work with [fully distributed companies](https://blog.dropbox.com/topics/work-culture/the-crucial-difference-between-remote-work-and-distributed-work) with async work culture.
 
