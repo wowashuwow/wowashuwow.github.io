@@ -53,6 +53,7 @@ Before rtCamp, I wrote affiliate buying guides for [The Drive](https://www.thedr
 
 ## Get to know me
 - I hail from [Satara](https://en.wikipedia.org/wiki/Satara_(city)), a small town in the state of Maharashtra in India.
+- I am currently based in [Pune](https://en.wikipedia.org/wiki/Pune) (pronounced *poo-nay*. Yeah, I know 🤭).
 - I am more a [reader than a listener](https://arc.net/l/quote/wfvkkjhz).
 - I am looking to work with [fully distributed companies](https://blog.dropbox.com/topics/work-culture/the-crucial-difference-between-remote-work-and-distributed-work) with async work culture.
 
