@@ -73,3 +73,9 @@ Links:
 - [The resume I submitted](https://drive.google.com/file/d/17y9U8O3QzBzdvSpeUt_waJZ5AKVx5tdI/view?usp=sharing)
 - [Presentation instructions](https://drive.google.com/file/d/1_ow3MgCUJYztav6vW4C_-PowQrzsIpsB/view?usp=sharing)
 - [My presentation](https://docs.google.com/presentation/d/1fv2VwuGu_XgcKIZnW_QfpasPADpePc-wpJKBuRHyMBw/edit?usp=sharing)
+
+PS. Our colleagues gave us a farewell on the last working day. It was a real fun six months in Bangalore :)
+
+![BMW farewell lunch with everyone at the table]({{site.baseurl}}/images/bmw-farewell-1.jpg)
+
+![Atish and I holding the Goodbye Pastry Plate]({{site.baseurl}}/images/bmw-farewell-2.jpg)
