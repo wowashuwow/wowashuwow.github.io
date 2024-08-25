@@ -18,7 +18,8 @@ menu__settings:
       url: '/about/'
     - title: 'Work'
       url: '/work/'
-
+    - title: 'Instagram'
+      url: '/instagram/'
 
 #-------------------------------
 # Hero Settings

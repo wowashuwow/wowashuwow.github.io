@@ -2,7 +2,6 @@
 layout: page
 title: Writing Portfolio
 permalink: /work/
-sitemap: false
 ---
 I've worked as a Technical Content Writer at [rtCamp](https://rtcamp.com) for a total of one and a half years and as a freelance content writer for one year. 
 
@@ -12,7 +11,7 @@ Here's some of my best work-
 
 ## Case studies-
 
-1. [Grist](https://rtcamp.com/case-studies/grist-managed-wordpress/) (my personal favorite, it was featured in WordPress VIP's Partner Pulse newsletter sent to all partner agencies) 
+1. [Grist](https://rtcamp.com/case-studies/grist-managed-wordpress/) (my personal favorite, it was featured in WordPress VIP's Partner Pulse newsletter that's sent to all partner agencies) 
 2. [AEM to WordPress Migration for Manheim](https://rtcamp.com/case-studies/aem-to-wordpress-migration-for-manheim/)
 3. [Custom CMS to WordPress Migration for Everyday Carry](https://rtcamp.com/case-studies/custom-cms-to-wordpress-migration-for-everyday-carry/)
 
@@ -57,4 +56,4 @@ Before rtCamp, I wrote affiliate buying guides for [The Drive](https://www.thedr
 - I am more a [reader than a listener](https://arc.net/l/quote/wfvkkjhz).
 - I am looking to work with [fully distributed companies](https://blog.dropbox.com/topics/work-culture/the-crucial-difference-between-remote-work-and-distributed-work) with async work culture.
 
-If this sounds like a match, please send me a message at **ab (at) ashutoshbhosale.com**. I would love to work with you! 🚀
+If this sounds like a match, please send me a message at **ab (at) ashutoshbhosale.com**, I would love to work with you! 🚀
