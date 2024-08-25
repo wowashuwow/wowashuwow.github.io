@@ -5,7 +5,7 @@ permalink: /work/
 ---
 I've worked as a Technical Content Writer at [rtCamp](https://rtcamp.com) for a total of one and a half years and as a freelance content writer for one year. 
 
-At rtCamp, I composed the company newsletter, crafted narrative-driven case studies, wrote articles and blog posts for content marketing, hiring, product launches, events, and more.
+At rtCamp, I composed the company newsletter, crafted narrative-driven case studies, wrote blog posts for content marketing, hiring, product launches, events, and more.
 
 Here's some of my best work-
 
