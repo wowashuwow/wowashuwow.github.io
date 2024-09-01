@@ -1,11 +1,11 @@
 ---
 layout: post
 title: How to build your own website
-image: '/images/fi-how-to-build-your-own-website.jpg'
+image: '/images/fi-how-to-build-your-own-website-1.jpeg'
 description: Complete guide to building your own website
 tags: [Guides]
 ---
-<center><i><a href="https://leonardo.ai/">Leonardo.Ai</a> illustration</i></center><br>
+<center><i><a href="https://ideogram.ai/">Ideogram.ai</a> illustration</i></center><br>
 
 *Update: My website was running on WordPress using the Spearhead theme at the time of writing this guide. I have since [moved to Jekyll]({{site.baseurl}}/blog/hello-world), but I still recommend WordPress for anybody looking to build a website. [Read more about the Spearhead theme](https://wordpress.com/blog/2020/10/29/spearhead/) to get a feel for it. PS. I just realized I really miss my old website!* 
 

@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Complete Gym Guide for Beginners
-image: '/images/fi-complete-gym-guide-by-beginners.jpg'
+image: '/images/fi-complete-gym-guide-for-beginners-1.webp'
 description: This is a step-by-step, detailed gym guide for absolute beginners
 tags: [Fitness, Guides] 
 ---
-<center>Photo by <a href="https://unsplash.com/@jelmerassink?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jelmer Assink</a> on <a href="https://unsplash.com/photos/barbell-on-rack-gzeTjGu3b_k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></center><br>
+<center><i><a href="https://openai.com/index/dall-e-3/">Dall-E</a> illustration</i></center><br>
 
 Back in December 2021, I decided to go to the gym. And I did. Over time I became a strong, healthy, fit, and confident person. And don't even get me started on the mental health benefits. They are priceless.
 
