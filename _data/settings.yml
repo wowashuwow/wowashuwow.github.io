@@ -18,8 +18,6 @@ menu__settings:
       url: '/about/'
     - title: 'Work'
       url: '/work/'
-    - title: 'Instagram'
-      url: '/instagram/'
 
 #-------------------------------
 # Hero Settings
@@ -84,6 +82,7 @@ mailchimp:
 social:
 - {icon: "ion-logo-twitter", color: "#55acee", label: Twitter, link: "https://twitter.com/wowashuwow"}
 - {icon: "ion-logo-linkedin", color: "#0a66c2", label: LinkedIn, link: "https://www.linkedin.com/in/ashutoshbhosale/"}
+- {icon: "ion-logo-instagram", color: "#e4405f", label: Instagram, link: "https://ashutoshbhosale.com/instagram/"}
 # - {icon: "ion-logo-facebook", color: "#3b5999", label: Facebook, link: "https://facebook.com"}
 # - {icon: "ion-logo-pinterest", color: "#bd081c", label: Pinterest, link: "https://pinterest.com"}
 # - {icon: "ion-logo-dribbble", color: "#ea4c89", label: Dribbble, link: "https://dribbble.com"}
