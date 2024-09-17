@@ -7,7 +7,7 @@ tags: [Guides]
 ---
 <center><i><a href="https://ideogram.ai/">Ideogram.ai</a> illustration</i></center><br>
 
-*Update: My website was running on WordPress using the Spearhead theme at the time of writing this guide. I have since [moved to Jekyll]({{site.baseurl}}/blog/hello-world), but I still recommend WordPress for anybody looking to build a website. [Read more about the Spearhead theme](https://wordpress.com/blog/2020/10/29/spearhead/) to get a feel for it. PS. I just realized I really miss my old website!* 
+*Update: My website was running on WordPress using the Spearhead theme when I wrote this guide. I have since [moved to Jekyll]({{site.baseurl}}/blog/hello-world), but I still recommend WordPress for anybody looking to build a website. [Check out the Spearhead theme](https://wordpress.com/blog/2020/10/29/spearhead/) to get a feel for it. PS. I just realized I really miss my old website!* 
 
 <p class="has-large-font-size">If you want to build your own website or start your own blog but don't know where to begin, you have come to the right place. In this post I will show you how you can build a website that looks exactly like mine. It's quite simple, really. We will be building your website on WordPress.com.</p>
 
