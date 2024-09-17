@@ -45,8 +45,10 @@ Here's some of my best work-
 
 Before rtCamp, I wrote affiliate buying guides as a freelance content writer. Here are two of my favorites from [The Drive](https://www.thedrive.com/)-
 
-- [Best Dirt Bike Oils: Keep Your Bike’s Engine Trouble-Free](https://www.thedrive.com/reviews/31411/best-dirt-bike-oil)
-- [Best Cell Phone Boosters for RVs: Stay Connected off the Grid](https://www.thedrive.com/reviews/30344/best-cell-phone-boosters-rvs)
+- [Best Dirt Bike Oils: Keep Your Bike’s Engine Trouble-Free](https://web.archive.org/web/20240114163943/https://www.thedrive.com/reviews/31411/best-dirt-bike-oil)
+- [Best Cell Phone Boosters for RVs: Stay Connected off the Grid](https://web.archive.org/web/20240522174741/https://www.thedrive.com/reviews/30344/best-cell-phone-boosters-rvs)
+
+(*Note: Since the articles are no longer live, I've updated the links to snapshots taken with [The Wayback Machine](https://web.archive.org/), a tool that saves webpages.*)
 
 ## Get to know me
 - I hail from [Satara](https://en.wikipedia.org/wiki/Satara_(city)), a small town in the state of Maharashtra in India.
