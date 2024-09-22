@@ -20,7 +20,7 @@ I'm a **Creative Copywriter** helping **B2B SaaS** businesses (products AND agen
 
 If you like [my work](/work/) and would like to hire me, send me an email at **ab (at) ashutoshbhosale (dot) com**, and let's make good writing contribute directly to your bottom line 💪
 
-But you say you have an above-average attention span in this twenty-first century? I laud you. I also tell you you're in luck, because in the long version, we have a conversation.
+But you say you have an above-average attention span in this twenty-first century? I laud you. I also tell you you're in luck, because we're in the long version now, and in the long version, we have a conversation.
 
 Why don't we start by talking about our hobbies? I like strength training, running, photography, reading fiction, tinkering with technology (this website is a result of that), swimming, dressing well, motorcycles, fast cars, TV shows, and of course, writing.
 
@@ -36,9 +36,9 @@ In my free time, I do [B2B writing](/work/) for work. I believe work is somethin
 
 Three years into my engineering degree, I had had enough. So I dropped out to pursue my life-long dream of becoming a writer. I didn't end up writing any New York Times bestsellers, but I did pretty okay (money-wise), first as a freelance content writer mostly writing affiliate buying guides, and then as a full-time writer in the marketing team of a WordPress development agency. Two years into my writing journey, I realized I'm no Bill Gates, so I went back to college to get that piece of paper. I have it now, and it's still a piece of paper.
 
-Anyway, now I work as a Creative Copywriter for B2B businesses on freelance and contract bases. (Yep, one basis, multiple bases. English can be weird.)
+Anyway, now I work as a Creative Copywriter for B2B businesses on freelance and contract bases. (Yep, one basis, multiple bases. English can sound... suboptimal at times.)
 
-But enough about me. What are you waiting for? Holler a hi at me on my email! Let's have an actual conversation. You could start with your [favorite TV shows](/tv-list/).
+But enough about me! What are you waiting for? Holler a hi at me on my email! Let's have an actual conversation. You could start by telling me about your [favorite TV shows](/tv-list/).
 
 ## About this website
 
