@@ -3,57 +3,93 @@ layout: page
 title: Writing Portfolio
 permalink: /work/
 ---
-I've written B2B content and copy for [rtCamp](https://rtcamp.com)- I composed the company newsletter, crafted narrative-driven case studies, and wrote blog posts for content marketing and PR.
+<div markdown="1" style="text-align: center">
+<h2 style="text-align: center">
+<img src="/images/work-images/google-logo.png" alt="Google" width=100px class="no-lightense">
+</h2>
 
-Here's some of my best work-
+<h4 style="text-align: center">UX Writing</h4>
 
-## Case studies:
+<b>Creative + functional</b> titles and descriptions to help users choose templates in <a href="https://wordpress.org/plugins/web-stories/" target="_blank">Web Stories</a>- a WordPress plugin from Google.
 
-- [Grist](https://rtcamp.com/case-studies/grist-managed-wordpress/) (My personal favorite. [WordPress VIP](https://wpvip.com/) featured it in their Partner Pulse newsletter that's sent to all partner agencies) 
-- [AEM to WordPress Migration for Manheim](https://rtcamp.com/case-studies/aem-to-wordpress-migration-for-manheim/)
-- [Custom CMS to WordPress Migration for Everyday Carry](https://rtcamp.com/case-studies/custom-cms-to-wordpress-migration-for-everyday-carry/)
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="/images/work-images/google-ux-writing-1.jpeg" title="UX writing for Google sample #1">
+    <img src="/images/work-images/google-ux-writing-2.jpeg" title="UX writing for Google sample #2">
+    <img src="/images/work-images/google-ux-writing-3.jpeg" title="UX writing for Google sample #3">
+    <img src="/images/work-images/google-ux-writing-4.jpeg" title="UX writing for Google sample #4">
+  </div>
+</div>
 
-## Newsletters: 
-- [Monthly Roundup May 2024](https://rtcamp.com/blog/monthly-roundup-may-2024/) 
-- [Monthly Roundup June 2024](https://rtcamp.com/blog/monthly-roundup-april-2024/)
+<hr>
 
-## Blog posts:
-- [Google I/O recap](https://rtcamp.com/blog/google-io-2024-recap/) 
-- [Announcement for campus hiring program](https://rtcamp.com/blog/campus-hiring-2024/) 
-- [Celebrating WordPress Contributors' Week](https://rtcamp.com/blog/celebrating-21-years-of-wordpress-with-contributors-week/)
+<h2 style="text-align: center">
+<img src="/images/work-images/rtcamp-logo.png" alt="rtCamp" width=100px class="no-lightense" width=100px>
+</h2>
 
-## Content marketing:
-- SEO: [Drupal to WordPress pre-migration checklist](https://rtcamp.com/blog/drupal-to-wordpress-pre-migration-checklist/) 
-- Thought Leadership: [Decoupled vs Headless WordPress](https://rtcamp.com/blog/decoupled-vs-headless-wordpress/) 
+<h4 style="text-align: center">Content Marketing</h4>
 
-## UX Writing:
+<b>Narrative-driven</b> case studies and <b>SEO-optimized</b> techical blog posts.
 
-- [UX writing for Web Stories- a WordPress plugin by Google](https://ashutoshbhosale.com/blog/what-i-learned-working-on-a-google-project)
+<div class="gallery-box">
+  <div class="gallery">
+    <a href="https://rtcamp.com/case-studies/grist-managed-wordpress/" title="Grist case study"><img src="/images/work-images/grist.webp"></a>
+    <a href="https://rtcamp.com/case-studies/aem-to-wordpress-migration-for-manheim/" title="Manheim case study"><img src="/images/work-images/manheim.webp"></a>
+    <a href="https://rtcamp.com/blog/decoupled-vs-headless-wordpress/" title="Headless vs Decoupled WordPress blog post"><img src="/images/work-images/decoupled-vs-headless.webp"></a>
+    <a href="https://rtcamp.com/blog/drupal-to-wordpress-pre-migration-checklist/" title="Drupal to WordPress Pre-Migration Checklist blog post"><img src="/images/work-images/drupal-to-wordpress.webp"></a>
+  </div>
+  <em>Grist is a personal favorite. <a href="https://wpvip.com/" target="_blank">WordPress VIP</a> featured it in their Partner Pulse agency network newsletter.</em>
+</div>
 
-## Something creative:
-- [Why don’t rtCampers have dark circles?](https://rtcamp.com/blog/why-dont-rtcampers-have-dark-circles/) 
-- [A shoal of marine employees](https://www.instagram.com/p/CLJz2zuK7VY/?igsh=MTQ3N2Q0eGRweWI3Mw==)
+<hr>
 
-## Social Media:
-- [Example LinkedIn post](https://www.linkedin.com/posts/rtcamp_googleio-activity-7195778892698173442-208p?utm_source=share&utm_medium=member_desktop)
+<h2 style="text-align: center">
+<img src="/images/work-images/rtcamp-logo.png" alt="rtCamp" width=100px class="no-lightense" width=100px>
+</h2>
+
+<h4 style="text-align: center">Creative Communication</h4>
+
+Newsletters, social media and PR with **creative** spins.
+
+<div class="gallery-box">
+  <div class="gallery">
+    <a href="https://rtcamp.com/blog/monthly-roundup-may-2024/" title="Newsletter issue"><img src="/images/work-images/newsletter-may-2024.jpeg"></a>
+    <a href="https://rtcamp.com/blog/why-dont-rtcampers-have-dark-circles/" title="Why don't rtCampers have dark circles?"><img src="/images/work-images/dark-circles.jpeg"></a>
+    <a href="https://www.instagram.com/p/CLJz2zuK7VY/" title="A shoal of marine rtCampers"><img src="/images/work-images/a-shoal-of-rtcampers.jpeg"></a>
+    <a href="https://www.linkedin.com/posts/rtcamp_googleio-activity-7195778892698173442-208p" title="Sample LinkedIn post"><img src="/images/work-images/google-io-linkedin.jpeg"></a>
+    <a href="https://rtcamp.com/blog/google-io-2024-recap/" title="Google I/O recap"><img src="/images/work-images/google-io-recap.jpeg"></a>
+    <a href="https://rtcamp.com/blog/celebrating-21-years-of-wordpress-with-contributors-week/" title="Celebrating 21 years of WordPress with a Contributors' Week"><img src="/images/work-images/wordpress-contributors-week.jpeg"></a>
+  </div>
+</div>
 
 <!-- My responsibilities included but were not limited to:
 - collaborating with designers to produce visuals
 - talking to project managers, developers, the delivery team and the SEO folks as needed to produce pieces --> 
 
-## Affiliate marketing:
+<hr>
 
-Before rtCamp, I wrote affiliate buying guides as a freelance content writer. Here are two of my favorites from [The Drive](https://www.thedrive.com/)-
+<h2 style="text-align: center">
+<img src="/images/work-images/the-drive-logo.png" alt="The Drive" width=200px class="no-lightense">
+</h2>
 
-- [Best Dirt Bike Oils: Keep Your Bike’s Engine Trouble-Free](https://web.archive.org/web/20240114163943/https://www.thedrive.com/reviews/31411/best-dirt-bike-oil)
-- [Best Cell Phone Boosters for RVs: Stay Connected off the Grid](https://web.archive.org/web/20240522174741/https://www.thedrive.com/reviews/30344/best-cell-phone-boosters-rvs)
+<h4 style="text-align: center">Content Writing (B2C)</h4>
 
-(*Note: Since the articles are no longer live, I've updated the links to snapshots taken with [The Wayback Machine](https://web.archive.org/), a tool that saves webpages.*)
+Affiliate product buying guides.
 
-## Get to know me
-- I hail from [Satara](https://en.wikipedia.org/wiki/Satara_(city)), a small town in the state of Maharashtra in India.
-- I am currently based in [Pune](https://en.wikipedia.org/wiki/Pune), India.
-- I am more a [reader than a listener](https://arc.net/l/quote/wfvkkjhz).
-- I am looking to work with [fully distributed companies](https://blog.dropbox.com/topics/work-culture/the-crucial-difference-between-remote-work-and-distributed-work) with an async, minimal-meetings-maximal-deep-work culture.
+<div class="gallery-box">
+  <div class="gallery">
+    <a href="https://web.archive.org/web/20230609051635/https://www.thedrive.com/reviews/30515/best-ski-racks" title="Best Ski Racks: Safely Transport Your Winter Sports Gear"><img src="/images/work-images/the-drive-best-ski-racks.jpeg"></a>
+    <a href="https://web.archive.org/web/20240114163943/https://www.thedrive.com/reviews/31411/best-dirt-bike-oil" title="Best Dirt Bike Oils: Keep Your Bike’s Engine Trouble-Free"><img src="/images/work-images/the-drive-best-motorcycle-oils.jpeg"></a>
+    <a href="https://web.archive.org/web/20240819224315/https://www.thedrive.com/reviews/30200/best-sunglass-holder-for-cars" title="Best Sunglasses Holders For Cars: Never Lose Your Glasses Again"><img src="/images/work-images/the-drive-best-sunglass-holders.jpeg"></a>
+    <a href="https://web.archive.org/web/20240302200228/https://www.thedrive.com/reviews/30344/best-cell-phone-boosters-rvs" title="Best Cell Phone Boosters for RVs: Stay Connected off the Grid"><img src="/images/work-images/the-drive-best-cell-phone-boosters.jpeg"></a>
+  </div>
+</div>
 
-If this sounds like a match, please send me a message at **ab (at) ashutoshbhosale.com**, I would love to work with you! 🚀
+More writing samples available on request.
+
+<hr>
+
+## Like what you see?
+
+Swell. If you are a [fully distributed company](https://blog.dropbox.com/topics/work-culture/the-crucial-difference-between-remote-work-and-distributed-work) with a minimal-meetings-maximal-deep-work culture, I would love to work with you! Send me an email at **ab (at) ashutoshbhosale.com** 🚀 
+</div>

@@ -1,22 +1,37 @@
 ---
 layout: page
-title: Hi, I'm Ashutosh 👋
+title: Hello, stranger 👋
 permalink: /about/
-image: '/images/andaman-me-testing-website.jpg'
+image: '/images/kid-ashu-landscape.jpg'
 ---
+Childhood photos are natural icebreakers, aren't they?
 
-Let me break the ice by talking about my hobbies. I like strength training, running, photography, reading fiction, tinkering with technology (this website is a result of that), swimming, dressing well, motorcycles, fast cars, and of course, writing. Honestly, I like waaaaay too many things. 
+Oh wait, there's some left. Let me just...
 
-In my free time, I day-dream about becoming a successful creator and do **[B2B writing 🖊️](https://ashutoshbhosale.com/work/)** for work. I believe work is something you do in your free time to practice your intellect and curiosity; it's something to have fun with after you live your life, not the other way around. 
+🔨 🔨 🔨 🧊 🧊 🧊
 
-**How did I get into writing?** Well, it's a long story, but here's a tl;dr version-
+(\*Steps back and looks at his handiwork.\*)
 
-Three years into my engineering degree, I had had enough. So I dropped out to pursue my life-long dream of becoming a writer. I didn't end up writing any New York Times bestsellers, but I did pretty okay as a content writer. Two years into that, I realized I'm no Bill Gates, so I went back to college to get that piece of paper. 
+There. Much better.
 
-Now I work as a freelance B2B Writer. Email me if you're looking for one, or even if you aren't, say hi at ***ab (at) ashutoshbhosale (dot) com***! I'd love to have a conversation with you.
+Now, why don't we start by talking about our hobbies? I like strength training, running, photography, reading fiction, tinkering with technology (this website is a result of that), swimming, dressing well, motorcycles, fast cars, TV shows, and of course, writing.
+
+("Damn, you like waaaaay too many things, buddy." "Yeah, I know.")
+
+What about you? What are your hobbies? (email me)
+
+In my free time, I do [B2B writing](/work/) for work. I believe work is something you do in your free time to practice your intellect and curiosity; after you keep fit and have fun with your life. Not the other way around.
+
+(*There isn't a single day that goes by when I don't fear being cancelled for saying what I just said, but it's important, someone needs to say it, so there, I said it.*)
+
+**How did I get into writing?** Well, it's a long story, but the tl;dr version is this-
+
+Three years into my engineering degree, I had had enough. So I dropped out to pursue my life-long dream of becoming a writer. I didn't end up writing any New York Times bestsellers, but I did pretty okay as a content writer. Two years into that, I realized I'm no Bill Gates, so I went back to college to get that piece of paper. I have it now, and it's still a piece of paper.
+
+Anyway, I now work as a Creative Copywriter for B2B businesses (freelance/contract). Email me if you're looking for one. Or even if you aren't, simply say say hi at ***ab (at) ashutoshbhosale (dot) com***. I love having conversations. You could start with your [favorite TV shows](/tv-list/).
 
 ## About this website
 
 This website is a constantly-evolving art project, a place of solace for my mind, an avenue for self-promotion. It's my home on the internet that keeps going through multiple servers, CMSes and designs as I keep experimenting.
 
-It is currently hosted on [GitHub Pages](https://pages.github.com/) and runs on [Jekyll](https://jekyllrb.com/), a static site generator. I'm finding GitHub pages extremely cost-effective (it's free! lol), plus I get to play coder / hacker and build my web dev skills. It's not as easy as WordPress, but overall it's a win situation.
+It is currently hosted on [GitHub Pages](https://pages.github.com/) and runs on [Jekyll](https://jekyllrb.com/), a static site generator.

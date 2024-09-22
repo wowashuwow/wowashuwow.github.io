@@ -10,20 +10,18 @@ description: Ashutosh Bhosale is a B2B content writer, fitness enthusiast, and p
 # Menu Settings
 menu__settings:
   menu__items:
-    - title: 'Home'
-      url: '/'
-    - title: 'Blog'
-      url: '/blog/'
-    - title: 'About'
-      url: '/about/'
     - title: 'Work'
       url: '/work/'
+    - title: 'About Me'
+      url: '/about/'
+    - title: 'Personal Blog'
+      url: '/blog/'
 
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hello and welcome!
-  hero__description: This is my home on the internet where I showcase my photography and talk about tech, fitness and personal development, among other things that matter.<br>👉 <a href="https://ashutoshbhosale.com/about/">Who am I?</a>
+  hero__title: Hi, I'm Ashutosh. I'm a Creative Copywriter.
+  hero__description: I help B2B SaaS companies grow through quality content, communication, and UX.<br>Check out <a href="https://ashutoshbhosale.com/work/">my work</a>, get to <a href="https://ashutoshbhosale.com/about/">know me</a>, or scroll to see my artistic side.
 
 
 #-------------------------------
