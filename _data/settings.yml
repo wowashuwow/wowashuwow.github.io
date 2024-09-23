@@ -21,7 +21,7 @@ menu__settings:
 # Hero Settings
 hero:
   hero__title: Hi, I'm Ashutosh. I'm a Creative Copywriter.
-  hero__description: I help B2B SaaS companies grow through quality content, communication, and UX.<br>Check out <a href="https://ashutoshbhosale.com/work/">my work</a>, get to <a href="https://ashutoshbhosale.com/about/">know me</a>, or scroll to see my artistic side.
+  hero__description: I help B2B SaaS companies up their <b>content</b>, <b>communication</b>, and <b>UX</b> game.<br>Check out <a href="https://ashutoshbhosale.com/work/">my work</a>, get to <a href="https://ashutoshbhosale.com/about/">know me</a>, or scroll to see my artistic side.
 
 
 #-------------------------------

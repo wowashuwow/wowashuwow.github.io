@@ -12,7 +12,7 @@ Oh wait, there's some left. Let me just...
 
 (\*Steps back and looks at his handiwork.\*)
 
-There. Much better.
+There. Much better. No ice.
 
 Now, if you want the short version,
 
