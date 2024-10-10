@@ -140,5 +140,5 @@ More writing samples available on request.
 
 ## Like what you see?
 
-Swell. If you are a [fully distributed company](https://blog.dropbox.com/topics/work-culture/the-crucial-difference-between-remote-work-and-distributed-work) with a minimal-meetings-maximal-deep-work culture, I would love to work with you! Send me an email at **ab (at) ashutoshbhosale.com** 🚀 
+Swell. If you are a [fully distributed company](https://blog.dropbox.com/topics/work-culture/the-crucial-difference-between-remote-work-and-distributed-work) with a minimal-meetings-maximal-deep-work culture, I would love to work with you! Send me an email at **ab@ashutoshbhosale.com** 🚀 
 </div>

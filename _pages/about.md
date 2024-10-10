@@ -16,9 +16,9 @@ There. Much better. No ice.
 
 Now, if you want the short version,
 
-I'm a **Creative Copywriter** helping **B2B SaaS** businesses (products AND agencies) grow with the help of high quality **content, communication, and UX writing**. My copy is designed not just for CRO, but for your customers and partners to have a **better brand experience** with your company. 
+I'm a **Creative Copywriter** helping **B2B SaaS** businesses (products AND agencies) grow with the help of high quality **Technical Content Writing, Communications Writing, and UX writing**. My copy is designed not just for CRO, but for your customers and partners to have a **better brand experience** with your company. 
 
-If you like [my work](/work/) and would like to hire me, send me an email at **ab (at) ashutoshbhosale (dot) com**, and let's make good writing contribute directly to your bottom line 💪
+If you like [my work](/work/) and would like to hire me, send me an email at **ab@ashutoshbhosale.com**, and let's make good writing contribute directly to your bottom line 💪
 
 But you say you have an above-average attention span in this twenty-first century? I laud you. I also tell you you're in luck, because we're in the long version now, and in the long version, we have a conversation.
 
