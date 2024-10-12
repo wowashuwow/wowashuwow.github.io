@@ -36,7 +36,7 @@ permalink: /work/
 <img src="/images/work-images/rtcamp-logo.png" alt="rtCamp" width=100px class="no-lightense" width=100px>
 </h2>
 
-<h3 style="text-align: center">Content Marketing</h3>
+<h3 style="text-align: center">Technical Content Writing</h3>
 
 <b>Narrative-driven</b> case studies and <b>SEO-optimized</b> techical blog posts.
 
@@ -68,7 +68,7 @@ permalink: /work/
 <img src="/images/work-images/rtcamp-logo.png" alt="rtCamp" width=100px class="no-lightense" width=100px>
 </h2>
 
-<h3 style="text-align: center">Creative Communication</h3>
+<h3 style="text-align: center">Communications Writing</h3>
 
 Newsletters, social media and PR. Sometimes with **creative** spins.
 
@@ -110,7 +110,7 @@ Newsletters, social media and PR. Sometimes with **creative** spins.
 <img src="/images/work-images/the-drive-logo.png" alt="The Drive" width=200px class="no-lightense">
 </h2>
 
-<h3 style="text-align: center">Content Marketing (B2C)</h3>
+<h3 style="text-align: center">B2C Content Writing</h3>
 
 SEO product buying guides for affiliate marketing.
 
