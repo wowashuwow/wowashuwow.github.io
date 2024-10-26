@@ -38,7 +38,7 @@ permalink: /work/
 
 <h3 style="text-align: center">Technical Content Writing</h3>
 
-<b>Narrative-driven</b> case studies and <b>SEO-optimized</b> techical blog posts.
+<b>Narrative-driven</b> case studies and <b>SEO-optimized</b> technical articles.
 
 [![Case study about Grist](/images/work-images/grist.webp 'Grist') Case study: Grist](https://rtcamp.com/case-studies/grist-managed-wordpress/)
 
@@ -70,7 +70,7 @@ permalink: /work/
 
 <h3 style="text-align: center">Communications Writing</h3>
 
-Newsletters, social media and PR. Sometimes with **creative** spins.
+Newsletters, social media and PR, with **creative** spins.
 
 
 [![Sample newsletter issue](/images/work-images/newsletter-may-2024.jpeg 'Monthly Newsletter May 2024') Newsletter issue](https://rtcamp.com/blog/monthly-roundup-may-2024/)
