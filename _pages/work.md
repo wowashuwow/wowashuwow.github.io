@@ -1,14 +1,15 @@
 ---
 layout: page
-title: Writing Portfolio
+title: Writing Samples
 permalink: /work/
 ---
 <div markdown="1" style="text-align: center">
-<h2 style="text-align: center">
-<img src="/images/work-images/google-logo.png" alt="Google" width=100px class="no-lightense">
-</h2>
 
-<h3 style="text-align: center">UX Writing</h3>
+<h2 style="text-align: center">UX Writing</h2>
+
+<h3 style="text-align: center">
+<img src="/images/work-images/google-logo.png" alt="Google" width=100px class="no-lightense">
+</h3>
 
 <b>Creative + functional</b> titles and descriptions to help users choose templates in <a href="https://wordpress.org/plugins/web-stories/" target="_blank">Web Stories</a>- a WordPress plugin from Google.
 
@@ -32,11 +33,11 @@ permalink: /work/
 -->
 <hr>
 
-<h2 style="text-align: center">
-<img src="/images/work-images/rtcamp-logo.png" alt="rtCamp" width=100px class="no-lightense" width=100px>
-</h2>
+<h2 style="text-align: center">Technical Content Writing</h2>
 
-<h3 style="text-align: center">Technical Content Writing</h3>
+<h3 style="text-align: center">
+<img src="/images/work-images/rtcamp-logo.png" alt="rtCamp" width=100px class="no-lightense" width=100px>
+</h3>
 
 <b>Narrative-driven</b> case studies and <b>SEO-optimized</b> technical articles.
 
@@ -64,13 +65,13 @@ permalink: /work/
 
 <hr>
 
-<h2 style="text-align: center">
+<h2 style="text-align: center">Marcomms Writing</h2>
+
+<h3 style="text-align: center">
 <img src="/images/work-images/rtcamp-logo.png" alt="rtCamp" width=100px class="no-lightense" width=100px>
-</h2>
+</h3>
 
-<h3 style="text-align: center">Communications Writing</h3>
-
-Newsletters, social media and PR, with **creative** spins.
+Newsletters, blog posts, and social media, with **creative** spins.
 
 
 [![Sample newsletter issue](/images/work-images/newsletter-may-2024.jpeg 'Monthly Newsletter May 2024') Newsletter issue](https://rtcamp.com/blog/monthly-roundup-may-2024/)
@@ -106,11 +107,11 @@ Newsletters, social media and PR, with **creative** spins.
 
 <hr>
 
-<h2 style="text-align: center">
-<img src="/images/work-images/the-drive-logo.png" alt="The Drive" width=200px class="no-lightense">
-</h2>
+<h2 style="text-align: center">B2C Content Writing</h2>
 
-<h3 style="text-align: center">B2C Content Writing</h3>
+<h3 style="text-align: center">
+<img src="/images/work-images/the-drive-logo.png" alt="The Drive" width=200px class="no-lightense">
+</h3>
 
 SEO product buying guides for affiliate marketing.
 

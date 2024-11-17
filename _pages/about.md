@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello, stranger 👋
+title: Hello, stranger.
 permalink: /about/
 image: '/images/kid-ashu-landscape.jpg'
 ---
@@ -16,9 +16,9 @@ There. Much better. No ice.
 
 Now, if you want the short version,
 
-I'm a **Creative Copywriter** helping **B2B SaaS** businesses (products AND agencies) grow with the help of high quality **Technical Content Writing, Communications Writing, and UX Writing**. My copy is designed not just for CRO, but for your customers and partners to have a **better brand experience** with your company. 
+I'm a **Creative Freelance Writer** helping **B2B SaaS** businesses (products AND agencies) grow with the help of high quality **Technical Content Writing, Marcomms Writing, and UX Writing**. My copy is designed not just for CRO, but for your customers and partners to have a **high quality brand experience** with your company. 
 
-If you like [my work](/work/) and would like to hire me, send me an email at **ab@ashutoshbhosale.com**, and let's make good writing contribute directly to your bottom line 💪
+If you like [my work](/work/) and would like to hire me, send me a message at **ab@ashutoshbhosale.com** or on [LinkedIn](https://www.linkedin.com/in/ashutoshbhosale/), and let's make good writing contribute directly to your bottom line 💪
 
 But you say you have an above-average attention span in this twenty-first century? I laud you. I also tell you you're in luck, because we're in the long version now, and in the long version, we have a conversation.
 
@@ -28,7 +28,7 @@ Why don't we start by talking about our hobbies? I like strength training, runni
 
 What about you? What are your hobbies? (email me)
 
-In my free time, I do [B2B writing](/work/) for work. I believe work is something you do in your free time to practice your intellect and curiosity; after you keep fit and have fun with your life. Not the other way around.
+In my free time, I do B2B writing for work. I believe work is something you do in your free time to practice your intellect and curiosity; after you keep fit and have fun with your life. Not the other way around.
 
 (*There isn't a single day that goes by when I don't fear being cancelled for saying what I just said, but it's important, someone needs to say it, so there, I said it.*)
 

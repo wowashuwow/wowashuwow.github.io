@@ -1,0 +1,10 @@
+---
+layout: default
+image: '/images/01.jpg'
+---
+
+{% include section-hero.html %}
+
+{% include section-blog.html %}
+
+{% include section-portfolio.html %}

@@ -3,7 +3,7 @@
 title: Ashutosh Bhosale
 logo: # logo format '/images/image.jpg'
 author: Ashutosh Bhosale
-description: Ashutosh Bhosale is a Creative Copywriter for B2B SaaS businesses.
+description: Ashutosh Bhosale is a Creative Freelance Writer for B2B SaaS businesses.
 
 
 #-------------------------------
@@ -12,16 +12,16 @@ menu__settings:
   menu__items:
     - title: 'Work'
       url: '/work/'
-    - title: 'About Me'
-      url: '/about/'
     - title: 'Personal Blog'
       url: '/blog/'
+    - title: 'About me'
+      url: '/about/'
 
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hi, I'm Ashutosh. I'm a Creative Copywriter.
-  hero__description: I help B2B SaaS companies with <b>Technical Content Writing</b>, <b>Communications Writing</b>, and <b>UX Writing</b>. Email me at <b>ab@ashutoshbhosale.com</b> to enquire about available spots.<br><br> This is my professional website as well as personal blog. Check out <a href="https://ashutoshbhosale.com/work/">my work</a>, get to <a href="https://ashutoshbhosale.com/about/">know me</a>, or scroll to see my creative side.
+  hero__title: Like a diamond, good writing is hard—hard to find, hard to forge, and hard to forget.
+  hero__description: And like a diamond, it's irresistible. That's why customers say yes to it.<br><br>I'm a Creative Freelance Writer who has made good writing work for brands like rtCamp and Google.<br><br>I offer three services- <b>Technical Content Writing</b>, <b>Marcomms Writing</b>, and <b>UX Writing</b>. Check out my <a href="https://ashutoshbhosale.com/work/">work</a>, and if you like what you see, send me your project details at <b>ab@ashutoshbhosale.com</b> or on <a href="https://www.linkedin.com/in/ashutoshbhosale/">LinkedIn</a>. Let's make good writing work for you, too!
 
 
 #-------------------------------
@@ -69,7 +69,7 @@ portfolio:
 #-------------------------------
 # Subscribe Settings
 mailchimp:
-  mailchimp__title: Get new posts # Add your Title
+  mailchimp__title: Get new posts by email # Add your Title
   mailchimp__identifier: ashutoshbhosale.us17.list-manage.com/subscribe/post?u=41f63c372113f4aa7b95cdc8d&amp;id=68de2df724&amp;f_id=008ee0e0f0 # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
   mailchimp__button__text: Subscribe # Add your button text.
   mailchimp__bg__color: "#f2eef8" # To change the color of the figure, add a hexadecimal color code (HEX). For example - "#f2eef8" (You can generate any color here - https://htmlcolorcodes.com/).
@@ -78,9 +78,9 @@ mailchimp:
 #-------------------------------
 # Footer Settings
 social:
-- {icon: "ion-logo-twitter", color: "#55acee", label: Twitter, link: "https://twitter.com/wowashuwow"}
-- {icon: "ion-logo-linkedin", color: "#0a66c2", label: LinkedIn, link: "https://www.linkedin.com/in/ashutoshbhosale/"}
-- {icon: "ion-logo-instagram", color: "#e4405f", label: Instagram, link: "/instagram/"}
+# - {icon: "ion-logo-twitter", color: "#55acee", label: Twitter, link: "https://twitter.com/wowashuwow"}
+# - {icon: "ion-logo-linkedin", color: "#0a66c2", label: LinkedIn, link: "https://www.linkedin.com/in/ashutoshbhosale/"}
+#- {icon: "ion-logo-instagram", color: "#e4405f", label: Instagram, link: "/instagram/"}
 # - {icon: "ion-logo-facebook", color: "#3b5999", label: Facebook, link: "https://facebook.com"}
 # - {icon: "ion-logo-pinterest", color: "#bd081c", label: Pinterest, link: "https://pinterest.com"}
 # - {icon: "ion-logo-dribbble", color: "#ea4c89", label: Dribbble, link: "https://dribbble.com"}

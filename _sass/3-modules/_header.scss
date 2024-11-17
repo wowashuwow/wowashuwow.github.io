@@ -22,6 +22,7 @@
   line-height: 1;
   font-weight: 700;
   transition: none;
+  color: var(--heading-font-color);
 
   &:hover {
     color: var(--heading-font-color);
@@ -69,6 +70,7 @@
           display: inline-block;
           padding: 20px 0;
           font-size: 21px;
+          color: var(--heading-font-color);
 
           &:hover {
             &::after {
@@ -175,6 +177,7 @@
       line-height: 1;
       font-weight: 700;
       transition: none;
+      color: var(--heading-font-color);
 
       &.nav__link--current {
         &::after {
@@ -185,7 +188,7 @@
       }
 
       &:hover {
-        color: var(--link-color);
+        color: var(--heading-font-color);
 
         &::after {
           transform: scaleX(1);
@@ -213,7 +216,7 @@
   display: flex;
   align-items: center;
   font-size: 21px;
-  color: var(--link-color);
+  color: var(--text-color);
   cursor: pointer;
 
   .nav__icon {
