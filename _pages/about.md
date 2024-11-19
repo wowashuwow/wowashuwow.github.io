@@ -16,13 +16,13 @@ There. Much better. No ice.
 
 Now, if you want the short version,
 
-I'm a **Creative Freelance Writer** helping **B2B SaaS** businesses (products AND agencies) grow with the help of high quality **Technical Content Writing, Marcomms Writing, and UX Writing**. My copy is designed not just for CRO, but for your customers and partners to have a **high quality brand experience** with your company. 
+I'm a creative freelance writer helping B2B SaaS businesses gain an edge with writing that builds confidence, trust, and a premium brand image. I write for your customers and partners to have a **high quality brand experience** with your business, not just to "optimize the conversion rate." If you have discerning customers, you need this edge to stand out.  
 
-If you like [my work](/work/) and would like to hire me, send me a message at **ab@ashutoshbhosale.com** or on [LinkedIn](https://www.linkedin.com/in/ashutoshbhosale/), and let's make good writing contribute directly to your bottom line 💪
+I work with both agencies and products, mainly in the WordPress and web dev spaces. If you like [my work](/work/) and would like to hire me, send me a message at **ab@ashutoshbhosale.com** or on [LinkedIn](https://www.linkedin.com/in/ashutoshbhosale/).
 
 But you say you have an above-average attention span in this twenty-first century? I laud you. I also tell you you're in luck, because we're in the long version now, and in the long version, we have a conversation.
 
-Why don't we start by talking about our hobbies? I like strength training, running, photography, reading fiction, tinkering with technology (this website is a result of that), swimming, dressing well, motorcycles, fast cars, TV shows, and of course, writing.
+Why don't we start by talking about our hobbies? I like strength training, running, [photography](https://photos.ashutoshbhosale.com/), reading fiction, tinkering with technology (this website is a result of that), swimming, dressing well, motorcycles, fast cars, TV shows, and of course, writing.
 
 ("Damn, you like waaaaay too many things, buddy." "Yeah, I know.")
 
