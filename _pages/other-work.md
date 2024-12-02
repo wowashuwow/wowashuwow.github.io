@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Samples from my B2C days
+title: Relics from the past
 permalink: /other-work/
 ---
 <div markdown="1" style="text-align: center">
