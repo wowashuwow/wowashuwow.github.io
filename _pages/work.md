@@ -59,5 +59,5 @@ More samples available on request.
 
 ## Like what you see?
 
-Swell. [Hire me to write for you](/other-work/).
+Swell. [Hire me to write for you](/contact/).
 </div>
