@@ -11,30 +11,30 @@ tags: [Guides]
 
 <p class="has-large-font-size">If you want to build your own website or start your own blog but don't know where to begin, you have come to the right place. In this post I will show you how you can build a website that looks exactly like mine. It's quite simple, really. We will be building your website on WordPress.com.</p>
 
-<h2 class="wp-block-heading has-text-align-left"><strong>Step 1</strong></h2>
+<h2>Step 1</h2>
 
 <p class="has-large-font-size">Go to <a href="https://wordpress.com/new/">WordPress.com/new/</a> and enter a name for your website. If you can't think of a name, just enter the first thing that comes to your mind for now. You can always change it later.</p>
 <figure class="wp-block-media-text__media"><img src="/images/Screen-Shot-2022-01-05-at-10.54.14-PM-2048x1355.png" alt="" class="wp-image-3667 size-full"/></figure>
 
 
-<h2 class="wp-block-heading">Step 2</h2>
+<h2>Step 2</h2>
 
 <p class="has-large-font-size">Select one of the available themes and pick a font pairing on the following screen. There's only a limited number of themes available here, but don't worry. This is only temporary. We will change our theme later on, choosing from a <a href="https://wordpress.com/themes">bigger collection of free themes</a>.</p>
 
 <ul><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img alt="" class="wp-block-jetpack-slideshow_image wp-image-3668" data-id="3668" src="/images/Screen-Shot-2022-01-05-at-10.56.12-PM.png"></figure></li><li class="wp-block-jetpack-slideshow_slide swiper-slide"><figure><img alt="" class="wp-block-jetpack-slideshow_image wp-image-3686" data-id="3686" src="/images/Screen-Shot-2022-01-07-at-1.04.04-PM.png"></figure></li></ul>
 
-<h2 class="wp-block-heading"><strong>Step 3</strong></h2>
+<h2>Step 3</h2>
 
 <p class="has-large-font-size">You can "buy"<sup><a href="#note-1">1</a></sup> your domain name here, or you can buy it somewhere else and connect it to your WordPress website later. WordPress.com offers you a domain name for free for the first year which is great, but domains are usually cheaper at other registrars.<em><sup><a href="#note-2">2</a></sup></em></p>
 <figure class="wp-block-media-text__media"><img src="/images/Screen-Shot-2022-01-05-at-11.07.03-PM-2048x1355.png" alt="" class="wp-image-3669 size-full"/></figure>
 
-<h2 class="wp-block-heading has-text-align-left"><strong>Step 4</strong></h2>
+<h2>Step 4</h2>
 
 <p class="has-large-font-size">Skip this part for now, we can do every single thing mentioned here later.</p>
 
 <figure class="wp-block-media-text__media"><img src="/images/Screen-Shot-2022-01-05-at-11.28.37-PM-2048x1355.png" alt="" class="wp-image-3670 size-full"/></figure>
 
-<h2 class="wp-block-heading"><strong>Step 5</strong></h2>
+<h2>Step 5</h2>
 
 <p class="has-large-font-size">Ah, yes, choosing a plan. I recommend the Business plan, paid yearly, as it offers the best value. You get the ability to install third-party plugins and themes, plus you get automated site backups. In fact, I recommend getting the Business plan for the backups alone.</p>
 
@@ -49,7 +49,7 @@ tags: [Guides]
 <p style="font-size:16px">*If you noticed, Mark's website (mbreznik.home.blog) has the main domain "home.blog". home.blog is a part of <a href="https://home.blog/about/">Project A3</a>. If you don't like (dot)wordpress(dot)com, you can create a (dot)home(dot)blog website from the <a href="https://home.blog/">home.blog project page</a>.</p>
 
 
-<h2 class="wp-block-heading"><strong>Step </strong>6</h2>
+<h2>Step 6</h2>
 
 
 <p class="has-large-font-size">Create an account. Your website is ready! Change the theme to <a href="https://spearheaddemo.wordpress.com/">Spearhead</a> (it's free), and enable comments in Jetpack -&gt; Settings -&gt; Discussion. Now go write and create!</p>
@@ -58,7 +58,7 @@ tags: [Guides]
 
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Notes 📝</h2>
+<h2>Notes 📝</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -78,7 +78,7 @@ tags: [Guides]
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Super awesome tools and resources 🧰</h2>
+<h2>Super awesome tools and resources 🧰</h2>
 <!-- /wp:heading -->
 
 <!-- wp:list -->
@@ -136,7 +136,7 @@ tags: [Guides]
 <!-- /wp:list -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading">Tips 💡</h2>
+<h2>Tips 💡</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -148,7 +148,7 @@ tags: [Guides]
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2 class="wp-block-heading"><strong>Why WordPress?</strong></h2>
+<h2>Why WordPress?</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->

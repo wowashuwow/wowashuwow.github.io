@@ -3,15 +3,19 @@
 title: Ashutosh Bhosale
 logo: # logo format '/images/image.jpg'
 author: Ashutosh Bhosale
-description: Ashutosh Bhosale is a Creative Freelance Writer for B2B SaaS businesses.
+description: Ashutosh Bhosale is a case study specialist for WordPress and web agencies.
 
 
 #-------------------------------
 # Menu Settings
 menu__settings:
   menu__items:
-    - title: 'Work'
+    - title: 'Portfolio'
       url: '/work/'
+    - title: 'Services'
+      url: '/services/'
+    - title: 'Contact'
+      url: '/contact/'
     - title: 'Personal Blog'
       url: '/blog/'
     - title: 'About me'
@@ -20,8 +24,12 @@ menu__settings:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Good writing is like diamonds—hard to find, hard to forge, and hard to forget.
-  hero__description: And just like diamonds, it's irresistible. That's why customers say yes to it.<br><br>I'm a creative freelance writer who has made good writing work for brands like rtCamp and Google.<br><br>I offer three services- <b>Technical Content Writing</b>, <b>Marcomms Writing</b>, and <b>UX Writing</b>. Check out <a href="https://ashutoshbhosale.com/work/">my work</a>, and if you like what you see, message me with your project details at <b>ab@ashutoshbhosale.com</b> or on <a href="https://www.linkedin.com/in/ashutoshbhosale/">LinkedIn</a>.<br><br>Let's make good writing work for your business, too.
+  hero__title: Good case studies get leads and close deals.
+  hero__description: They're like having those slick, charismatic all-rounders who can do both sales and marketing—except case studies are always at your disposal. 24x7.<br><br>I'm a case study specialist helping web agencies win more projects through business stories that target ICPs relate to. Check out <a href="https://ashutoshbhosale.com/work/">my portfolio</a>, and if you like what you see, <a href="https://ashutoshbhosale.com/contact/">send me a message</a>.<br><br>It's time to tell your clients' success stories, so you can start writing yours.
+
+# I'm a case study specialist helping web agencies uncover and convey the true value of their work to their target ICPs
+# I'm a case study specialist who helps web dev agencies uncover and convey the true value of their work and land new projects. 
+# Good case studies are like having charismatic all-rounders who both get leads and close deals, except they're always available at your disposal. I create these all-rounders for WordPress and web dev agencies like yours. Check out <a href="https://ashutoshbhosale.com/work/">my portfolio</a>, and if you like what you see, fill out the contact form.<br><br>Let's make case studies land new projects for your agency, too. through client success stories that convince
 
 
 #-------------------------------
@@ -94,8 +102,8 @@ social:
 #-------------------------------
 # Contact Settings
 contact:
-  email: your@email.com # Add your email for contact form
-  description: Clancy comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form.
+  email: ab@ashutoshbhosale.com # Add your email for contact form
+  description: Fill in the form and I'll get back to you within one business day to schedule a discovery call. Make sure the essay is properly formatted, double-spaced, no indents. Just kidding, a few key details should do it.
 
 # NOTE
 # Clancy comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
