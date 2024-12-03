@@ -12,14 +12,14 @@ menu__settings:
   menu__items:
     - title: 'Portfolio'
       url: '/work/'
-    - title: 'Services'
-      url: '/services/'
+    - title: 'Packages'
+      url: '/packages/'
     - title: 'Contact'
       url: '/contact/'
+    - title: 'About'
+      url: '/about/'
     - title: 'Personal Blog'
       url: '/blog/'
-    - title: 'About me'
-      url: '/about/'
 
 #-------------------------------
 # Hero Settings
@@ -103,7 +103,7 @@ social:
 # Contact Settings
 contact:
   email: ab@ashutoshbhosale.com # Add your email for contact form
-  description: Fill in the form and I'll get back to you within one business day to schedule a discovery call. No stress, a few key details should do it.
+  description: Fill in the form and I'll get back to you within one business day to schedule a discovery call. No stress, just jot down a few key details.
 
 # NOTE
 # Clancy comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.

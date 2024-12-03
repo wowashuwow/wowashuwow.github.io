@@ -16,29 +16,29 @@ There. Much better. No ice.
 
 Now, if you want the short version,
 
-I'm a case study junkie. There's something incredibly satisfying to me about digging up hidden narratives behind seemingly cookie-cutter projects, crafting great business stories, and showcasing them for the world.
+I'm a case study junkie. There's something incredibly satisfying to me about digging up hidden narratives behind seemingly cookie-cutter projects, crafting great business stories, and show casing them for the world.
 
-But what I'm really trying to do is help web agencies serve delight. Writing that's technically accurate will build confidence in capability. Writing that's human will develop trust. Writing that's sprinkled with clever little nuggets to make readers feel like you're directly speaking to them will connect. But writing that does all three will delight. And that's the stuff that turns agencies into brands—delight. 
+But what I'm really doing is helping web agencies serve delight. Writing that's technically accurate will build confidence in capability. Writing that's human will develop trust. Writing that's sprinkled with clever little nuggets to make the reader feel like you're directly speaking to them will connect. But writing that does all three will delight. And delight's the stuff that turns an agency into a brand. 
 
-I'm a sucker for [writing that delights](/work/).
+[Writing that delights](/work/) won't turn your agency into a brand on its own, but it's one of the missing pieces that can complete the *Premium Brand Experience* jigsaw puzzle you've been trying to put together. 
 
-Oh, but you say you have an above-average attention span in this twenty-first century? I laud you. I also tell you you're in luck, because we're in the long version now, and in the long version, we have a conversation.
+Oh, you want the long version? You say you have an above-average attention span in this twenty-first century? I laud you. I also tell you you're in luck, because in the long version, we're having a conversation.
 
 Why don't we start by talking about our hobbies? I like strength training, running, [photography](https://photos.ashutoshbhosale.com/), reading fiction, tinkering with technology (this website is a result of that), swimming, dressing well, motorcycles, fast cars, TV shows, and of course, writing.
 
 ("Damn, you like waaaaay too many things, buddy." "Yeah, I know.")
 
-What about you? What are your hobbies? (email me)
+What about you? What are your hobbies? (email me! It's ab (at) ashutoshbhosale (dot) com)
 
 In my free time, I craft case studies for work. I believe work is something you do in your free time to practice your intellect and curiosity; after you keep fit and have fun with your life. Not the other way around.
 
 (*There isn't a single day that goes by when I don't fear being cancelled for saying what I just said, but it's important, someone needs to say it, so there, I said it.*)
 
-**How did I get into writing?** Well, it's a long story, but this is the tl;dr version-
+**How did I end up here?** Well, it's a long story, but this is the tl;dr version-
 
-Three years into my engineering degree, I was frustrated. I had a good analytical mind, but I had always loved creativity more. So I dropped out to pursue my life-long dream of becoming a writer. I didn't end up writing any New York Times bestsellers, but I did pretty okay (money-wise), first as a freelance content writer mostly writing affiliate buying guides, and later as a full-time marketing writer at an enterprise WordPress agency. Two years into my writing journey, I realized I'm not Bill Gates and a degree can be quite handy after all, so I went back to college to get the piece of paper. I have it now, and it's still a piece of paper.
+Three years into my engineering degree, I was frustrated. I had a good analytical mind, but I had always loved creativity more. So I dropped out to pursue my life-long dream of becoming a writer. I didn't end up writing any New York Times bestsellers, but I did pretty okay (money-wise), first as a freelance content writer mostly writing affiliate buying guides, and later as a full-time marketing writer at an enterprise WordPress agency. Two years into my writing journey, I realized I'm not Bill Gates and a degree can be quite handy. So I went back to college to get the piece of paper. I have it now, and it's still a piece of paper.
 
-Anyway, now I work as a case study specialist for web agencies on freelance and contract bases. (Yep, one basis, multiple bases. English can sound... suboptimal at times.)
+Anyway, my favorite part out of my agency experience was creating case studies. So I now work as a case study specialist for web agencies on freelance and contract bases. (Yep, one basis, multiple bases. English can sound... suboptimal at times.)
 
 But enough about me! What are you waiting for? Holler a hi at me on my email! Let's have an actual conversation. You could start by telling me about your [favorite TV shows](/tv-list/).
 

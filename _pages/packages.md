@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Choose from 3 packages
-permalink: /services/
+permalink: /packages/
 ---
 
 <section class="services-container">
