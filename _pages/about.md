@@ -16,11 +16,11 @@ There. Much better. No ice.
 
 Now, if you want the short version,
 
-I'm a case study junkie. There's something incredibly satisfying to me about digging up hidden narratives behind seemingly cookie-cutter projects, crafting great business stories, and show casing them for the world.
+I'm a case study junkie. There's something incredibly satisfying to me about digging up hidden narratives behind seemingly cookie-cutter projects, crafting great business stories, and show-casing them for the world.
 
 But what I'm really doing is helping web agencies serve delight. Writing that's technically accurate will build confidence in capability. Writing that's human will develop trust. Writing that's sprinkled with clever little nuggets to make the reader feel like you're directly speaking to them will connect. But writing that does all three will delight. And delight's the stuff that turns an agency into a brand. 
 
-[Writing that delights](/work/) won't turn your agency into a brand on its own, but it's one of the missing pieces that can complete the *Premium Brand Experience* jigsaw puzzle you've been trying to put together. 
+I'm a sucker for [writing that delights](/work/). It won't turn your agency into a brand on its own, but it's one of the missing pieces that can complete the *Premium Brand Experience* jigsaw puzzle you've been trying to put together. 
 
 Oh, you want the long version? You say you have an above-average attention span in this twenty-first century? I laud you. I also tell you you're in luck, because in the long version, we're having a conversation.
 
