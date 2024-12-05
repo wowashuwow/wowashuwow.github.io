@@ -50,7 +50,7 @@ Creative and functional UX copy to help users choose templates in <a href="https
 
 ![UX writing for Google sample #4](/images/work-images/google-ux-writing-4.jpeg "UX writing for Google sample #4")
 
-Note: UX writing is currently unavailable. [See available packages](/services/).
+Note: UX writing is currently unavailable. [See available packages](/packages/).
 
 <hr>
 
