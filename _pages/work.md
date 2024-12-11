@@ -7,16 +7,16 @@ permalink: /work/
 
 ## Case Studies
 
-[![Cover image for Grist case study](/images/work-images/grist.webp 'Grist')](https://rtcamp.com/case-studies/grist-managed-wordpress/)*How partnering with a reliable web dev agency is helping this publisher bring creative ideas to life and win journalism awards.*
+[![Cover image for Grist case study](/images/work-images/grist.webp 'Grist')](https://rtcamp.com/case-studies/grist-managed-wordpress/)*How partnering with a reliable web dev agency helped a publisher bring creative ideas to life and win journalism awards.*
 
 
 [![Cover image for Manheim case study](/images/work-images/manheim.webp 'Manheim')](https://rtcamp.com/case-studies/aem-to-wordpress-migration-for-manheim/)*How an auto auctions giant eliminated their marketing team's dependency on developers and maximized ROI by migrating to a better-suited CMS.*
 
 
-[![Cover image for Everyday Carry case study](/images/work-images/everyday-carry.webp 'Everyday Carry')](https://rtcamp.com/case-studies/custom-cms-to-wordpress-migration-for-everyday-carry/)*How this lifestyle publication is able to work faster and pain-free after ditching their custom CMS for a CMS made for publishing.*
+[![Cover image for Everyday Carry case study](/images/work-images/everyday-carry.webp 'Everyday Carry')](https://rtcamp.com/case-studies/custom-cms-to-wordpress-migration-for-everyday-carry/)*How a lifestyle publication works faster and pain-free after ditching their custom CMS for a modern, publishing-friendly CMS.*
 
 
-[![Cover image for Dealertrack case study](/images/work-images/dealertrack.webp 'Manheim')](https://rtcamp.com/case-studies/dealertrack-aem-wordpress-migration/)*How an industry leader in dealership software is publishing landing pages 50% faster with a website migration to WordPress.*
+[![Cover image for Dealertrack case study](/images/work-images/dealertrack.webp 'Manheim')](https://rtcamp.com/case-studies/dealertrack-aem-wordpress-migration/)*How an industry leader in dealership software publishes marketing content 50% faster with a website migration to WordPress.*
 
 <hr> 
 
@@ -32,9 +32,9 @@ permalink: /work/
 
 ## Communications Content
 
-[![Sample newsletter issue](/images/work-images/newsletter-may-2024.jpeg 'Monthly Newsletter May 2024')](https://rtcamp.com/blog/monthly-roundup-may-2024/)*Informative newsletter with creative problem-solving: Too many updates this month, how do we announce them without sounding self-absorbed?*
+[![Sample newsletter issue](/images/work-images/newsletter-may-2024.jpeg 'Monthly Newsletter May 2024')](https://rtcamp.com/blog/monthly-roundup-may-2024/)*Informative newsletter with a bit of creative problem-solving: Announcing a bunch of marketing-related updates without sounding self-absorbed*
 
-[![Sample Creative Communication blog post](/images/work-images/dark-circles.jpeg 'Why don't rtCampers have dark circles?')](https://rtcamp.com/blog/why-dont-rtcampers-have-dark-circles/)*Why don't we have dark circles?: How to share your awesome "employee well-being policy" without making it sound like that*
+[![Sample Creative Communication blog post](/images/work-images/dark-circles.jpeg 'Why don't rtCampers have dark circles?')](https://rtcamp.com/blog/why-dont-rtcampers-have-dark-circles/)*Creative blog post to showcase "employee well-being policy" without making it sound like that: Why don't our employees have dark circles?*
 
 <hr>
 
