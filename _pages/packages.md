@@ -27,8 +27,8 @@ permalink: /packages/
 
     <h3 class="service-subheading">What makes it good</h3>
     <ul class="services-features">
-      <li>Fully managed step-by-step process</li>
-      <li>Minimal interruption to your day-to-day</li>
+      <li>Fully managed case study project</li>
+      <li>Negligible interruptions to ongoing operations</li>
       <li>Tailored to attract your target ICP</li>
       <li>Expect ROI within weeks</li>
       <li>Repackageable into PDFs, brochures, and more</li>

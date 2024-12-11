@@ -16,15 +16,15 @@ There. Much better. No ice.
 
 ## Now, if you want the short version...
 
-I'm an on-demand case study junkie for web agencies. There's something incredibly satisfying to me about digging up hidden narratives behind seemingly  cookie-cutter projects, crafting great business stories, and successfully wooing the right people.
+I'm an on-demand case study junkie for web design and development agencies. There's something incredibly satisfying to me about digging up hidden narratives behind seemingly cookie-cutter projects, crafting great business stories, and wooing the right people.
 
-But what I'm really doing is helping you serve delight. Writing that's technically accurate will build confidence in your agency's capabilities. Writing that's human will develop trust. Writing that's sprinkled with clever little nuggets to make the reader feel like you're directly speaking to them will connect. But writing that does all three will delight. And that's the stuff that turns an agency into a brand—delight. 
+But what I'm really doing is helping agencies serve delight. Writing that's technically accurate builds confidence in an agency's capabilities. Writing that's human develops trust. Writing that's sprinkled with clever little nuggets to make the reader feel like you're directly speaking to them connects. But writing that does all three delights. And that's the stuff that turns agencies into brands—delight. 
 
-I'm a sucker for [writing that delights](/work/). It won't turn your agency into a brand on its own, but it's one of the missing pieces that can complete that *Premium Brand Experience* jigsaw puzzle you've been trying to put together. 
+I'm a sucker for [writing that delights](/work/). It won't turn an agency into a brand on its own, but it's one of the last missing pieces that fits in and completes the *Premium Brand Experience* jigsaw puzzle that many agencies are trying to put together. 
 
 ## Oh, you want the long version?
 
-You're saying you have an above-average attention span? In *this* twenty-first century? I laud you. I also tell you you're in luck, because in the long version, we're having a conversation.
+You say you have an above-average attention span in *this* twenty-first century? I laud you. I also tell you you're in luck, because in the long version, we have a conversation.
 
 Why don't we start by talking about our hobbies? I like strength training, running, [photography](https://photos.ashutoshbhosale.com/), reading fiction, tinkering with technology (this website is a result of that), swimming, dressing well, motorcycles, fast cars, TV shows, and of course, writing.
 
