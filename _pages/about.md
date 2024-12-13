@@ -18,7 +18,7 @@ There. Much better. No ice.
 
 I'm an on-demand case study junkie for web design and development agencies. There's something incredibly satisfying to me about digging up hidden narratives behind seemingly cookie-cutter projects, crafting great business stories, and wooing the right people.
 
-But what I'm really doing is helping agencies serve delight. Writing that's technically accurate builds confidence in an agency's capabilities. Writing that's human develops trust. Writing that's sprinkled with clever little nuggets to make the reader feel like you're directly speaking to them connects. But writing that does all three delights. And that's the stuff that turns an agency into a brand—delight. 
+But what I really want to do is help agencies get one step closer to becoming brands. Writing that's technically accurate builds confidence in an agency's capabilities. Writing that's human develops trust. Writing that's sprinkled with clever little nuggets to make the reader feel like you're directly speaking to them connects. But writing that does all three delights. And that's the stuff that turns an agency into a brand—delight. 
 
 I'm a sucker for [writing that delights](/work/). It won't turn an agency into a brand on its own, but it's one of the last missing pieces that fits in and completes the *Premium Brand Experience* jigsaw puzzle that many agencies are trying to put together. 
 

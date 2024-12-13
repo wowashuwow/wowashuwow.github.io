@@ -20,7 +20,7 @@ permalink: /work/
 
 <hr> 
 
-## Technical Content
+## Technical Articles
 
 [![Enterprise Search WordPress VIP](/images/work-images/wordpress-vip-enterprise-search.webp 'What is Enterprise Search from WordPress VIP')](https://wpvip.com/glossary/what-is-enterprise-search/)*Technical product explainer: What is Enterprise Search*
 
@@ -32,9 +32,11 @@ permalink: /work/
 
 ## Communications Content
 
-[![Sample newsletter issue](/images/work-images/newsletter-may-2024.jpeg 'Monthly Newsletter May 2024')](https://rtcamp.com/blog/monthly-roundup-may-2024/)*Informative newsletter with a bit of creative problem-solving: Announcing a bunch of marketing-related updates without sounding self-absorbed*
+[![Sample newsletter issue 1](/images/work-images/newsletter-may-2024.jpeg 'Monthly Newsletter May 2024')](https://rtcamp.com/blog/monthly-roundup-may-2024/)*Newsletter issue with creative problem-solving: Showcasing a bunch of recent work without sounding self-absorbed*
 
-[![Sample Creative Communication blog post](/images/work-images/dark-circles.jpeg 'Why don't rtCampers have dark circles?')](https://rtcamp.com/blog/why-dont-rtcampers-have-dark-circles/)*Creative blog post to showcase "employee well-being policy" without making it sound like that: Why don't our employees have dark circles?*
+[![Sample newsletter issue 2](/images/work-images/nov-roundup-image.webp 'Monthly Newsletter November 2020')](https://rtcamp.com/blog/monthly-roundup-november-2020/)*Informative newsletter issue with curated industry news*
+
+[![Sample Creative Communication blog post](/images/work-images/dark-circles.jpeg 'Why don't rtCampers have dark circles?')](https://rtcamp.com/blog/why-dont-rtcampers-have-dark-circles/)*Creative blog post to showcase an "employee well-being policy" without making it sound like that: Why don't our employees have dark circles?*
 
 <hr>
 

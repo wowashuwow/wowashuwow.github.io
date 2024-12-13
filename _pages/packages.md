@@ -16,20 +16,21 @@ permalink: /packages/
 
     <h3 class="service-subheading">What's included</h3>
     <ul class="services-features">
-      <li>One polished long-form case study</li>
-      <li>Async communication + 4 hours of buffer call time every week</li>
-      <li>Creative direction for your design team to produce visuals</li>
+      <li>One polished, done-for-you, long-form case study</li>
+      <li>Async communication with your team + 4 hours of buffer call time every week</li>
+      <li>Clear, step-by-step process</li>
+      <li>Creative direction to your design team to produce visuals</li>
       <li>1 revision before client review</li>
       <li>1 revision after client review</li>
       <li>Guidance to obtain a great client testimonial</li>
-      <li>4 to 6-week timeline</li>
+      <li>2 to 4-week timeline</li>
     </ul>
 
     <h3 class="service-subheading">What makes it good</h3>
     <ul class="services-features">
       <li>Fully managed case study project</li>
-      <li>Negligible interruptions to ongoing operations</li>
-      <li>Tailored to attract your target ICP</li>
+      <li>Minimal interruption to ongoing operations</li>
+      <li>Tailored for your target ICP</li>
       <li>Expect ROI within weeks</li>
       <li>Repackageable into PDFs, brochures, and more</li>
       <li>Fixed cost. No surprises!</li>
@@ -39,7 +40,7 @@ permalink: /packages/
   </div>
 
   <div class="service-box">
-    <h2 class="service-title">Technical Content</h2>
+    <h2 class="service-title">Technical Articles</h2>
     <p class="service-description">Funnel-optimized technical articles for thought leadership, content marketing, and SEO</p>
     
     <div class="service-price">
@@ -63,7 +64,7 @@ permalink: /packages/
   </div>
     
   <div class="service-box">
-    <h2 class="service-title">Communications content</h2>
+    <h2 class="service-title">Communications Content</h2>
     <p class="service-description">Newsletters and blog posts full of character. Give your clients more value, share updates, and attract talent</p>
     
     <div class="service-price">
