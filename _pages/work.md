@@ -30,13 +30,14 @@ permalink: /work/
 
 <hr>
 
-## Communications Content
+## Newsletters
 
 [![Sample newsletter issue 1](/images/work-images/newsletter-may-2024.jpeg 'Monthly Newsletter May 2024')](https://rtcamp.com/blog/monthly-roundup-may-2024/)*Newsletter issue with creative problem-solving: Showcasing a bunch of recent work without sounding self-absorbed*
 
-[![Sample newsletter issue 2](/images/work-images/nov-roundup-image.webp 'Monthly Newsletter November 2020')](https://rtcamp.com/blog/monthly-roundup-november-2020/)*Informative newsletter issue with curated industry news*
+[![Sample newsletter issue 2](/images/work-images/nov-roundup-image.webp 'Monthly Newsletter November 2020')](https://rtcamp.com/blog/monthly-roundup-november-2020/)*Newsletter issue with curated industry news*
 
-[![Sample Creative Communication blog post](/images/work-images/dark-circles.jpeg 'Why don't rtCampers have dark circles?')](https://rtcamp.com/blog/why-dont-rtcampers-have-dark-circles/)*Creative blog post to showcase an "employee well-being policy" without making it sound like that: Why don't our employees have dark circles?*
+<!-- [![Sample Creative Communication blog post](/images/work-images/dark-circles.jpeg 'Why don't rtCampers have dark circles?')](https://rtcamp.com/blog/why-dont-rtcampers-have-dark-circles/)*Creative blog post to showcase an "employee well-being policy" without making it sound like that: Why don't our employees have dark circles?*
+-->
 
 <hr>
 
