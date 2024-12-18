@@ -10,15 +10,15 @@ permalink: /packages/
     <p class="service-description">Narrative-driven business stories that resonate with your ICPs</p>
 
     <div class="service-price">
-      <span class="price-value">$3499</span>
+      <span class="price-value">$2675</span>
       <span class="price-period">per case study</span>
     </div>
 
     <h3 class="service-subheading">What's included</h3>
     <ul class="services-features">
-      <li>One polished, done-for-you, long-form case study</li>
+      <li>One polished, long-form case study</li>
       <li>Async communication with your team + 4 hours of buffer call time every week</li>
-      <li>Clear, step-by-step process</li>
+      <li>Clear, pre-planned, step-by-step process</li>
       <li>Creative direction to your design team to produce visuals</li>
       <li>1 revision before client review</li>
       <li>1 revision after client review</li>
@@ -45,7 +45,7 @@ permalink: /packages/
     
     <div class="service-price">
       <span class="price-period">Starts from</span>
-      <span class="price-value">$899</span>
+      <span class="price-value">$975</span>
       <span class="price-period">per 500-700 word article</span>
     </div>
 
@@ -69,7 +69,7 @@ permalink: /packages/
     
     <div class="service-price">
       <span class="price-period">Starts from</span>
-      <span class="price-value">$699</span>
+      <span class="price-value">$725</span>
       <span class="price-period">per piece</span>
     </div>
     
