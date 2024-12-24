@@ -57,10 +57,7 @@ Note: UX writing is currently unavailable. [See available packages](/packages/).
 
 <hr>
 
-More samples available on request.
-<hr>
-
 ## Like what you see?
 
-Swell. [Hire me](/contact/).
+Swell. [Let's discuss your project](/contact/).
 </div>

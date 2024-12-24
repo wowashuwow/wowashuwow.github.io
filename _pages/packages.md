@@ -7,7 +7,7 @@ permalink: /packages/
 <section class="services-container">
   <div class="service-box">
     <h2 class="service-title">Case Studies</h2>
-    <p class="service-description">Business stories that resonate with your ICPs and win them over</p>
+    <p class="service-description">Business stories that resonate with your ICPs and win new projects</p>
 
     <div class="service-price">
       <span class="price-value">$2675</span>
@@ -41,7 +41,7 @@ permalink: /packages/
 
   <div class="service-box">
     <h2 class="service-title">Technical Articles</h2>
-    <p class="service-description">Goal-optimized technical articles for thought leadership and SEO content marketing</p>
+    <p class="service-description">Agency-unique technical deep-dives for thought leadership and SEO content marketing</p>
     
     <div class="service-price">
       <span class="price-period">Starts from</span>
@@ -53,7 +53,7 @@ permalink: /packages/
     
     <h3 class="service-subheading">What's Included</h3>
     <ul class="services-features">
-      <li>One deeply researched, technically accurate article</li>
+      <li>One in-depth, tailored-insight article</li>
       <li>Async communication with your SME<br>(depending on topic complexity)</li>
       <li>2 revisions</li>
       <li>Delivery within 15 business days</li>
@@ -61,8 +61,9 @@ permalink: /packages/
 
     <h3 class="service-subheading">What makes it good</h3>
     <ul class="services-features">
+      <li>Share your unique perspective</li>
       <li>Position yourself as a thought leader</li>
-      <li>Build confidence by showcasing your expertise</li>
+      <li>Build customer confidence by showcasing your capability</li>
       <li>Drive leads through content marketing funnel</li>
       <li>Fixed cost. No surprises!</li>
     </ul>  
@@ -72,10 +73,9 @@ permalink: /packages/
     
   <div class="service-box">
     <h2 class="service-title">Newsletters</h2>
-    <p class="service-description">Monthly emails that keep clients, partners, employees and potential hires engaged</p>
+    <p class="service-description">Monthly roundups that keep clients, partners, employees and potential hires engaged</p>
     
     <div class="service-price">
-      <span class="price-period">Starts from</span>
       <span class="price-value">$725</span>
       <span class="price-period">per issue</span>
     </div>
