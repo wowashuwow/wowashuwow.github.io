@@ -10,7 +10,7 @@ permalink: /packages/
     <p class="service-description">Business stories that resonate with your ICPs and win new projects</p>
 
     <div class="service-price">
-      <span class="price-value">$2675</span>
+      <span class="price-value">$2725</span>
       <span class="price-period">per case study</span>
     </div>
 
@@ -18,21 +18,22 @@ permalink: /packages/
     <ul class="services-features">
       <li>One polished, long-form, narrative-driven case study</li>
       <li>Async communication with your team + 4 hours of buffer call time every week</li>
-      <li>Clear, pre-planned, step-by-step process</li>
-      <li>Creative direction to your design team to produce visuals</li>
+      <li>Creative direction to your design team to produce visual assets</li>
       <li>1 revision before client review</li>
       <li>1 revision after client review</li>
-      <li>Guidance to obtain a great client testimonial</li>
+      <li>Guidance to obtain a stellar client testimonial</li>
       <li>Delivery within 15-20 business days</li>
     </ul>
 
     <h3 class="service-subheading">What makes it good</h3>
     <ul class="services-features">
+      <li>Tailored for target ICPs</li>
+      <li>Win projects you want to work on</li>
+      <li>From clients you want to work with</li>
       <li>Fully managed case study project</li>
-      <li>Minimal interruption to ongoing operations</li>
-      <li>Generalized, or tailored for a target ICP—you choose</li>
-      <li>ROI within weeks</li>
+      <li>Clear, step-by-step process</li>
       <li>Repackageable into PDFs, brochures, and more</li>
+      <li>Give back time to your marketing team</li>
       <li>Fixed cost. No surprises!</li>
     </ul>  
 
@@ -63,7 +64,7 @@ permalink: /packages/
     <ul class="services-features">
       <li>Share your unique perspective</li>
       <li>Position yourself as a thought leader</li>
-      <li>Build customer confidence by showcasing your capability</li>
+      <li>Build customer confidence in your capabilities</li>
       <li>Drive leads through content marketing funnel</li>
       <li>Fixed cost. No surprises!</li>
     </ul>  
@@ -91,8 +92,8 @@ permalink: /packages/
 
     <h3 class="service-subheading">What makes it good</h3>
     <ul class="services-features">
-      <li>Give more value to your clients</li>
-      <li>Share your recent successes</li>
+      <li>Give your clients more value</li>
+      <li>Show your recent successes</li>
       <li>Attract top talent</li>
       <li>Fixed cost. No surprises!</li>
     </ul> 
