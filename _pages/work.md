@@ -10,7 +10,7 @@ permalink: /work/
 [![Cover image for Grist case study](/images/work-images/grist.webp 'Grist')](https://rtcamp.com/case-studies/grist-managed-wordpress/)*How partnering with a reliable web dev agency helped a publisher bring creative ideas to life and win journalism awards.*
 
 
-[![Cover image for Manheim case study](/images/work-images/manheim.webp 'Manheim')](https://rtcamp.com/case-studies/aem-to-wordpress-migration-for-manheim/)*How an auto auctions giant eliminated their marketing team's dependency on developers and maximized ROI by migrating to a better-suited CMS.*
+[![Cover image for Manheim case study](/images/work-images/manheim.webp 'Manheim')](https://rtcamp.com/case-studies/aem-to-wordpress-migration-for-manheim/)*How an auto auctions giant eliminated their marketing team's developer dependency and maximized ROI by migrating to a better-suited CMS.*
 
 
 [![Cover image for Everyday Carry case study](/images/work-images/everyday-carry.webp 'Everyday Carry')](https://rtcamp.com/case-studies/custom-cms-to-wordpress-migration-for-everyday-carry/)*How a lifestyle publication works faster and pain-free after ditching their custom CMS for a modern, publishing-friendly CMS.*
