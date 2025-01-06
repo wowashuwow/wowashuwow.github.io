@@ -24,11 +24,11 @@ Yellowstone has some of the most thoughtful and quality costume design I've seen
 
 ![Men from Yellowstone talking on the porch](/images/yellowstone-men.webp)*Image courtesy: Vogue.com*
 
-Kevin Costner's jackets, Rip's workwear, Jamie's suits, the Indian dressing. It's all good. I try to find out where I can get some of those clothes. I find a [reddit thread](https://www.reddit.com/r/YellowstonePN/comments/s25clc/yellowstone_clothing_thread/), a few articles [like this one](https://www.countryliving.com/shopping/g40079021/yellowstone-fashion/), and YouTube videos about the [jeans](https://youtu.be/Gb79q1ho-cA?feature=shared) and the [jackets](https://youtu.be/658IXMQ_d1g?feature=shared) of Yellowstone. A few brands stand out - [Schaefer Outfitter](https://schaeferoutfitter.com/), [Filson](https://www.filson.com/), [Sheplers](https://www.sheplers.com/home), [Ariat](https://www.ariat.com/yellowstone-collection), and [Carhartt](https://www.carhartt.com/). Filson's [Yellowstone collection](https://www.filson.com/collections/yellowstone.html) looks pretty. I have my eyes set on a pair of rugged [cowboy boots from Tecovas](https://www.tecovas.com/products/the-cartwright?color=alder-white-cowhide). I love how they look. The stitch pattern, the off-white contrasted against the brown. Loud, sure. But oh so stylish.
+Kevin Costner's jackets, Rip's workwear, Jamie's suits, the Indian dressing. It's all good. I try to find out where I can get some of those clothes. I find a [reddit thread](https://www.reddit.com/r/YellowstonePN/comments/s25clc/yellowstone_clothing_thread/) and a couple YouTube videos about the [jeans](https://youtu.be/Gb79q1ho-cA?feature=shared) and [jackets](https://youtu.be/658IXMQ_d1g?feature=shared) of Yellowstone. A few brands stand out - Schaefer Outfitter, Filson, Sheplers, Ariat, and Carhartt. Filson's [Yellowstone collection](https://www.filson.com/collections/yellowstone.html) looks pretty. I have my eyes set on a pair of rugged [cowboy boots from Tecovas](https://www.tecovas.com/products/the-cartwright?color=alder-white-cowhide). I love how they look. The stitch pattern, the off-white contrasted against the brown. Loud, sure. But oh so stylish.
 
 ![Cowboy boots from Tecovas](/images/tecovas-cowboy-boots.jpg)
 
-Too expensive. Maybe someday. By the way, some of the brands are local, homegrown, legacy businesses that make their products by hand. Support the people you're making the show about. Very cool. 
+Too expensive. Maybe someday. By the way, the show featured a few local, homegrown, legacy businesses too, that make their products by hand. Support the people you're making the show about—very cool. 
 
 <center>*</center>
 
