@@ -10,6 +10,7 @@ permalink: /packages/
     <p class="service-description">Business stories that resonate with your ICPs and win new projects</p>
 
     <div class="service-price">
+      <span class="price-period">Starts from</span>
       <span class="price-value">$2725</span>
       <span class="price-period">per case study</span>
     </div>
@@ -75,6 +76,7 @@ permalink: /packages/
     <p class="service-description">Premium agency updates that deliver value, build relationships, and attract talent</p>
     
     <div class="service-price">
+      <span class="price-period">Starts from</span>
       <span class="price-value">$975</span>
       <span class="price-period">per issue</span>
     </div>
