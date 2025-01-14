@@ -22,19 +22,19 @@ permalink: /packages/
       <li>Creative direction to your design team to produce visual assets</li>
       <li>1 revision before client review</li>
       <li>1 revision after client review</li>
-      <li>Guidance to obtain a stellar client testimonial</li>
+      <li>Guidance to obtain a stellar testimonial</li>
       <li>Delivery within 15-20 business days</li>
     </ul>
 
     <h3 class="service-subheading">What makes it good</h3>
     <ul class="services-features">
-      <li>Win the exact projects you want with ICP-tailored stories</li>
-      <li>Stand out among competitive proposals with quality case studies</li>
+      <li>Stories tailored to resonate with your target ICPs</li>
+      <li>Stand out among competitive proposals</li>
+      <li>Shorten your sales cycle</li>
       <li>Fully managed case study project</li>
-      <li>Repackageable into PDFs, brochures, and more</li>
-      <li>Strengthen your sales team's toolkit</li>
       <li>Give back time to your marketing team</li>
-      <li>Fixed cost. No surprises!</li>
+      <li>Repackageable into PDFs, brochures, and more</li>
+      <li>Fixed price and scope. No surprises!</li>
     </ul>  
 
     <a href="/contact/" class="service-button">Select</a>
@@ -61,11 +61,11 @@ permalink: /packages/
 
     <h3 class="service-subheading">What makes it good</h3>
     <ul class="services-features">
-      <li>Establish your agency as the go-to option for your target projects</li>
       <li>Transform developer expertise into focused marketing assets</li>
+      <li>Establish your agency as the go-to option for your target projects</li>
       <li>Let your technical excellence bring in leads</li>
-      <li>Build deep trust with potential clients</li>
-      <li>Fixed cost. No surprises!</li>
+      <li>Build deep confidence with potential clients</li>
+      <li>Fixed price and scope. No surprises!</li>
     </ul>  
 
     <a href="/contact/" class="service-button">Select</a>
@@ -96,7 +96,7 @@ permalink: /packages/
       <li>Strengthen bonds with clients and partners through meaningful updates</li>
       <li>Showcase success stories to attract similar projects</li>
       <li>Stand out as a premium workplace and attract top talent</li>
-      <li>Fixed cost. No surprises!</li>
+      <li>Fixed price and scope. No surprises!</li>
     </ul> 
 
     <a href="/contact/" class="service-button">Select</a>
