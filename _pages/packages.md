@@ -17,7 +17,7 @@ permalink: /packages/
 
     <h3 class="service-subheading">What's included</h3>
     <ul class="services-features">
-      <li>One polished, long-form, narrative-driven case study</li>
+      <li>One polished, narrative-driven, ICP-tailored case study</li>
       <li>Async communication with your team + 4 hours of buffer call time weekly</li>
       <li>Creative direction to your design team to produce visual assets</li>
       <li>1 revision before client review</li>
@@ -28,11 +28,11 @@ permalink: /packages/
 
     <h3 class="service-subheading">What makes it good</h3>
     <ul class="services-features">
-      <li>Stories tailored to resonate with your target ICPs</li>
+      <li>Win projects you want, from clients you want to work with</li>
       <li>Stand out among competitive proposals</li>
       <li>Shorten your sales cycle</li>
-      <li>Fully managed case study project</li>
-      <li>Give back time to your marketing team</li>
+      <li>Fully managed case study project with clear process</li>
+      <li>Save time, money, and headaches</li>
       <li>Repackageable into PDFs, brochures, and more</li>
       <li>Fixed price and scope. No surprises!</li>
     </ul>  
