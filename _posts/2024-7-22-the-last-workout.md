@@ -5,13 +5,18 @@ image: '/images/the-last-workout-02.jpg'
 description: One final workout in the institute gym
 tags: [Fitness, Friends]
 ---
-*What is the gym? The gym is a temple. It is a place of meditation. It is also a place of power. You are in complete control, limited only by you. It is an unrestricted outlet for power.*
+*What is the gym?*\
+*The gym is a temple.*\
+*It is a place of meditation.*\
+*It is also a place of power.*\
+*You are in complete control, limited only by you.*\
+*It is an unrestricted outlet for power.*
 
 ## Warm up
 
 Everywhere I've been- of all the cities I've lived in, hobbies I have pursued, schools and colleges I have attended, subcultures I have infiltrated; the gym has been this singular venue where I've found the most like minded people- like minded at least in the areas of sheer willpower and grit- than anywhere else. It has given me some of my best friends. 
 
-I had missed my college gym friends and our time together since I wrapped up my coursework and left the institute in March. So when I got the invite for the convocation- this would probably be the last time we'd all be together in one place- I gathered everyone on WhatsApp to plan one last workout. We decided to do a full body session. Squat, bench, deadlift, that's it.
+I had missed my college gym friends and our time together since I wrapped up my coursework and left the institute in March. So when I got the invite for the convocation happening in July- this would probably be the last time we'd all be together in one place- I gathered everyone on WhatsApp to plan one last workout. We decided to do a full body session. Squat, bench, deadlift, that's it.
 
 ## Main set
 
