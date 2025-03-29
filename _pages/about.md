@@ -26,7 +26,7 @@ I'm a sucker for [writing that delights](/work/). It won't turn an agency into a
 
 You say you have an above-average attention span in *this* twenty-first century? I laud you. I also tell you you're in luck, because in the long version, we have a conversation.
 
-Why don't we start by talking about our hobbies? I like strength training, running, [photography](https://photos.ashutoshbhosale.com/), reading fiction, tinkering with technology (this website is a result of that), swimming, dressing well, motorcycles, fast cars, TV shows, and of course, writing.
+Why don't we start by talking about our hobbies? I like strength training, running, [photography](https://photos.wowashuwow.com/), reading fiction, tinkering with technology (this website is a result of that), swimming, dressing well, motorcycles, fast cars, TV shows, and of course, writing.
 
 ("Damn, you like waaaaay too many things, buddy." "Yeah, I know.")
 
