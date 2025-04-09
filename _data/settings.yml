@@ -12,20 +12,20 @@ menu__settings:
   menu__items:
     - title: 'Portfolio'
       url: '/work/'
-    - title: 'Packages'
-      url: '/packages/'
     - title: 'Contact'
       url: '/contact/'
     - title: 'About'
       url: '/about/'
     - title: 'Personal Blog'
       url: '/blog/'
+    - title: 'Photography'
+      url: 'https://photos.wowashuwow.com'
 
 #-------------------------------
 # Hero Settings
 hero:
   hero__title: Good case studies get leads and close deals.
-  hero__description: They're like those slick, charismatic all-rounders who can do both sales and marketing—except case studies are always at your disposal. 24x7.<br><br>I'm a case study specialist helping web dev agencies win more projects through business stories that resonate with target ICPs. Check out <a href="https://wowashuwow.com/work/">my portfolio</a> and <a href="https://wowashuwow.com/packages/">packages</a>. If you like what you see, <a href="https://wowashuwow.com/contact/">hire me</a>.<br><br>It's time to tell your clients' success stories, so you can start writing yours.
+  hero__description: They're like those slick, charismatic all-rounders who can do both sales and marketing—except case studies are always at your disposal. 24x7.<br><br>I'm a case study specialist helping web dev agencies win more projects through business stories that resonate with target ICPs. Check out <a href="https://wowashuwow.com/work/">my portfolio</a>. If you like what you see, <a href="https://wowashuwow.com/contact/">hire me</a>.<br><br>It's time to tell your clients' success stories, so you can start writing yours.
 
 # I'm a case study specialist helping web agencies uncover and convey the true value of their work to their target ICPs
 # I'm a case study specialist who helps web dev agencies uncover and convey the true value of their work and land new projects. 
