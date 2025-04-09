@@ -53,8 +53,6 @@ Creative copy to help users choose templates in <a href="https://wordpress.org/p
 
 ![UX writing for Google sample #4](/images/work-images/google-ux-writing-4.jpeg "UX writing for Google sample #4")
 
-Note: UX writing is currently unavailable. [See available packages](/packages/).
-
 <hr>
 
 ## Like what you see?
