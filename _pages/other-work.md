@@ -7,7 +7,7 @@ permalink: /other-work/
 
 <h2 style="text-align: center">B2C Content Writing</h2>
 
-I've written affiliate buying guides for automotive and tech publications as a freelancer and ghostwriter. The pay wasn't great, but it was laid-back and I got to discover fun new products, activities, and brands.
+I've written affiliate buying guides for automotive and tech publications as a freelancer and ghostwriter.
 
 [![Affiliate buying guide sample number 2](/images/work-images/the-drive-best-motorcycle-oils.jpeg 'Affiliate buying guide sample #2')](https://web.archive.org/web/20240114163943/https://www.thedrive.com/reviews/31411/best-dirt-bike-oil)*Best Dirt Bike Oils: Keep Your Bike’s Engine Trouble-Free*
 
