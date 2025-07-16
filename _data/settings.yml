@@ -1,41 +1,37 @@
 #-------------------------------
 # Site Settings
-title: Ashutosh Bhosale
+title: wowashuwow
 logo: # logo format '/images/image.jpg'
 author: Ashutosh Bhosale
-description: Ashutosh Bhosale is a case study specialist for web design and development agencies.
+description: Ashutosh is a writer, photographer, and builder (of body and buildings). This is his home on the internet.
 
 
 #-------------------------------
 # Menu Settings
 menu__settings:
   menu__items:
-    - title: 'Portfolio'
+    - title: 'Blog'
+      url: '/blog/'
+    - title: 'Work'
       url: '/work/'
     - title: 'Contact'
       url: '/contact/'
     - title: 'About'
       url: '/about/'
-    - title: 'Personal Blog'
-      url: '/blog/'
     - title: 'Photography'
       url: 'https://photos.wowashuwow.com'
 
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Good case studies get leads and close deals.
-  hero__description: They're like those slick, charismatic all-rounders who can do both sales and marketing—except case studies are always at your disposal. 24x7.<br><br>I'm a case study specialist helping web dev agencies win more projects through business stories that resonate with target ICPs. Check out <a href="https://wowashuwow.com/work/">my portfolio</a>. If you like what you see, <a href="https://wowashuwow.com/contact/">hire me</a>.<br><br>It's time to tell your clients' success stories, so you can start writing yours.
-
-# I'm a case study specialist helping web agencies uncover and convey the true value of their work to their target ICPs
-# I'm a case study specialist who helps web dev agencies uncover and convey the true value of their work and land new projects. 
-# Good case studies are like having charismatic all-rounders who both get leads and close deals, except they're always available at your disposal. I create these all-rounders for WordPress and web dev agencies like yours. Check out <a href="https://wowashuwow.com/work/">my portfolio</a>, and if you like what you see, fill out the contact form.<br><br>Let's make case studies land new projects for your agency, too. through client success stories that convince
+  hero__title: Hi, I'm Ashutosh 👋
+  hero__description: I'm a writer for WordPress businesses. This is my personal blog. I'm also a photographer, tech enthusiast, and builder (of body and buildings 😉)
 
 
 #-------------------------------
 # Portfolio Settings
 portfolio:
-  portfolio__title: Photography
+  portfolio__title: Favorite Photos
   portfolio__gallery:
 
     - image: /images/gallery-42.jpg
@@ -103,7 +99,7 @@ social:
 # Contact Settings
 contact:
   email: ab@ashutoshbhosale.com # Add your email for contact form
-  description: Fill in the form and I'll get back to you within one business day to schedule a discovery call. No stress, just jot down a few key details.
+  description: Send me a message about work or play. I promise I'll get back to you.
 
 # NOTE
 # Clancy comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
