@@ -3,7 +3,7 @@
 title: wowashuwow
 logo: # logo format '/images/image.jpg'
 author: Ashutosh Bhosale
-description: Ashutosh is a writer, photographer, and builder (of body and buildings). This is his home on the internet.
+description: wowashuwow (Ashutosh) is a writer, photographer, and fitness enthusiast. This is his home on the internet.
 
 
 #-------------------------------
@@ -25,7 +25,7 @@ menu__settings:
 # Hero Settings
 hero:
   hero__title: Hi, I'm Ashutosh 👋
-  hero__description: I'm a writer for WordPress businesses. This is my personal blog. I'm also a photographer, tech enthusiast, and builder (of body and buildings 😉)
+  hero__description: I'm a writer for WordPress businesses. I also dabble in photography, fitness, and tech. This is my home on the internet.
 
 
 #-------------------------------

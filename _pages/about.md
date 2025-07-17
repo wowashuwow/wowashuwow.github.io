@@ -16,11 +16,13 @@ There. Much better. No ice.
 
 ## Now, if you want the short version...
 
-I'm an on-demand case study junkie for web design and development agencies. There's something incredibly satisfying to me about digging up hidden narratives behind seemingly cookie-cutter projects, crafting great business stories, and wooing the right people.
+I help WordPress businesses get one step closer to becoming recognizable brands. Through writing.
 
-But what I really want to do is help agencies get one step closer to becoming brands. Writing that's technically accurate builds confidence in an agency's capabilities. Writing that's human develops trust. Writing that's sprinkled with clever little nuggets to make the reader feel like you're directly speaking to them connects. But writing that does all three delights. And that's the stuff that turns an agency into a brand—delight. 
+Writing that's technically accurate *builds confidence*. Writing that's human *develops trust*. Writing that's sprinkled with clever little nuggets to make the reader feel like you're directly speaking to them *connects*. But writing that does all three *delights*. And that's the stuff that turns a business into a brand - delight. 
 
-I'm a sucker for [writing that delights](/work/). It won't turn an agency into a brand on its own, but it's one of the last missing pieces that fits in and completes the *Premium Brand Experience* jigsaw puzzle that many agencies are trying to put together. 
+I'm a sucker for [writing that delights](/work/). It won't turn a business into a brand on its own, but it's one of the last missing pieces to the *Premium Brand Experience* jigsaw puzzle that many WordPress businesses are trying to put together. 
+
+My specialty is [case studies for agencies](https://ashutoshbhosale.com/). There's something incredibly satisfying about digging up hidden narratives behind seemingly cookie-cutter projects, crafting great business stories out of them, and wooing the right people.
 
 ## Oh, you want the long version?
 
@@ -40,7 +42,7 @@ In my free time, I craft case studies for work. I believe work is something you 
 
 Three years into my engineering degree, I was frustrated. I had a good analytical mind, but I had always loved creativity more. So I dropped out to pursue my life-long dream of becoming a writer. I didn't end up writing any New York Times bestsellers, but I did pretty okay (money-wise), first as a freelance content writer mostly writing affiliate buying guides, and later as a full-time marketing writer at an enterprise WordPress agency. Two years into my writing journey, I realized I'm not Bill Gates and a degree can be quite handy. So I went back to college to get the piece of paper. I have it now, and it's still a piece of paper.
 
-Anyway, my favorite part out of my agency experience was creating case studies. So I now work as a case study specialist for web agencies on freelance and contract bases. (Yep, one basis, multiple bases. English can sound... suboptimal at times.)
+Anyway, my favorite part out of the agency experience was creating case studies, so here we are. I take case study projects from WordPress agencies on freelance and contract bases. (Yep, one basis, multiple bases. English can be... suboptimal at times.)
 
 But enough about me! What are you waiting for? Holler a hi at me on my email! Let's have an actual conversation. You could start by telling me about your [favorite TV shows](/tv-list/).
 
