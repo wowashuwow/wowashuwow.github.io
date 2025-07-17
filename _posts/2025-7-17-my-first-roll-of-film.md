@@ -6,9 +6,9 @@ image: '/images/2025-7-17-my-first-film-roll/my-first-film-roll-01.jpg'
 tags: [Photography]
 ---
 
-I've always dreamed about what it must be like to shoot film. I'd look at photos from Instagram stars like [portra_papi](https://www.instagram.com/portra_papi/?hl=en) and wish "Man, I wanna take photos like that." 
+I've always dreamed about what it must be like to shoot film. I'd look at photos by the likes of [portra_papi](https://www.instagram.com/portra_papi/?hl=en) and wish "Man, I wanna take photos like that." 
 
-If you wish for something with all your heart, the entire universe will conspire to make sure your wish comes true. Says [Om Prakash Makhija](https://youtu.be/D6eJo5XdMhc?feature=shared&t=13), not me.
+If you wish for something with all your heart, the entire universe will conspire to make sure your wish comes true. Says not I, but [Om Prakash Makhija](https://youtu.be/D6eJo5XdMhc?feature=shared&t=13).
 
 In this case, the universe conspired on the day my uncle was moving houses. He found an ancient Kodak Kroma35 (also sold as VR35 in many countried) in his old military trunk.
 
