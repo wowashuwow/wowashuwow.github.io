@@ -87,3 +87,5 @@ I gifted the album to Pranav and Roshni. They loved it.
 I've acquired a new old film camera since and already taken it on a trip (am I already addicted to film?). That story's coming soon, stay tuned! If you'd like to know when I post it, sign up for email updates below.
 
 Thanks for reading and see you soon!
+
+PS: I had to do quite a bit of fixing in Lightroom to get the colors to look like this. The files I got from the lab just didn't look great. Maybe it was the lab, maybe it was the camera. Anyway, I've found another lab ([The Panchrome Project](https://www.panchromeproject.com/)) for processing my next roll, we'll see how that goes!
