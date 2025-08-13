@@ -57,7 +57,7 @@ I've written affiliate buying guides for automotive and tech publications as a f
 
 ## In-app Copywriting
 
-Creative copy to help users choose templates in <a href="https://wordpress.org/plugins/web-stories/" target="_blank">Web Stories</a>, a WordPress plugin from Google.
+Creative UX copy to help users choose templates in <a href="https://wordpress.org/plugins/web-stories/" target="_blank">Web Stories</a>, a WordPress plugin from Google.
 
 ![UX writing for Google sample #1](/images/work-images/google-ux-writing-1.jpeg "UX writing for Google sample #1")
 

@@ -20,9 +20,9 @@ I'm a full-stack writer helping B2B businesses get one step closer to becoming r
 
 Writing that's technically accurate *builds confidence*. Writing that's human *develops trust*. Writing that's sprinkled with clever little nuggets to make the reader feel like you're directly speaking to them *connects*. But writing that does all three *delights*. And that's the stuff that turns a business into a brand - delight. 
 
-I'm a sucker for [writing that delights](/work/). It won't turn a business into a brand on its own, but it's one of the last missing pieces to the *Premium Brand Experience* jigsaw puzzle that many B2B businesses are trying to put together. 
+I'm a sucker for [writing that delights](/work/). It won't turn a business into a brand on its own, but it's one of the last missing pieces of the *Premium Brand Experience* jigsaw puzzle that many B2B businesses are trying to put together. 
 
-My specialty is [case studies for WordPress agencies](https://ashutoshbhosale.com/). There's something incredibly satisfying about digging up hidden narratives behind seemingly cookie-cutter projects, crafting great business stories out of them, and wooing the right people.
+My specialty is [case studies for WordPress agencies](https://ashutoshbhosale.com/). There's something incredibly satisfying about digging up hidden narratives behind seemingly cookie-cutter projects, crafting great business stories, and wooing the right people.
 
 ## Oh, you want the long version?
 
