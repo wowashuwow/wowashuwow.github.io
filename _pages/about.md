@@ -16,13 +16,17 @@ There. Much better. No ice.
 
 ## Now, if you want the short version...
 
-I'm a full-stack writer helping B2B businesses get one step closer to becoming recognizable brands.
+I'm a full-stack writer for B2B businesses.
+
+What even is a full-stack writer? A full-stack writer is one who has the know-how of the entire content marketing process - including SEO, content strategy, and basic design skills - but with stellar writing chops as their core skillset. I'm that guy.
+
+Speaking of writing, let me tell you what I think about it, especially in the B2B context-
 
 Writing that's technically accurate *builds confidence*. Writing that's human *develops trust*. Writing that's sprinkled with clever little nuggets to make the reader feel like you're directly speaking to them *connects*. But writing that does all three *delights*. And that's the stuff that turns a business into a brand - delight. 
 
 I'm a sucker for [writing that delights](/work/). It won't turn a business into a brand on its own, but it's one of the last missing pieces of the *Premium Brand Experience* jigsaw puzzle that many B2B businesses are trying to put together. 
 
-My specialty is [case studies for WordPress agencies](https://ashutoshbhosale.com/). There's something incredibly satisfying about digging up hidden narratives behind seemingly cookie-cutter projects, crafting great business stories, and wooing the right people.
+My specialty is [case studies](https://casestudyacademy.com/). There's something incredibly satisfying about digging up hidden narratives behind seemingly cookie-cutter projects, crafting great business stories, and wooing the right people.
 
 ## Oh, you want the long version?
 
