@@ -44,15 +44,15 @@ Why don't we start by talking about our hobbies? I like strength training, runni
 
 What about you? What are your hobbies? (email me! It's ab (at) ashutoshbhosale (dot) com)
 
-In my free time, I craft case studies for work. I believe work is something you do in your free time to practice your intellect and curiosity; after you keep fit and have fun with your life. Not the other way around.
+In my free time, I do B2B writing for work. I believe work is something you do in your free time to practice your intellect and curiosity; after you keep fit and have fun with your life. Not the other way around.
 
 (*There isn't a single day that goes by when I don't fear being cancelled for saying what I just said, but it's important, someone needs to say it, so there, I said it.*)
 
 **How did I end up here?** Well, it's a long story, but this is the tl;dr version-
 
-Three years into my engineering degree, I was frustrated. I had a good analytical mind, but I had always loved creativity more. So I dropped out to pursue my life-long dream of becoming a writer. I didn't end up writing any New York Times bestsellers, but I did pretty okay (money-wise), first as a freelance content writer mostly writing affiliate buying guides, and later as a full-time marketing writer at an enterprise WordPress agency. Two years into my writing journey, I realized I'm not Bill Gates and a degree can be quite handy. So I went back to college to get the piece of paper. I have it now, and it's still a piece of paper.
+Three years into my engineering degree, I was frustrated. I had a good analytical mind, but I'd always loved creativity more. So I took a break to pursue my life-long dream of becoming a writer. I didn't end up writing any New York Times bestsellers, but I did pretty okay, first as a B2C writer mostly writing affiliate buying guides, then as a B2B marketing writer at an enterprise WordPress agency. Two years into my writing journey, I realized I'm not as popular as Bill Gates and a degree can be quite handy (you know, for getting VISA approvals, being a part of society and such). So I went back to college to get the piece of paper. I have it now, and it's still a piece of paper.
 
-Anyway, my favorite part out of the agency experience was creating case studies. So much so that I created a [course](https://casestudyacademy.com/) about it. There's something incredibly satisfying about digging up hidden narratives, crafting great business stories, and wooing the right people.
+My favorite part out of the agency experience was creating case studies. So much so that I created a [course](https://casestudyacademy.com/) about it. There's something incredibly satisfying about digging up hidden narratives, crafting great business stories, and wooing the right people.
 
 But enough about me! What are you waiting for? Holler a hi at me on my email! Let's have an actual conversation. You could start by telling me about your [favorite TV shows](/tv-list/).
 
