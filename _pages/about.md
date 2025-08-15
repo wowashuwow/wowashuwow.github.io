@@ -10,7 +10,7 @@ Oh wait, there's some left. Let me just...
 
 *\*Grabs a hammer\**
 
-🔨🧊 🔨🧊 🔨🧊 🔨🧊 🔨🧊 
+🔨🧊 🔨🧊 🔨🧊 🔨🧊 🔨🧊 🔨🧊 🔨🧊
 
 *\*Steps back and looks at his handiwork\**
 
@@ -18,21 +18,21 @@ There. Much better. No ice.
 
 ## Now, if you want the short version...
 
-I'm a full-stack writer for B2B businesses.
+I'm a full-stack writer for B2B SaaS companies.
 
-What's a full-stack writer? **A full-stack writer is one who has know-how of the entire content marketing process - including content strategy, SEO, and basic design skills - with stellar writing chops as their core skillset.** I'm that guy.
+What's a full-stack writer? **A full-stack writer is one who has know-how of the entire content marketing process - including content strategy, SEO, and basic design skills - with stellar writing chops at the core of their skillset.** I'm that guy.
 
 Speaking of writing,
 
-Writing that's technically accurate *builds confidence*. 
+Writing that's technically accurate *inspires confidence* in your product. 
 
-Writing that's human *develops trust*. 
+Writing that's human *builds trust* in your company. 
 
-Writing that's sprinkled with clever little nuggets to make the reader feel like you're directly speaking to them *connects*. 
+Writing that's sprinkled with inside references *creates a personal connection*. 
 
-But when writing does all three, it *delights*.
+When writing does all three, it *delights*.
 
-I'm a sucker for [writing that delights](/work/). It's one of the last missing pieces of the *Premium Brand Experience* jigsaw puzzle that many B2B businesses are trying to put together.
+I'm a sucker for [writing that delights](/work/). It's one of the last missing pieces that turns a B2B SaaS company from a name in the market into a brand customers have confidence in, trust deeply, and feel connected to.
 
 ## Oh, you want the long version?
 
@@ -44,7 +44,7 @@ Why don't we start by talking about our hobbies? I like strength training, runni
 
 What about you? What are your hobbies? (email me! It's ab (at) ashutoshbhosale (dot) com)
 
-In my free time, I do B2B writing for work. I believe work is something you do in your free time to practice your intellect and curiosity; after you keep fit and have fun with your life. Not the other way around.
+In my free time, I write for software-based businesses for work. I believe work is something you do in your free time to practice your intellect and curiosity; after you keep fit and have fun with your life. Not the other way around.
 
 (*There isn't a single day that goes by when I don't fear being cancelled for saying what I just said, but it's important, someone needs to say it, so there, I said it.*)
 
