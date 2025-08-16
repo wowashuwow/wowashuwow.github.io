@@ -28,15 +28,15 @@ I'm only a few hundred meters from my room when I see a temple. There's commotio
 
 It's cramped, but not suffocating. Something has overcome the people. Is it God? Is it the environment? Is it energy? What do I call it? 
 
-<p><iframe src="https://youtube.com/shorts/2FcT9dBHFO4" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe src="https://youtube.com/embed/2FcT9dBHFO4" frameborder="0" allowfullscreen></iframe></p>
 
-<p><iframe src="https://youtu.be/9MYVN02EAFU" frameborder="0" allowfullscreen></iframe></p> 
+<p><iframe src="https://www.youtube.com/embed/9MYVN02EAFU?si=COrp45-3whgRqVfB" frameborder="0" allowfullscreen></iframe></p> 
 
-<p><iframe src="https://youtu.be/6-z3rDZMaAg" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe src="https://www.youtube.com/embed/6-z3rDZMaAg?si=t4u_5spSZVKe7DQL" frameborder="0" allowfullscreen></iframe></p>
 
 I consider myself a man of science, but I can't help but be fascinated. It doesn't seem fake... No, definitely not. Then what is it? I try to find the right word to describe it. It's tempting (or rather instinctive) to reach out for "possessed." But "possessed" sounds wrong, like they're being forced. They're *not* being forced. They're enchanted. Of their own will. They're surrendering. Yes, it's "surrender." 
 
-<p><iframe src="https://youtu.be/uNDltfeGFE8" frameborder="0" allowfullscreen></iframe></p> 
+<p><iframe src="https://www.youtube.com/embed/uNDltfeGFE8?si=OybeOPz13p3YQS_R" frameborder="0" allowfullscreen></iframe></p> 
 
 ![]({{site.baseurl}}/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-13.jpg)
 
@@ -86,7 +86,7 @@ I stay there well into the night. Shooting, talking, observing, having fun.
 
 ![]({{site.baseurl}}/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-27.jpg)*Everybody wanted their picture taken!*
 
-<p><iframe src="https://youtu.be/Jl9uRr3y14k" frameborder="0" allowfullscreen></iframe></p> 
+<p><iframe src="https://www.youtube.com/embed/Jl9uRr3y14k?si=uHdJfS0mzE9hHGgW" frameborder="0" allowfullscreen></iframe></p> 
 
 ![]({{site.baseurl}}/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-28.jpg)
 
