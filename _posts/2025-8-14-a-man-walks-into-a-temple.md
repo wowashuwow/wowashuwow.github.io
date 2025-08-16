@@ -26,17 +26,17 @@ I'm only a few hundred meters from my room when I see a temple. There's commotio
 
 ![]({{site.baseurl}}/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-08.jpg)*The head priest*
 
-It's cramped, but not suffocating. Something has overcome the people. Is it God? Is it the environment? Is it energy? What do I call it?
+It's cramped, but not suffocating. Something has overcome the people. Is it God? Is it the environment? Is it energy? What do I call it? 
 
-![]({{site.baseurl}}/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-09.jpg)
+<p><iframe src="https://youtube.com/shorts/2FcT9dBHFO4" frameborder="0" allowfullscreen></iframe></p>
 
-![]({{site.baseurl}}/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-10.jpg)
+<p><iframe src="https://youtu.be/9MYVN02EAFU" frameborder="0" allowfullscreen></iframe></p> 
 
-![]({{site.baseurl}}/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-11.jpg)
+<p><iframe src="https://youtu.be/6-z3rDZMaAg" frameborder="0" allowfullscreen></iframe></p>
 
-![]({{site.baseurl}}/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-12.jpg)
+I consider myself a man of science, but I can't help but be fascinated. It doesn't seem fake... No, definitely not. Then what is it? I try to find the right word to describe it. It's tempting (or rather instinctive) to reach out for "possessed." But "possessed" sounds wrong, like they're being forced. They're *not* being forced. They're enchanted. Of their own will. They're surrendering. Yes, it's "surrender." 
 
-I consider myself a man of science, but I can't help but be fascinated. It doesn't seem fake... No, definitely not. Then what is it? I try to find the right word to describe it. It's tempting (or rather instinctive) to reach out for "possessed." But "possessed" sounds wrong, like they're being forced. They're *not* being forced. They're enchanted. Of their own will. They're surrendering. Yes, it's "surrender."
+<p><iframe src="https://youtu.be/uNDltfeGFE8" frameborder="0" allowfullscreen></iframe></p> 
 
 ![]({{site.baseurl}}/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-13.jpg)
 
@@ -68,6 +68,12 @@ There's another kid I become good friends with. I can't remember his name. Let's
 
 I stay there well into the night. Shooting, talking, observing, having fun. 
 
+![]({{site.baseurl}}/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-09.jpg)
+
+![]({{site.baseurl}}/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-12.jpg)
+
+![]({{site.baseurl}}/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-11.jpg)
+
 ![]({{site.baseurl}}/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-22.jpg)
 
 ![]({{site.baseurl}}/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-23.jpg)
@@ -80,7 +86,7 @@ I stay there well into the night. Shooting, talking, observing, having fun.
 
 ![]({{site.baseurl}}/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-27.jpg)*Everybody wanted their picture taken!*
 
-They're going to make a sacrifice at 4am and there will be a feast. The head priest has invited me to stay. But my camera's battery is exhausted. So is mine. I go back to my room to recharge.
+<p><iframe src="https://youtu.be/Jl9uRr3y14k" frameborder="0" allowfullscreen></iframe></p> 
 
 ![]({{site.baseurl}}/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-28.jpg)
 
@@ -88,11 +94,13 @@ They're going to make a sacrifice at 4am and there will be a feast. The head pri
 
 ![]({{site.baseurl}}/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-29.jpg)*A ritual where the head priests climbs onto a bridge of swords and makes a proclamation*
 
+They're going to make a sacrifice at 4am and there will be a feast. The head priest has invited me to stay. But my camera's battery is exhausted. So is mine. I go back to my room to recharge.
+
 <center>*</center>
 
 I wake up in the morning and head out.
 
-I look for my young friends from last night. Murugan's there. He tells me Keerthi had been looking for me. The festivities of the night are over and I everyone's lined up for the feast. 
+I look for my young friends from last night. Murugan's there. He tells me Keerthi has been looking for me. The festivities of the night are over and everyone's lined up for the feast. 
 
 We talk for a while and I bid adieu. Suddenly Murugan gives me a hug. I'm taken aback, but just for a second. The feeling quickly morphs into something else - I feel accepted. I feel loved. I feel like I belong. I feel... happy.
 
