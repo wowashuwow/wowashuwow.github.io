@@ -18,21 +18,21 @@ There. Much better. No ice.
 
 ## Now, if you want the short version...
 
-I'm a full-stack writer for B2B SaaS companies.
+I'm a content-led marketer for B2B SaaS companies.
 
-What's a full-stack writer? **A full-stack writer is one who has know-how of the entire content marketing process - including content strategy, SEO, and basic design skills - with stellar writing chops at the core of their skillset.** I'm that guy.
+What's a content-led marketer? **A content-led marketer is a marketing generalist with strategy and distribution skills but with stellar content chops at the core of their skillset.** I'm that guy.
 
-Speaking of writing,
+Speaking of content,
 
-Writing that's technically accurate *inspires confidence* in your product. 
+Content that's technically accurate *inspires confidence* in your offering. 
 
-Writing that's human *builds trust* in your company. 
+Content that's human *builds trust* in your company. 
 
-Writing that's sprinkled with inside references *creates a personal connection*. 
+Content that's sprinkled with inside references *creates a personal connection*. 
 
-When writing does all three, it *delights*.
+When content does all three, it *delights*.
 
-I'm a sucker for [writing that delights](/work/). It's one of the last missing pieces that turns a B2B SaaS company from a name in the market into a brand customers have confidence in, trust deeply, and feel connected to.
+I'm a sucker for [content that delights](/work/). I believe it's one of the last missing pieces that turns a B2B company from a name in the market into a brand customers have confidence in, trust deeply, and feel connected to.
 
 ## Oh, you want the long version?
 
