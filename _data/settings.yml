@@ -3,7 +3,7 @@
 title: wowashuwow
 logo: # logo format '/images/image.jpg'
 author: Ashutosh Bhosale
-description: wowashuwow (Ashutosh) is a content marketer, photographer, and fitness enthusiast. This is his personal blog.
+description: wowashuwow (Ashutosh) is a full-stack writer, photographer, and fitness enthusiast. This is his personal blog.
 
 
 #-------------------------------
@@ -25,7 +25,7 @@ menu__settings:
 # Hero Settings
 hero:
   hero__title: Hi, I'm Ashutosh 👋
-  hero__description: I'm a content-led marketer for B2B SaaS companies. I also dabble in photography, fitness, and tech. This is my personal blog.
+  hero__description: I'm a full-stack writer for B2B SaaS companies. I also dabble in photography, fitness, and tech. This is my personal blog.
 
 
 #-------------------------------
