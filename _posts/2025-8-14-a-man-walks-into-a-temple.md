@@ -1,7 +1,7 @@
 ---
 title: A Man Walks Into a Temple...
 description: A street photography session turns into a surreal experience
-image: '/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-31.jpg'
+image: '/images/2025-8-14-a-man-walks-into-a-temple/andaman-post-06.jpg'
 tags: [Photography]
 ---
 Saturday, February 25, 2022. [Port Blair](https://en.wikipedia.org/wiki/Port_Blair). 
