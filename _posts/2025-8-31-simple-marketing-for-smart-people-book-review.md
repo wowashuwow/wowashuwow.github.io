@@ -2,6 +2,7 @@
 title: Book Review // Simple Marketing for Smart People
 description: The best $5 you'll spend on learning marketing psychology
 image: '/images/simple-marketing-for-smart-people-fi-2.jpg'
+tags: [Books, Notes]
 ---
 
 [Simple Marketing for Smart People](https://simplemarketingbook.com/) by Billy Broas is a great primer on marketing psychology. 

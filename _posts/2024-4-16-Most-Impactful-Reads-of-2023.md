@@ -3,7 +3,7 @@ layout: post
 title: Most Impactful Reads of 2023
 image: '/images/fi-most-impactful-reads-of-2023.jpg'
 description: Learnings from the most helpful articles and books that I read in 2023
-tags: [Notes]
+tags: [Notes, Books]
 ---
 <center><i><a href="https://leonardo.ai/">Leonardo.Ai</a> illustration</i></center><br>
 
