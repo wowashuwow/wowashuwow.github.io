@@ -35,7 +35,7 @@ I took notes too! 👇
 - Belief building gets you buy-in.
 
 ## Identifying Your Prospects' Beliefs
-- Ask about their current case study practices, what steps they’re taking, and the results they’re getting.
+- Ask about their current practices, what steps they’re taking, and the results they’re getting.
 - Give your prospects better questions to ask
 - Listen closely to the questions they ask—it will clue you into their beliefs.
 - Ask **freedom questions**:
