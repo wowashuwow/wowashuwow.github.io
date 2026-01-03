@@ -26,7 +26,7 @@ permalink: /work/
 
 [![Headless vs Decoupled WordPress blog post](/images/work-images/decoupled-vs-headless.webp 'Headless vs Decoupled WordPress')](https://rtcamp.com/blog/decoupled-vs-headless-wordpress/)*Technical thought leadership article: Headless vs Decoupled WordPress*
 
-[![Sample Creative Communication blog post](/images/work-images/dark-circles.jpeg 'Why don't rtCampers have dark circles?')](https://rtcamp.com/blog/why-dont-rtcampers-have-dark-circles/)*Creative blog post to showcase an "employee well-being policy" without making it sound like that: Why don't our employees have dark circles?*
+[![Sample Creative Communication blog post](/images/work-images/dark-circles.jpeg 'Why don't rtCampers have dark circles?')](https://rtcamp.com/blog/why-dont-rtcampers-have-dark-circles/)*Creative blog post to showcase an "employee well-being policy" without making it sound like that*
 
 [![Drupal to WordPress Pre-Migration Checklist blog post](/images/work-images/drupal-to-wordpress.webp 'Drupal to WordPress Pre-Migration Checklist')](https://rtcamp.com/blog/drupal-to-wordpress-pre-migration-checklist/)*Technical TOFU article: Drupal to WordPress Pre-Migration Checklist*
 
@@ -37,6 +37,12 @@ permalink: /work/
 [![Sample newsletter issue 1](/images/work-images/newsletter-may-2024.jpeg 'Monthly Newsletter May 2024')](https://rtcamp.com/blog/monthly-roundup-may-2024/)*Newsletter issue with creative problem-solving: Showcasing a bunch of recent work without sounding self-absorbed*
 
 [![Sample newsletter issue 2](/images/work-images/nov-roundup-image.webp 'Monthly Newsletter November 2020')](https://rtcamp.com/blog/monthly-roundup-november-2020/)*Newsletter issue with curated industry news*
+
+<hr>
+
+## Social Media 
+
+[![Social media post sample number 1](/images/work-images/rtCamp-Google-IO-LinkedIn.jpeg 'rtCamp at Google I/O LinkedIn post')](https://www.linkedin.com/posts/rtcamp_googleio-activity-7195778892698173442-208p)*Sample LinkedIn post with a catchy hook*
 
 <hr>
 
