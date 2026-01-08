@@ -76,7 +76,7 @@ Location 📍: [Pupil Diner](https://maps.app.goo.gl/KmGynJa6VmN6Lh5h6), near Be
 
 My go-to beach in Chennai. Always lively and full of people, with good eateries nearby. 
 
-Location 📍: 
+Location 📍: [Besant Nagar Beach](https://maps.app.goo.gl/4XhPHsQfACXfUquf8).
 
 ### Thiruvanmiyur Beach 
 
@@ -96,7 +96,7 @@ A few select places where the place itself is the vibe-
 
 2. [Surf Turf, Kovalam Beach](https://maps.app.goo.gl/s5R3hZoFQVQaLvio6) - Surf school at Kovalam Beach well outside the city. Surfing lessons are ~₹2500 per session. I did one lesson here and it was a lot of fun. The rooftop bar is such a vibe at night with good deep house playing in the background. Also has rooms to stay.
 
-3. [Writer's Cafe, Tharamani](https://maps.app.goo.gl/QXNrYkJwMVAnd2qu9) - Their Chicken Stroganoff is delicious *and* high in protein. Good place for dates and conversations over food among books. IIT kids' go-to place for dates. Spacious, literary ambience. They're at [other location 📍s in Chennai](https://maps.app.goo.gl/kuVyDfRX5TSxJdgaA) too, but I doubt any of the others are as big as this one. 
+3. [Writer's Cafe, Tharamani](https://maps.app.goo.gl/QXNrYkJwMVAnd2qu9) - Their Chicken Stroganoff is delicious *and* high in protein. Good place for dates and conversations over food among books. IIT kids' go-to place for dates. Spacious, literary ambience. They're at [other locations in Chennai](https://maps.app.goo.gl/kuVyDfRX5TSxJdgaA) too, but I doubt any of the others are as big as this one. 
 
 4. [National Art Gallery, Egmore](https://maps.app.goo.gl/BMKnwYb6QQnbRxhNA) - It's a museum. Good place to visit if you want to kill time / go on a date. Has some cool fossil exhibits. There's a [Writer's Cafe within walking distance](https://maps.app.goo.gl/VqMXhTNNZt3FmtNV7).
 
