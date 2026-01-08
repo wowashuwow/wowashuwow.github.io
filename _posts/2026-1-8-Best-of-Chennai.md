@@ -1,6 +1,6 @@
 ---
 title: Best of Chennai
-description: My top picks for food, places to visit, and things to do in Chennai
+description: My top picks for food and places in Chennai
 image: '/images/best-of-chennai-3.jpg'
 tags: [Travel]
 ---
