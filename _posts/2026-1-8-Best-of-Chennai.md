@@ -1,10 +1,10 @@
 ---
 title: Best of Chennai
 description: My top picks for food, places to visit, and things to do in Chennai
-image: '/images/gallery-03.jpg'
+image: '/images/best-of-chennai-3.jpg'
 tags: [Travel]
 ---
-<center><i>A photo from behind the bar counter at Surf Turf, Kovalam Beach</i></center><br>
+<center><i>'Cereal Milk' ice cream at Soft Serve Co., Chennai</i></center><br>
 
 This is a simple list of my top recommendations for food in Chennai, and a few hand-picked places worth visiting.
 
