@@ -16,6 +16,9 @@ plugins:
 paginate: 9
 paginate_path: "/blog/page/:num"
 
+kramdown:
+  hard_wrap: true
+
 # Pages Path
 defaults:
   - scope:
