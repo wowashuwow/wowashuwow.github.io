@@ -44,7 +44,7 @@ _Being Refreshingly Honest._
 _Specificity. "Details make stories human, and the more human a story can be, the better." - Ernest Hemingway_
 
 ![Funeral home ad that only says "Text and Drive."]({{site.baseurl}}/images/2026-2-19-book-review-a-self-help-guide-for-copywriters-by-dan-nelken/ad-inspiration-text-and-drive.webp "Text And Drive.")
-_Less is more._
+_Less is more. [Funny story, the funeral home doesn't exist.](https://www.buzzfeed.com/craigsilverman/text-and-drive-dark-af)_
 
 ![Burger King ad that shows Big Mac and a Whopper side to side. The Whopper is bigger, and the ad copy says "Big Mac? More like a medium."]({{site.baseurl}}/images/2026-2-19-book-review-a-self-help-guide-for-copywriters-by-dan-nelken/ad-inspiration-burger-king-vs-mcdonalds.webp "Big Mac? More like a medium.")
 _Sack the competition. Such ads are seen as cute competition only when both brands are equally big, so the ads aren't going to cause serious damage to either._
