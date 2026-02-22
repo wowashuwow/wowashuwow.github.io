@@ -32,4 +32,24 @@ The book is _packed_ with ad inspiration. There are 200+ examples of some of the
 
 ---
 
+Here are my favorite ads from the book:
+
+![A clever ad for The Economist]({{site.baseurl}}/images/2026-2-19-book-review-a-self-help-guide-for-copywriters-by-dan-nelken/ad-inspiration-the-economist.jpg "Lose The Ability to Slip Out of Meetings Unnoticed")
+_They wanted to position the publication as being intellectually superior and pushed that to the nth degree._
+
+![An ad for Oasis drink that's refreshingly honest]({{site.baseurl}}/images/2026-2-19-book-review-a-self-help-guide-for-copywriters-by-dan-nelken/ad-inspiration-oasis.jpg "Your Favorite Celeb Would Drink Oasis if We Paid Them")
+_Being Refreshingly Honest._
+
+![De Beers Variable Hammer Drill Ad]({{site.baseurl}}/images/2026-2-19-book-review-a-self-help-guide-for-copywriters-by-dan-nelken/ad-inspiration-variable-speed-hammer-drill.jpg "Remember when you got that variable speed hammer drill? It'll make her feel kind of like that")
+_Specificity. "Details make stories human, and the more human a story can be, the better." - Ernest Hemingway_
+
+![Funeral home ad that only says "Text and Drive."]({{site.baseurl}}/images/2026-2-19-book-review-a-self-help-guide-for-copywriters-by-dan-nelken/ad-inspiration-text-and-drive.webp "Text And Drive.")
+_Less is more._
+
+![Burger King ad that shows Big Mac and a Whopper side to side. The Whopper is bigger, and the ad copy says "Big Mac? More like a medium."]({{site.baseurl}}/images/2026-2-19-book-review-a-self-help-guide-for-copywriters-by-dan-nelken/ad-inspiration-burger-king-vs-mcdonalds.webp "Big Mac? More like a medium.")
+_Sack the competition. Such ads are seen as cute competition only when both brands are equally big, so the ads aren't going to cause serious damage to either._
+
+![An ad for beer that makes fun of people who like wine]({{site.baseurl}}/images/2026-2-19-book-review-a-self-help-guide-for-copywriters-by-dan-nelken/ad-inspiration-beer-vs-wine.jpeg "Smells like you're being an idiot.")
+_Sack the competition. Know your audience._
+
 The book is available on Amazon and other bookstores in physical and digital formats.
