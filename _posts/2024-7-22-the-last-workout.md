@@ -1,34 +1,35 @@
 ---
 layout: post
 title: The Last Workout
-image: '/images/the-last-workout-02.jpg'
+image: "/images/the-last-workout-02.jpg"
 description: One final workout in the institute gym
 tags: [Fitness, Friends]
 ---
-*What is the gym?*\
-*The gym is a temple.*\
-*It is a place of meditation.*\
-*It is also a place of power.*\
-*You are in complete control, limited only by you.*\
-*It is an unrestricted outlet for power.*
+
+_What is the gym?_
+_The gym is a temple._
+_It is a place of meditation._
+_It is also a place of power._
+_You are in complete control, limited only by you._
+_It is an unrestricted outlet for power._
 
 ## Warm up
 
-Everywhere I've been- of all the cities I've lived in, hobbies I have pursued, schools and colleges I have attended, subcultures I have infiltrated; the gym has been this singular venue where I've found the most like minded people- like minded at least in the areas of sheer willpower and grit- than anywhere else. It has given me some of my best friends. 
+Everywhere I've been- of all the cities I've lived in, hobbies I have pursued, schools and colleges I have attended, subcultures I have infiltrated; the gym has been this singular venue where I've found the most like minded people- like minded at least in the areas of sheer willpower and grit- than anywhere else. It has given me some of my best friends.
 
 I had missed my college gym friends and our time together since I wrapped up my coursework and left the institute in March. So when I got the invite for the convocation happening in July- this would probably be the last time we'd all be together in one place- I gathered everyone on WhatsApp to plan one last workout. We decided to do a full body session. Squat, bench, deadlift, that's it.
 
 ## Main set
 
-We finally met at 7pm on the night before the convocation. Hugs were exchanged. Fists were bumped. Gym bros are terrible at expressing their emotions, so I'm finding this part difficult to write. 
+We finally met at 7pm on the night before the convocation. Hugs were exchanged. Fists were bumped. Gym bros are terrible at expressing their emotions, so I'm finding this part difficult to write.
 
 Just kidding. We started with squats. The energy was epic.
 
 ![Two brothers talking at the squat rack.]({{site.baseurl}}/images/the-last-workout-19.jpg)
-*Just two brothers talking life at the squat rack.*
+_Just two brothers talking life at the squat rack._
 
 ![Two brothers talking at the squat rack.]({{site.baseurl}}/images/the-last-workout-27.jpg)
-*That's Arpit bhaiyya under the bar, ready to squat.*
+_That's Arpit bhaiyya under the bar, ready to squat._
 
 <div class="gallery-box">
   <div class="gallery">
@@ -51,24 +52,23 @@ I failed at 120kg. Shashank was a good enough photographer to capture the fleeti
 We took deadlifts next.
 
 ![Prasad deadlifting 100kg]({{site.baseurl}}/images/the-last-workout-11.jpg)
-*That's Prasad deadlifting 100kg. No big deal, that's just his warm-up set.*
-
+_That's Prasad deadlifting 100kg. No big deal, that's just his warm-up set._
 
 ![Prasad deadlifting 160kg]({{site.baseurl}}/images/the-last-workout-06.jpg)
-*Prasad in position to DL 160kg with perfect form.*
+_Prasad in position to DL 160kg with perfect form._
 
 ![Laveen deadlifting 160kg]({{site.baseurl}}/images/the-last-workout-07.jpg)
-*Laveen DL'd 160kg and then some.*
+_Laveen DL'd 160kg and then some._
 
 I started with 60kg, then took 100kg, then failed at 140kg with the double overhand grip. So I decided to give it a shot with the mixed grip. Got it this time. Laveen timed the lift. It took a whole five seconds until lockout.
 
 ![Ashutosh deadlifting 140kg]({{site.baseurl}}/images/the-last-workout-08.jpg)
-*Yours truly DL'ing 140kg for 1 rep at 62kg body weight with a tomato face.*
+_Yours truly DL'ing 140kg for 1 rep at 62kg body weight with a tomato face._
 
 ![Ashutosh deadlifting 140kg once more]({{site.baseurl}}/images/the-last-workout-04.jpg)
-*I was feeling up to it, so I took one more set of 140kg. I was happy I was able to pull that weight with imperfect sleep and diet.*
+_I was feeling up to it, so I took one more set of 140kg. I was happy I was able to pull that weight with imperfect sleep and diet._
 
-We took bench presses next. I don't have any pictures of us benching, but let me tell you what happened. 
+We took bench presses next. I don't have any pictures of us benching, but let me tell you what happened.
 
 Prasad and Laveen have gotten really strong. They've joined the 225lbs club.
 
@@ -79,14 +79,14 @@ I learned something new from Laveen. He taught me to properly arch my back and u
 We took a few group photos.
 
 ![Ashutosh deadlifting 140kg once more]({{site.baseurl}}/images/the-last-workout-03.jpg)
-*Some friends couldn't stay for the workout, but they came and met anyway. It was awesome.*
+_Some friends couldn't stay for the workout, but they came and met anyway. It was awesome._
 
 After everyone had left, Prasad, Laveen and I stayed back to take photos and talk. One of the things we realized was that we all have crazy body dysmorphia. Prasad thinks he's too bulky and huge. Laveen thinks he's too lean and small. And I think I don't even look like I go to the gym. We had deep, meaningful conversations.
 
 Here's a picture of the three of us.
 
 ![Ashutosh Prasad and Laveen group photo]({{site.baseurl}}/images/the-last-workout-01.jpg)
-*Overhead lighting is the best lighting.*
+_Overhead lighting is the best lighting._
 
 I can't wait to meet everyone again. I will organize something like this at the very first opportunity that presents itself. Or I will create one again.
 
