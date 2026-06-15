@@ -18,7 +18,7 @@ Something about Sam sitting cross-legged in that chair like a monk who's given u
 
 To some, a company culture like this feels like a total nightmare, but for others, it's what they've been looking for their entire life. Like Sam said, when you create such a culture, the people who want to work with you find you out themselves.
 
-And I did find them out. Levels is _the_ dream workplace for the remote knowledge worker. Sure, many fully-distributed companies are great workplaces, but this is the crème de la crème.
+And I did find them out. Levels is _the_ dream workplace for the remote knowledge worker. Sure, many fully-distributed companies are remote-friendly, but this is the crème de la crème. I've followed Levels for a couple years now. Quietly cheered them on as they hit milestones, like when they finally bought levels.com and redirected levelshealth.com to it.
 
 But problems arose when I started thinking critically about what they're selling.
 
