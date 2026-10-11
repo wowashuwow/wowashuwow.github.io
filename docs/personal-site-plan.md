@@ -8,9 +8,11 @@ This is the authoritative project tracker. Checked items are implemented/verifie
 
 - Branch: `codex/personal-site-redesign`, based on deployed revision `9a98c75`.
 - Selected preview: http://127.0.0.1:4101/ (compact design).
-- Publishing branch: `newtheme`; verify live GitHub Pages settings before release.
-- Current redesign is implemented and release checks passed locally.
-- Changes are not committed, merged, or deployed yet.
+- Publishing branch: `newtheme`; Pages confirmed as branch publishing from the root, with HTTPS enforced.
+- Current redesign is released at https://wowashuwow.com/; local and public release checks passed.
+- Redesign commit: `3a24d92103c9f81379fecfb91c985718e538d2b2`.
+- [PR #1](https://github.com/wowashuwow/wowashuwow.github.io/pull/1) merged into newtheme as `5bcc5dc69d58a05c97d2d7213f0863730d909804`.
+- Deployment [run #261](https://github.com/wowashuwow/wowashuwow.github.io/actions/runs/38174520983) succeeded in 1m 30s; public verification passed.
 - The author's untracked Guilt of Fitness post/image remain untouched and are excluded from preview/check builds. They must not be included in the redesign release.
 
 ## Design and scope decisions
@@ -26,7 +28,7 @@ This is the authoritative project tracker. Checked items are implemented/verifie
 - Text descriptions appear only on title hover/keyboard focus. Image hover previews are deferred for maintainability.
 - Write from Obsidian on Mac only. Choose the simplest reliable workflow; no image requirement.
 
-## Completed locally
+## Completed and released
 
 - [x] Develop on a separate redesign branch.
 - [x] Choose compact typography and retain the existing visual identity.
@@ -52,19 +54,20 @@ This is the authoritative project tracker. Checked items are implemented/verifie
 
 These checks do not constitute full WCAG certification or a guarantee of Google indexing. Newsletter delivery was not tested by submitting an address. Pointer-driven tilt is implemented but has not been directly exercised with mouse movement. See release-checks.md for the evidence and limitations.
 
-## Next — release the approved redesign
+## Release — completed 12 October 2026
 
-- [ ] Inspect the exact release diff and stage only redesign files, excluding the author's draft/image.
-- [ ] Commit the reviewed changes and prepare a pull request targeting newtheme.
-- [ ] Verify live Pages publishing configuration and run any repository checks on the release revision.
-- [ ] Merge/deploy after explicit approval of the concrete release.
-- [ ] Verify the public homepage, Blog, representative article, image-free layout, gallery, assets, redirects and production metadata after deployment.
-- [ ] Update this tracker with commit/PR/deployment references and tick deployment only after public verification.
+- [x] Inspect the exact release diff and stage only redesign files, excluding the author's draft/image.
+- [x] Commit the reviewed changes and prepare a pull request targeting newtheme.
+- [x] Verify live Pages publishing configuration and run any repository checks on the release revision.
+- [x] Merge/deploy after explicit approval of the concrete release.
+- [x] Verify the public homepage, Blog, representative article, gallery, assets, compatibility URLs and production metadata. Image-free article layout verified locally; no new test post published.
+- [x] Update this tracker with commit/PR/deployment references after public verification.
 
 ## Next feature — simple Obsidian publishing on Mac
 
 - [ ] Start with a separate writing vault: Drafts, Published, Attachments; confirm the practical arrangement with the author before moving notes.
 - [ ] Provide one Blog template with optional image and existing tag/primary-topic metadata.
+- Use Obsidian's native tags directly for website tags, with hyphenated multiword names. The incorrect `Software Review` assignment and primary topic were corrected to `Software-Review`; preserve the readable “Software Review” display label. No separate topics-to-tags property is needed for this issue.
 - [ ] Prove write → preview → deliberate publish → edit using one text-only and one illustrated post.
 - [ ] Preserve existing URLs and distinguish private drafts from published content. Do not depend on the site's current future:true setting for draft privacy.
 - [ ] Check attachment paths, filenames with spaces, ordinary Markdown, links, footnotes, and Obsidian embeds actually used.
