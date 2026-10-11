@@ -8,6 +8,14 @@ Passed: Jekyll production build; JavaScript syntax; Git whitespace; all generate
 
 External destinations: Hypertropher, Case Study Academy, work portfolio and photography site returned HTTP 200. Browser checks: desktop gallery/photo replacement, gallery opens and Escape closes, phone overflow absent, social link names and 44px targets, mobile menu opens/closes. Keyboard focus and hover-description dismissal previously checked. Dark mode and image-free post presentation previously reviewed.
 
-Limitations: no end-to-end email delivery test, no full WCAG certification, no guarantee of Google indexing. Direct pointer-driven project tilt not manually exercised; it is gated off for touch and reduced-motion preferences. No deployment performed; publishing requires merging the reviewed redesign branch into the deployed newtheme branch.
+Limitations: no end-to-end email delivery test, no full WCAG certification, no guarantee of Google indexing. Direct pointer-driven project tilt not manually exercised; it is gated off for touch and reduced-motion preferences. Deployment completed with explicit author approval on 12 October 2026.
 
 Final rebuild passed after the HTTPS/native-validation correction. Final dark-mode gallery and mobile menu visually reviewed.
+
+## Released and verified publicly
+
+[PR #1](https://github.com/wowashuwow/wowashuwow.github.io/pull/1) merged redesign commit `3a24d92103c9f81379fecfb91c985718e538d2b2` into `newtheme` as `5bcc5dc69d58a05c97d2d7213f0863730d909804`. [Pages run #261](https://github.com/wowashuwow/wowashuwow.github.io/actions/runs/38174520983) succeeded in 1m 30s. Publishing remains Deploy from a branch → newtheme → root, custom domain wowashuwow.com, Enforce HTTPS enabled.
+
+Clean committed-source Jekyll safe-mode build passed before publication, with zero missing internal targets and the untracked author draft/image excluded. Live HTTP/browser checks passed: approved homepage copy, five recent posts, six photos beginning with gallery-05, Photography before Projects, both project assets, all 36 published posts on Blog, assigned Books/Notes tags on the representative book review, HTTPS canonicals without localhost URLs, valid sitemap/feed XML, legacy pagination endpoints 2–4 available (page 2 immediate HTML refresh verified), and gallery open/Escape close. No test post or newsletter address submitted.
+
+Pages reported a non-blocking Gemfile dependency warning and runner/action deprecation notices. The deployment succeeded; hosting/build modernization remains separate future scope.
