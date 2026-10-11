@@ -9,4 +9,6 @@ image: '/images/01.jpg'
 
 {% include section-portfolio.html %}
 
+{% include section-projects.html %}
+
 {% include section-subscribe.html %}

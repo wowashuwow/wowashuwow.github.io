@@ -14,11 +14,11 @@
           </a>
         </div>
 
-        <nav class="main-nav">
+        <nav class="main-nav" id="main-navigation" aria-label="Main navigation">
           <div class="main-nav__box">
-            <div class="nav__icon-close">
-              <i class="ion ion-md-close"></i>
-            </div>
+            <button class="nav__icon-close" type="button" aria-label="Close menu">
+              <i class="ion ion-md-close" aria-hidden="true"></i>
+            </button>
             <div class="nav__title">Menu</div>
             <ul class="nav__list list-reset">
               {% for item in site.data.settings.menu__settings.menu__items %}
@@ -27,17 +27,17 @@
                 </li>
               {% endfor %}
               <li class="nav__item">
-                <div class="toggle-theme">
+                <button class="toggle-theme" type="button" aria-label="Dark mode" aria-pressed="false">
                   <div class="toggle-moon" title="Enable dark mode"><i class="ion ion-ios-moon"></i></div>
                   <div class="toggle-sun" title="Enable light mode"><i class="ion ion-ios-sunny"></i></div>
-                </div>
+                </button>
               </li>
             </ul>
           </div>
         </nav>
 
         <div class="nav-button">
-          <i class="nav__icon nav__icon-menu ion ion-md-menu"></i>
+          <button class="nav__icon nav__icon-menu" type="button" aria-label="Open menu" aria-controls="main-navigation" aria-expanded="false"><i class="ion ion-md-menu" aria-hidden="true"></i></button>
         </div>
 
       </div>

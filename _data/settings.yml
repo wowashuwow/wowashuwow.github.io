@@ -12,39 +12,40 @@ menu__settings:
   menu__items:
     - title: 'Blog'
       url: '/blog/'
-    - title: 'Work'
-      url: '/work/'
-    - title: 'Contact'
-      url: '/contact/'
     - title: 'About'
       url: '/about/'
-    - title: 'Photography'
-      url: 'https://photos.wowashuwow.com'
 
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: Hi, I'm Ashutosh 👋
-  hero__description: I'm a full-stack writer for B2B SaaS companies. I also dabble in photography, fitness, and tech. This is my personal blog.
+  hero__title: Hi, I'm Ashutosh.
+  hero__description: I'm a writer, photographer, fitness junkie, and product builder. Welcome to my personal blog. 👊
 
 
 #-------------------------------
 # Portfolio Settings
 portfolio:
-  portfolio__title: Favorite Photos
+  portfolio__title: Photography
+  preview_limit: 6
   portfolio__gallery:
 
-    - image: /images/gallery-42.jpg
+    - image: /images/gallery-05.jpg
+      alt: German shepherd sitting on the seat of a red motorcycle.
 
     - image: /images/gallery-37.jpg
+      alt: A person holding a paddle beside paddleboards overlooking the sea.
 
     - image: /images/gallery-43.jpg
+      alt: A small boat on blue water beside a palm-lined island.
 
     - image: /images/gallery-01.jpg
+      alt: A smiling man with long white hair and sunglasses outside a shop.
 
     - image: /images/gallery-03.jpg
+      alt: Silhouettes at a bar overlooking the sea.
 
     - image: /images/gallery-34.jpg
+      alt: A blurred portrait surrounded by trails of warm lights.
 
     - image: /images/gallery-05.jpg
 
@@ -82,6 +83,9 @@ mailchimp:
 #-------------------------------
 # Footer Settings
 social:
+  - {icon: ion-logo-instagram, label: Instagram, link: 'https://www.instagram.com/wowashuwow/'}
+  - {icon: ion-logo-linkedin, label: LinkedIn, link: 'https://www.linkedin.com/in/ashutoshbhosale/'}
+  - {icon: ion-logo-github, label: GitHub, link: 'https://github.com/wowashuwow'}
 # - {icon: "ion-logo-twitter", color: "#55acee", label: Twitter, link: "https://twitter.com/wowashuwow"}
 # - {icon: "ion-logo-linkedin", color: "#0a66c2", label: LinkedIn, link: "https://www.linkedin.com/in/ashutoshbhosale/"}
 #- {icon: "ion-logo-instagram", color: "#e4405f", label: Instagram, link: "/instagram/"}
@@ -100,6 +104,21 @@ social:
 contact:
   email: ab@ashutoshbhosale.com # Add your email for contact form
   description: Send me a message about work or play. I promise I'll get back to you.
+
+# Personal projects
+projects:
+  - title: Hypertropher
+    style: hypertropher
+    image: /images/projects/hypertropher.svg
+    action: Explore Hypertropher
+    url: 'https://hypertropher.com/'
+    description: 'Always find quality high-protein food, no matter where you are.'
+  - title: Case Study Academy
+    style: academy
+    image: /images/projects/case-study-academy.png
+    action: Visit Case Study Academy
+    url: 'https://casestudyacademy.com/'
+    description: 'A free four-day email course on creating case studies that help agencies win projects.'
 
 # NOTE
 # Clancy comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.

@@ -1,0 +1,1 @@
+{% assign primary_topic = include.post.primary_topic | default: site.data.post-topics[include.post.path] | default: include.post.tags.first %}

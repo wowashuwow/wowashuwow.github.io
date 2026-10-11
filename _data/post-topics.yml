@@ -1,0 +1,39 @@
+# Primary topics for existing posts, independent of tag ordering.
+# New posts may set primary_topic in front matter.
+---
+_posts/2017-7-11-Ladakh-Diaries.md: Travel
+_posts/2017-7-18-Ladakh-Diaries-Part-Two.md: Travel
+_posts/2017-8-1-mist.md: Creative-Writing
+_posts/2021-11-7-Does-MATLAB-Work-On-M1_MacBooks.md: Software Review
+_posts/2021-12-2-How-I-Use-My-Windows-PC-From-Anywhere.md: Guides
+_posts/2021-3-9-Bosch.md: Films-and-TV
+_posts/2021-4-3-In-The-Heart-of-The-Sea.md: Films-and-TV
+_posts/2021-5-13-mailbox-org.md: Software-Review
+_posts/2021-5-15-Resources-to-become-a-web-developer.md: Guides
+_posts/2021-5-17-Stephen-King-On-Writing.md: Books
+_posts/2021-5-18-Inspector-Morse.md: Books
+_posts/2021-5-2-consume-vs-create.md: Thoughts
+_posts/2021-5-27-Exercise.md: Fitness
+_posts/2021-5-30-Chinatown.md: Films-and-TV
+_posts/2021-5-4-Mr-Olivers-Diary.md: Books
+_posts/2021-5-4-own-your-domain.md: Guides
+_posts/2021-5-7-Gaming.md: Gaming
+_posts/2021-5-8-Rocket-League.md: Gaming
+_posts/2021-6-1-KZ-ZST-Review.md: Tech
+_posts/2021-7-10-What-I-learned-working-on-a-Google-project.md: Building
+_posts/2022-1-7-how-to-build-your-own-website.md: Guides
+_posts/2023-3-3-Hello-World.md: Updates
+_posts/2023-8-22-How-I-Cracked-The-BMW-Interview.md: Guides
+_posts/2023-8-4-Workout-Routine.md: Fitness
+_posts/2024-4-16-Most-Impactful-Reads-of-2023.md: Books
+_posts/2024-5-14-best-of-paul-graham.md: Building
+_posts/2024-7-22-the-last-workout.md: Fitness
+_posts/2025-1-7-jimmys-red-wrangler-shirt.md: Fashion
+_posts/2025-7-17-my-first-roll-of-film.md: Photography
+_posts/2025-8-14-a-man-walks-into-a-temple.md: Photography
+_posts/2025-8-31-simple-marketing-for-smart-people-book-review.md: Books
+_posts/2026-1-8-Best-of-Chennai.md: Travel
+_posts/2026-2-19-book-review-a-self-help-guide-for-copywriters-by-dan-nelken.md: Books
+_posts/2026-2-4-Quotes-From-1883.md: Films-and-TV
+_posts/2026-5-11-standardized-photo-naming-convention-for-wordcamps.md: WordPress
+_posts/2026-6-15-worlds-best-remote-workplace-i-wouldnt-work-here.md: Building

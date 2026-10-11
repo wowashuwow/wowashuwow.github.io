@@ -7,7 +7,7 @@
         <div class="section__info">
           <div class="section__head">
             <h2 class="section__title">Recent blog posts</h2>
-            <a class="section__link" href="{{ '/blog' | relative_url }}">View all posts</a>
+            <a class="section__link" href="{{ '/blog/' | relative_url }}">Explore all writing</a>
           </div>
         </div>
       </div>
@@ -16,11 +16,9 @@
 
   <div class="container">
     <div class="row">
-      {% if site.posts.size > 0 %}
-        {% for post in site.posts offset:0 limit:3 %}
-          {% include article.html %}
-        {% endfor %}
-      {% endif %}
+      <div class="col col-12">
+        {% include post-list.html posts=site.posts limit=5 %}
+      </div>
     </div>
   </div>
 

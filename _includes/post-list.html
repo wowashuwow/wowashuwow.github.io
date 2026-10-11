@@ -1,0 +1,17 @@
+{% assign listed_posts = include.posts %}
+{% if include.limit %}{% assign listed_posts = listed_posts | slice: 0, include.limit %}{% endif %}
+<ul class="writing-list list-reset">
+  {% for post in listed_posts %}
+  <li class="writing-list__item">
+    <time class="writing-list__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d %b %Y' }}</time>
+    <div class="writing-list__entry">
+      <span class="title-preview">
+        <a class="writing-list__title" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        {% if post.description %}<span class="title-preview__text" role="tooltip">{{ post.description | strip_html | truncate: 180 | escape }}</span>{% endif %}
+      </span>
+      {% include primary-topic.html post=post %}
+      {% if primary_topic %}{% include topic-pill.html topic=primary_topic %}{% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>

@@ -11,7 +11,7 @@
               <ul class="social__list list-reset">
                 {% for social in site.data.settings.social %}
                   <li class="social__item">
-                    <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener" aria-label="{{social.label}} link"><i class="ion {{social.icon}}" style="color: {{social.color}};"></i> {{social.label}}</a>
+                    <a class="social__link" href="{{ social.link }}" aria-label="{{ social.label | escape }}" title="{{ social.label | escape }}"><i class="ion {{ social.icon }}" aria-hidden="true"></i></a>
                   </li>
                 {% endfor %}
               </ul>
@@ -20,6 +20,11 @@
         </div>
 
         <div class="footer__info">
+          <div class="footer__links">
+            <a href="https://ashutoshbhosale.com/">Work portfolio {% include external-icon.html %}</a>
+            <a href="{{ '/contact/' | relative_url }}">Contact</a>
+            <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+          </div>
           <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.data.settings.title}}</a>.</div>
         </div>
 
