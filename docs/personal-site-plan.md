@@ -67,6 +67,7 @@ These checks do not constitute full WCAG certification or a guarantee of Google 
 
 - [ ] Start with a separate writing vault: Drafts, Published, Attachments; confirm the practical arrangement with the author before moving notes.
 - [ ] Provide one Blog template with optional image and existing tag/primary-topic metadata.
+- Use Obsidian's native tags directly for website tags, with hyphenated multiword names. The incorrect `Software Review` assignment and primary topic were corrected to `Software-Review`; preserve the readable “Software Review” display label. No separate topics-to-tags property is needed for this issue.
 - [ ] Prove write → preview → deliberate publish → edit using one text-only and one illustrated post.
 - [ ] Preserve existing URLs and distinguish private drafts from published content. Do not depend on the site's current future:true setting for draft privacy.
 - [ ] Check attachment paths, filenames with spaces, ordinary Markdown, links, footnotes, and Obsidian embeds actually used.
