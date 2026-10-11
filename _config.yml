@@ -2,6 +2,10 @@
 # General Site Settings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wowashuwow.com" # the base hostname & protocol for your site, e.g. http://example.com
+# Metadata used by jekyll-seo-tag; keep consistent with _data/settings.yml.
+title: wowashuwow
+author: Ashutosh Bhosale
+description: "wowashuwow (Ashutosh) is a full-stack writer, photographer, and fitness enthusiast. This is his personal blog."
 
 
 #-------------------------------
