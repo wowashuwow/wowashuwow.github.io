@@ -1,0 +1,236 @@
+// A restrained extension of Clancy: its type, palette and gallery remain the base.
+:root {
+  --reading-width: 38rem;
+  --writing-title-size: 1.2rem;
+  --writing-row-space: 15px;
+  --topic-text-color: #65637f;
+}
+:root[dark] { --topic-text-color: var(--text-alt-color); }
+
+a:focus-visible, button:focus-visible, summary:focus-visible,
+input:focus-visible, textarea:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid var(--brand-color);
+  outline-offset: 5px;
+}
+
+.writing-list { margin: 0; }
+.writing-list__item {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 24px;
+  align-items: baseline;
+  padding: var(--writing-row-space) 0;
+  margin: 0;
+  border-bottom: 1px solid var(--border-color);
+  &:first-child { padding-top: 0; }
+}
+.writing-list__date {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-alt-color);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.writing-list__title {
+  width: fit-content;
+  font-size: var(--writing-title-size);
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: -.3px;
+  color: var(--heading-font-color);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: .16em;
+  &:hover, &:focus-visible { text-decoration-color: var(--brand-color); }
+}
+.writing-list__entry {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 12px;
+  min-width: 0;
+}
+.topic-pill {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+  min-height: 28px;
+  padding: 3px 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--topic-text-color);
+  background: var(--background-alt-color);
+  overflow-wrap: anywhere;
+  &:hover, &:focus-visible { color: var(--heading-font-color); border-color: var(--brand-color); }
+}
+.writing-intro { margin-bottom: 24px; }
+.writing-topics {
+  margin-bottom: 40px;
+  summary { width: fit-content; cursor: pointer; font-size: 18px; font-weight: 600; }
+}
+.writing-topics__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  padding-top: 20px;
+  font-size: 18px;
+  span { color: var(--text-alt-color); }
+}
+.archive-year { margin-bottom: 64px; }
+.archive-year__title { margin-bottom: 28px; font-size: 32px; }
+// Two real projects, each retaining its own visual identity.
+.projects__list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; }
+.project {
+  display: block;
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  overflow: hidden;
+  color: var(--heading-font-color);
+  background: var(--background-color);
+  transform: perspective(900px) rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg));
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  &:hover, &:focus-visible { color: var(--heading-font-color); border-color: var(--brand-color); box-shadow: 0 12px 28px rgba(30, 39, 64, .08); }
+}
+.project__art {
+  display: flex; align-items: center; gap: 24px;
+  min-height: 210px; padding: 36px;
+  img { width: 80px; height: 80px; object-fit: contain; border-radius: 12px; }
+}
+.project--hypertropher .project__art { background: #111; color: #fff; }
+.project--academy .project__art { background: #f2eef8; color: #453466; }
+.project__wordmark { font-size: 30px; font-weight: 700; line-height: 1.05; letter-spacing: -.6px; }
+.project--hypertropher .project__wordmark { text-transform: uppercase; font-size: 28px; }
+.project__body { padding: 28px 32px 32px; }
+.project__title { font-size: 26px; margin: 0 0 12px; }
+.project__description { margin: 0 0 24px; color: var(--text-alt-color); font-size: 18px; line-height: 1.5; }
+.project__action { font-size: 17px; text-decoration: underline; text-underline-offset: 4px; }
+.title-preview { position: relative; max-width: 100%; }
+.title-preview__text { display: none; }
+.title-preview__text.is-visible {
+  display: block; position: fixed; z-index: 150;
+  width: min(320px, calc(100vw - 32px)); padding: 14px 18px;
+  font-size: 16px; line-height: 1.5; font-weight: 400;
+  color: var(--heading-font-color); background: var(--background-color);
+  border: 1px solid var(--border-color); border-radius: 10px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, .12);
+}
+.external-icon { display: inline-block; width: .85em; height: .85em; margin-left: .15em; vertical-align: -.05em; }
+.social .social__link i { font-size: 24px; margin-right: 0; }
+.social .social__link {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 44px; height: 44px; padding: 0;
+  color: var(--heading-font-color); line-height: 1;
+}
+.portfolio__view { display: flex; gap: 24px; align-items: center; }
+.portfolio__toggle { border: 0; color: inherit; }
+.icon-bar { display: block; }
+.toggle-theme, .nav__icon-close, .nav__icon-menu, .top {
+  border: 0; padding: 0; font: inherit; color: inherit;
+}
+.toggle-theme, .nav__icon-menu { background: transparent; }
+.nav__icon-menu { cursor: pointer; }
+.footer__links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px 28px;
+  margin-bottom: 28px;
+  font-size: 17px;
+}
+.social__list { gap: 12px 28px; }
+.social .social__item { margin: 0; }
+.article--text .article__date {
+  position: static;
+  padding: 0;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 0;
+  background: none;
+  color: var(--text-alt-color);
+}
+.post, .page, .post__info, .page__info { max-width: var(--reading-width); }
+.post__content, .page__content {
+  line-height: 1.65;
+  overflow-wrap: break-word;
+  h2 { margin-top: 48px; font-size: 36px; }
+  h3 { margin-top: 32px; font-size: 28px; }
+  h4 { font-size: 24px; }
+  h2, h3, h4, h5, h6 { letter-spacing: -.5px; }
+  li { margin-bottom: 8px; }
+  img + em, .gallery + em { font-size: 15px; line-height: 1.5; }
+  .footnotes { font-size: 17px; line-height: 1.6; }
+}
+.post__title, .page__title { font-size: 62px; }
+.post__meta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-alt-color);
+}
+.post__tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.post__tag { scroll-margin-top: 24px; }
+.skip-link {
+  position: fixed; top: 12px; left: 12px; z-index: 200;
+  padding: 12px 20px; transform: translateY(-200%);
+  color: var(--heading-font-color); background: var(--background-color);
+  &:focus { transform: translateY(0); }
+}
+
+// Local review variant; only enabled by the private preview configuration.
+.design-compact {
+  --writing-title-size: 1.2rem;
+  --writing-row-space: 15px;
+  .writing-list__title { font-weight: 500; }
+}
+
+@media only screen and (max-width: $desktop) {
+  .post__title, .page__title { font-size: 48px; }
+}
+@media only screen and (max-width: $tablet) {
+  .portfolio__view { padding-left: 0; }
+  .projects__list { grid-template-columns: 1fr; }
+}
+@media only screen and (max-width: $mobile) {
+  .writing-list__item { grid-template-columns: 1fr; gap: 6px; padding: 20px 0; }
+  .writing-list__entry { grid-row: 1; }
+  .project__art { padding: 28px; min-height: 170px; gap: 18px; }
+  .project__wordmark { font-size: 26px; }
+  .project__body { padding: 24px; }
+  .writing-list__title { font-size: 22px; }
+  .writing-list__date { font-size: 15px; }
+  .section__head { gap: 12px; }
+  .portfolio .portfolio__gallery .col { width: 50%; }
+  .portfolio__item { padding: 12px; margin-bottom: 20px; }
+  .portfolio__link, .portfolio__image, .portfolio__link::after { border-radius: 10px; }
+  .post__title, .page__title { font-size: 32px; }
+  .post__content, .page__content {
+    h2 { font-size: 30px; }
+    h3 { font-size: 25px; }
+  }
+  .design-compact .writing-list__title { font-size: 20px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  // Preserve animation-end events used by Clancy's lightbox to finish closing.
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,20 @@
+<section class="section projects" id="projects" aria-labelledby="projects-title">
+  <div class="container"><div class="row"><div class="col col-12">
+    <div class="section__head"><h2 class="section__title" id="projects-title">Things I've built</h2></div>
+    <div class="projects__list">
+      {% for project in site.data.settings.projects %}
+      <a class="project project--{{ project.style }}" href="{{ project.url }}" aria-labelledby="project-title-{{ forloop.index }}">
+        <div class="project__art" aria-hidden="true">
+          <img src="{{ project.image | relative_url }}" alt="" width="96" height="96" loading="lazy">
+          <span class="project__wordmark">{{ project.title | escape }}</span>
+        </div>
+        <div class="project__body">
+          <h3 class="project__title" id="project-title-{{ forloop.index }}">{{ project.title | escape }}</h3>
+          <p class="project__description">{{ project.description | escape }}</p>
+          <span class="project__action">{{ project.action | escape }} <span aria-hidden="true">↗</span></span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div></div></div>
+</section>

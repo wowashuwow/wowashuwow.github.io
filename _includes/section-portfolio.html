@@ -7,13 +7,14 @@
         <div class="section__head">
           <h2 class="section__title">{{ site.data.settings.portfolio.portfolio__title }}</h2>
           <div class="portfolio__view">
-            <div class="portfolio__toggle">
-              <div class="icon">
-                <div class="icon-bar"></div>
-                <div class="icon-bar"></div>
-                <div class="icon-bar"></div>
-              </div>
-            </div>
+            <a class="section__link" href="https://photos.wowashuwow.com/">Visit photography site {% include external-icon.html %}</a>
+            <button class="portfolio__toggle" type="button" aria-label="Show photographs in a single column" aria-pressed="false">
+              <span class="icon" aria-hidden="true">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </span>
+            </button>
           </div>
         </div>
       </div>
@@ -23,12 +24,12 @@
   <div class="portfolio__gallery animate">
     <div class="container">
       <div class="row">
-        {% for photo in site.data.settings.portfolio.portfolio__gallery %}
+        {% for photo in site.data.settings.portfolio.portfolio__gallery limit:site.data.settings.portfolio.preview_limit %}
         <div class="col col-4 col-d-6 col-t-12">
           <div class="portfolio__item">
-            <a href="{% if photo.video %}{{photo.video}}{% else %}{{photo.image}}{% endif %}" class="portfolio__link glightbox" {% if photo.video %}aria-label="Video"{% else %}data-glightbox='title: {{photo.title}}; description: {{photo.description}}; descPosition: bottom;'{% endif %}>
+            <a href="{% if photo.video %}{{ photo.video }}{% else %}{{ photo.image | relative_url }}{% endif %}" class="portfolio__link glightbox" aria-label="{% if photo.title %}View {{ photo.title | escape }}{% else %}View photograph {{ forloop.index }}{% endif %}" {% unless photo.video %}data-glightbox='title: {{photo.title | escape}}; description: {{photo.description | escape}}; descPosition: bottom;'{% endunless %}>
               <span class="portfolio__icon"><i class="ion ion-ios-eye"></i></span>
-              <img data-src="{{photo.image}}" class="portfolio__image lazy" alt="{{photo.title}}">
+              <img src="{{ photo.image | relative_url }}" class="portfolio__image" loading="lazy" alt="{{ photo.alt | default: photo.title | escape }}">
             </a>
            </div>
         </div>

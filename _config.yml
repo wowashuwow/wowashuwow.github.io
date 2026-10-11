@@ -14,11 +14,9 @@ markdown: kramdown
 permalink: /:title
 plugins:
   - jekyll-seo-tag
-  - jekyll-paginate
   - jekyll-sitemap
 
-paginate: 9
-paginate_path: "/blog/page/:num"
+design_variant: compact
 
 kramdown:
   hard_wrap: true
@@ -36,6 +34,9 @@ defaults:
 
 include:
   - _pages
+
+exclude:
+  - docs
 
 sass:
   sass_dir: _sass
