@@ -26,7 +26,7 @@
       const byTitle = (a, b) => a.dataset.bookTitle.localeCompare(b.dataset.bookTitle, 'en', { sensitivity: 'base' });
       books.sort((a, b) => select.value === 'rating' ? Number(b.dataset.bookRating) - Number(a.dataset.bookRating) || byTitle(a, b) : byTitle(a, b));
       list.append(...books);
-      document.querySelector('#books-sort-status').textContent = `Finished books sorted by ${select.value === 'rating' ? 'highest rating' : 'title A to Z'}.`;
+      document.querySelector('#books-sort-status').textContent = `Rating-only books sorted by ${select.value === 'rating' ? 'highest rating' : 'title A to Z'}.`;
     });
   }
 })();

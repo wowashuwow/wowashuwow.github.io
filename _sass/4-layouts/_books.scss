@@ -62,3 +62,9 @@
 }
 
 .books-page .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+.books-reviews { margin-bottom: 64px; }
+.books-review-year + .books-review-year { margin-top: 36px; }
+.books-year { font-size: 23px; margin: 0; color: var(--text-alt-color); font-weight: 400; }
+.book__review-date { font-size: 15px; color: var(--text-alt-color); margin: 12px 0 0; }
+.book__review-date a { text-decoration: underline; text-underline-offset: 3px; }

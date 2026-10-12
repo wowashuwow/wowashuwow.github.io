@@ -243,3 +243,6 @@ Planning update (13 October): [Books plan](books-plan.md) now specifies the read
 - [ ] Review the visual preview with the author, refine cover quality, then build the separate Books management commands. No installation or deployment yet.
 
 Feature evidence and detailed progress live in the Books checkout’s `docs/books-plan.md`. Draft-image retention cleanup remains deferred until Books is finished.
+
+
+Books feedback (13 October): finished written reviews move above rating-only books, grouped by verified Goodreads review dates rather than completion dates. Dates were checked on all 11 review pages. Manual currently-reading visibility/order confirmed; add to the planned Books management commands and preserve choices across CSV imports. Detailed behavior and date-refresh limits are recorded in books-plan.md.

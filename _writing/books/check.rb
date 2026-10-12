@@ -2,6 +2,7 @@
 require 'yaml'
 require 'nokogiri'
 require 'uri'
+require 'date'
 
 root = File.expand_path('../..', __dir__)
 output = ARGV.fetch(0) { abort 'Usage: bundle exec ruby _writing/books/check.rb BUILD_OUTPUT' }
@@ -12,6 +13,15 @@ errors = []
 expected_posts = []
 overrides.each do |id, custom|
   errors << "Invalid override ID #{id}" unless id.is_a?(String) && id.match?(/\A[1-9]\d*\z/)
+  if custom['review_date']
+    begin
+      raise ArgumentError unless custom['review_date'].is_a?(String) && custom['review_date'].match?(/\A\d{4}-\d{2}-\d{2}\z/)
+      Date.iso8601(custom['review_date'])
+      errors << "Missing review provenance: #{id}" unless custom['review_source_url'].to_s.match?(%r{\Ahttps://www\.goodreads\.com/review/show/[1-9]\d*\z})
+    rescue ArgumentError
+      errors << "Invalid review date: #{id}"
+    end
+  end
   (custom['posts'] || []).each do |post|
     errors << "Invalid or missing published post: #{post}" unless post.is_a?(String) && !post.include?('/') && File.file?(File.join(root, '_posts', post))
     expected_posts << post if books.any? { |b| b['id'] == id }
@@ -23,10 +33,20 @@ books.each do |book|
     errors << "Book missing from generated page: #{book['id']}"
     next
   end
-  errors << "Title missing/changed: #{book['id']}" unless entry.at_css('h3 a')&.text == book['title']
+  errors << "Title missing/changed: #{book['id']}" unless entry.at_css('.book__title a')&.text == book['title']
   errors << "Wrong reading state: #{book['id']}" unless entry['class'].include?('book--current') == (book['status'] == 'currently-reading')
   errors << "Review missing: #{book['id']}" if book['review_html'] && !entry.at_css('details .book__review-text')
   errors << "Review HTML contains executable content: #{book['id']}" unless entry.css('.book__review-text script, .book__review-text iframe, .book__review-text [onclick], .book__review-text [onerror]').empty?
+  if book['status'] == 'read'
+    if book['review_html']
+      custom = overrides[book['id']] || {}
+      expected_year = custom['review_date'] ? custom['review_date'][0, 4] : 'undated'
+      errors << "Wrong review grouping: #{book['id']}" unless entry.ancestors('section').any? { |section| section['aria-labelledby'] == "reviews-#{expected_year}" }
+      errors << "Wrong review date: #{book['id']}" if custom['review_date'] && entry.at_css('time')&.[]('datetime') != custom['review_date']
+    else
+      errors << "Rating-only book in wrong section: #{book['id']}" unless entry.ancestors('#finished-list').any?
+    end
+  end
   entry.css('img').each do |img|
     errors << "Invalid/missing cover: #{img['src']}" unless img['src'].start_with?('/images/books/') && File.file?(File.join(output, img['src']))
   end
