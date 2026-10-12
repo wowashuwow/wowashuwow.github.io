@@ -7,6 +7,7 @@ This is the authoritative project tracker. Checked items are implemented/verifie
 ## Current status
 
 - Current implementation branch: `codex/obsidian-writing`; the website-root vault is being added without moving published posts or legacy images.
+- Obsidian setup is implemented locally and proposed in [draft PR #3](https://github.com/wowashuwow/wowashuwow.github.io/pull/3). It has not been released; native preview-button verification and the first real publication remain pending.
 - Selected preview: http://127.0.0.1:4101/ (compact design).
 - Publishing branch: `newtheme`; Pages confirmed as branch publishing from the root, with HTTPS enforced.
 - Current redesign is released at https://wowashuwow.com/; local and public release checks passed.
@@ -91,6 +92,8 @@ Done when the author can write, preview, publish, and revise a post from Obsidia
 - [ ] Confirm the author's Mac backup covers the Git-ignored Drafts folder; backup/recovery instructions are documented, but a backup service has not been configured by this task.
 
 Evidence: eleven temporary-repository tests passed, including selected-file commits, cross-draft privacy, missing images, symlinks, collisions, staged/development-branch guards, unchanged revisions, failed upload/retry, stale-note protection, code examples, HTML and reference images. Isolated full-site builds passed for text-only and illustrated fixtures, with correct body/OG image URLs and no private files. The original 36 tracked posts and legacy images were not moved. A pre-existing broken homepage social-image reference (`/images/01.jpg`) was corrected to the existing `/images/self-portrait.jpg`.
+
+The actual preview method was also invoked in a Node harness with the Obsidian UI mocked: its HTTP server returned 200 for the generated article and 404 for an unrelated private draft. Both selected images were verified loaded in the in-app browser. This supplements the build checks; it does not replace the pending native preview-button check.
 
 ## Later — Thoughts
 
