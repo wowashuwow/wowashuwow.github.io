@@ -1,5 +1,5 @@
 ---
-title: Jacked and Guilty
+title: Jacked but Guilty
 description: On the environmental impact of a bodybuilding lifestyle
 image: /images/2026-8-23-the-guilt-of-fitness/2026-8-23-the-guilt-of-fitness-fi.jpg
 tags:
@@ -35,4 +35,4 @@ I dream of a country where we could live with nature and with each other in harm
 
 Why does bodybuilding have to feel like a wasteful activity? It feels that way, given the destruction and environmental impact that I alone have on this world. Many times more than the average person (well, at least the average person in India), with the amount of non-vegetarian food I consume on a daily basis. Why do I have to feel guilty when I'm doing what I'm supposed to do? Am I not supposed to be strong and powerful and have the body of a fighter? Bodybuilding feels wasteful only in this modern age where you can buy a kilo of chicken for a cheap price and chomp it down without giving a thought to how doing this every single day is affecting other lives, what bad karma you're collecting, what kind of carbon footprint you're leaving. It wouldn't feel wasteful if I had done this very thing a couple of centuries ago, would it? If I was hunting for myself in a habitat was rich with game and raising my own animals. But then, could I possibly still have overdone it and have had an outsized negative impact on the environment? I think probably not.
 
-<!-- site-writer content: 24d02bf5e68234112ed03be7c77f50a6842b5cfb2bf7d7cdb10100d1d0eb79b1 -->
+<!-- site-writer content: 9ae50a8fc9374562612216c9ba5d42ac6a300488e663fc09a1b7304929b9ba38 -->
