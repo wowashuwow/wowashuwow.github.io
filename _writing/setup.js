@@ -9,17 +9,22 @@ const attachmentVersion = '0.12.1';
 async function json(file, value) { await fs.mkdir(path.dirname(file), { recursive: true }); await fs.writeFile(file, JSON.stringify(value, null, 2) + '\n'); }
 async function installWriter(target) {
   await fs.mkdir(target, { recursive: true });
-  const core = await fs.readFile(path.join(__dirname, 'lib/publishing.js'), 'utf8');
-  const main = await fs.readFile(path.join(__dirname, 'main.js'), 'utf8');
-  // Obsidian loads one CommonJS entrypoint; bundle our local module without a toolchain.
-  const bundled = main.replace("const core = require('./lib/publishing');", `const core = (() => { const module = { exports: {} };\n${core}\nreturn module.exports; })();`);
+  const modules = {};
+  for (const name of ['publishing', 'preview', 'cleanup']) modules[name] = await fs.readFile(path.join(__dirname, 'lib', name + '.js'), 'utf8');
+  let bundled = await fs.readFile(path.join(__dirname, 'main.js'), 'utf8');
+  const wrap = source => `(() => { const module = { exports: {} };\n${source}\nreturn module.exports; })()`;
+  modules.cleanup = modules.cleanup.replace("const core = require('./publishing');", '');
+  modules.preview = modules.preview.replace("const core = require('./publishing');", '');
+  bundled = bundled.replace("const core = require('./lib/publishing');", () => `const core = ${wrap(modules.publishing)};`)
+    .replace("const { PreviewSession } = require('./lib/preview');", () => `const { PreviewSession } = ${wrap(modules.preview)};`)
+    .replace("const cleanup = require('./lib/cleanup');", () => `const cleanup = ${wrap(modules.cleanup)};`);
   await fs.writeFile(path.join(target, 'main.js'), bundled);
   await fs.copyFile(path.join(__dirname, 'manifest.json'), path.join(target, 'manifest.json'));
 }
 async function main() {
   if (process.argv.includes('--refresh')) {
     await installWriter(path.join(config, 'plugins/site-writer'));
-    console.log('Writing helper refreshed; settings and publication recovery records preserved. Reload the Website writing plugin in Obsidian.');
+    console.log('Writing helper refreshed; settings and publication recovery records preserved. Reload the PublishDesk plugin in Obsidian.');
     return;
   }
   if (await fs.stat(config).catch(() => null)) throw new Error('This website already has Obsidian settings. Preserve them and review the setup before re-running; the existing vault was not overwritten.');
@@ -45,6 +50,7 @@ async function main() {
   await json(path.join(config, 'app.json'), {
     useMarkdownLinks: true, newLinkFormat: 'relative', alwaysUpdateLinks: true,
     newFileLocation: 'folder', newFileFolderPath: 'Drafts', attachmentFolderPath: 'Drafts/images',
+    deleteUnlinkedAttachments: 'never', trashOption: 'system',
     showInlineTitle: false, userIgnoreFilters: hidden
   });
   await json(path.join(config, 'appearance.json'), { enabledCssSnippets: ['writing-view'] });

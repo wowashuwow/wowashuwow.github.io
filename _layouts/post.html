@@ -75,7 +75,7 @@ layout: default
       </ul>
     </div>
 
-    {% if site.data.settings.disqus-identifier %} {% include disqus-comments.html %} {% endif %}
+    {% if site.data.settings.disqus-identifier and site.website_preview != true %} {% include disqus-comments.html %} {% endif %}
 
   </article>
 </div>

@@ -7,6 +7,8 @@ _site
 /Drafts/
 /.obsidian/
 /.trash/
-# Existing author-owned, unpublished files: do not publish through a broad git add.
-/_posts/2026-8-23-the-guilt-of-fitness.md
+# Legacy unpublished image; the post now lives in private Drafts.
 /images/2026-8-23-the-guilt-of-fitness-fi.jpg
+
+# Native Jekyll drafts stay private in this vault too.
+/_drafts/

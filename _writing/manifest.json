@@ -1,6 +1,6 @@
 {
   "id": "site-writer",
-  "name": "Website writing",
+  "name": "PublishDesk",
   "version": "1.0.0",
   "minAppVersion": "1.13.0",
   "description": "Private drafts, local previews and selected-post publishing for wowashuwow.com.",

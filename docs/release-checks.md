@@ -19,3 +19,9 @@ Final rebuild passed after the HTTPS/native-validation correction. Final dark-mo
 Clean committed-source Jekyll safe-mode build passed before publication, with zero missing internal targets and the untracked author draft/image excluded. Live HTTP/browser checks passed: approved homepage copy, five recent posts, six photos beginning with gallery-05, Photography before Projects, both project assets, all 36 published posts on Blog, assigned Books/Notes tags on the representative book review, HTTPS canonicals without localhost URLs, valid sitemap/feed XML, legacy pagination endpoints 2–4 available (page 2 immediate HTML refresh verified), and gallery open/Escape close. No test post or newsletter address submitted.
 
 Pages reported a non-blocking Gemfile dependency warning and runner/action deprecation notices. The deployment succeeded; hosting/build modernization remains separate future scope.
+
+## PublishDesk release validation — 12 October 2026
+
+All 26 tests passed: private asset handling, ordinary Markdown, image import/reuse, selected-file Git publication, branch/staged/change safeguards, failed-upload retry, cleanup/shared-file preservation, installed bundle loading, Unicode under an ASCII locale, and persistent full-build preview/reload/failure recovery. Preview localhost test rerun outside sandbox after EPERM; passed. User confirmed draft deletion works in Obsidian. Removed historical fitness-post exclusion/ignore after its migration to private Drafts; legacy standalone image remains protected. Fixed featured picker to allow the fitness post’s own images.
+
+The author will run the first real publication themselves. Draft and private recovery files remain excluded from Git and website output.
