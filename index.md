@@ -1,6 +1,6 @@
 ---
 layout: default
-image: '/images/01.jpg'
+image: '/images/self-portrait.jpg'
 ---
 
 {% include section-hero.html %}

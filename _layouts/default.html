@@ -6,7 +6,7 @@
 <body{% if site.design_variant == 'compact' %} class="design-compact"{% endif %}>
   <a class="skip-link" href="#main-content">Skip to content</a>
 
-  {% if site.data.settings.google-analytics %}
+  {% if site.data.settings.google-analytics and site.website_preview != true %}
     {% include google-analytics.html %}
   {% endif %}
 

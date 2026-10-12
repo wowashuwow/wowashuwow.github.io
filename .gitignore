@@ -3,3 +3,12 @@ _site
 .jekyll-cache
 .jekyll-metadata
 .DS_Store
+# Private writing and machine-specific Obsidian settings.
+/Drafts/
+/.obsidian/
+/.trash/
+# Legacy unpublished image; the post now lives in private Drafts.
+/images/2026-8-23-the-guilt-of-fitness-fi.jpg
+
+# Native Jekyll drafts stay private in this vault too.
+/_drafts/

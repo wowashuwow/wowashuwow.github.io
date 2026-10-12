@@ -1,0 +1,9 @@
+{
+  "id": "site-writer",
+  "name": "PublishDesk",
+  "version": "1.0.0",
+  "minAppVersion": "1.13.0",
+  "description": "Private drafts, local previews and selected-post publishing for wowashuwow.com.",
+  "author": "Ashutosh Bhosale",
+  "isDesktopOnly": true
+}

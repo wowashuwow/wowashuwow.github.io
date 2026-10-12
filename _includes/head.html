@@ -32,11 +32,6 @@
     }
   </script>
 
-  <style>
-  {% capture include_to_scssify %}
-    {% include main.scss %}
-  {% endcapture %}
-  {{ include_to_scssify | scssify }}
-  </style>
+  <link rel="stylesheet" href="{{ "/css/site.css" | relative_url }}">
 
 </head>

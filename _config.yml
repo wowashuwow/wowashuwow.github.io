@@ -37,6 +37,14 @@ include:
 
 exclude:
   - docs
+  - Drafts
+  - .obsidian
+  - .trash
+  - _writing
+  - images/2026-8-23-the-guilt-of-fitness-fi.jpg
+  - vendor
+  - Gemfile
+  - Gemfile.lock
 
 sass:
   sass_dir: _sass
