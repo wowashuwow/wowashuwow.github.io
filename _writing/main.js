@@ -24,11 +24,18 @@ class Confirm extends Modal {
   onOpen() {
     this.contentEl.createEl('h2', { text: 'Publish this post?' });
     this.contentEl.createEl('p', { text: this.plan.title });
+    this.contentEl.createEl('p', { text: `Commit: ${core.commitSubject(this.plan)}` });
+    let note = '';
+    new Setting(this.contentEl).setName('Publication note (optional)').setDesc('Stored in public Git history, not shown in the post. Leave blank to use only the commit subject.').addTextArea(input => {
+      input.setPlaceholder('Context for this publication or what changed…').onChange(value => note = value);
+      input.inputEl.rows = 4;
+      input.inputEl.setAttribute('aria-label', 'Publication note (optional)');
+    });
     if (this.plan.unpublished) this.contentEl.createEl('p', { text: 'This post is marked published: false. Publishing will remove that property and make it public.' });
     this.contentEl.createEl('p', { text: 'This uploads the following files to your public website. Other drafts stay private.' });
     const list = this.contentEl.createEl('ul');
     for (const file of [this.plan.target, ...this.plan.assets.keys()]) list.createEl('li', { text: file });
-    new Setting(this.contentEl).addButton(b => b.setButtonText('Cancel').onClick(() => this.close())).addButton(b => b.setButtonText('Publish').setCta().onClick(() => { this.resolve(true); this.close(); }));
+    new Setting(this.contentEl).addButton(b => b.setButtonText('Cancel').onClick(() => this.close())).addButton(b => b.setButtonText('Publish').setCta().onClick(() => { this.resolve({ note }); this.close(); }));
   }
   onClose() { this.resolve?.(false); this.contentEl.empty(); }
 }
@@ -252,12 +259,13 @@ module.exports = class WebsiteWriter extends Plugin {
     new Notice('Checking the website and images before publishing…');
     const checked = await core.build(plan);
     try {
-      if (!(await new Confirm(this.app, plan).result())) return;
+      const confirmation = await new Confirm(this.app, plan).result();
+      if (!confirmation) return;
       // Close the draft editor before moving its file so autosave cannot recreate it.
       const leaf = this.app.workspace.getMostRecentLeaf();
       if (leaf) await leaf.setViewState({ type: 'empty' });
       let result;
-      try { result = await core.publish(plan, { checked }); }
+      try { result = await core.publish(plan, { checked, note: confirmation.note }); }
       catch (error) {
         await this.openPost(await core.exists(path.join(this.root, plan.target)) ? plan.target : plan.notePath);
         throw error;
