@@ -25,3 +25,7 @@ Pages reported a non-blocking Gemfile dependency warning and runner/action depre
 All 26 tests passed: private asset handling, ordinary Markdown, image import/reuse, selected-file Git publication, branch/staged/change safeguards, failed-upload retry, cleanup/shared-file preservation, installed bundle loading, Unicode under an ASCII locale, and persistent full-build preview/reload/failure recovery. Preview localhost test rerun outside sandbox after EPERM; passed. User confirmed draft deletion works in Obsidian. Removed historical fitness-post exclusion/ignore after its migration to private Drafts; legacy standalone image remains protected. Fixed featured picker to allow the fitness post’s own images.
 
 The author will run the first real publication themselves. Draft and private recovery files remain excluded from Git and website output.
+
+PR #3 merged as `988de57d7ead6cc92afc1e93c13794902b0a5724`; local publishing branch `newtheme` tracks `newtheme/newtheme`. Production-mode build of the actual Jacked and Guilty draft passed without publishing or changing its source. Upload whitelist is its `_posts/2026-8-23-the-guilt-of-fitness.md` destination and one image under `images/2026-8-23-the-guilt-of-fitness/`. Clean release build resolved all root-relative internal links/assets and excluded all private writing folders and the unpublished fitness post.
+
+GitHub Pages setup deployment [run #263](https://github.com/wowashuwow/wowashuwow.github.io/actions/runs/38286555950) succeeded.

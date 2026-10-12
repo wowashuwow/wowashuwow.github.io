@@ -162,7 +162,7 @@ Update this file after each completed task, scope decision or deployment. Keep c
 - [x] Support native `_drafts` and explicitly confirm transition from `published: false`.
 - [x] Integration test: full preview rebuilds update archive, integrations stay disabled, build failures retain last successful output, recovery resumes, and temporary files are cleaned.
 - [x] Native Obsidian 1.14.4: Mac picker imported a JPEG into the private post folder; optional body insertion reused it; featured-only output displayed it without a body image. The eye command opened a rendered preview, native wikilinks resolved, comments stayed hidden, and saved changes reloaded the browser at the same URL. No test content was published.
-- [ ] Review and release PR #3; publication remains disabled on the development branch.
+- [x] Release PR #3: merged as 988de57d7ead6cc92afc1e93c13794902b0a5724. Local checkout switched to newtheme; author will perform first publication in Obsidian.
 
 Public-release scope: configurable source/asset/private-folder mapping and deployment adapters, validation on other themes/platforms/Jekyll plugins, additional Obsidian syntax. The current implementation supports this site first and does not claim universal Jekyll compatibility.
 
@@ -194,10 +194,12 @@ Earlier native syntax tests covered only narrow examples; they did not establish
 - [x] Set website-vault native attachment deletion to Never, retaining system trash; initial setup uses the same defaults.
 - [x] 24 focused tests passed across cleanup, Markdown, image import and publishing safeguards. Installed bundle loads successfully.
 - [x] User confirmed PublishDesk draft deletion works in Obsidian. Cancellation and shared-image preservation are also covered by integration tests.
-- [ ] Prepare publication of Jacked and Guilty after cleanup validation; it remains private on the development branch.
+- [x] Validate Jacked and Guilty for publication from newtheme: full build passed, with only the post and featured image selected. Draft remains private until the author confirms Publish.
 
 - [x] Rename the Obsidian helper to PublishDesk in its manifest, logs, setup instructions and writing guide. Keep plugin ID `site-writer`, command IDs and recovery/settings paths unchanged.
 
 - [x] Prepare fitness publication: remove the historical post exclusion/ignore and allow its per-post images in the featured-image picker. Drafts remain private; the legacy standalone image remains protected.
 
 - [ ] User will publish Jacked and Guilty through PublishDesk to test the complete workflow; do not publish it on their behalf.
+
+- [ ] Optional GitHub branch protection: prevent force pushes/deletion while retaining normal direct pushes for PublishDesk. Do not require PRs without changing the publishing workflow.
