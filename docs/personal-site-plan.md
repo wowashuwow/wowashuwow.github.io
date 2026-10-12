@@ -1,20 +1,22 @@
 # wowashuwow.com — main project plan and checklist
 
-Last updated: 12 October 2026.
+Last updated: 13 October 2026.
 
 This is the authoritative project tracker. Checked items are implemented/verified locally unless explicitly marked deployed. Detailed visual rules live in [design-foundation.md](design-foundation.md); release evidence and test limitations live in [release-checks.md](release-checks.md). Future scope is not authorization to implement everything at once.
 
 ## Current status
 
-- Current implementation branch: `codex/obsidian-writing`; the website-root vault is being added without moving published posts or legacy images.
-- Obsidian setup is implemented locally and proposed in [draft PR #3](https://github.com/wowashuwow/wowashuwow.github.io/pull/3). It has not been released. Native Preview is verified after the October 12 UTF-8 fix; the first real publication remains pending.
-- Selected preview: http://127.0.0.1:4101/ (compact design).
+- Current working/publishing branch: `newtheme`. PublishDesk is released; the website root is its separate Obsidian vault.
+- PublishDesk released through [PR #3](https://github.com/wowashuwow/wowashuwow.github.io/pull/3); optional publication notes released through [PR #4](https://github.com/wowashuwow/wowashuwow.github.io/pull/4). On 13 October the author confirmed both publishing Jacked and Guilty and updating another post’s description worked.
+- Compact design is live; localhost previews are temporary and their ports vary by session.
 - Publishing branch: `newtheme`; Pages confirmed as branch publishing from the root, with HTTPS enforced.
 - Current redesign is released at https://wowashuwow.com/; local and public release checks passed.
 - Redesign commit: `3a24d92103c9f81379fecfb91c985718e538d2b2`.
 - [PR #1](https://github.com/wowashuwow/wowashuwow.github.io/pull/1) merged into newtheme as `5bcc5dc69d58a05c97d2d7213f0863730d909804`.
 - Deployment [run #261](https://github.com/wowashuwow/wowashuwow.github.io/actions/runs/38174520983) succeeded in 1m 30s; public verification passed.
-- The author's untracked Guilt of Fitness post/image remain untouched and are excluded from preview/check builds. They must not be included in the redesign release.
+- Jacked and Guilty has now been published by the author through PublishDesk. Legacy standalone image remains protected; private Drafts and recovery copies remain excluded from Git/public output.
+- Next feature order agreed 13 October: Books → Films → short entries (name undecided) → deferred improvements. Books research and the implementation plan are in [books-plan.md](books-plan.md); implementation has not started.
+- Branch protection is optional and deliberately skipped. PublishDesk's normal direct-push workflow remains in place.
 
 ## Design and scope decisions
 
@@ -84,33 +86,50 @@ These checks do not constitute full WCAG certification or a guarantee of Google 
 
 Done when the author can write, preview, publish, and revise a post from Obsidian without a featured image or manual file housekeeping.
 
-### Verification and rollout still pending
+### Verification and rollout
 
 - [x] Reproduce and fix the native Preview error reported on October 12: Ruby inherited an ASCII encoding and Sass failed on the existing `✓` in `_sass/3-modules/_services.scss:100`. Both Jekyll subprocesses now explicitly start Ruby with UTF-8. A full-site Unicode regression build passes with `LANG=C` and `LC_ALL=C`; all twelve automated tests pass. The installed helper was refreshed; native UI verification remains separate below.
 - [x] Complete the native Obsidian preview-button check. After refreshing/reloading the fixed helper, the eye ribbon command in Obsidian 1.14.4 opened the rendered private test article at `http://127.0.0.1:57660/blog/workflow-check-private-test`. Featured and body images both loaded in the browser. No test content was published. Draft creation, attachment import/routing, optional featured-image selection and the simplified sidebar were also exercised natively.
-- [ ] Review and release the setup PR, then switch the local checkout from `codex/obsidian-writing` to publishing branch `newtheme`. Publishing is intentionally disabled on development branches.
-- [ ] Verify the first real publication and its matching Pages deployment in production. No test posts were uploaded.
-- [ ] Confirm the author's Mac backup covers the Git-ignored Drafts folder; backup/recovery instructions are documented, but a backup service has not been configured by this task.
+- [x] Release setup PR #3 and optional-note PR #4; switch the local checkout to publishing branch `newtheme`. Publishing remains disabled on development branches.
+- [x] Author confirmed the first real publication and a subsequent description update worked on 13 October. This is user-reported end-to-end verification; no independent deployment audit was performed in this update.
+- [ ] Confirm a recent recoverable Mac backup covers private Drafts and `.obsidian`. On 13 October `tmutil isexcluded` reported both included, but `tmutil latestbackup` could not mount the destination; inclusion alone does not verify an actual backup. Backup setup is not a blocker for Books planning.
 
 Evidence: eleven temporary-repository tests passed, including selected-file commits, cross-draft privacy, missing images, symlinks, collisions, staged/development-branch guards, unchanged revisions, failed upload/retry, stale-note protection, code examples, HTML and reference images. Isolated full-site builds passed for text-only and illustrated fixtures, with correct body/OG image URLs and no private files. The original 36 tracked posts and legacy images were not moved. A pre-existing broken homepage social-image reference (`/images/01.jpg`) was corrected to the existing `/images/self-portrait.jpg`.
 
 The actual preview method was also invoked in a Node harness with the Obsidian UI mocked: its HTTP server returned 200 for the generated article and 404 for an unrelated private draft. Both selected images were verified loaded in the in-app browser. The native preview-button check subsequently passed after the UTF-8 fix, as recorded above.
 
-## Later — Thoughts
+## Next — Books
+
+Detailed tasks, research, design direction, data decisions and acceptance checks: [books-plan.md](books-plan.md).
+
+Build order is now recorded as phases A–G in the Books plan: isolate development → importer/data → real-content design preview → existing blog links → separate local Books controls → private status archive → checks/documentation/release. Local importer implementation has begun in the separate Books checkout; see the milestone record below.
+
+- [x] Confirm Goodreads profile and scope: rated finished books only; exclude unrated finished books and want-to-read; keep all nine currently-reading books. Manual refresh first, automation later. Author confirmed these choices on 13 October.
+- [x] Inspect the author's Goodreads status-update example and history page. On 13 October the page reported 20 status updates, including written entries and progress-only entries; capture written entries separately for later short entries.
+- [x] Research native Jekyll data/collections, export/feed limitations, cover handling and relevant visual examples; inspect the current site visually.
+- [x] Expand visual research to eight references: Maggie Appleton, Derek Sivers, Patrick Collison, Flo Guo, Pierre Lechevallier, The Visible Shelf, Stripe Press and Ricardo Magalhães. Record observations, rendering limitations and refined design direction in the Books plan.
+- [x] Audit book-related published writing beyond tags: six Books-tagged posts plus In The Heart of The Sea. Plan per-book On the blog links and an Explore writing about books link to the existing Books tag; the duplicate writing index is withdrawn. Author clarified that Goodreads/blog writing are independent: manage book → published-post connections through book overrides/local Books management, not post metadata or a picker during blog publication. Preserve unrated-book exclusions and existing URLs; do not mislabel all writing as reviews. Detailed matches and exclusions are in the Books plan.
+- [x] Inspect actual library CSV: 374 books; 44 read, 9 currently reading, 321 want-to-read. 35 finished books have ratings, 11 of these have reviews; 23 eligible books lack completion dates. Export has private notes and no status-update history or cover URLs. Initial model: one native Books page backed by `_data/books.yml`, expandable reviews and alphabetical default ordering.
+- [ ] Review a Books design at `/books/`, retaining existing typography and light/dark modes: prototype a horizontally scrollable currently-reading shelf on desktop/mobile, rated finished-book rows and a single Books-tag action link instead of a writing index. Confirm scrolling suits the site and is discoverable/accessibly operable. Add Books to internal navigation when ready.
+- [ ] Implement a repeatable manual import with stable Goodreads IDs, explicit public fields, a change summary and safe handling of missing/changed data.
+- [ ] Preserve written reading updates privately with original IDs, text, dates and source/book links. Do not create or publish the short-entry section yet.
+- [ ] Verify imports, responsive/accessibility behavior, covers, existing reviews/URLs, SEO and private-file exclusion; review and release through a separate feature branch/PR.
+
+## After Books — Films
+
+- [ ] Validate Letterboxd export/feed capabilities and account data before choosing an importer.
+- [ ] Design the films page as part of the same personal site; retain the existing TV list unless the author chooses otherwise.
+- [ ] Handle repeated imports, edits, duplicates, missing posters and failed imports without destroying existing data.
+- [ ] Decide whether separate Books/Films navigation or a shared Library destination is clearer once both have real content. Do not promise complete automatic two-way sync.
+
+## After Films — short entries (name undecided)
 
 - [ ] Separate native Jekyll collection and chronological full-entry stream, individual stable permalinks, optional titles/images.
 - [ ] Reuse established typography and Obsidian publishing, with a lighter short-entry layout and separate feed.
 - [ ] Use real author content; add navigation only when ready.
 - [ ] Test draft/future exclusion across listings, output pages, feeds and sitemap on the installed Jekyll version.
 - [ ] Existing posts with the Thoughts tag remain blog posts unless the author chooses to move them.
-
-## Later — books, then films
-
-- [ ] Validate actual Goodreads export data before choosing an importer.
-- [ ] Build books with ratings/reviews and a dependable repeatable import; start with manual refresh if simplest.
-- [ ] Handle edits, duplicates, missing covers and failed imports without destroying existing data.
-- [ ] Validate Letterboxd export/feed capabilities and account data, then add films.
-- [ ] Add Library navigation only with real content; do not promise complete automatic two-way sync.
+- [ ] Review preserved Goodreads written updates, select entries and use their original dates for any backdated publication. Confirm timestamp precision/time zone and feed behavior; do not publish automatic progress changes as writing.
 
 ## Future scope — legacy image organization
 
@@ -200,8 +219,26 @@ Earlier native syntax tests covered only narrow examples; they did not establish
 
 - [x] Prepare fitness publication: remove the historical post exclusion/ignore and allow its per-post images in the featured-image picker. Drafts remain private; the legacy standalone image remains protected.
 
-- [ ] User will publish Jacked and Guilty through PublishDesk to test the complete workflow; do not publish it on their behalf.
+- [x] Author published Jacked and Guilty and updated another post’s description through PublishDesk; both worked (13 October).
 
-- [ ] Optional GitHub branch protection: prevent force pushes/deletion while retaining normal direct pushes for PublishDesk. Do not require PRs without changing the publishing workflow.
+Decision (13 October): skip optional GitHub branch protection. No protection rule was installed; requiring PRs would need a change to PublishDesk's direct publishing workflow.
+
+## Deferred PublishDesk follow-up — private images after publication
+
+- [x] Investigate without changing implementation (13 October): `_writing/lib/publishing.js` writes referenced images to the public destination, archives the original note in `Drafts/.published-backups/`, and removes the draft note, but does not remove private source images. The installed bundle follows the same path. This is documented recovery retention, not a failed public-image move. `_writing/lib/cleanup.js` and the installed leftover-folder picker protect folders associated with published posts, so normal orphan cleanup will not remove them.
+- [ ] After the current Books work, review the recovery policy and design a safe way to clear or archive publication leftovers. Protect other drafts' references and public/shared images, preserve recoverable backups, account for unused attachments, empty directories, failed uploads/retries and later edits. Verify byte-identical public copies before removing any source; provide clear retention/cleanup feedback. Do not silently delete the source folder recursively.
+
+No PublishDesk code, installed plugin or draft images changed during this investigation. The local `Drafts/images/` directory was empty when inspected; the diagnosis above is based on both the source and installed publishing/cleanup paths, not a claim to have reproduced the user's exact historical folder state.
+
+Planning update (13 October): [Books plan](books-plan.md) now specifies the reader layout and interactions, the four separate local management steps, and the branch lifecycle. Keep one Books feature branch through all related design/development iterations; do not create a branch per conversation. No Books feature code or branch was created during planning; subsequent implementation is recorded below.
 
 - [x] Add optional multiline publication notes for new posts and edits. Confirmation shows Publish/Update subject; notes enter public Git history only. Verify actual Git messages, blank notes, cancel, installed dialog and failed-upload retry.
+
+## Books implementation — first milestone, 13 October
+
+- [x] Create a separate managed `codex/books` checkout from `newtheme`; active writing vault remains unchanged. Baseline build and 18 publishing/cleanup checks passed.
+- [x] Add the direct Goodreads CSV importer and public data in the feature checkout: 35 rated finished books, nine currently-reading books, 11 reviews. Twelve importer tests (67 assertions) passed; same-export refresh is a no-op. No website/Obsidian release yet.
+- [x] Audit existing Goodreads/book plugins after the author raised the omitted comparison: Booksidian, GoodReadSync, Dogear, Bookshelf, Book Search, Global Book Search, Librarian and the CSV-to-note script. Record source findings in the detailed Books plan. Recommendation remains a direct importer for this site; no third-party plugin installed.
+- [ ] Next milestone: real-content Books page preview, horizontal currently-reading shelf and per-book post links. Management-interface implementation has not begun.
+
+Feature evidence and detailed progress live in the Books checkout’s `docs/books-plan.md`. Draft-image retention cleanup remains deferred until Books is finished.
