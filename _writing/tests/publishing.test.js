@@ -87,11 +87,12 @@ test('failed push retains one recoverable commit and retry uploads it', async t 
   // Reject receive after preflight fetch succeeds.
   const hook = path.join(f.bare, 'hooks/pre-receive'); await fs.writeFile(hook, '#!/bin/sh\nexit 1\n', { mode: 0o755 });
   const plan = await core.prepare(f.root, f.note, yaml);
-  await assert.rejects(core.publish(plan, { checked: { url: '/blog/test-post' } }), /committed locally but upload failed/);
+  await assert.rejects(core.publish(plan, { checked: { url: '/blog/test-post' }, note: 'Publication context retained on retry.' }), /committed locally but upload failed/);
   const head = (await core.git(f.root, 'rev-parse', 'HEAD')).trim();
   await fs.unlink(hook);
   const result = await core.retry(f.root);
   assert.equal(result.commit, head); assert.equal(result.phase, 'uploaded');
+  assert.equal((await core.git(f.root, 'log', '-1', '--format=%B')).trimEnd(), 'Publish: Test post\n\nPublication context retained on retry.');
 });
 test('a note edited after validation is never committed', async t => {
   const f = await fixture(t, false); const plan = await core.prepare(f.root, f.note, yaml);
@@ -113,4 +114,30 @@ test('raw HTML and reference-style image links migrate with the draft', async t 
   assert.equal(plan.assets.size, 1);
   assert.match(plan.text, /src='\.\.\/images\//);
   assert.match(plan.text, /\[example\]: <\.\.\/images\//);
+});
+
+test('publication notes become commit bodies for new posts and updates; blank notes stay optional', async t => {
+  for (const initialNote of ['', '  First publication.\r\n\r\nLiteral `code`, $() and café.  ']) {
+    const f = await fixture(t, false);
+    const plan = await core.prepare(f.root, f.note, yaml);
+    const checked = { url: '/blog/test-post' };
+    await core.publish(plan, { checked, note: initialNote });
+    const first = (await core.git(f.root, 'log', '-1', '--format=%B')).trimEnd();
+    assert.equal(first, 'Publish: Test post' + (initialNote.trim() ? '\n\nFirst publication.\n\nLiteral `code`, $() and café.' : ''));
+    const publicPath = path.join(f.root, plan.target);
+    let source = await fs.readFile(publicPath, 'utf8');
+    assert(!source.includes('First publication.'));
+    await fs.writeFile(publicPath, source.replace('Hello.', 'Updated writing.'));
+    const update = await core.prepare(f.root, plan.target, yaml);
+    await core.publish(update, { checked, note: 'Clarify the conclusion.\nKeep the original URL.' });
+    assert.equal((await core.git(f.root, 'log', '-1', '--format=%B')).trimEnd(), 'Update: Test post\n\nClarify the conclusion.\nKeep the original URL.');
+    source = await fs.readFile(publicPath, 'utf8');
+    assert(!source.includes('Clarify the conclusion.'));
+    await fs.writeFile(publicPath, source.replace('Updated writing.', 'Another revision.'));
+    await core.publish(await core.prepare(f.root, plan.target, yaml), { checked, note: ' \n ' });
+    assert.equal((await core.git(f.root, 'log', '-1', '--format=%B')).trimEnd(), 'Update: Test post');
+    const head = (await core.git(f.root, 'rev-parse', 'HEAD')).trim();
+    await assert.rejects(core.publish(await core.prepare(f.root, plan.target, yaml), { checked, note: 'Invalid\0note' }), /null characters/);
+    assert.equal((await core.git(f.root, 'rev-parse', 'HEAD')).trim(), head);
+  }
 });

@@ -29,3 +29,7 @@ The author will run the first real publication themselves. Draft and private rec
 PR #3 merged as `988de57d7ead6cc92afc1e93c13794902b0a5724`; local publishing branch `newtheme` tracks `newtheme/newtheme`. Production-mode build of the actual Jacked and Guilty draft passed without publishing or changing its source. Upload whitelist is its `_posts/2026-8-23-the-guilt-of-fitness.md` destination and one image under `images/2026-8-23-the-guilt-of-fitness/`. Clean release build resolved all root-relative internal links/assets and excluded all private writing folders and the unpublished fitness post.
 
 GitHub Pages setup deployment [run #263](https://github.com/wowashuwow/wowashuwow.github.io/actions/runs/38286555950) succeeded.
+
+## Optional publication notes
+
+16 focused tests passed for the installed publication dialog, new/edit commit subjects, multiline/blank notes, actual Git commit bodies, notes absent from post content, cancel, malformed-note rejection, unchanged selected-file safeguards, and upload retry retaining its original message. No real post published. Uses the documented Obsidian Setting.addTextArea API.

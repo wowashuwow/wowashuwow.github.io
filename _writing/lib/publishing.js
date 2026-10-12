@@ -211,7 +211,13 @@ async function preflight(root, remote = 'newtheme', branch = 'newtheme') {
   return head;
 }
 
+function commitSubject(plan) {
+  return `${plan.notePath.startsWith('_posts/') ? 'Update' : 'Publish'}: ${plan.title.replace(/[\r\n]+/g, ' ').trim()}`;
+}
 async function publish(plan, options = {}) {
+  const note = options.note ?? '';
+  if (typeof note !== 'string' || note.includes('\0')) throw new Error('The publication note must be text without null characters.');
+  const message = commitSubject(plan) + (note.trim() ? '\n\n' + note.replace(/\r\n?/g, '\n').trim() : '');
   const remote = options.remote || 'newtheme'; const branch = options.branch || 'newtheme';
   const before = await preflight(plan.root, remote, branch);
   const checked = options.checked || await build(plan);
@@ -237,7 +243,7 @@ async function publish(plan, options = {}) {
     if (changed.some(f => !whitelist.includes(f))) throw new Error('Unexpected file in publication commit.');
     if (!changed.length) return { unchanged: true, url: checked.url };
     const tree = (await run(plan.root, 'git', ['write-tree'], { env })).trim();
-    const commit = (await git(plan.root, 'commit-tree', tree, '-p', before, '-m', `Publish: ${plan.title}`)).trim();
+    const commit = (await git(plan.root, 'commit-tree', tree, '-p', before, '-m', message)).trim();
     await git(plan.root, 'update-ref', `refs/heads/${branch}`, commit, before);
     committed = true;
     // Refresh only our paths in the normal index; preserve all unrelated working-tree edits.
@@ -272,4 +278,4 @@ async function retry(root) {
   await git(root, 'push', state.remote, `HEAD:refs/heads/${state.branch}`);
   state.phase = 'uploaded'; await fs.writeFile(file, JSON.stringify(state, null, 2)); return state;
 }
-module.exports = { readRegular, prepare, build, publish, preflight, retry, run, git, slug, split, combine, walk, inside, exists };
+module.exports = { readRegular, prepare, build, publish, preflight, retry, run, git, slug, split, combine, walk, inside, exists, commitSubject };

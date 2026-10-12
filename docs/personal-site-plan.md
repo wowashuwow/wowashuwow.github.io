@@ -203,3 +203,5 @@ Earlier native syntax tests covered only narrow examples; they did not establish
 - [ ] User will publish Jacked and Guilty through PublishDesk to test the complete workflow; do not publish it on their behalf.
 
 - [ ] Optional GitHub branch protection: prevent force pushes/deletion while retaining normal direct pushes for PublishDesk. Do not require PRs without changing the publishing workflow.
+
+- [x] Add optional multiline publication notes for new posts and edits. Confirmation shows Publish/Update subject; notes enter public Git history only. Verify actual Git messages, blank notes, cancel, installed dialog and failed-upload retry.
