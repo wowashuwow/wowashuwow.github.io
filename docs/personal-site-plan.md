@@ -239,6 +239,7 @@ Planning update (13 October): [Books plan](books-plan.md) now specifies the read
 - [x] Create a separate managed `codex/books` checkout from `newtheme`; active writing vault remains unchanged. Baseline build and 18 publishing/cleanup checks passed.
 - [x] Add the direct Goodreads CSV importer and public data in the feature checkout: 35 rated finished books, nine currently-reading books, 11 reviews. Twelve importer tests (67 assertions) passed; same-export refresh is a no-op. No website/Obsidian release yet.
 - [x] Audit existing Goodreads/book plugins after the author raised the omitted comparison: Booksidian, GoodReadSync, Dogear, Bookshelf, Book Search, Global Book Search, Librarian and the CSV-to-note script. Record source findings in the detailed Books plan. Recommendation remains a direct importer for this site; no third-party plugin installed.
-- [ ] Next milestone: real-content Books page preview, horizontal currently-reading shelf and per-book post links. Management-interface implementation has not begun.
+- [x] Build the first real-content Books preview locally with horizontal current shelf, finished-book rows, expandable reviews, sorting, five related-post links and a Books-tag action link. Desktop/phone, light/dark and no-script reading checked; page/build/link/metadata checks passed.
+- [ ] Review the visual preview with the author, refine cover quality, then build the separate Books management commands. No installation or deployment yet.
 
 Feature evidence and detailed progress live in the Books checkout’s `docs/books-plan.md`. Draft-image retention cleanup remains deferred until Books is finished.

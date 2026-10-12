@@ -1,0 +1,45 @@
+---
+layout: default
+title: Books
+description: What Ashutosh is reading, with personal ratings, Goodreads reviews and related blog posts.
+permalink: /books/
+---
+<section class="hero books-heading">
+  <div class="container"><div class="row"><div class="col col-10 col-d-12">
+    <div class="hero__inner">
+      <h1 class="hero__title">Books</h1>
+      <nav class="books-jumps" aria-label="Books sections"><a href="#currently-reading">Currently reading</a><a href="#finished-books">Finished books</a></nav>
+    </div>
+  </div></div></div>
+</section>
+<div class="container"><div class="row"><div class="col col-12">
+  <div class="books-page">
+    {% assign reading = site.data.books | where: 'status', 'currently-reading' %}
+    {% assign finished = site.data.books | where: 'status', 'read' %}
+    <section class="books-current" aria-labelledby="currently-reading">
+      <div class="books-section-heading">
+        <h2 id="currently-reading">Currently reading <span class="books-count">{{ reading.size }}</span></h2>
+        <div class="books-scroll-controls" hidden>
+          <button type="button" data-shelf-direction="-1" aria-label="Previous books" aria-controls="reading-shelf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
+          <button type="button" data-shelf-direction="1" aria-label="Next books" aria-controls="reading-shelf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
+        </div>
+      </div>
+      <div class="books-shelf" id="reading-shelf" tabindex="0" role="region" aria-label="Currently reading books; scroll horizontally to explore">
+        {% for book in reading %}{% include book-entry.html book=book current=true %}{% endfor %}
+      </div>
+    </section>
+    <section class="books-finished" aria-labelledby="finished-books">
+      <div class="books-section-heading">
+        <h2 id="finished-books">Finished books <span class="books-count">{{ finished.size }}</span></h2>
+        <div class="books-sort" hidden><label for="book-order">Sort by</label><select id="book-order"><option value="title">Title A–Z</option><option value="rating">Highest rating</option></select></div>
+      </div>
+      <p class="books-rating-note">The stars are my ratings.</p>
+      <p class="visually-hidden" id="books-sort-status" role="status" aria-live="polite"></p>
+      <div class="books-list" id="finished-list">
+        {% for book in finished %}{% include book-entry.html book=book %}{% endfor %}
+      </div>
+    </section>
+    <div class="books-end"><a class="books-explore" href="{{ '/tags/' | relative_url }}#Books">Explore writing about books <span aria-hidden="true">→</span></a><p>Ratings and reviews from <a href="https://www.goodreads.com/user/show/66848291-ashutosh">my Goodreads{% include external-icon.html %}</a>.</p></div>
+  </div>
+</div></div></div>
+<script src="{{ '/js/books.js' | relative_url }}" defer></script>

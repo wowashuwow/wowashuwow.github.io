@@ -78,16 +78,16 @@ The checklist below is the build order. The numbered design/data constraints fol
 ### C. Create the first complete visual preview
 
 - [ ] Resolve exact-edition covers and a graceful missing-cover treatment; cache approved files under `images/books/`. Retain local overrides across refreshes; do not make visitor-time Goodreads/API requests.
-- [ ] Build `/books/` with the current typography, colour, spacing and light/dark modes. All nine currently-reading books in the proposed horizontal shelf, then rated finished books and a single Explore writing about books link to `/tags/#Books`. Use real titles, covers and reviews from the first import.
+- [x] Build `/books/` with the current typography, colour, spacing and light/dark modes. All nine currently-reading books in the proposed horizontal shelf, then rated finished books and a single Explore writing about books link to `/tags/#Books`. Use real titles, covers and reviews from the first import.
 - [ ] Compare the planned cover/text rows against a more cover-forward composition in local preview, including mobile and the longest review/title. Review the design with the author before final polish.
-- [ ] Implement inline Goodreads review disclosure, A–Z default order and restrained rating sorting. Add a With reviews filter only if it improves the actual page. Keep all primary content/links readable without JavaScript.
-- [ ] Add Books between Blog and About to the site navigation. Preserve homepage composition and existing page/post URLs.
+- [x] Implement inline Goodreads review disclosure, A–Z default order and restrained rating sorting. Add a With reviews filter only if it improves the actual page. Keep all primary content/links readable without JavaScript.
+- [x] Add Books between Blog and About to the site navigation. Preserve homepage composition and existing page/post URLs.
 
 ### D. Connect the existing blog writing
 
-- [ ] Seed the reviewed book → published-post links in book overrides for Simple Marketing, Dan Nelken, Cuckold, Last Bus to Woodstock and In the Heart of the Sea.
-- [ ] Render the linked post's actual title under On the blog, separate from Goodreads review. Resolve titles/URLs through Jekyll published posts; support multiple posts per book and the same post linked to multiple books.
-- [ ] Add Explore writing about books linking to `/tags/#Books`; no additional writing index on the Books page. Keep per-book associations for relevant posts regardless of their tags. The Books tag currently contains six audited posts; In The Heart of The Sea remains discoverable through its book association without changing its Films-and-TV tag.
+- [x] Seed the reviewed book → published-post links in book overrides for Simple Marketing, Dan Nelken, Cuckold, Last Bus to Woodstock and In the Heart of the Sea.
+- [x] Render the linked post's actual title under On the blog, separate from Goodreads review. Resolve titles/URLs through Jekyll published posts; support multiple posts per book and the same post linked to multiple books.
+- [x] Add Explore writing about books linking to `/tags/#Books`; no additional writing index on the Books page. Keep per-book associations for relevant posts regardless of their tags. The Books tag currently contains six audited posts; In The Heart of The Sea remains discoverable through its book association without changing its Films-and-TV tag.
 - [ ] Verify changed post titles, missing/renamed/deleted post references, excluded books and edition mismatches. Preserve connections when Goodreads changes/removes a book; report unresolved references without displaying broken links.
 
 ### E. Provide the local management workflow
@@ -214,3 +214,16 @@ The author asked for this audit after the first local importer was implemented; 
 - [goodreads-to-obsidian](https://github.com/bbbburns/goodreads-to-obsidian): CSV-to-note migration script, explicitly aimed at moving off Goodreads rather than continuing to refresh a website.
 
 Recommendation: keep the small direct CSV → Jekyll importer, rather than add an Obsidian reading tracker and a second note-to-site conversion layer. Reuse existing plugins if the author later wants a personal book-note library or metadata-search UI; do not rebuild their reading-progress dashboards. Native Books page design, per-book links and reviewed site publication remain website-specific work in either approach.
+
+## Books page preview — 13 October
+
+Local implementation on `codex/books`, not released. Preview: `http://127.0.0.1:4180/books/`. Static reviewed build served on loopback with `X-Robots-Tag: noindex, nofollow`; analytics/comments disabled by the temporary `website_preview` configuration. This design preview is a snapshot, not the future automatic Books management preview.
+
+- Native Jekyll page and reusable book-entry include, scoped Sass, small progressive-enhancement script. Nine current books in a horizontal shelf on desktop/phone, 35 rated finished books in readable rows, 11 native details disclosures, title/rating sorting, five exact-post relationships, and one Books-tag action link. Counts come from data.
+- Exact Goodreads-ID covers exported from observed read/current cover views, only eligible covers copied to `images/books/`; all 44 matched. Sources recorded in `_data/books-overrides.yml`. These source thumbnails are approximately 98 pixels wide/160 pixels high: higher-resolution cover sourcing/retina quality and the final cover-replacement workflow remain to verify before release. No Open Library bulk cover crawl.
+- Visually compared a two-column cover/text alternative in a temporary output-only page. It was compact when closed but cramped the longest review and left adjacent blank space when expanded; keep single-column rows for the primary preview. No alternative route is added to site source.
+- Desktop 1280×900 and phone 375×812 inspected; light/dark modes inspected. Horizontal shelf overflow stays within the shelf, not the page. Arrow navigation and descending rating sorting exercised. Native keyboard Enter opens a review. A temporary zero-script copy proved review reading without JavaScript. Phone reviews expand across the full available width (328px in the measured viewport), instead of remaining squeezed beside the cover.
+- `_writing/books/check.rb` passed for data-derived entries, review presence, exact blog references/links, every cover file, unique IDs, Books tag anchor, canonical URL, sitemap and absence of private directories in generated output. Full builds passed; importer tests remain 12/67 passing; JavaScript syntax and diff checks passed. Homepage main-content HTML matched the baseline exactly. Local extensionless post URL returned 200.
+- Screenshot evidence saved temporarily at `/private/tmp/books-preview-desktop.jpg` and `/private/tmp/books-preview-mobile.jpg`; reviewed desktop screenshot after capture.
+
+Pending: author's visual feedback before final polish; higher-resolution cover quality; further edge-case/accessibility checks in phase G; Books management commands, status-history archive and release. Current PublishDesk installation and active writing vault were not changed.
