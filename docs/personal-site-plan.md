@@ -6,7 +6,7 @@ This is the authoritative project tracker. Checked items are implemented/verifie
 
 ## Current status
 
-- Branch: `codex/personal-site-redesign`, based on deployed revision `9a98c75`.
+- Current implementation branch: `codex/obsidian-writing`; the website-root vault is being added without moving published posts or legacy images.
 - Selected preview: http://127.0.0.1:4101/ (compact design).
 - Publishing branch: `newtheme`; Pages confirmed as branch publishing from the root, with HTTPS enforced.
 - Current redesign is released at https://wowashuwow.com/; local and public release checks passed.
@@ -65,13 +65,20 @@ These checks do not constitute full WCAG certification or a guarantee of Google 
 
 ## Next feature — simple Obsidian publishing on Mac
 
-- [ ] Start with a separate writing vault: Drafts, Published, Attachments; confirm the practical arrangement with the author before moving notes.
-- [ ] Provide one Blog template with optional image and existing tag/primary-topic metadata.
+- [ ] Open the existing website root as a separate Obsidian vault; preserve the author's personal vault/settings. Keep `_posts/` and `images/` in place, with development folders hidden by a toggleable CSS snippet and excluded from writing search.
+- [ ] Protect `Drafts/` (including draft images), `.obsidian/`, and writing tools from Git/public output. Preserve the existing untracked Guilt of Fitness files without publishing them.
+- [ ] Create drafts with a stable dated filename, editable title, optional image, native tags and primary-topic metadata. No featured image required.
+- [ ] Configure Attachment Management: draft images in `Drafts/images/<stable-post-filename>/`, published-post images in `images/<stable-post-filename>/`, without automatic folder renaming.
 - Use Obsidian's native tags directly for website tags, with hyphenated multiword names. The incorrect `Software Review` assignment and primary topic were corrected to `Software-Review`; preserve the readable “Software Review” display label. No separate topics-to-tags property is needed for this issue.
-- [ ] Prove write → preview → deliberate publish → edit using one text-only and one illustrated post.
+- [ ] Provide Obsidian commands for new draft, local website preview, optional featured-image selection, publish current post, and publication status. Saving never commits or uploads.
+- [ ] Preview a selected draft using an isolated temporary build; do not expose unrelated drafts. Normalize image links for the website while retaining ordinary Markdown in Obsidian.
+- [ ] Before publishing, validate metadata, images, collisions, branch/remote state and existing staged/unpushed changes. Build and check the selected result before making a commit.
+- [ ] Move only the selected draft and its referenced images into public folders, update paths and featured-image metadata, commit only those files, and push without force. Provide a safe retry when a push fails.
+- [ ] Report deployment pending until the matching GitHub Pages run succeeds; make failures and retry/status actions explicit.
+- [ ] Prove write → preview → publish → revise in temporary repositories with text-only and illustrated posts; test failure/privacy cases without uploading test content.
 - [ ] Preserve existing URLs and distinguish private drafts from published content. Do not depend on the site's current future:true setting for draft privacy.
 - [ ] Check attachment paths, filenames with spaces, ordinary Markdown, links, footnotes, and Obsidian embeds actually used.
-- [ ] Choose the smallest reliable publishing integration; avoid changing hosting/build systems unless the workflow needs it.
+- [ ] Keep existing GitHub Pages branch publishing. Package the small publishing helper as local Obsidian commands, with documented setup, backup and recovery instructions.
 - [ ] Confirm deployment success before showing publishing success. No VS Code required for routine writing.
 
 Done when the author can write, preview, publish, and revise a post from Obsidian without a featured image or manual file housekeeping.
@@ -91,6 +98,15 @@ Done when the author can write, preview, publish, and revise a post from Obsidia
 - [ ] Handle edits, duplicates, missing covers and failed imports without destroying existing data.
 - [ ] Validate Letterboxd export/feed capabilities and account data, then add films.
 - [ ] Add Library navigation only with real content; do not promise complete automatic two-way sync.
+
+## Future scope — legacy image organization
+
+- [ ] Audit existing post, gallery, project and portfolio image references before moving or deleting files.
+- [ ] Investigate consolidating legacy post images into the writing vault while preserving every existing published image URL.
+- [ ] Compare the maintenance cost of generated compatibility copies against retaining legacy files in place; do not change the publishing system solely for cosmetic folder cleanup without reviewing the tradeoff.
+- [ ] Verify image bytes at all old URLs, article images, featured images and social metadata before any migration is released.
+
+Decision: defer legacy image migration. Existing published files and URLs remain intact during the Obsidian setup. Prefer carrying forward the `images/<stable-post-filename>/` convention for new post images; automatic per-post routing versus native Obsidian attachment settings is still a proposal to validate.
 
 ## Future optional scope — featured-image hover thumbnails
 

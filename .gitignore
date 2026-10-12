@@ -3,3 +3,10 @@ _site
 .jekyll-cache
 .jekyll-metadata
 .DS_Store
+# Private writing and machine-specific Obsidian settings.
+/Drafts/
+/.obsidian/
+/.trash/
+# Existing author-owned, unpublished files: do not publish through a broad git add.
+/_posts/2026-8-23-the-guilt-of-fitness.md
+/images/2026-8-23-the-guilt-of-fitness-fi.jpg
