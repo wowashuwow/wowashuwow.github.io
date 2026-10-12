@@ -101,7 +101,10 @@ async function prepare(root, notePath, yaml) {
     const url = (featured ? '/' : '../') + destination.split('/').map(encodeURIComponent).join('/') + suffix;
     return angled ? `<${url}>` : url;
   }
-  for (const item of markers) converted = converted.replace(item.id, await resolve(item.raw));
+  for (const item of markers) {
+    const resolved = await resolve(item.raw);
+    converted = converted.replace(item.id, () => resolved);
+  }
   for (const item of code) converted = converted.replace(item.token, () => item.value);
   if (meta.image) {
     if (typeof meta.image !== 'string') throw new Error('image must be a single file path or URL.');
@@ -144,7 +147,11 @@ async function build(plan) {
     for (const match of html.matchAll(/(?:src|data-src|href|content)=["']([^"']+)["']/g)) {
       const url = match[1].replace(/&amp;/g, '&');
       let pathname;
-      try { pathname = decodeURIComponent(new URL(url, 'https://wowashuwow.com/' + file).pathname); } catch { continue; }
+      try {
+        const parsed = new URL(url, 'https://wowashuwow.com/' + file);
+        if (parsed.origin !== 'https://wowashuwow.com') continue;
+        pathname = decodeURIComponent(parsed.pathname);
+      } catch { continue; }
       if (!pathname.startsWith('/images/') || !IMAGE.test(pathname)) continue;
       if (!(await exists(inside(output, pathname.slice(1))))) throw new Error(`Broken image in ${file}: ${pathname}`);
     }

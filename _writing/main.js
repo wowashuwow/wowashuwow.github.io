@@ -127,13 +127,29 @@ module.exports = class WebsiteWriter extends Plugin {
     const checked = await core.build(plan);
     try {
       if (!(await new Confirm(this.app, plan).result())) return;
-      const result = await core.publish(plan, { checked });
+      // Close the draft editor before moving its file so autosave cannot recreate it.
+      const leaf = this.app.workspace.getMostRecentLeaf();
+      if (leaf) await leaf.setViewState({ type: 'empty' });
+      let result;
+      try { result = await core.publish(plan, { checked }); }
+      catch (error) {
+        await this.openPost(await core.exists(path.join(this.root, plan.target)) ? plan.target : plan.notePath);
+        throw error;
+      }
+      await this.openPost(plan.target);
       if (result.unchanged) return new Notice('This post has no unpublished changes.');
-      const target = this.app.vault.getAbstractFileByPath(plan.target);
-      if (target) await this.app.workspace.getLeaf(false).openFile(target);
       new Notice('Uploaded. GitHub Pages is building; the post is not confirmed live yet.', 12000);
       await this.status();
     } finally { await fs.rm(checked.temp, { recursive: true, force: true }); }
+  }
+  async openPost(filePath) {
+    // Wait for Obsidian's filesystem watcher to register a newly published file.
+    for (let attempt = 0; attempt < 20; attempt++) {
+      const file = this.app.vault.getAbstractFileByPath(filePath);
+      if (file instanceof TFile) return this.app.workspace.getLeaf(false).openFile(file);
+      await new Promise(resolve => setTimeout(resolve, 100));
+    }
+    new Notice(`Open ${filePath} from the file explorer to continue editing.`);
   }
   async retry() {
     await core.retry(this.root);
