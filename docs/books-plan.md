@@ -2,6 +2,16 @@
 
 Updated: 15 October 2026. Implementation started at the author’s request on 13 October; local feature work only, not released. Main tracker: [personal-site-plan.md](personal-site-plan.md).
 
+## Current status — 16 October 2026
+
+PublishDesk 1.2.1 and the Goodreads-based Bookshelf are implemented locally. Current priority: finish native/user acceptance, review the existing feature branch, then release and verify the deployed page. Reload the installed PublishDesk plugin before testing its new UI. Independent online book additions are explicitly deferred; do not implement the new catalogue or change import/removal semantics during this release.
+
+### Future scope: independent catalogue
+
+- [ ] Resume only when requested: [Independent Bookshelf catalogue specification](bookshelf-independent-catalogue-spec.md).
+- Online additions with automatic metadata/covers, preserved direct entries across imports, source-independent IDs, conservative matching with remembered user decisions and one entry per book by default.
+- Retain the research, migration/compatibility requirements and preservation tests. No plugin installation, schema migration or implementation scheduled now.
+
 ## Agreed scope
 
 - Goodreads profile: https://www.goodreads.com/user/show/66848291-ashutosh.
@@ -333,3 +343,10 @@ Author reported that flat Setting rows and nested scrolling obscure book boundar
 
 
 16 October — PublishDesk 1.2.1 UI implementation: per-book panels, wide blurbs, one list-scroll owner, separate action footer and consistent task-dialog layout. Preserved native controls and data/action logic. Installed via refresh; plugin reload and native user acceptance remain pending because native automation input is unresponsive. Actual-source browser harness inspected; 54 distinct JS + 38 Ruby cases passed across full/focused runs, plus isolated site/output checks. Also corrected a pre-existing bundle mapping that selected books-publish instead of books-fetch; added generated-artifact regression. Real book data and post publication/preview/cleanup core modules unchanged. See publishdesk-ui-plan.md for evidence and limitations. No upload/deployment.
+
+
+## Independent catalogue plan — 16 October
+
+Author clarified that Bookshelf must accept books directly from online search, with Goodreads as an optional import source. Confirmed one entry per book by default. Research and the preservation/matching/migration/publication compatibility contract are in [Independent Bookshelf spec](bookshelf-independent-catalogue-spec.md). Recommend a narrow Open Library adapter within PublishDesk, reusing native UI and current persistence; existing plugins are note-oriented and do not implement our safe import ownership. No import should delete existing records by default; ambiguous matches require a remembered user decision. Preserve current local IDs and two-YAML layout. Plan only; no implementation/library/installed-plugin changes. Live API smoke checks remain a pre-integration gate.
+
+16 October — author deferred the independent catalogue after reviewing its plan. Current Goodreads-based setup is accepted as the appropriate scope for now. Remaining immediate work is PublishDesk 1.2.1 user acceptance and initial Bookshelf release, not further catalogue development.
