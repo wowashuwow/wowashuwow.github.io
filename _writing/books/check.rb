@@ -4,7 +4,7 @@ require 'nokogiri'
 require 'uri'
 require_relative 'settings'
 
-root = File.expand_path('../..', __dir__)
+root = ARGV[1] || File.expand_path('../..', __dir__)
 output = ARGV.fetch(0) { abort 'Usage: bundle exec ruby _writing/books/check.rb BUILD_OUTPUT' }
 books = BooksSettings.yaml(File.read(File.join(root, '_data/books.yml')))
 overrides = BooksSettings.load(File.join(root, '_data/books-overrides.yml'))
@@ -28,7 +28,7 @@ books.each do |book|
     expected_posts.concat(custom['posts'] || [])
     errors << "Wrong blog-link count for #{node['id']}" unless node.css('.book__posts a').length == (custom['posts'] || []).length
     node.css('img').each do |img|
-      errors << "Invalid/missing cover: #{img['src']}" unless img['src'].start_with?('/images/books/') && File.file?(File.join(output, img['src']))
+      errors << "Invalid/missing cover: #{img['src']}" unless BooksMetadata.cover_url?(img['src']) || (img['src'].start_with?('/images/books/') && File.file?(File.join(output, img['src'])))
     end
   end
   if recommendation && custom['recommendation_blurb'] && !custom['recommendation_blurb'].empty?

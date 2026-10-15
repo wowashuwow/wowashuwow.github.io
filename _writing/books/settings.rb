@@ -5,10 +5,11 @@ require 'digest'
 require 'date'
 require 'tempfile'
 require 'fileutils'
+require 'uri'
 
 module BooksSettings
   class Error < StandardError; end
-  FIELDS = %w[cover cover_source posts review_date review_source_url recommended recommendation_order recommendation_blurb currently_reading_hidden currently_reading_order history_hidden].freeze
+  FIELDS = %w[cover cover_source cover_origin cover_disabled posts review_date review_source_url review_fingerprint recommended recommendation_order recommendation_blurb currently_reading_hidden currently_reading_order history_hidden].freeze
   EDITORIAL = %w[posts recommended recommendation_order recommendation_blurb currently_reading_hidden currently_reading_order history_hidden].freeze
   def self.bytes(file)
     raise Error, 'Books files must be regular files, not symlinks.' if File.symlink?(file) || File.symlink?(File.dirname(file))
@@ -34,7 +35,7 @@ module BooksSettings
     raise Error, 'Books settings must be a mapping keyed by Goodreads ID.' unless data.is_a?(Hash)
     data.each do |id, custom|
       raise Error, "Invalid Books settings record #{id.inspect}." unless id.is_a?(String) && id.match?(/\A[1-9]\d*\z/) && custom.is_a?(Hash) && (custom.keys - FIELDS).empty?
-      %w[recommended currently_reading_hidden history_hidden].each { |key| raise Error, "#{key} must be true or false for #{id}." if custom.key?(key) && ![true, false].include?(custom[key]) }
+      %w[recommended currently_reading_hidden history_hidden cover_disabled].each { |key| raise Error, "#{key} must be true or false for #{id}." if custom.key?(key) && ![true, false].include?(custom[key]) }
       %w[recommendation_order currently_reading_order].each { |key| raise Error, "Invalid #{key} for #{id}." if custom.key?(key) && !(custom[key].is_a?(Integer) && (0..999_998).cover?(custom[key])) }
       if custom.key?('recommendation_blurb')
         value = custom['recommendation_blurb']
@@ -42,8 +43,12 @@ module BooksSettings
       end
       if custom.key?('cover')
         value = custom['cover']
-        raise Error, "Invalid local cover for #{id}." unless value.is_a?(String) && value.match?(%r{\A/images/books/[a-zA-Z0-9._-]+\.(?:jpe?g|png|webp|avif|gif)\z}i) && !value.include?('..')
+        local = value.is_a?(String) && value.match?(%r{\A/images/books/[a-zA-Z0-9._-]+\.(?:jpe?g|png|webp|avif|gif)\z}i) && !value.include?('..')
+        remote = defined?(BooksMetadata) && BooksMetadata.cover_url?(value)
+        raise Error, "Invalid local/remote cover for #{id}." unless local || remote
       end
+      raise Error, "Invalid cover origin for #{id}." if custom.key?('cover_origin') && !%w[automatic manual].include?(custom['cover_origin'])
+      raise Error, "Invalid review fingerprint for #{id}." if custom.key?('review_fingerprint') && !custom['review_fingerprint'].to_s.match?(/\A[0-9a-f]{64}\z/)
       %w[cover_source review_source_url].each { |key| raise Error, "Invalid #{key} for #{id}." if custom.key?(key) && !(custom[key].is_a?(String) && custom[key].match?(%r{\Ahttps://[^\s<>]+\z})) }
       if custom.key?('review_date')
         date = custom['review_date']
@@ -85,7 +90,7 @@ module BooksSettings
       File.rename(temp.path, file)
     end
   end
-  def self.save(books_file, settings_file, proposed, expected_token:, backup_dir:, published_posts: nil)
+  def self.save(books_file, settings_file, proposed, expected_token:, backup_dir:, published_posts: nil, dry_run: false)
     raise Error, 'The library or settings changed. Reopen Manage books before saving.' unless token(books_file, settings_file) == expected_token
     old = load(settings_file)
     validate(proposed)
@@ -108,6 +113,7 @@ module BooksSettings
       missing = added - published_posts
       raise Error, "These posts are no longer published. Remove/reselect them: #{missing.join(', ')}" unless missing.empty?
     end
+    return old != proposed if dry_run
     return false if old == proposed
     expected = bytes(settings_file)
     raise Error, 'The library changed during save; reopen the manager.' unless token(books_file, settings_file) == expected_token
@@ -115,3 +121,5 @@ module BooksSettings
     true
   end
 end
+
+require_relative 'metadata' unless defined?(BooksMetadata)

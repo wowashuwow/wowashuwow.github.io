@@ -1,5 +1,10 @@
 (() => {
   'use strict';
+  document.querySelectorAll('.book__cover img').forEach(image => {
+    const fallback = () => { image.hidden = true; const label = image.nextElementSibling; if (label) label.hidden = false; };
+    image.addEventListener('error', fallback);
+    if (image.complete && !image.naturalWidth) fallback();
+  });
   const shelf = document.querySelector('#reading-shelf');
   const controls = document.querySelector('.books-scroll-controls');
   if (shelf && controls) {

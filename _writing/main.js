@@ -6,6 +6,8 @@ const { PreviewSession } = require('./lib/preview');
 const core = require('./lib/publishing');
 const cleanup = require('./lib/cleanup');
 const books = require('./lib/books');
+const bookFetch = require('./lib/books-fetch');
+const bookPublisher = require('./lib/books-publish');
 const createBooksUI = require('./lib/books-ui');
 const YAML = { parse: parseYaml, stringify: stringifyYaml };
 
@@ -118,6 +120,7 @@ module.exports = class WebsiteWriter extends Plugin {
       ['manage-books', 'Manage books', () => this.manageBooks()],
       ['import-books', 'Import Goodreads library', () => this.importBooks()],
       ['preview-books', 'Preview Bookshelf page', () => this.previewBooks()],
+      ['publish-books', 'Publish Bookshelf changes', () => this.publishBooks()],
       ['new-draft', 'New blog draft', () => this.newDraft()],
       ['preview', 'Preview current post on the website', () => this.preview()],
       ['stop-preview', 'Stop website preview', () => this.closePreview()],
@@ -247,27 +250,98 @@ module.exports = class WebsiteWriter extends Plugin {
       console.error('Website preview:', error);
     } finally { this.refreshing = false; }
   }
+  async validateBookImage(bytes) {
+    const url = URL.createObjectURL(new Blob([bytes]));
+    let image, timer;
+    try {
+      await new Promise((resolve, reject) => {
+        image = new Image();
+        timer = setTimeout(() => reject(new Error('Cover decoding timed out.')), 10000);
+        image.onerror = () => reject(new Error('This cover cannot be decoded.'));
+        image.onload = () => image.naturalWidth > 0 && image.naturalHeight > 0 && image.naturalWidth * image.naturalHeight <= 40_000_000 ? resolve() : reject(new Error('Cover dimensions are invalid or too large.'));
+        image.src = url;
+      });
+    } finally { clearTimeout(timer); if (image) { image.onload = null; image.onerror = null; image.src = ''; } URL.revokeObjectURL(url); }
+  }
+  async fetchBookMetadata(library, ids, signal, progress) {
+    return bookFetch.collect({ books: library, ids, signal, progress,
+      get: input => require('obsidian').requestUrl(input),
+      parse: async feeds => (await books.call(this.root, { mode: 'parse-feeds', feeds })).records,
+      verify: bytes => this.validateBookImage(bytes),
+    });
+  }
+  async bookCandidates(book, signal) {
+    const primary = await this.fetchBookMetadata([book], [book.id], signal);
+    const entry = primary.records[book.id];
+    const matches = entry?.cover ? [{ title: book.title, author: book.author, cover: entry.cover, source: entry.cover_source || book.source_url, exact: true }] : [];
+    try { matches.push(...await bookFetch.candidates(book, { get: input => require('obsidian').requestUrl(input), signal })); } catch (error) { if (signal?.aborted || !matches.length) throw error; }
+    return matches.filter((match, index) => matches.findIndex(item => item.cover === match.cover) === index);
+  }
+  async retryBookMetadata(signal, progress) {
+    const state = await books.call(this.root, { mode: 'read' });
+    const ids = state.books.filter(book => { const c = state.overrides[book.id] || {}; return (!c.cover && !c.cover_disabled) || (book.review_html && !c.review_source_url); }).map(book => book.id);
+    if (!ids.length) return { saved: false, resolved: 0, missing: 0, warnings: [] };
+    const result = await this.fetchBookMetadata(state.books, ids, signal, progress);
+    if (signal?.aborted || this.unloading) throw new Error('Cover lookup cancelled.');
+    return { ...await books.call(this.root, { mode: 'enrich', token: state.token, records: result.records }), warnings: result.warnings };
+  }
+  async normalizeCover(file) {
+    if (!/\.(jpe?g|png|webp)$/i.test(file.name) || file.size > 10 * 1024 * 1024) throw new Error('Choose a JPEG, PNG or WebP cover up to 10 MB.');
+    const url = URL.createObjectURL(new Blob([await file.arrayBuffer()], { type: file.type }));
+    try {
+      const image = await new Promise((resolve, reject) => { const image = new Image(); image.onload = () => resolve(image); image.onerror = () => reject(new Error('This cover cannot be decoded.')); image.src = url; });
+      if (image.naturalWidth * image.naturalHeight > 40_000_000) throw new Error('This cover is too large. Export a smaller image.');
+      const scale = Math.min(1, 440 / image.naturalWidth, 1200 / image.naturalHeight);
+      const canvas = document.createElement('canvas'); canvas.width = Math.max(1, Math.round(image.naturalWidth * scale)); canvas.height = Math.max(1, Math.round(image.naturalHeight * scale));
+      const context = canvas.getContext('2d'); context.fillStyle = '#fff'; context.fillRect(0, 0, canvas.width, canvas.height); context.drawImage(image, 0, 0, canvas.width, canvas.height);
+      const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/jpeg', 0.88));
+      if (!blob || blob.type !== 'image/jpeg' || blob.size > 1024 * 1024) throw new Error('Could not prepare a small JPEG cover.');
+      return { jpeg: Buffer.from(await blob.arrayBuffer()).toString('base64'), source: '' };
+    } finally { URL.revokeObjectURL(url); }
+  }
   booksUI() {
     return createBooksUI(require('obsidian'), {
       read: () => books.call(this.root, { mode: 'read' }),
-      save: (token, overrides) => books.call(this.root, { mode: 'save', token, overrides }),
+      save: (token, overrides, metadata = {}) => books.call(this.root, { mode: 'save', token, overrides, metadata }),
+      candidates: (book, signal) => this.bookCandidates(book, signal),
+      normalizeCover: file => this.normalizeCover(file),
+      retry: (signal, progress) => this.retryBookMetadata(signal, progress),
       capture: file => books.captureCsv(this.root, file),
-      inspect: file => books.call(this.root, { mode: 'import', file }),
-      apply: (file, plan, allow_removals) => books.call(this.root, { mode: 'apply', file, token: plan.token, fingerprint: plan.fingerprint, allow_removals }),
+      inspect: (file, signal, progress) => books.inspectImport(this.root, file, { signal, collect: (library, ids) => this.fetchBookMetadata(library, ids, signal, progress) }),
+      apply: (file, plan, allow_removals) => books.call(this.root, { mode: 'apply', file, token: plan.token, fingerprint: plan.fingerprint, allow_removals, enrichment: plan.enrichment || {} }),
     });
   }
   async manageBooks() {
     const state = await books.call(this.root, { mode: 'read' });
     const { Manager } = this.booksUI();
-    const saved = await new Manager(this.app, state).result();
+    this.booksDialog = new Manager(this.app, state);
+    const saved = await this.booksDialog.result(); this.booksDialog = null;
     if (saved !== null) new Notice(saved ? 'Books choices saved locally. Preview before publishing.' : 'No Books choices changed.');
     if (saved && this.previewNote === '__books__') this.schedulePreview();
   }
   async importBooks() {
     const { Importer } = this.booksUI();
-    const saved = await new Importer(this.app).result();
+    this.booksDialog = new Importer(this.app);
+    const saved = await this.booksDialog.result(); this.booksDialog = null;
     if (saved) new Notice('Goodreads library imported locally. Website choices preserved. Nothing uploaded.');
     if (saved && this.previewNote === '__books__') this.schedulePreview();
+  }
+  async publishBooks() {
+    await this.closePreview();
+    const plan = await bookPublisher.prepare(this.root, YAML);
+    if (!plan.changed.length) return new Notice('Bookshelf has no unpublished changes.');
+    new Notice('Checking Bookshelf before publication…');
+    const checked = await books.build(plan.ready ? plan : { root: this.root });
+    try {
+      const { Publication } = this.booksUI();
+      this.booksDialog = new Publication(this.app, plan);
+      const decision = await this.booksDialog.result(); this.booksDialog = null;
+      if (!decision) return;
+      const result = await bookPublisher.publish(plan, { ...decision, checked });
+      if (result.unchanged) return new Notice('Bookshelf has no unpublished changes.');
+      new Notice('Bookshelf uploaded. GitHub Pages is building; live content is not confirmed yet.', 12000);
+      await this.status();
+    } finally { await fs.rm(checked.temp, { recursive: true, force: true }); }
   }
   async previewBooks() {
     if (this.previewNote !== '__books__') await this.closePreview();
@@ -290,6 +364,7 @@ module.exports = class WebsiteWriter extends Plugin {
   async publish() {
     const note = await this.current();
     await this.closePreview();
+    await bookPublisher.noPending(this.root);
     await core.preflight(this.root);
     const meta = this.app.metadataCache.getFileCache(note)?.frontmatter;
     const plan = await this.prepare(note, false, meta?.published === false);
@@ -323,7 +398,8 @@ module.exports = class WebsiteWriter extends Plugin {
     new Notice(`Open ${filePath} from the file explorer to continue editing.`);
   }
   async retry() {
-    await core.retry(this.root);
+    const pending = await bookPublisher.state(this.root);
+    if (pending?.kind === 'books') await bookPublisher.retry(this.root); else await core.retry(this.root);
     new Notice('Upload completed. Checking deployment…');
     await this.status();
   }
@@ -331,8 +407,21 @@ module.exports = class WebsiteWriter extends Plugin {
     const stateFile = path.join(this.root, '.obsidian/plugins/site-writer/publication.json');
     if (!(await core.exists(stateFile))) throw new Error('There is no publication to check yet.');
     const state = JSON.parse(await fs.readFile(stateFile, 'utf8'));
-    if (state.phase === 'committed') throw new Error('The post is committed locally but upload is not confirmed. Use Retry the last failed upload.');
+    if (['prepared', 'committed'].includes(state.phase)) throw new Error('The publication has not finished uploading. Use Retry the last failed upload.');
     const { requestUrl } = require('obsidian');
+    if (state.kind === 'books') {
+      const url = `https://wowashuwow.com${state.url}`;
+      let live, runs;
+      try { live = await requestUrl({ url: `${url}?publication=${state.commit.slice(0, 12)}`, throw: false }); } catch {}
+      if (bookPublisher.publicationStatus(state, live).status !== 'live') {
+        try { runs = (await requestUrl({ url: `https://api.github.com/repos/wowashuwow/wowashuwow.github.io/actions/runs?head_sha=${state.commit}&per_page=20`, headers: { Accept: 'application/vnd.github+json' } })).json; } catch {}
+      }
+      const result = bookPublisher.publicationStatus(state, live, runs);
+      new Notice(result.message, 20000);
+      if (result.status === 'live') window.open(url);
+      else if (result.status === 'failed' && result.url) window.open(result.url);
+      return;
+    }
     const response = await requestUrl({ url: `https://api.github.com/repos/wowashuwow/wowashuwow.github.io/actions/runs?head_sha=${state.commit}&per_page=20`, headers: { Accept: 'application/vnd.github+json' } });
     const run = response.json.workflow_runs.find(r => r.name === 'pages build and deployment' && r.head_sha === state.commit);
     if (!run || run.status !== 'completed') {
@@ -340,9 +429,11 @@ module.exports = class WebsiteWriter extends Plugin {
       window.open(run?.html_url || 'https://github.com/wowashuwow/wowashuwow.github.io/actions'); return;
     }
     if (run.conclusion !== 'success') { window.open(run.html_url); throw new Error(`GitHub Pages deployment ${run.conclusion}. Open the build details to resolve it; the post is not confirmed live.`); }
+    const label = state.kind === 'books' ? 'Bookshelf' : 'article';
+    const marker = state.kind === 'books' ? `publishdesk-books: ${state.fingerprint}` : `site-writer content: ${state.fingerprint}`;
     const live = await requestUrl({ url: `https://wowashuwow.com${state.url}?publication=${state.commit.slice(0, 12)}`, throw: false });
-    if (live.status !== 200 || !live.text.includes(`site-writer content: ${state.fingerprint}`)) throw new Error('Deployment succeeded, but the updated article is not available yet. Check again shortly.');
-    new Notice('GitHub Pages deployment succeeded and the article URL is available.', 12000);
+    if (live.status !== 200 || !live.text.includes(marker)) throw new Error(`Deployment succeeded, but the updated ${label} is not available yet. Check again shortly.`);
+    new Notice(`GitHub Pages deployment succeeded and the ${label} URL is available.`, 12000);
     window.open(`https://wowashuwow.com${state.url}`);
   }
   async closePreview() {
@@ -350,5 +441,5 @@ module.exports = class WebsiteWriter extends Plugin {
     while (this.refreshing) await new Promise(resolve => setTimeout(resolve, 50));
     await this.session?.close(); this.session = null;
   }
-  onunload() { this.unloading = true; this.closePreview().catch(console.error); }
+  onunload() { this.unloading = true; this.booksDialog?.close(); this.closePreview().catch(console.error); }
 };

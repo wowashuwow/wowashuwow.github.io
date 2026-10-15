@@ -5,7 +5,8 @@
 <article class="book{% if include.current %} book--current{% endif %}{% if include.recommended %} book--recommended{% endif %}" id="{{ instance }}-{{ book.id }}" data-book-title="{{ book.title | escape }}" data-book-rating="{{ book.rating | default: 0 }}" aria-labelledby="{{ instance }}-title-{{ book.id }}">
   <div class="book__cover">
     {% if custom.cover %}
-    <img src="{{ custom.cover | relative_url }}" alt="" width="110" height="168" loading="lazy" decoding="async">
+    <img src="{{ custom.cover | relative_url }}" alt="" width="110" height="168" loading="lazy" decoding="async" referrerpolicy="no-referrer">
+    <span class="book__missing" hidden aria-hidden="true">{{ book.title | slice: 0, 1 | escape }}</span>
     {% else %}
     <span class="book__missing" aria-hidden="true">{{ book.title | slice: 0, 1 | escape }}</span>
     {% endif %}
@@ -34,7 +35,7 @@
     {% if book.review_html %}
     <details class="book__review">
       <summary>Goodreads review{% if book.spoiler %} <span>(contains spoilers)</span>{% endif %}</summary>
-      {% if custom.review_date %}<p class="book__review-date">Goodreads review dated <time datetime="{{ custom.review_date }}">{{ custom.review_date | date: '%-d %B %Y' }}</time>{% if custom.review_source_url %} · <a href="{{ custom.review_source_url | escape }}">View on Goodreads{% include external-icon.html %}</a>{% endif %}</p>{% endif %}
+      {% if custom.review_date or custom.review_source_url %}<p class="book__review-date">{% if custom.review_date %}Goodreads review dated <time datetime="{{ custom.review_date }}">{{ custom.review_date | date: '%-d %B %Y' }}</time>{% endif %}{% if custom.review_source_url %}{% if custom.review_date %} · {% endif %}<a href="{{ custom.review_source_url | escape }}">View on Goodreads{% include external-icon.html %}</a>{% endif %}</p>{% endif %}
       <div class="book__review-text">{{ book.review_html }}</div>
     </details>
     {% endif %}

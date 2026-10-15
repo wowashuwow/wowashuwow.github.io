@@ -99,3 +99,32 @@ test('the same post can be linked to several books and final Save forwards their
  await modal.contentEl.settings.flatMap(s=>s.controls).find(c=>c.text==='Save locally').click();assert.equal(await result,true);
  assert.deepEqual(saved['1'].posts,saved['3'].posts);assert.equal(saved['1'].recommendation_blurb,'Keep this');
 });
+
+test('cover Done stays in manager until Save; parent Cancel never writes or removes images', async () => {
+ let saved; const {Manager}=harness({save:async(token,overrides,metadata)=>{saved={overrides,metadata};return{saved:true};}});
+ const initial=state(), before=JSON.stringify(initial),modal=new Manager({},initial);const result=modal.result();
+ const open=modal.list.settings.find(s=>s.name==='Cover').controls[0].click();
+ modal.coverModal.contentEl.settings.flatMap(s=>s.controls).find(c=>c.text==='Use no cover').click();
+ modal.coverModal.contentEl.settings.flatMap(s=>s.controls).find(c=>c.text==='Done').click();await open;
+ assert.deepEqual(modal.metadata['1'],{cover:null});assert.equal(JSON.stringify(initial),before);assert.equal(saved,undefined);
+ await modal.contentEl.settings.flatMap(s=>s.controls).find(c=>c.text==='Save locally').click();assert.equal(await result,true);assert.deepEqual(saved.metadata['1'],{cover:null});
+ const cancelled=new Manager({},initial);const cancelResult=cancelled.result();cancelled.metadata['1']={cover:null};saved=undefined;await cancelled.close();assert.equal(await cancelResult,null);assert.equal(saved,undefined);
+});
+test('review date requires explicit confirmation and forwards a separate optional edit', async () => {
+ const {ReviewDate}=harness({});const modal=new ReviewDate({}, {title:'Book',review_html:'<p>My review</p>'},{});const result=modal.result();
+ const done=modal.contentEl.settings.flatMap(s=>s.controls).find(c=>c.text==='Done');done.click();assert.match(modal.error.textContent,/confirm/);
+ modal.contentEl.settings.find(s=>s.name==='Date on Goodreads review').controls[0].change('2024-02-29');
+ modal.contentEl.settings.find(s=>s.name==='Goodreads review URL').controls[0].change('https://www.goodreads.com/review/show/22');
+ modal.contentEl.settings.find(s=>s.name==='I checked this date on my review').controls[0].change(true);done.click();
+ assert.deepEqual(await result,{review:{date:'2024-02-29',source:'https://www.goodreads.com/review/show/22',confirmed:true}});
+});
+test('cancelling an import during lookup resolves promptly, never applies late results and cleans the captured CSV', async()=>{
+ let complete,applied=0,cleaned=0;
+ const {Importer}=harness({capture:async()=>({file:'private.csv',cleanup:async()=>cleaned++}),inspect:()=>new Promise(resolve=>complete=resolve),apply:async()=>applied++});
+ const modal=new Importer({}),result=modal.result(),input=modal.contentEl.children.find(el=>el.tag==='input');input.files=[{name:'library.csv'}];const change=input.events.change();await new Promise(resolve=>setImmediate(resolve));await modal.close();assert.equal(await result,null);assert.equal(modal.controller.signal.aborted,true);assert.equal(applied,0);
+ complete({summary:{counts:{finished:1,currently_reading:0,reviews:0}}});await change;await new Promise(resolve=>setImmediate(resolve));assert.equal(cleaned,1);assert.equal(applied,0);
+});
+test('publication review disables data-only publishing until initial page setup is committed',async()=>{
+ const {Publication}=harness({});const modal=new Publication({}, {ready:false,branch:'newtheme',summary:['Add: Book'],changed:['_data/books.yml']});const result=modal.result();
+ const publish=modal.contentEl.settings.flatMap(s=>s.controls).find(c=>c.text==='Publish');assert.equal(publish.disabled,true);publish.click();await modal.close();assert.equal(await result,null);
+});

@@ -87,3 +87,5 @@ permalink: /bookshelf/
   <div class="books-end"><a class="books-explore" href="{{ '/tags/' | relative_url }}#Books">Explore writing about books <span aria-hidden="true">→</span></a><p>Ratings and reviews from <a href="https://www.goodreads.com/user/show/66848291-ashutosh">my Goodreads{% include external-icon.html %}</a>.</p></div>
 </div></div></div></div>
 <script src="{{ '/js/books.js' | relative_url }}" defer></script>
+
+{% if site.data.books-publication.fingerprint %}<!-- publishdesk-books: {{ site.data.books-publication.fingerprint }} -->{% endif %}
