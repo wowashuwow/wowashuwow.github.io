@@ -7,13 +7,19 @@
   recommendation_order: 2
   cover: "/images/books/3.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SX98_.jpg
-  recommendation_blurb: For some people it's Lord of the Rings, for others it's Star
-    Wars, but for me and countless others, it's Harry Potter. The series is best enjoyed
-    as a child, so even if you missed out on this, if you have a child, get them the
-    set and make sure they don't. Sometimes I think Rowling could have been a truly
-    amazing physicist, because the imagination involved in writing Harry Potter is
-    comparable to Einstein theorizing the existence of gravitational waves. But I'm
-    glad she isn't.
+  recommendation_blurb: I believe one is missing out on an essential part of the human
+    experience if they, during their time on this planet, don't experience what it's
+    like to be part of another world that doesn't actually exist but feels just as
+    real plus richer than this one. For some people that world is that of The Lord
+    of the Rings, for others it's Star Wars, but for me and countless others, it's
+    Harry Potter. The series is best enjoyed as a child, but if you missed out on
+    it and you're an adult already, you should still give it a shot because so many
+    adults report having felt its magic too. If you have a child, get them the whole
+    set ASAP so they don't miss it. You know, sometimes I think Rowling could have
+    contributed so much to physics, because the power of imagination involved in writing
+    Harry Potter is nothing short of what Einstein must have summoned when theorizing
+    the existence of gravitational waves; but I'm glad she never give a shit about
+    whether light was made up of particles or waves.
 '5':
   cover: "/images/books/5.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630547330l/5._SX98_.jpg
@@ -32,6 +38,7 @@
 '5907':
   cover: "/images/books/5907.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546071216l/5907._SX98_.jpg
+  currently_reading_order: 7
 '6192':
   cover: "/images/books/6192.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385161943l/6192._SX98_.jpg
@@ -63,6 +70,8 @@
 '36064':
   cover: "/images/books/36064.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403181563l/36064._SX98_.jpg
+  currently_reading_order: 2
+  currently_reading_hidden: true
 '40745':
   cover: "/images/books/40745.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436227012l/40745._SX98_.jpg
@@ -110,9 +119,8 @@
   recommended: true
   recommendation_order: 1
   recommendation_blurb: I have read hundreds of books, but this is the finest writing
-    I have ever read. I am also so confident that this is one of the finest pieces
-    of prose that will ever exist on this planet, past or future, that I can't say
-    anything more out of fear I may not be able to do justice to this masterpiece.
+    I have ever read. I can't say anything more out of fear I may not be able to do
+    justice to this masterpiece.
 '126507':
   cover: "/images/books/126507.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388241213l/126507._SX98_.jpg
@@ -121,6 +129,7 @@
 '139069':
   cover: "/images/books/139069.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391329559l/139069._SX98_.jpg
+  currently_reading_order: 3
 '256008':
   cover: "/images/books/256008.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559668037l/256008._SX98_.jpg
@@ -150,12 +159,17 @@
 '14759918':
   cover: "/images/books/14759918.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1350461021l/14759918._SX98_.jpg
+  currently_reading_order: 0
 '15812553':
   cover: "/images/books/15812553.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344747179l/15812553._SX98_.jpg
+  currently_reading_order: 6
+  currently_reading_hidden: false
 '27213329':
   cover: "/images/books/27213329.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632024090l/27213329._SX98_.jpg
+  currently_reading_order: 4
+  currently_reading_hidden: false
 '28257707':
   cover: "/images/books/28257707.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465761302l/28257707._SX98_.jpg
@@ -165,6 +179,7 @@
 '45166937':
   cover: "/images/books/45166937.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555591852l/45166937._SX98_.jpg
+  currently_reading_order: 5
 '54821231':
   cover: "/images/books/54821231.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612654204l/54821231._SX98_.jpg
@@ -175,6 +190,8 @@
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639110388l/59784779._SX98_.jpg
   posts:
   - 2026-2-19-book-review-a-self-help-guide-for-copywriters-by-dan-nelken.md
+  currently_reading_order: 1
+  currently_reading_hidden: true
 '60162230':
   cover: "/images/books/60162230.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1642614989l/60162230._SX98_.jpg
@@ -191,3 +208,4 @@
 '218319936':
   cover: "/images/books/218319936.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1725343720l/218319936._SX98_.jpg
+  currently_reading_order: 8

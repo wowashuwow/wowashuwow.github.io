@@ -67,3 +67,35 @@ test('import requires review and explicit removal acknowledgement before Apply',
   modal.summaryEl.settings[0].controls[0].change(true); assert.equal(modal.applyButton.disabled, false);
   await modal.applyButton.click(); assert.equal(await result, true); assert.equal(applied, 1); assert.equal(cleaned, 1);
 });
+
+test('post links support title search, duplicate prevention, ordering and child Cancel', async () => {
+  const { PostLinks, PostPicker } = harness({});
+  const posts = [{ref:'2020-01-01-a.md',title:'Same title',date:'2020-01-01',url:'/a/'},{ref:'2020-01-02-b.md',title:'Same title',date:'2020-01-02',url:'/b/'}];
+  const original = [posts[0].ref]; const dialog = new PostLinks({}, {title:'Book'},posts,original); const result=dialog.result();
+  const add=dialog.contentEl.settings.flatMap(s=>s.controls).find(c=>c.text==='Add a blog post');
+  add.click(); assert.deepEqual(dialog.picker.getItems(),[posts[1]]);
+  assert.equal(dialog.picker.getItemText(posts[1]),'Same title — 2020-01-02');
+  assert.match(new PostPicker({},posts,()=>{}).getItemText(posts[1]),/Same title.*2020-01-02.*b.md/);
+  dialog.picker.onChooseItem(posts[1]); dialog.picker.onChooseItem(posts[1]); assert.equal(dialog.references.length,2);
+  dialog.list.settings[1].controls[1].click(); assert.deepEqual(dialog.references,[posts[1].ref,posts[0].ref]);
+  dialog.list.settings[0].controls[0].click(); assert.deepEqual(dialog.references,original);
+  await dialog.close(); assert.equal(await result,null); assert.deepEqual(original,[posts[0].ref]);
+});
+test('child Done edits only the parent draft; parent Cancel never saves; missing links remain repairable', async () => {
+  let saves=0;const { Manager }=harness({save:async()=>{saves++;}});
+  const initial=state();initial.posts=[{ref:'2020-01-01-a.md',title:'A published essay',date:'2020-01-01',url:'/essay/'}];initial.overrides['1'].posts=['2020-01-01-missing.md'];
+  const modal=new Manager({},initial);const result=modal.result();
+  const manage=modal.list.settings.find(s=>s.name==='On the blog').controls[0];const pending=manage.click();
+  assert.match(modal.linksModal.list.settings[0].name,/Unavailable post/);
+  modal.linksModal.references=[initial.posts[0].ref];
+  modal.linksModal.contentEl.settings.flatMap(s=>s.controls).find(c=>c.text==='Done').click();await pending;
+  assert.deepEqual(modal.draft['1'].posts,[initial.posts[0].ref]);assert.deepEqual(initial.overrides['1'].posts,['2020-01-01-missing.md']);
+  modal.section='current';modal.render();assert.ok(modal.list.settings.some(s=>s.name==='On the blog')); // hidden current book still manageable
+  await modal.close();assert.equal(await result,null);assert.equal(saves,0);
+});
+test('the same post can be linked to several books and final Save forwards their separate associations',async()=>{
+ let saved;const {Manager}=harness({save:async(token,overrides)=>{saved=overrides;return{saved:true};}});
+ const modal=new Manager({},state());const result=modal.result();modal.draft['1'].posts=['2020-01-01-a.md'];modal.preferences('3').posts=['2020-01-01-a.md'];
+ await modal.contentEl.settings.flatMap(s=>s.controls).find(c=>c.text==='Save locally').click();assert.equal(await result,true);
+ assert.deepEqual(saved['1'].posts,saved['3'].posts);assert.equal(saved['1'].recommendation_blurb,'Keep this');
+});

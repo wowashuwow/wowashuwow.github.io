@@ -256,3 +256,8 @@ Books feedback (13 October): finished written reviews move above rating-only boo
 - [ ] Complete the real Obsidian walkthrough, cover polish, book→post/cover controls and selected-Books publication workflow before release. Preserve authored Goodreads statuses privately as planned.
 
 Feature detail and evidence: [Books plan](books-plan.md), [curation spec](books-curation-spec.md). Current local preview: http://127.0.0.1:4180/books/.
+
+
+15 October: PublishDesk 1.1 locally installed in the main website vault for Books user testing. Backups and verification are recorded in docs/books-plan.md. No push/deployment; Books changes remain unstaged. Preserve main-vault curation edits during later release synchronization.
+
+15 October: related-post management implemented and locally installed in PublishDesk 1.1.1; 68 automated checks plus real Obsidian cancellation walkthrough. See docs/books-post-links-spec.md and docs/books-plan.md. Remaining Books workflow gaps explicitly listed: cover replacement/quality, verified review-date correction, Books publication. Page name remains Books pending author choice.

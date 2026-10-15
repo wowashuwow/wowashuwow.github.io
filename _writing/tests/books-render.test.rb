@@ -62,4 +62,18 @@ class BooksRenderTest < Minitest::Test
     assert html.at_css('#finished-list #book-14')
     refute html.at_css('#reading-shelf #book-14')
   end
+  def test_blog_links_in_recommendations_and_history_use_actual_titles_urls_and_selected_order
+    FileUtils.mkdir_p(File.join(@temp, '_posts'))
+    File.write(File.join(@temp, '_posts/2020-01-01-one.md'), "---\ntitle: New displayed title\npermalink: /custom-link/\n---\nText")
+    File.write(File.join(@temp, '_posts/2020-01-02-two.md'), "---\ntitle: Second essay\npermalink: /second/\n---\nText")
+    refs = %w[2020-01-02-two.md 2020-01-01-one.md]
+    html = render('12' => { 'recommended' => true, 'posts' => refs }, '14' => { 'posts' => [refs.last] })
+    %w[recommendation-12 book-12].each do |id|
+      assert_equal ['Second essay', 'New displayed title'], html.css("##{id} .book__posts a").map(&:text)
+      assert_equal ['/second/', '/custom-link/'], html.css("##{id} .book__posts a").map { |n| n['href'] }
+    end
+    assert_equal ['New displayed title'], html.css('#book-14 .book__posts a').map(&:text)
+    refute html.at_css('#recommendation-12 details')
+  end
+
 end

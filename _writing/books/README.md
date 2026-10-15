@@ -1,6 +1,6 @@
 # Books import and curation
 
-The Books feature is implemented locally on `codex/books`, not released or installed in the active writing vault yet. The public preview is at `http://127.0.0.1:4180/books/`. The source-built PublishDesk 1.1 bundle includes three commands; a real Obsidian walkthrough remains a release check.
+PublishDesk 1.1.1 is installed locally in this website vault for testing (15 October). The Books feature originates on `codex/books`; its files are copied into this vault as uncommitted local changes on `newtheme`. No merge, push or deployment has occurred. Use the three commands below. The installed plugin opened Manage books with the real library and built its Books preview successfully. User testing of visibility, ordering, blurb changes and CSV import remains before release. Books publication is not implemented yet.
 
 ## Routine workflow after installation
 
@@ -8,7 +8,13 @@ The Books feature is implemented locally on `codex/books`, not released or insta
 - **PublishDesk: Import Goodreads library**: choose a full CSV export, review added/updated/removed records and shelf changes, then Apply locally. Removals require explicit acknowledgement. Updated review text is flagged for date verification: CSV does not contain review dates.
 - **PublishDesk: Preview Books page**: builds public committed files plus saved Books inputs, without private drafts. Subsequent saved Books choices/imports refresh the full build; the existing live-reload server keeps the previous successful page and displays the error if an update fails. Stop website preview stops it.
 
-These commands do not commit, upload, change Goodreads or modify Obsidian's personal-vault settings. A separate selected-Books publication workflow and cover/post-link management remain later work before release.
+These commands do not commit, upload, change Goodreads or modify Obsidian's personal-vault settings. A separate selected-Books publication workflow, cover replacement/quality and verified review-date management remain later work before release.
+
+## Link writing to a book
+
+Open Manage books, find the book in any section (hidden entries are included), then click its Blog posts button. Add a blog post opens a native title-search picker of committed, published posts. Dates/source references distinguish posts sharing a title. Select one or more, remove links or change their order. Done returns these changes to the manager; Cancel discards the child-dialog changes. **Save locally in the manager is still required**. Cancelling the manager discards all unsaved edits, including links.
+
+A post can belong to several books, and a book can have several related posts. These can be essays, roundups or reflections; they are not automatically called reviews. Links appear under On the blog in every visible occurrence of the book, including recommendations. Title/URL changes resolve from Jekyll's posts on the next build; filename renames/deletions need manual repair. Unavailable references are shown in the manager, never silently discarded. Newly selected posts must still be published at save time. Publish a new blog post first, then reopen the manager (or Reload saved choices, which discards unsaved edits) to select it. Drafts and uncommitted new posts do not appear. No post front matter needs changing.
 
 ## What persists
 

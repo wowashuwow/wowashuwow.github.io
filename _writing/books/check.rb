@@ -25,6 +25,8 @@ books.each do |book|
   errors << "Incorrect recommendation visibility: #{book['id']}" unless !!recommendation == recommended
   [entry, recommendation].compact.each do |node|
     errors << "Title missing/changed: #{book['id']}" unless node.at_css('.book__title a')&.text == book['title']
+    expected_posts.concat(custom['posts'] || [])
+    errors << "Wrong blog-link count for #{node['id']}" unless node.css('.book__posts a').length == (custom['posts'] || []).length
     node.css('img').each do |img|
       errors << "Invalid/missing cover: #{img['src']}" unless img['src'].start_with?('/images/books/') && File.file?(File.join(output, img['src']))
     end
@@ -49,7 +51,7 @@ books.each do |book|
   end
   (custom['posts'] || []).each do |post|
     errors << "Invalid or missing published post: #{post}" unless File.file?(File.join(root, '_posts', post))
-    expected_posts << post
+
   end
 end
 overrides.each { |id, custom| errors << "Recommended book missing from data: #{id}" if custom['recommended'] && !books.any? { |b| b['id'] == id } }

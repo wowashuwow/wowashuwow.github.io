@@ -7,6 +7,54 @@ module.exports = function createBooksUI({ Modal, Setting, FuzzySuggestModal }, a
     getItemText(book) { return `${book.title} — ${book.author}`; }
     onChooseItem(book) { this.choose(book); }
   }
+  class PostPicker extends FuzzySuggestModal {
+    constructor(app, posts, choose) { super(app); this.posts = posts; this.choose = choose; this.setPlaceholder('Search published posts by title'); }
+    getItems() { return this.posts; }
+    getItemText(post) { const duplicate = this.posts.filter(item => item.title === post.title).length > 1; return `${post.title} — ${post.date}${duplicate ? ' — ' + post.ref : ''}`; }
+    onChooseItem(post) { this.choose(post); }
+  }
+  class PostLinks extends Modal {
+    constructor(app, book, posts, references) { super(app); this.book = book; this.posts = posts; this.references = [...references]; }
+    result() { return new Promise(resolve => { this.resolve = resolve; this.open(); }); }
+    onOpen() {
+      this.contentEl.createEl('h2', { text: `On the blog · ${this.book.title}` });
+      this.contentEl.createEl('p', { text: 'Choose published writing related to this book. It can be a review, reflection or reading list. Done keeps these edits in Manage books; Save locally there writes them.' });
+      new Setting(this.contentEl).addButton(button => button.setButtonText('Add a blog post').onClick(() => {
+        const available = this.posts.filter(post => !this.references.includes(post.ref));
+        if (!available.length) { this.error.textContent = 'No other published posts are available.'; return; }
+        this.picker = new PostPicker(this.app, available, post => {
+          if (!this.references.includes(post.ref)) this.references.push(post.ref);
+          this.error.textContent = ''; this.render();
+        }); this.picker.open();
+      }));
+      this.list = this.contentEl.createDiv(); this.list.style.maxHeight = '45vh'; this.list.style.overflowY = 'auto';
+      this.error = this.contentEl.createEl('p', { attr: { role: 'status' } });
+      new Setting(this.contentEl).addButton(button => button.setButtonText('Cancel').onClick(() => this.close()))
+        .addButton(button => button.setButtonText('Done').setCta().onClick(() => { this.selection = [...this.references]; this.close(); }));
+      this.render();
+    }
+    render() {
+      this.list.empty();
+      if (!this.references.length) this.list.createEl('p', { text: 'No blog posts linked yet.' });
+      this.references.forEach((ref, index) => {
+        const post = this.posts.find(post => post.ref === ref);
+        const label = post?.title || `Unavailable post: ${ref}`;
+        const row = new Setting(this.list).setName(label).setDesc(post ? `${post.date} · ${post.url}` : 'This source was renamed, deleted or is no longer published. Remove it or select its replacement.');
+        row.addButton(button => { button.setButtonText('Remove').setTooltip(`Unlink ${label}`).onClick(() => { this.references.splice(index, 1); this.render(); }); button.buttonEl.setAttribute('aria-label', `Unlink ${label}`); });
+        for (const delta of [-1, 1]) row.addButton(button => {
+          button.setButtonText(delta < 0 ? '↑' : '↓').setDisabled(index + delta < 0 || index + delta >= this.references.length).onClick(() => {
+            const next = index + delta; [this.references[index], this.references[next]] = [this.references[next], this.references[index]];
+            this.render();
+            const preferred = this.list.querySelector(`[data-post-move="${index + delta}:${delta}"]`);
+            const target = preferred && !preferred.disabled ? preferred : this.list.querySelector(`[data-post-move="${index + delta}:${-delta}"]`); target?.focus();
+          });
+          button.buttonEl.setAttribute('aria-label', `Move ${label} ${delta < 0 ? 'up' : 'down'}`);
+          button.buttonEl.setAttribute('data-post-move', `${index}:${delta}`);
+        });
+      });
+    }
+    onClose() { this.resolve?.(this.selection ?? null); this.contentEl.empty(); }
+  }
   const rank = (settings, id, key) => settings[id]?.[key] ?? 999999;
   const ordered = (books, settings, key) => books.map((book, index) => ({ book, index })).sort((a, b) => rank(settings, a.book.id, key) - rank(settings, b.book.id, key) || a.index - b.index).map(item => item.book);
   class Manager extends Modal {
@@ -15,6 +63,9 @@ module.exports = function createBooksUI({ Modal, Setting, FuzzySuggestModal }, a
     onOpen() {
       this.contentEl.createEl('h2', { text: 'Manage books' });
       this.contentEl.createEl('p', { text: 'These choices affect your website only. Save locally, then preview. Goodreads is unchanged.' });
+      const published = new Set((this.state.posts || []).map(post => post.ref));
+      const broken = this.state.books.filter(book => (this.draft[book.id]?.posts || []).some(ref => !published.has(ref)));
+      if (broken.length) this.contentEl.createEl('p', { text: `Unavailable blog links: ${broken.map(book => book.title).join(', ')}. Open each book's Blog posts controls to remove or replace them.`, attr: { role: 'alert' } });
       if (this.state.missing.length) this.contentEl.createEl('p', { text: `Saved settings retained for missing book IDs: ${this.state.missing.join(', ')}. They will apply again if those records return.`, attr: { role: 'status' } });
       for (const id of this.state.missing.filter(id => this.draft[id]?.recommended)) new Setting(this.contentEl).setName(`Missing recommended record: ${id}`).addButton(button => button.setButtonText('Remove recommendation').onClick(() => { this.preferences(id).recommended = false; button.setDisabled(true); }));
       new Setting(this.contentEl).setName('Section').addDropdown(input => { input.selectEl.setAttribute('aria-label', 'Books section'); return input.addOptions({ recommended: 'Read before you die', current: 'Currently reading', history: 'Reading history' }).setValue(this.section).onChange(value => { this.section = value; this.query = ''; this.search.setValue(''); this.render(); }); });
@@ -83,6 +134,14 @@ module.exports = function createBooksUI({ Modal, Setting, FuzzySuggestModal }, a
             button.buttonEl.setAttribute('data-move-id', `${book.id}:${delta}`);
           });
         }
+        new Setting(this.list).setName('On the blog').setDesc('Related writing on your website').addButton(button => {
+          button.setButtonText(`Blog posts (${preferences.posts?.length || 0})`).setTooltip(`Manage blog posts for ${book.title}`).onClick(async () => {
+            this.linksModal = new PostLinks(this.app, book, this.state.posts || [], preferences.posts || []);
+            const selected = await this.linksModal.result();
+            if (selected !== null) { if (selected.length) preferences.posts = selected; else delete preferences.posts; this.render(); this.search.inputEl.focus(); }
+          });
+          button.buttonEl.setAttribute('aria-label', `Manage blog posts for ${book.title}`);
+        });
         if (this.section === 'recommended') new Setting(this.list).setName('Your blurb (optional)').addTextArea(input => {
           input.setValue(preferences.recommendation_blurb || '').setPlaceholder('Add your own short note when ready').onChange(value => preferences.recommendation_blurb = value);
           input.inputEl.maxLength = 2000; input.inputEl.rows = 3; input.inputEl.setAttribute('aria-label', `Your recommendation blurb for ${book.title}`);
@@ -131,5 +190,5 @@ module.exports = function createBooksUI({ Modal, Setting, FuzzySuggestModal }, a
     }
     async onClose() { await this.operation?.catch(() => {}); await this.captured?.cleanup(); this.resolve?.(this.saved ?? null); this.contentEl.empty(); }
   }
-  return { Manager, Importer };
+  return { Manager, Importer, PostLinks, PostPicker };
 };

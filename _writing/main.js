@@ -111,7 +111,7 @@ module.exports = class WebsiteWriter extends Plugin {
     this.addSettingTab(new WriterSettings(this.app, this));
     for (const event of ['modify', 'create', 'delete', 'rename']) this.registerEvent(this.app.vault.on(event, file => {
       if (event === 'delete' && file.path === this.previewNote) { this.closePreview().catch(console.error); return; }
-      if (this.previewNote === '__books__') { if (/^(?:_data\/books(?:-overrides)?\.yml|images\/books\/|_pages\/books\.html|_includes\/book-|_sass\/4-layouts\/_books\.scss|js\/books\.js)/.test(file.path)) this.schedulePreview(); return; }
+      if (this.previewNote === '__books__') { if (/^(?:_posts\/|_data\/books(?:-overrides)?\.yml|images\/books\/|_pages\/books\.html|_includes\/book-|_sass\/4-layouts\/_books\.scss|js\/books\.js)/.test(file.path)) this.schedulePreview(); return; }
       if (this.previewNote && (file.path === this.previewNote || /\.(jpe?g|png|webp|gif|avif|svg|md)$/i.test(file.path))) this.schedulePreview();
     }));
     const commands = [

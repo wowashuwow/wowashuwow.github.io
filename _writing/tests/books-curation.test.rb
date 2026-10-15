@@ -8,7 +8,7 @@ class BooksImportTest
     File.write(@settings, YAML.dump(value))
   end
   def test_manual_choices_survive_reimport_shelf_changes_and_reordering
-    settings('12' => { 'recommended' => true, 'recommendation_order' => 2, 'recommendation_blurb' => '<script>plain text</script>', 'currently_reading_hidden' => true, 'currently_reading_order' => 0, 'history_hidden' => true })
+    settings('12' => { 'recommended' => true, 'recommendation_order' => 2, 'recommendation_blurb' => '<script>plain text</script>', 'posts' => ['2020-01-01-related.md'], 'currently_reading_hidden' => true, 'currently_reading_order' => 0, 'history_hidden' => true })
     original = File.binread(@settings)
     export(record('Exclusive Shelf': 'currently-reading', 'My Rating': '0'))
     apply

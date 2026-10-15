@@ -11,7 +11,7 @@ test('native bridge saves choices, imports without resetting them, rejects stale
   const source = path.resolve(__dirname, '../..');
   try {
     await fs.mkdir(path.join(root, '_writing/books'), { recursive: true }); await fs.mkdir(path.join(root, '_data'));
-    for (const name of ['import.rb', 'settings.rb', 'manage.rb']) await fs.copyFile(path.join(source, '_writing/books', name), path.join(root, '_writing/books', name));
+    for (const name of ['import.rb', 'settings.rb', 'manage.rb', 'posts.rb']) await fs.copyFile(path.join(source, '_writing/books', name), path.join(root, '_writing/books', name));
     for (const name of ['Gemfile', 'Gemfile.lock', '.ruby-version']) await fs.copyFile(path.join(source, name), path.join(root, name));
     const output = path.join(root, '_data/books.yml'), settings = path.join(root, '_data/books-overrides.yml');
     const original = [{ id: '12', title: 'Café — First', author: 'Author', status: 'read', source_url: 'https://www.goodreads.com/book/show/12', rating: 4 }];

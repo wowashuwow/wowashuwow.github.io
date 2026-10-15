@@ -9,7 +9,7 @@ require 'fileutils'
 module BooksSettings
   class Error < StandardError; end
   FIELDS = %w[cover cover_source posts review_date review_source_url recommended recommendation_order recommendation_blurb currently_reading_hidden currently_reading_order history_hidden].freeze
-  EDITORIAL = %w[recommended recommendation_order recommendation_blurb currently_reading_hidden currently_reading_order history_hidden].freeze
+  EDITORIAL = %w[posts recommended recommendation_order recommendation_blurb currently_reading_hidden currently_reading_order history_hidden].freeze
   def self.bytes(file)
     raise Error, 'Books files must be regular files, not symlinks.' if File.symlink?(file) || File.symlink?(File.dirname(file))
     raise Error, 'Books path is not a regular file.' if File.exist?(file) && !File.file?(file)
@@ -85,7 +85,7 @@ module BooksSettings
       File.rename(temp.path, file)
     end
   end
-  def self.save(books_file, settings_file, proposed, expected_token:, backup_dir:)
+  def self.save(books_file, settings_file, proposed, expected_token:, backup_dir:, published_posts: nil)
     raise Error, 'The library or settings changed. Reopen Manage books before saving.' unless token(books_file, settings_file) == expected_token
     old = load(settings_file)
     validate(proposed)
@@ -94,11 +94,20 @@ module BooksSettings
     raise Error, 'Cannot configure a book that is not in the imported library.' unless (proposed.keys - old.keys - ids).empty?
     raise Error, 'Missing-book settings must be retained.' unless (old.keys - proposed.keys).empty?
     old.each do |id, custom|
-      raise Error, 'Manage books cannot overwrite imported cover, date or post-link settings.' unless custom.reject { |k, _| EDITORIAL.include?(k) } == proposed.fetch(id).reject { |k, _| EDITORIAL.include?(k) }
+      raise Error, 'Manage books cannot overwrite cover or verified date settings.' unless custom.reject { |k, _| EDITORIAL.include?(k) } == proposed.fetch(id).reject { |k, _| EDITORIAL.include?(k) }
     end
     (proposed.keys - old.keys).each { |id| raise Error, 'New settings can only contain editorial choices.' unless (proposed[id].keys - EDITORIAL).empty? }
     # New recommendations must have a source record. Stale, already-pinned records can be unselected.
     raise Error, 'A recommended book is missing from the library.' if proposed.any? { |id, c| c['recommended'] && !ids.include?(id) }
+    # Unchanged orphaned links remain recoverable and removable. New selections
+    # must still be published at save time (including after a picker was opened).
+    proposed.each do |id, custom|
+      added = Array(custom['posts']) - Array(old.dig(id, 'posts'))
+      next if added.empty?
+      raise Error, 'Published post catalogue is required to add blog links.' unless published_posts
+      missing = added - published_posts
+      raise Error, "These posts are no longer published. Remove/reselect them: #{missing.join(', ')}" unless missing.empty?
+    end
     return false if old == proposed
     expected = bytes(settings_file)
     raise Error, 'The library changed during save; reopen the manager.' unless token(books_file, settings_file) == expected_token

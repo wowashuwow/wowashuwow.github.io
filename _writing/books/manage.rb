@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 require_relative 'import'
+require_relative 'posts'
 
 root = File.expand_path('../..', __dir__)
 books_file = File.join(root, '_data/books.yml')
@@ -20,9 +21,9 @@ begin
       overrides = BooksSettings.load(settings_file)
       ids = books.map { |b| b['id'] }
       puts JSON.generate({ books: books, overrides: overrides, token: BooksSettings.token(books_file, settings_file),
-                           missing: overrides.keys - ids })
+                           missing: overrides.keys - ids, posts: BooksPosts.catalog(root) })
     when 'save'
-      saved = BooksSettings.save(books_file, settings_file, request.fetch('overrides'), expected_token: request.fetch('token'), backup_dir: backup)
+      saved = BooksSettings.save(books_file, settings_file, request.fetch('overrides'), expected_token: request.fetch('token'), backup_dir: backup, published_posts: BooksPosts.catalog(root).map { |post| post.fetch('ref') })
       puts JSON.generate({ saved: saved })
     else
       file = request.fetch('file')

@@ -20,6 +20,7 @@
     <p class="book__rating"><span aria-hidden="true">{% for star in (1..5) %}{% if star <= book.rating %}★{% else %}☆{% endif %}{% endfor %}</span><span class="visually-hidden">My rating: {{ book.rating }} out of 5 stars</span></p>
     {% endif %}
     {% if book.status == 'read' and book.date_read %}<p class="book__finished">Finished <time datetime="{{ book.date_read }}">{{ book.date_read | date: '%-d %B %Y' }}</time></p>{% endif %}
+    {% endif %}
     {% if custom.posts %}
     <div class="book__posts"><span class="book__posts-label">On the blog</span>
       {% for reference in custom.posts %}
@@ -29,6 +30,7 @@
       {% endfor %}
     </div>
     {% endif %}
+    {% unless include.recommended %}
     {% if book.review_html %}
     <details class="book__review">
       <summary>Goodreads review{% if book.spoiler %} <span>(contains spoilers)</span>{% endif %}</summary>
@@ -36,6 +38,6 @@
       <div class="book__review-text">{{ book.review_html }}</div>
     </details>
     {% endif %}
-    {% endif %}
+    {% endunless %}
   </div>
 </article>
