@@ -265,3 +265,8 @@ Implemented the specification written before this iteration: Read before you die
 Remaining before Books release: native Obsidian walkthrough/installation plan; cover quality and cover/post-link management; separate selected-Books publication safeguards; private written Goodreads status archive; final reviewer/user checks. Draft-image publication leftovers remain deferred.
 
 Final verification (15 October): all 34 JavaScript tests passed against the source-built PublishDesk 1.1 bundle; 22 import/settings tests passed with 105 assertions; four native Liquid render tests passed with 19 assertions. Total: 60 automated tests. Final output checker and real library bridge passed. Light/dark previews inspected and the original light theme restored; temporary phone viewport reset. No plugin installation, Git push or deployment.
+
+
+## Author recommendation blurbs — 15 October
+
+Saved the author's four supplied blurbs through the validated Books settings bridge, preserving wording and normalizing the missing space/plain-text emphasis in Mindset. No imported Goodreads facts changed. Full safe Jekyll build and Books output checker passed. Browser verified all four blurbs, desktop layout and 375px phone wrapping without page overflow. Screenshot: `/private/tmp/books-blurbs-desktop.jpg`. These changes remain local to `codex/books`; PublishDesk 1.1 is still not installed in the active vault, and Books publishing remains pending.
