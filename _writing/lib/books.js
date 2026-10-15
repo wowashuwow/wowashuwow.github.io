@@ -66,7 +66,7 @@ async function build(plan, options = {}) {
     await fs.writeFile(path.join(source, '_books-preview.yml'), 'website_preview: true\n');
     await core.run(plan.root, 'bundle', ['exec', 'ruby', '-EUTF-8', '-S', 'jekyll', 'build', '--safe', '--source', source, '--destination', output, '--config', `${source}/_config.yml,${source}/_books-preview.yml`]);
     await core.run(plan.root, 'bundle', ['exec', 'ruby', '-EUTF-8', '_writing/books/check.rb', output]);
-    return { temp, output, url: '/books/', baseurl: '' };
+    return { temp, output, url: '/bookshelf/', baseurl: '' };
   } catch (error) {
     if (!options.temp) await fs.rm(temp, { recursive: true, force: true });
     else await fs.rm(output, { recursive: true, force: true });

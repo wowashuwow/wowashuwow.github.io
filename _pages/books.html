@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Books
-description: Books I'd recommend, what I'm reading, and my reading history with ratings and reviews.
-permalink: /books/
+title: Bookshelf
+description: "My bookshelf: books I recommend, what I’m reading, and my reading history with personal ratings, reviews and related writing."
+permalink: /bookshelf/
 ---
 {% capture recommended_values %}{% include book-selection.html section='recommended' %}{% endcapture %}
 {% assign recommended_ids = recommended_values | strip | split: '|' %}
@@ -19,8 +19,8 @@ permalink: /books/
 {% for id in reviewed_ids %}{% unless site.data.books-overrides[id].review_date %}{% assign undated_count = undated_count | plus: 1 %}{% endunless %}{% endfor %}
 <section class="hero books-heading">
   <div class="container"><div class="row"><div class="col col-10 col-d-12"><div class="hero__inner">
-    <h1 class="hero__title">Books</h1>
-    <nav class="books-jumps" aria-label="Books sections">
+    <h1 class="hero__title">Bookshelf</h1>
+    <nav class="books-jumps" aria-label="Bookshelf sections">
       {% if recommended_ids.size > 0 %}<a href="#read-before-you-die">Read before you die</a>{% endif %}
       {% if reading_ids.size > 0 %}<a href="#currently-reading">Currently reading</a>{% endif %}
       {% if history_count > 0 %}<a href="#reading-history">Reading history</a>{% endif %}
@@ -78,10 +78,7 @@ permalink: /books/
     <section class="books-finished" aria-labelledby="finished-books">
       <div class="books-section-heading">
         <h3 id="finished-books" class="books-subheading">Ratings only <span class="books-count">{{ rated_ids.size }}</span></h3>
-        <div class="books-sort" hidden><label for="book-order">Sort by</label><select id="book-order"><option value="title">Title A–Z</option><option value="rating">Highest rating</option></select></div>
       </div>
-      <p class="books-rating-note">The stars are my ratings.</p>
-      <p class="visually-hidden" id="books-sort-status" role="status" aria-live="polite"></p>
       <div class="books-list" id="finished-list">{% for id in rated_ids %}{% assign book = site.data.books | where: 'id', id | first %}{% include book-entry.html book=book title_level=4 %}{% endfor %}</div>
     </section>
     {% endif %}

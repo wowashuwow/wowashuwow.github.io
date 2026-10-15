@@ -29,7 +29,7 @@ class BooksRenderTest < Minitest::Test
     File.write(File.join(@temp, '_data/books-overrides.yml'), YAML.dump(overrides))
     config = Jekyll.configuration('source' => @temp, 'destination' => File.join(@temp, 'output'), 'include' => ['_pages'], 'plugins' => [], 'safe' => true, 'strict_front_matter' => true, 'quiet' => true)
     Jekyll::Site.new(config).process
-    Nokogiri::HTML(File.read(File.join(@temp, 'output/books/index.html')))
+    Nokogiri::HTML(File.read(File.join(@temp, 'output/bookshelf/index.html')))
   end
   def test_sections_independent_hidden_history_and_current_order
     html = render('12' => { 'recommended' => true, 'history_hidden' => true }, '14' => { 'currently_reading_hidden' => true }, '15' => { 'currently_reading_order' => 0 }, '16' => { 'recommended' => true, 'recommendation_order' => 0 })
@@ -74,6 +74,20 @@ class BooksRenderTest < Minitest::Test
     end
     assert_equal ['New displayed title'], html.css('#book-14 .book__posts a').map(&:text)
     refute html.at_css('#recommendation-12 details')
+  end
+
+  def test_ratings_order_dates_before_alphabetical_undated_including_future_imports
+    @books = [
+      ['21', 'zebra', nil], ['22', 'Zulu', '2027-01-01'],
+      ['23', 'alpha', nil], ['24', 'Alpha dated', '2027-01-01'],
+      ['25', 'Old book', '2020-02-03'], ['26', 'Newest import', '2031-12-31'],
+      ['27', 'Hidden', '2032-01-01']
+    ].map { |id, title, date| { 'id' => id, 'title' => title, 'author' => 'A', 'status' => 'read', 'rating' => 4, 'date_read' => date, 'source_url' => "https://www.goodreads.com/book/show/#{id}" } }
+    html = render('27' => { 'history_hidden' => true })
+    assert_equal %w[book-26 book-24 book-22 book-25 book-23 book-21], html.css('#finished-list article').map { |n| n['id'] }
+    assert_equal 'Bookshelf', html.at_css('h1').text.strip
+    assert_empty html.css('#book-order, .books-sort, .books-rating-note')
+    refute_includes html.text, 'The stars are my ratings.'
   end
 
 end

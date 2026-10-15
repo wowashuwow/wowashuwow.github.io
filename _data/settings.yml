@@ -12,8 +12,8 @@ menu__settings:
   menu__items:
     - title: 'Blog'
       url: '/blog/'
-    - title: 'Books'
-      url: '/books/'
+    - title: 'Bookshelf'
+      url: '/bookshelf/'
     - title: 'About'
       url: '/about/'
 

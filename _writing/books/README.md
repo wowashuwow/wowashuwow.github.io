@@ -1,12 +1,12 @@
 # Books import and curation
 
-PublishDesk 1.1.1 is installed locally in this website vault for testing (15 October). The Books feature originates on `codex/books`; its files are copied into this vault as uncommitted local changes on `newtheme`. No merge, push or deployment has occurred. Use the three commands below. The installed plugin opened Manage books with the real library and built its Books preview successfully. User testing of visibility, ordering, blurb changes and CSV import remains before release. Books publication is not implemented yet.
+PublishDesk 1.1.2 is installed locally in this website vault for testing (16 October). The Books feature originates on `codex/books`; its files are copied into this vault as uncommitted local changes on `newtheme`. No merge, push or deployment has occurred. Use the three commands below. The installed plugin opened Manage books with the real library and built its Books preview successfully. User testing of visibility, ordering, blurb changes and CSV import remains before release. Books publication is not implemented yet.
 
 ## Routine workflow after installation
 
 - **PublishDesk: Manage books**: choose Read before you die, Currently reading or Reading history. Recommendations support title/author selection, up/down order and an optional plain-text blurb. Current books support show/hide and up/down. History supports search and show/hide, including books already hidden. Save locally writes only website choices. Cancel discards dialog edits. Reload saved choices discards unsaved edits and loads the latest data after a stale-save error.
 - **PublishDesk: Import Goodreads library**: choose a full CSV export, review added/updated/removed records and shelf changes, then Apply locally. Removals require explicit acknowledgement. Updated review text is flagged for date verification: CSV does not contain review dates.
-- **PublishDesk: Preview Books page**: builds public committed files plus saved Books inputs, without private drafts. Subsequent saved Books choices/imports refresh the full build; the existing live-reload server keeps the previous successful page and displays the error if an update fails. Stop website preview stops it.
+- **PublishDesk: Preview Bookshelf page**: builds public committed files plus saved Books inputs, without private drafts. Subsequent saved Books choices/imports refresh the full build; the existing live-reload server keeps the previous successful page and displays the error if an update fails. Stop website preview stops it.
 
 These commands do not commit, upload, change Goodreads or modify Obsidian's personal-vault settings. A separate selected-Books publication workflow, cover replacement/quality and verified review-date management remain later work before release.
 
@@ -46,3 +46,5 @@ bundle exec ruby _writing/books/check.rb /path/to/generated/site
 ```
 
 The temporary bundle path avoids installing or altering an active vault while testing. Serial integration tests limit temporary disk use. Native Jekyll YAML/Liquid and the existing Ruby/Bundler/Nokogiri runtime are sufficient; no new build plugin or database.
+
+The public page is now **Bookshelf**, at `/bookshelf/`. Ratings-only history is ordered by completion date (newest first), then title for ties; undated entries follow alphabetically. Goodreads date-added is never used as completion date. This applies automatically to future imports.
