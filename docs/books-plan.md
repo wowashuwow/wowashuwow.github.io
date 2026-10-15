@@ -1,6 +1,6 @@
 # Books — research and implementation plan
 
-Updated: 13 October 2026. Implementation started at the author’s request on 13 October; local feature work only, not released. Main tracker: [personal-site-plan.md](personal-site-plan.md).
+Updated: 15 October 2026. Implementation started at the author’s request on 13 October; local feature work only, not released. Main tracker: [personal-site-plan.md](personal-site-plan.md).
 
 ## Agreed scope
 
@@ -70,10 +70,10 @@ The checklist below is the build order. The numbered design/data constraints fol
 
 ### B. Build the data layer and first import
 
-- [ ] Define public records in `_data/books.yml`: stable Goodreads ID, title/author, optional ISBN, status, optional user rating/review/completion date, source URL and cover reference. Keep site-owned associations/cover overrides in `_data/books-overrides.yml`.
+- [x] Define public records in `_data/books.yml`: stable Goodreads ID, title/author, optional ISBN, status, optional user rating/review/completion date, source URL and cover reference. Keep site-owned associations/cover overrides in `_data/books-overrides.yml`.
 - [x] Implement a small Ruby CSV importer using the existing runtime. Whitelist fields, normalize spreadsheet-wrapped ISBNs and numeric ratings, preserve review paragraphs safely, apply rated/read and all-currently-reading eligibility, and handle unknown dates without inventing them.
 - [x] Support a dry-run change summary before applying additions/edits/removals. Deterministic output, atomic writes and recoverable previous data; incomplete input and invalid records must leave the last usable data intact.
-- [x] Verify the initial expected 35 rated/read records, 9 currently-reading records and 11 reviews; counts remain data-derived for future imports. Do not import the 321 want-to-read records or nine unrated finished records into the public shelf.
+- [x] Verify the initial expected 35 rated/read records, 9 currently-reading records and 11 reviews; counts remain data-derived for future imports. Do not import the 321 want-to-read records or unrated finished records by default. The author explicitly selected first Harry Potter book is the later recommendation-only exception (15 October).
 
 ### C. Create the first complete visual preview
 
@@ -91,6 +91,12 @@ The checklist below is the build order. The numbered design/data constraints fol
 - [ ] Verify changed post titles, missing/renamed/deleted post references, excluded books and edition mismatches. Preserve connections when Goodreads changes/removes a book; report unresolved references without displaying broken links.
 
 ### E. Provide the local management workflow
+
+15 October scope refinement: [Books curation spec](books-curation-spec.md) governs the three section controls and import invariants. These source milestones are complete; installation/native walkthrough and the original cover/link/publication flow below are still pending.
+
+- [x] Build Manage books with recommendation membership/order/plain-text blurbs, current visibility/order and searchable history visibility. Source bundle only; no active-vault installation.
+- [x] Build native CSV selection, reviewed changes, removal acknowledgement, stable settings preservation, private backups and stale-state rejection. Native bridge and dialog-model tests passed.
+- [x] Build isolated Books preview using the established full-build/live-reload server. Verify failure recovery and private-folder exclusion through the running HTTP server.
 
 - [ ] Extend the existing PublishDesk with separate Books commands: Import books from Goodreads, Manage book links, Preview Books page and Publish Books changes. Keep normal blog-writing and publishing commands unchanged.
 - [ ] Import: select a CSV from the Mac, show the proposed change summary, then apply locally when confirmed. Manage links: choose a book by title/author, select published posts by title, add/remove links and save locally. Provide a cover replacement control in this management flow.
@@ -241,3 +247,21 @@ This supersedes the original single finished-books list and A–Z default across
 - The local preview now includes review/year separation and captured dates. Manual visibility/order controls are planned with the management commands, not already available in the installed PublishDesk plugin.
 
 Verification for this iteration: full build/output checker passed, including exact date/year placement; importer tests remain 12 tests/67 assertions passing. Browser confirmed review years/counts 2026:6, 2025:3, 2023:1, 2022:1 and descending dates within each year; 24 ratings-only entries sort independently. Desktop/phone had no page overflow; keyboard Enter expanded a dated review on phone. Screenshot evidence: /private/tmp/books-review-years-desktop.jpg and /private/tmp/books-review-years-mobile.jpg. Unknown-date fallback is implemented; the real 11-review library has no unknown review dates. No new installed management controls in this iteration.
+
+
+## Curation implementation — 15 October
+
+Implemented the specification written before this iteration: Read before you die → Currently reading → Reading history. Four seeded exact-edition recommendations: Mindset (40745), Cuckold (109326), first Harry Potter (3), Lonesome Dove (256008). No blurbs invented; optional field/UI is ready. Library now has 45 records, including one explicitly recommended unrated record; history stays 35 rated books (11 written reviews, 24 rating-only), current stays nine. Counts and future review years are data-driven. Known completion dates now display on all finished history entries, independently from review dates.
+
+- Two existing data files only; native Jekyll selection helper respects section-specific visibility/order, handles empty sections and avoids duplicate HTML IDs for recommended/history repeats. Desktop recommendation grid becomes a single column on phones.
+- Added strict settings validation/storage and a Ruby JSON bridge; import never writes settings. Missing pinned IDs stop import; other removals need acknowledgement and retain settings for return. Titles/CSV order/shelf changes do not change identities. Stale UI saves/import summaries stop rather than overwrite newer work. Native requests serialize with a lock; atomic writes have private recovery copies. Simulated disk-full errors preserve original data/settings. Symlinked private import folders are rejected before writes outside the vault.
+- Source-built PublishDesk 1.1 adds Manage books, Import Goodreads library and Preview Books page. No active plugin, vault settings, production files or deployed site changed. A temporary bundle exercises source without installing it. Real native Obsidian interaction remains to check before release; dialog-model tests are not a substitute for that final walkthrough.
+- Import/settings suite: 22 tests/105 assertions; native Liquid rendering: four tests/19 assertions. Covers new/missing/returning books, pinning unrated books, edited/reordered exports, current→read→current, independent hidden choices, stale edits, invalid/duplicate configuration, disk errors, all-hidden/empty sections, escaped blurbs, future/unknown dates and unique IDs.
+- Full existing JavaScript regression suite passed 33 tests before final accessibility/path-hardening refinements. Focused dialog/bridge/bundle checks rerun afterward. Detailed final totals recorded after the final run below. Updated the old encoding assertion to inspect the actual shared CSS file; installed-bundle tests accept a temporary built bundle instead of requiring an installed feature vault.
+- Real Books preview server smoke test passed: public snapshot only, four recommendations, no Drafts access, retained successful output after a failed build and successful subsequent refresh/cleanup. Local output checker verifies visibility/order, dates, related URLs, cover files, unique IDs, canonical/sitemap and private-folder exclusion.
+- Two-column desktop/single-column phone visual preview inspected; no page overflow or broken covers. Screenshot evidence: /private/tmp/books-curation-desktop.jpg and /private/tmp/books-curation-mobile.jpg. Covers remain source thumbnails; higher-resolution replacement remains pre-release polish.
+- The Mac hit ENOSPC during integration testing. Removed only identified obsolete generated Books/release/SEO test outputs, retaining the current preview, original repository/vault/data and baseline homepage evidence. Tests were rerun sequentially after freeing space. Disk still has less than 1 GB available; further temporary full builds need available disk space.
+
+Remaining before Books release: native Obsidian walkthrough/installation plan; cover quality and cover/post-link management; separate selected-Books publication safeguards; private written Goodreads status archive; final reviewer/user checks. Draft-image publication leftovers remain deferred.
+
+Final verification (15 October): all 34 JavaScript tests passed against the source-built PublishDesk 1.1 bundle; 22 import/settings tests passed with 105 assertions; four native Liquid render tests passed with 19 assertions. Total: 60 automated tests. Final output checker and real library bridge passed. Light/dark previews inspected and the original light theme restored; temporary phone viewport reset. No plugin installation, Git push or deployment.

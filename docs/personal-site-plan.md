@@ -246,3 +246,13 @@ Feature evidence and detailed progress live in the Books checkout’s `docs/book
 
 
 Books feedback (13 October): finished written reviews move above rating-only books, grouped by verified Goodreads review dates rather than completion dates. Dates were checked on all 11 review pages. Manual currently-reading visibility/order confirmed; add to the planned Books management commands and preserve choices across CSV imports. Detailed behavior and date-refresh limits are recorded in books-plan.md.
+
+
+## Books curation — 15 October
+
+- [x] Write the detailed [curation specification](books-curation-spec.md) before implementation, including re-import, missing records, stale saves, visibility independence and recovery behavior.
+- [x] Build Read before you die at the top with the four requested recommendations, then Currently reading, then manually hideable Reading history. Add known finished dates, preserve review-year grouping and support optional author-written recommendation blurbs.
+- [x] Build local-source PublishDesk curation/import/Books-preview controls using the existing two data files; verify import preservation, backups, stale edits, cancelled dialogs, failure recovery and public output. No active-vault installation or production release.
+- [ ] Complete the real Obsidian walkthrough, cover polish, book→post/cover controls and selected-Books publication workflow before release. Preserve authored Goodreads statuses privately as planned.
+
+Feature detail and evidence: [Books plan](books-plan.md), [curation spec](books-curation-spec.md). Current local preview: http://127.0.0.1:4180/books/.

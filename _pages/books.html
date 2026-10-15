@@ -1,73 +1,92 @@
 ---
 layout: default
 title: Books
-description: What Ashutosh is reading, with personal ratings, Goodreads reviews and related blog posts.
+description: Books I'd recommend, what I'm reading, and my reading history with ratings and reviews.
 permalink: /books/
 ---
+{% capture recommended_values %}{% include book-selection.html section='recommended' %}{% endcapture %}
+{% assign recommended_ids = recommended_values | strip | split: '|' %}
+{% capture reading_values %}{% include book-selection.html section='current' %}{% endcapture %}
+{% assign reading_ids = reading_values | strip | split: '|' %}
+{% capture reviewed_values %}{% include book-selection.html section='reviews' %}{% endcapture %}
+{% assign reviewed_ids = reviewed_values | strip | split: '|' %}
+{% capture rated_values %}{% include book-selection.html section='ratings' %}{% endcapture %}
+{% assign rated_ids = rated_values | strip | split: '|' %}
+{% assign history_count = reviewed_ids.size | plus: rated_ids.size %}
+{% capture year_values %}{% for id in reviewed_ids %}{% assign custom = site.data.books-overrides[id] %}{% if custom.review_date %}{{ custom.review_date | slice: 0, 4 }}|{% endif %}{% endfor %}{% endcapture %}
+{% assign review_years = year_values | split: '|' | uniq | sort | reverse %}
+{% assign undated_count = 0 %}
+{% for id in reviewed_ids %}{% unless site.data.books-overrides[id].review_date %}{% assign undated_count = undated_count | plus: 1 %}{% endunless %}{% endfor %}
 <section class="hero books-heading">
-  <div class="container"><div class="row"><div class="col col-10 col-d-12">
-    <div class="hero__inner">
-      <h1 class="hero__title">Books</h1>
-      <nav class="books-jumps" aria-label="Books sections"><a href="#currently-reading">Currently reading</a><a href="#book-reviews">Reviews</a><a href="#finished-books">Ratings only</a></nav>
-    </div>
-  </div></div></div>
+  <div class="container"><div class="row"><div class="col col-10 col-d-12"><div class="hero__inner">
+    <h1 class="hero__title">Books</h1>
+    <nav class="books-jumps" aria-label="Books sections">
+      {% if recommended_ids.size > 0 %}<a href="#read-before-you-die">Read before you die</a>{% endif %}
+      {% if reading_ids.size > 0 %}<a href="#currently-reading">Currently reading</a>{% endif %}
+      {% if history_count > 0 %}<a href="#reading-history">Reading history</a>{% endif %}
+    </nav>
+  </div></div></div></div>
 </section>
-<div class="container"><div class="row"><div class="col col-12">
-  <div class="books-page">
-    {% assign reading = site.data.books | where: 'status', 'currently-reading' %}
-    {% assign finished = site.data.books | where: 'status', 'read' %}
-    {% assign reviewed = finished | where_exp: 'book', 'book.review_html' %}
-    {% assign rated_only = finished | where_exp: 'book', 'book.review_html == nil' %}
-    {% capture year_values %}{% for book in reviewed %}{% assign custom = site.data.books-overrides[book.id] %}{% if custom.review_date %}{{ custom.review_date | slice: 0, 4 }}|{% endif %}{% endfor %}{% endcapture %}
-    {% assign review_years = year_values | split: '|' | uniq | sort | reverse %}
-    {% assign undated_count = 0 %}
-    {% for book in reviewed %}{% unless site.data.books-overrides[book.id].review_date %}{% assign undated_count = undated_count | plus: 1 %}{% endunless %}{% endfor %}
-    <section class="books-current" aria-labelledby="currently-reading">
-      <div class="books-section-heading">
-        <h2 id="currently-reading">Currently reading <span class="books-count">{{ reading.size }}</span></h2>
-        <div class="books-scroll-controls" hidden>
-          <button type="button" data-shelf-direction="-1" aria-label="Previous books" aria-controls="reading-shelf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
-          <button type="button" data-shelf-direction="1" aria-label="Next books" aria-controls="reading-shelf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
-        </div>
+<div class="container"><div class="row"><div class="col col-12"><div class="books-page">
+  {% if recommended_ids.size > 0 %}
+  <section class="books-recommended" aria-labelledby="read-before-you-die">
+    <div class="books-section-heading"><h2 id="read-before-you-die">Read before you die</h2></div>
+    <div class="books-recommendations">
+      {% for id in recommended_ids %}{% assign book = site.data.books | where: 'id', id | first %}{% include book-entry.html book=book recommended=true instance='recommendation' %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+  {% if reading_ids.size > 0 %}
+  <section class="books-current" aria-labelledby="currently-reading">
+    <div class="books-section-heading">
+      <h2 id="currently-reading">Currently reading <span class="books-count">{{ reading_ids.size }}</span></h2>
+      <div class="books-scroll-controls" hidden>
+        <button type="button" data-shelf-direction="-1" aria-label="Previous books" aria-controls="reading-shelf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
+        <button type="button" data-shelf-direction="1" aria-label="Next books" aria-controls="reading-shelf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg></button>
       </div>
-      <div class="books-shelf" id="reading-shelf" tabindex="0" role="region" aria-label="Currently reading books; scroll horizontally to explore">
-        {% for book in reading %}{% include book-entry.html book=book current=true %}{% endfor %}
-      </div>
-    </section>
-    {% if reviewed.size > 0 %}
+    </div>
+    <div class="books-shelf" id="reading-shelf" tabindex="0" role="region" aria-label="Currently reading books; scroll horizontally to explore">
+      {% for id in reading_ids %}{% assign book = site.data.books | where: 'id', id | first %}{% include book-entry.html book=book current=true %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+  {% if history_count > 0 %}
+  <section class="books-history" aria-labelledby="reading-history">
+    <div class="books-section-heading"><h2 id="reading-history">Reading history <span class="books-count">{{ history_count }}</span></h2></div>
+    {% if reviewed_ids.size > 0 %}
     <section class="books-reviews" aria-labelledby="book-reviews">
-      <div class="books-section-heading"><h2 id="book-reviews">Reviews <span class="books-count">{{ reviewed.size }}</span></h2></div>
+      <h3 id="book-reviews" class="books-subheading">With reviews</h3>
       {% for year in review_years %}
       <section class="books-review-year" aria-labelledby="reviews-{{ year }}">
-        <h3 id="reviews-{{ year }}" class="books-year">{{ year }}</h3>
+        <h4 id="reviews-{{ year }}" class="books-year">{{ year }}</h4>
         <div class="books-list">
-          {% assign dated_books = reviewed | sort: 'title' %}
-          {% capture dated_ids %}{% for book in dated_books %}{% assign custom = site.data.books-overrides[book.id] %}{% assign review_year = custom.review_date | slice: 0, 4 %}{% if review_year == year %}{{ custom.review_date }}:{{ book.id }}|{% endif %}{% endfor %}{% endcapture %}
+          {% capture dated_ids %}{% for id in reviewed_ids %}{% assign custom = site.data.books-overrides[id] %}{% assign review_year = custom.review_date | slice: 0, 4 %}{% if review_year == year %}{{ custom.review_date }}:{{ id }}|{% endif %}{% endfor %}{% endcapture %}
           {% assign ordered_ids = dated_ids | split: '|' | sort | reverse %}
-          {% for dated_id in ordered_ids %}{% assign id = dated_id | split: ':' | last %}{% assign book = reviewed | where: 'id', id | first %}{% include book-entry.html book=book title_level=4 %}{% endfor %}
+          {% for dated_id in ordered_ids %}{% assign id = dated_id | split: ':' | last %}{% assign book = site.data.books | where: 'id', id | first %}{% include book-entry.html book=book title_level=5 %}{% endfor %}
         </div>
       </section>
       {% endfor %}
       {% if undated_count > 0 %}
       <section class="books-review-year" aria-labelledby="reviews-undated">
-        <h3 id="reviews-undated" class="books-year">Date unknown</h3>
-        <div class="books-list">{% for book in reviewed %}{% unless site.data.books-overrides[book.id].review_date %}{% include book-entry.html book=book title_level=4 %}{% endunless %}{% endfor %}</div>
+        <h4 id="reviews-undated" class="books-year">Date unknown</h4>
+        <div class="books-list">{% for id in reviewed_ids %}{% unless site.data.books-overrides[id].review_date %}{% assign book = site.data.books | where: 'id', id | first %}{% include book-entry.html book=book title_level=5 %}{% endunless %}{% endfor %}</div>
       </section>
       {% endif %}
     </section>
     {% endif %}
+    {% if rated_ids.size > 0 %}
     <section class="books-finished" aria-labelledby="finished-books">
       <div class="books-section-heading">
-        <h2 id="finished-books">Ratings only <span class="books-count">{{ rated_only.size }}</span></h2>
+        <h3 id="finished-books" class="books-subheading">Ratings only <span class="books-count">{{ rated_ids.size }}</span></h3>
         <div class="books-sort" hidden><label for="book-order">Sort by</label><select id="book-order"><option value="title">Title A–Z</option><option value="rating">Highest rating</option></select></div>
       </div>
       <p class="books-rating-note">The stars are my ratings.</p>
       <p class="visually-hidden" id="books-sort-status" role="status" aria-live="polite"></p>
-      <div class="books-list" id="finished-list">
-        {% for book in rated_only %}{% include book-entry.html book=book %}{% endfor %}
-      </div>
+      <div class="books-list" id="finished-list">{% for id in rated_ids %}{% assign book = site.data.books | where: 'id', id | first %}{% include book-entry.html book=book title_level=4 %}{% endfor %}</div>
     </section>
-    <div class="books-end"><a class="books-explore" href="{{ '/tags/' | relative_url }}#Books">Explore writing about books <span aria-hidden="true">→</span></a><p>Ratings and reviews from <a href="https://www.goodreads.com/user/show/66848291-ashutosh">my Goodreads{% include external-icon.html %}</a>.</p></div>
-  </div>
-</div></div></div>
+    {% endif %}
+  </section>
+  {% endif %}
+  <div class="books-end"><a class="books-explore" href="{{ '/tags/' | relative_url }}#Books">Explore writing about books <span aria-hidden="true">→</span></a><p>Ratings and reviews from <a href="https://www.goodreads.com/user/show/66848291-ashutosh">my Goodreads{% include external-icon.html %}</a>.</p></div>
+</div></div></div></div>
 <script src="{{ '/js/books.js' | relative_url }}" defer></script>

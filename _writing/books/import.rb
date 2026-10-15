@@ -8,6 +8,7 @@ require 'nokogiri'
 require 'tempfile'
 require 'fileutils'
 require 'optparse'
+require_relative 'settings'
 
 module BooksImport
   class Error < StandardError; end
@@ -48,7 +49,7 @@ module BooksImport
     text.upcase
   end
 
-  def self.parse(file)
+  def self.parse(file, include_ids: [])
     text = File.read(file, encoding: 'bom|utf-8')
     raise Error, 'The export is not valid UTF-8.' unless text.valid_encoding?
     table = CSV.parse(text, headers: true)
@@ -72,7 +73,7 @@ module BooksImport
       raw_rating = record['My Rating'].to_s.strip
       raise Error, "Row #{row}: rating must be 0–5 whole stars." unless raw_rating.match?(/\A[0-5](?:\.0+)?\z/)
       rating = raw_rating.to_i
-      next unless shelf == 'currently-reading' || (shelf == 'read' && rating.positive?)
+      next unless shelf == 'currently-reading' || (shelf == 'read' && rating.positive?) || include_ids.include?(id)
       book = { 'id' => id, 'title' => title, 'author' => author,
                'status' => shelf, 'source_url' => "https://www.goodreads.com/book/show/#{id}" }
       book['rating'] = rating if rating.positive?
@@ -94,6 +95,8 @@ module BooksImport
       book['spoiler'] = true if %w[true 1].include?(spoiler) && book['review_html']
       book
     end
+    missing_pinned = include_ids - books.map { |book| book['id'] }
+    raise Error, "Recommended books missing from this export: #{missing_pinned.join(', ')}. Choose a complete export or explicitly remove these recommendations first." unless missing_pinned.empty?
     raise Error, 'No eligible books found; refusing to replace the library with an empty list.' if books.empty?
     books.sort_by { |book| [book['title'].downcase, book['id'].to_i] }
   rescue CSV::MalformedCSVError => e
@@ -105,18 +108,22 @@ module BooksImport
   def self.existing(output)
     return [] unless File.exist?(output)
     raise Error, 'The data file must not be a symlink.' if File.symlink?(output)
-    data = YAML.safe_load_file(output, permitted_classes: [], aliases: false)
+    data = BooksSettings.yaml(File.read(output))
     unless data.is_a?(Array) && data.all? { |b| b.is_a?(Hash) && b['id'].is_a?(String) && (b.keys - FIELDS).empty? }
       raise Error, 'Existing Books data has an unexpected format; it was not overwritten.'
     end
     raise Error, 'Existing Books data has duplicate IDs.' unless data.map { |b| b['id'] }.uniq.length == data.length
     data
-  rescue Psych::Exception => e
+  rescue BooksSettings::Error, Psych::Exception => e
     raise Error, "Existing Books YAML is invalid: #{e.message}"
   end
 
   def self.prepare(input, output)
-    books = parse(input)
+    settings_file = File.join(File.dirname(output), 'books-overrides.yml')
+    settings_bytes = File.directory?(File.dirname(output)) ? BooksSettings.bytes(settings_file) : nil
+    settings = settings_bytes ? BooksSettings.validate(BooksSettings.yaml(settings_bytes)) : {}
+    pinned = settings.select { |_, custom| custom['recommended'] }.keys
+    books = parse(input, include_ids: pinned)
     old = existing(output)
     previous = old.to_h { |b| [b['id'], b] }
     current = books.to_h { |b| [b['id'], b] }
@@ -125,21 +132,28 @@ module BooksImport
       'added' => books.reject { |b| previous.key?(b['id']) }.map(&identify),
       'changed' => books.select { |b| previous.key?(b['id']) && previous[b['id']] != b }.map(&identify),
       'removed' => old.reject { |b| current.key?(b['id']) }.map(&identify),
-      'counts' => { 'finished' => books.count { |b| b['status'] == 'read' },
+      'counts' => { 'finished' => books.count { |b| b['status'] == 'read' && b['rating'] },
                     'currently_reading' => books.count { |b| b['status'] == 'currently-reading' },
                     'reviews' => books.count { |b| b['review_html'] } },
+      'shelf_changes' => books.filter_map { |b| before = previous[b['id']]; { 'id' => b['id'], 'title' => b['title'], 'from' => before['status'], 'to' => b['status'] } if before && before['status'] != b['status'] },
+      'reviews_needing_date_check' => books.select { |b| b['review_html'] && previous.dig(b['id'], 'review_html') != b['review_html'] }.map(&identify),
       'unchanged' => old == books
     }
     { books: books, previous: old, summary: summary,
+      settings_file: settings_file, settings_bytes: settings_bytes,
       output_bytes: File.exist?(output) ? File.binread(output) : nil }
+  rescue BooksSettings::Error => e
+    raise Error, e.message
   end
 
   def self.apply(plan, output, backup_dir:, allow_removals: false)
     raise Error, 'Review removed books and explicitly allow removals before applying this export.' if !allow_removals && !plan[:summary]['removed'].empty?
-    return false if plan[:summary]['unchanged']
+    settings_now = File.directory?(File.dirname(plan[:settings_file])) ? BooksSettings.bytes(plan[:settings_file]) : nil
+    raise Error, 'Books selections changed after reviewing the import; generate a new summary.' unless settings_now == plan[:settings_bytes]
     raise Error, 'The data file must not be a symlink.' if File.symlink?(output)
     now = File.exist?(output) ? File.binread(output) : nil
     raise Error, 'Books data changed after the import was reviewed; generate a new summary.' unless now == plan[:output_bytes]
+    return false if plan[:summary]['unchanged']
     bytes = YAML.dump(plan[:books])
     FileUtils.mkdir_p(File.dirname(output))
     if now
@@ -158,6 +172,7 @@ module BooksImport
       temp.fsync
       temp.chmod(0o644)
       # Recheck immediately before replacing, including symlinks created meanwhile.
+      raise Error, 'Books selections changed during import; nothing was replaced.' unless BooksSettings.bytes(plan[:settings_file]) == plan[:settings_bytes]
       latest = File.exist?(output) ? File.binread(output) : nil
       raise Error, 'Books data changed while importing; nothing was replaced.' if File.symlink?(output) || latest != now
       File.rename(temp.path, output)
@@ -187,7 +202,7 @@ if $PROGRAM_NAME == __FILE__
     else
       puts 'Preview only. No files changed.'
     end
-  rescue BooksImport::Error, OptionParser::ParseError, SystemCallError => e
+  rescue BooksSettings::Error, BooksImport::Error, OptionParser::ParseError, SystemCallError => e
     warn "Books import failed: #{e.message}"
     exit 1
   end

@@ -1,7 +1,7 @@
 'use strict';
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),{createRequire}=require('node:module');
 async function dialog(notePath,note,button) {
- const file=path.resolve(__dirname,'../../.obsidian/plugins/site-writer/main.js');
+ const file=process.env.PUBLISHDESK_TEST_BUNDLE || path.resolve(__dirname,'../../.obsidian/plugins/site-writer/main.js');
  const realRequire=createRequire(file),buttons=new Map(),text=[],attributes={};let change;
  const element=()=>({createEl:(tag,options)=>{if(options?.text)text.push(options.text);return element();},empty(){}});
  class Modal {constructor(){this.contentEl=element();}open(){this.onOpen();queueMicrotask(()=>{change(note);buttons.get(button)();});}close(){this.onClose();}}

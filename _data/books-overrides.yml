@@ -36,6 +36,8 @@
 '256008':
   cover: "/images/books/256008.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559668037l/256008._SX98_.jpg
+  recommended: true
+  recommendation_order: 3
 '6194':
   cover: "/images/books/6194.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330879044l/6194._SX98_.jpg
@@ -71,12 +73,16 @@
   - 2024-4-16-Most-Impactful-Reads-of-2023.md
   review_date: '2023-08-22'
   review_source_url: https://www.goodreads.com/review/show/5018065482
+  recommended: true
+  recommendation_order: 1
 '6192':
   cover: "/images/books/6192.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385161943l/6192._SX98_.jpg
 '40745':
   cover: "/images/books/40745.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436227012l/40745._SX98_.jpg
+  recommended: true
+  recommendation_order: 0
 '16299':
   cover: "/images/books/16299.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638425885l/16299._SX98_.jpg
@@ -163,3 +169,8 @@
 '27213329':
   cover: "/images/books/27213329.jpg"
   cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632024090l/27213329._SX98_.jpg
+'3':
+  recommended: true
+  recommendation_order: 2
+  cover: "/images/books/3.jpg"
+  cover_source: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SX98_.jpg

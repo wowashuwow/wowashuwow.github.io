@@ -4,13 +4,13 @@ const path = require('node:path');
 const http = require('node:http');
 const core = require('./publishing');
 class PreviewSession {
-  constructor(report = () => {}) { this.report = report; this.clients = new Set(); this.revision = 0; }
+  constructor(report = () => {}, builder = core.build) { this.builder = builder; this.report = report; this.clients = new Set(); this.revision = 0; }
   send(value) { for (const client of this.clients) client.write(`data: ${JSON.stringify(value)}\n\n`); this.report(value); }
   async update(plan) {
     const next = this.revision + 1;
     const output = this.temp ? path.join(this.temp, `site-${next}`) : undefined;
     try {
-      const built = await core.build(plan, { preview: true, temp: this.temp, output });
+      const built = await this.builder(plan, { preview: true, temp: this.temp, output });
       const previous = this.output;
       this.temp = built.temp; this.output = built.output; this.url = built.url; this.baseurl = built.baseurl; this.revision = next;
       if (!this.server) await this.start();

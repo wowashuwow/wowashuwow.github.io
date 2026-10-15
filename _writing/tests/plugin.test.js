@@ -7,7 +7,7 @@ function load(file,choice){
  const obsidian={Plugin:class{},Modal,Setting,Notice:class{},PluginSettingTab:class{},TFile:class{},MarkdownView:class{}};let module={exports:{}};let requireReal=createRequire(file);
  vm.runInNewContext(fs.readFileSync(file,'utf8'),{module,require:n=>n==='obsidian'?obsidian:requireReal(n),Buffer,setTimeout,clearTimeout,queueMicrotask,URL,Blob,console});return module.exports;
 }
-test('installed bundle loads without executing an Obsidian action',()=>{assert.equal(typeof load(path.resolve(__dirname,'../../.obsidian/plugins/site-writer/main.js'),null),'function');});
+test('installed bundle loads without executing an Obsidian action',()=>{assert.equal(typeof load(process.env.PUBLISHDESK_TEST_BUNDLE || path.resolve(__dirname,'../../.obsidian/plugins/site-writer/main.js'),null),'function');});
 test('featured-only import, same-file body insertion, deduplication, collision suffixes and cancel preserve files',async()=>{
  let choice;const main=path.resolve(__dirname,'../main.js');const Writer=load(main,{get imported(){return choice.imported;},get insert(){return choice.insert;},get path(){return choice.path;},set path(v){choice.path=v;}});
  const note={path:'Drafts/2026-10-12-test.md',basename:'2026-10-12-test'},files=new Map(),meta={},writes=[];

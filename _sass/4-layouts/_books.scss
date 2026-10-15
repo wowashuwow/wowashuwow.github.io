@@ -68,3 +68,15 @@
 .books-year { font-size: 23px; margin: 0; color: var(--text-alt-color); font-weight: 400; }
 .book__review-date { font-size: 15px; color: var(--text-alt-color); margin: 12px 0 0; }
 .book__review-date a { text-decoration: underline; text-underline-offset: 3px; }
+
+.books-recommended { margin-bottom: 64px; }
+.books-recommendations { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 48px; }
+.book--recommended { align-items: start; }
+.book__blurb { font-size: 18px; line-height: 1.6; margin: 16px 0 0; white-space: normal; }
+.book__finished { margin: 8px 0 0; font-size: 15px; color: var(--text-alt-color); }
+.books-subheading, .books-section-heading .books-subheading { font-size: 24px; margin: 0 0 24px; letter-spacing: -.25px; }
+.books-section-heading .books-subheading { margin-bottom: 0; }
+@media (max-width: 760px) {
+  .books-recommendations { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .books-recommended { margin-bottom: 44px; }
+}

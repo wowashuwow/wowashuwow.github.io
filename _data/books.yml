@@ -148,6 +148,12 @@
   source_url: https://www.goodreads.com/book/show/5
   rating: 5
   isbn: '9780439655484'
+- id: '3'
+  title: 'Harry Potter and the Sorcerer''s Stone (Harry Potter, #1)'
+  author: J.K. Rowling
+  status: read
+  source_url: https://www.goodreads.com/book/show/3
+  isbn: '9780439554930'
 - id: '60162230'
   title: Heat 2
   author: Michael                Mann

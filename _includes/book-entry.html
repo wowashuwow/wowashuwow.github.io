@@ -1,7 +1,8 @@
 {% assign book = include.book %}
 {% assign custom = site.data.books-overrides[book.id] %}
 {% assign title_level = include.title_level | default: 3 %}
-<article class="book{% if include.current %} book--current{% endif %}" id="book-{{ book.id }}" data-book-title="{{ book.title | escape }}" data-book-rating="{{ book.rating | default: 0 }}" aria-labelledby="book-title-{{ book.id }}">
+{% assign instance = include.instance | default: 'book' %}
+<article class="book{% if include.current %} book--current{% endif %}{% if include.recommended %} book--recommended{% endif %}" id="{{ instance }}-{{ book.id }}" data-book-title="{{ book.title | escape }}" data-book-rating="{{ book.rating | default: 0 }}" aria-labelledby="{{ instance }}-title-{{ book.id }}">
   <div class="book__cover">
     {% if custom.cover %}
     <img src="{{ custom.cover | relative_url }}" alt="" width="110" height="168" loading="lazy" decoding="async">
@@ -10,11 +11,15 @@
     {% endif %}
   </div>
   <div class="book__content">
-    <h{{ title_level }} class="book__title" id="book-title-{{ book.id }}"><a href="{{ book.source_url | escape }}">{{ book.title | escape }}</a></h{{ title_level }}>
+    <h{{ title_level }} class="book__title" id="{{ instance }}-title-{{ book.id }}"><a href="{{ book.source_url | escape }}">{{ book.title | escape }}</a></h{{ title_level }}>
     <p class="book__author">{{ book.author | escape }}</p>
+    {% if include.recommended %}
+      {% if custom.recommendation_blurb and custom.recommendation_blurb != '' %}<p class="book__blurb">{{ custom.recommendation_blurb | escape | newline_to_br }}</p>{% endif %}
+    {% else %}
     {% if book.rating %}
     <p class="book__rating"><span aria-hidden="true">{% for star in (1..5) %}{% if star <= book.rating %}★{% else %}☆{% endif %}{% endfor %}</span><span class="visually-hidden">My rating: {{ book.rating }} out of 5 stars</span></p>
     {% endif %}
+    {% if book.status == 'read' and book.date_read %}<p class="book__finished">Finished <time datetime="{{ book.date_read }}">{{ book.date_read | date: '%-d %B %Y' }}</time></p>{% endif %}
     {% if custom.posts %}
     <div class="book__posts"><span class="book__posts-label">On the blog</span>
       {% for reference in custom.posts %}
@@ -30,6 +35,7 @@
       {% if custom.review_date %}<p class="book__review-date">Goodreads review dated <time datetime="{{ custom.review_date }}">{{ custom.review_date | date: '%-d %B %Y' }}</time>{% if custom.review_source_url %} · <a href="{{ custom.review_source_url | escape }}">View on Goodreads{% include external-icon.html %}</a>{% endif %}</p>{% endif %}
       <div class="book__review-text">{{ book.review_html }}</div>
     </details>
+    {% endif %}
     {% endif %}
   </div>
 </article>

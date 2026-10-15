@@ -73,7 +73,7 @@ class BooksImportTest < Minitest::Test
     export(record)
     FileUtils.mkdir_p(File.dirname(@output))
     override = File.join(File.dirname(@output), 'books-overrides.yml')
-    File.write(override, 'custom cover and blog links')
+    File.write(override, YAML.dump({ '12' => { 'cover' => '/images/books/12.jpg' } }))
     assert apply
     bytes = File.binread(@output)
     time = File.mtime(@output)
@@ -81,7 +81,7 @@ class BooksImportTest < Minitest::Test
     refute apply
     assert_equal bytes, File.binread(@output)
     assert_equal time, File.mtime(@output)
-    assert_equal 'custom cover and blog links', File.read(override)
+    assert_equal({ '12' => { 'cover' => '/images/books/12.jpg' } }, YAML.safe_load_file(override))
   end
 
   def test_changes_and_removals_need_explicit_confirmation_with_backup

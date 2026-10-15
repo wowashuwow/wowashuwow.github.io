@@ -5,6 +5,8 @@ const fs = require('node:fs/promises');
 const { PreviewSession } = require('./lib/preview');
 const core = require('./lib/publishing');
 const cleanup = require('./lib/cleanup');
+const books = require('./lib/books');
+const createBooksUI = require('./lib/books-ui');
 const YAML = { parse: parseYaml, stringify: stringifyYaml };
 
 class Ask extends Modal {
@@ -109,9 +111,13 @@ module.exports = class WebsiteWriter extends Plugin {
     this.addSettingTab(new WriterSettings(this.app, this));
     for (const event of ['modify', 'create', 'delete', 'rename']) this.registerEvent(this.app.vault.on(event, file => {
       if (event === 'delete' && file.path === this.previewNote) { this.closePreview().catch(console.error); return; }
+      if (this.previewNote === '__books__') { if (/^(?:_data\/books(?:-overrides)?\.yml|images\/books\/|_pages\/books\.html|_includes\/book-|_sass\/4-layouts\/_books\.scss|js\/books\.js)/.test(file.path)) this.schedulePreview(); return; }
       if (this.previewNote && (file.path === this.previewNote || /\.(jpe?g|png|webp|gif|avif|svg|md)$/i.test(file.path))) this.schedulePreview();
     }));
     const commands = [
+      ['manage-books', 'Manage books', () => this.manageBooks()],
+      ['import-books', 'Import Goodreads library', () => this.importBooks()],
+      ['preview-books', 'Preview Books page', () => this.previewBooks()],
       ['new-draft', 'New blog draft', () => this.newDraft()],
       ['preview', 'Preview current post on the website', () => this.preview()],
       ['stop-preview', 'Stop website preview', () => this.closePreview()],
@@ -232,6 +238,7 @@ module.exports = class WebsiteWriter extends Plugin {
     if (this.refreshing || this.busy) { this.schedulePreview(); return; }
     this.refreshing = true;
     try {
+      if (this.previewNote === '__books__') { await this.session.update({ root: this.root }); return; }
       const note = this.app.vault.getAbstractFileByPath(this.previewNote);
       if (!(note instanceof TFile)) throw new Error('The previewed note was moved or deleted. Start Preview again for its new location.');
       await this.session.update(await this.prepare(note, true));
@@ -239,6 +246,36 @@ module.exports = class WebsiteWriter extends Plugin {
       this.session?.send({ revision: this.session.revision, error: error.message });
       console.error('Website preview:', error);
     } finally { this.refreshing = false; }
+  }
+  booksUI() {
+    return createBooksUI(require('obsidian'), {
+      read: () => books.call(this.root, { mode: 'read' }),
+      save: (token, overrides) => books.call(this.root, { mode: 'save', token, overrides }),
+      capture: file => books.captureCsv(this.root, file),
+      inspect: file => books.call(this.root, { mode: 'import', file }),
+      apply: (file, plan, allow_removals) => books.call(this.root, { mode: 'apply', file, token: plan.token, fingerprint: plan.fingerprint, allow_removals }),
+    });
+  }
+  async manageBooks() {
+    const state = await books.call(this.root, { mode: 'read' });
+    const { Manager } = this.booksUI();
+    const saved = await new Manager(this.app, state).result();
+    if (saved !== null) new Notice(saved ? 'Books choices saved locally. Preview before publishing.' : 'No Books choices changed.');
+    if (saved && this.previewNote === '__books__') this.schedulePreview();
+  }
+  async importBooks() {
+    const { Importer } = this.booksUI();
+    const saved = await new Importer(this.app).result();
+    if (saved) new Notice('Goodreads library imported locally. Website choices preserved. Nothing uploaded.');
+    if (saved && this.previewNote === '__books__') this.schedulePreview();
+  }
+  async previewBooks() {
+    if (this.previewNote !== '__books__') await this.closePreview();
+    this.session ||= new PreviewSession(() => {}, books.build);
+    new Notice('Building the Books preview…');
+    const url = await this.session.update({ root: this.root });
+    this.previewNote = '__books__'; window.open(url);
+    new Notice('Books preview opened. Saved Books choices/imports update it automatically.');
   }
   async preview() {
     const note = await this.current();
