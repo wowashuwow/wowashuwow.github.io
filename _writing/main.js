@@ -9,16 +9,17 @@ const books = require('./lib/books');
 const bookFetch = require('./lib/books-fetch');
 const bookPublisher = require('./lib/books-publish');
 const createBooksUI = require('./lib/books-ui');
+const ui = require('./lib/ui');
 const YAML = { parse: parseYaml, stringify: stringifyYaml };
 
 class Ask extends Modal {
   constructor(app, title, label) { super(app); this.title = title; this.label = label; }
   result() { return new Promise(resolve => { this.resolve = resolve; this.open(); }); }
   onOpen() {
-    this.contentEl.createEl('h2', { text: this.title });
+    ui.layout(this, this.title);
     let value = '';
-    new Setting(this.contentEl).setName(this.label).addText(input => { input.onChange(v => value = v); setTimeout(() => input.inputEl.focus(), 0); });
-    new Setting(this.contentEl).addButton(b => b.setButtonText('Cancel').onClick(() => this.close())).addButton(b => b.setButtonText('Create draft').setCta().onClick(() => { if (value.trim()) { this.resolve(value.trim()); this.close(); } }));
+    new Setting(this.body).setName(this.label).addText(input => { input.inputEl.setAttribute('aria-label', this.label); input.onChange(v => value = v); setTimeout(() => input.inputEl.focus(), 0); });
+    new Setting(this.footer).addButton(b => b.setButtonText('Cancel').onClick(() => this.close())).addButton(b => b.setButtonText('Create draft').setCta().onClick(() => { if (value.trim()) { this.resolve(value.trim()); this.close(); } }));
   }
   onClose() { this.resolve?.(null); this.contentEl.empty(); }
 }
@@ -26,20 +27,22 @@ class Confirm extends Modal {
   constructor(app, plan) { super(app); this.plan = plan; }
   result() { return new Promise(resolve => { this.resolve = resolve; this.open(); }); }
   onOpen() {
-    this.contentEl.createEl('h2', { text: 'Publish this post?' });
-    this.contentEl.createEl('p', { text: this.plan.title });
-    this.contentEl.createEl('p', { text: `Commit: ${core.commitSubject(this.plan)}` });
+    ui.layout(this, 'Publish this post?');
+    this.body.createEl('p', { text: this.plan.title });
+    this.body.createEl('p', { text: `Commit: ${core.commitSubject(this.plan)}` });
     let note = '';
-    new Setting(this.contentEl).setName('Publication note (optional)').setDesc('Stored in public Git history, not shown in the post. Leave blank to use only the commit subject.').addTextArea(input => {
+    ui.multiline(new Setting(this.body)).setName('Publication note (optional)').setDesc('Stored in public Git history, not shown in the post. Leave blank to use only the commit subject.').addTextArea(input => {
       input.setPlaceholder('Context for this publication or what changed…').onChange(value => note = value);
       input.inputEl.rows = 4;
       input.inputEl.setAttribute('aria-label', 'Publication note (optional)');
     });
-    if (this.plan.unpublished) this.contentEl.createEl('p', { text: 'This post is marked published: false. Publishing will remove that property and make it public.' });
-    this.contentEl.createEl('p', { text: 'This uploads the following files to your public website. Other drafts stay private.' });
-    const list = this.contentEl.createEl('ul');
+    if (this.plan.unpublished) this.body.createEl('p', { text: 'This post is marked published: false. Publishing will remove that property and make it public.' });
+    this.body.createEl('p', { text: 'This uploads the following files to your public website. Other drafts stay private.' });
+    const details = this.body.createEl('details');
+    details.createEl('summary', { text: `Files to publish (${1 + this.plan.assets.size})` });
+    const list = details.createEl('ul');
     for (const file of [this.plan.target, ...this.plan.assets.keys()]) list.createEl('li', { text: file });
-    new Setting(this.contentEl).addButton(b => b.setButtonText('Cancel').onClick(() => this.close())).addButton(b => b.setButtonText('Publish').setCta().onClick(() => { this.resolve({ note }); this.close(); }));
+    new Setting(this.footer).addButton(b => b.setButtonText('Cancel').onClick(() => this.close())).addButton(b => b.setButtonText('Publish').setCta().onClick(() => { this.resolve({ note }); this.close(); }));
   }
   onClose() { this.resolve?.(false); this.contentEl.empty(); }
 }
@@ -47,16 +50,16 @@ class CleanupConfirm extends Modal {
   constructor(app, plan) { super(app); this.plan = plan; }
   result() { return new Promise(resolve => { this.resolve = resolve; this.open(); }); }
   onOpen() {
-    this.contentEl.createEl('h2', { text: this.plan.notePath ? 'Delete this draft and unused images?' : 'Clean up leftover draft images?' });
-    this.contentEl.createEl('p', { text: 'Selected files move to recoverable trash. Published images are always preserved.' });
-    const list = this.contentEl.createEl('ul');
+    ui.layout(this, this.plan.notePath ? 'Delete this draft and unused images?' : 'Clean up leftover draft images?');
+    this.body.createEl('p', { text: 'Selected files move to recoverable trash. Published images are always preserved.' });
+    const list = this.body.createEl('ul');
     for (const file of [this.plan.notePath, ...this.plan.remove].filter(Boolean)) list.createEl('li', { text: file });
     if (this.plan.keep.length) {
-      this.contentEl.createEl('h3', { text: 'Keep these files' });
-      const kept = this.contentEl.createEl('ul');
+      this.body.createEl('h3', { text: 'Keep these files' });
+      const kept = this.body.createEl('ul');
       for (const file of this.plan.keep) kept.createEl('li', { text: `${file.path}: ${file.reason}` });
     }
-    new Setting(this.contentEl).addButton(b => b.setButtonText('Cancel').onClick(() => this.close())).addButton(b => b.setButtonText('Move to trash').onClick(() => { this.resolve(true); this.close(); }));
+    new Setting(this.footer).addButton(b => b.setButtonText('Cancel').onClick(() => this.close())).addButton(b => b.setButtonText('Move to trash').onClick(() => { this.resolve(true); this.close(); }));
   }
   onClose() { this.resolve?.(false); this.contentEl.empty(); }
 }
@@ -64,9 +67,9 @@ class LeftoverFolders extends Modal {
   constructor(app, folders) { super(app); this.folders = folders; }
   result() { return new Promise(resolve => { this.resolve = resolve; this.open(); }); }
   onOpen() {
-    this.contentEl.createEl('h2', { text: 'Choose a leftover draft image folder' });
-    for (const folder of this.folders) new Setting(this.contentEl).setName(folder).addButton(b => b.setButtonText('Review').onClick(() => { this.resolve(folder); this.close(); }));
-    new Setting(this.contentEl).addButton(b => b.setButtonText('Cancel').onClick(() => this.close()));
+    ui.layout(this, 'Choose a leftover draft image folder');
+    for (const folder of this.folders) new Setting(this.body).setName(folder).addButton(b => b.setButtonText('Review').onClick(() => { this.resolve(folder); this.close(); }));
+    new Setting(this.footer).addButton(b => b.setButtonText('Cancel').onClick(() => this.close()));
   }
   onClose() { this.resolve?.(null); this.contentEl.empty(); }
 }
@@ -74,16 +77,16 @@ class ImageChoice extends Modal {
   constructor(app, files) { super(app); this.files = files; this.insert = false; }
   result() { return new Promise(resolve => { this.resolve = resolve; this.open(); }); }
   onOpen() {
-    this.contentEl.createEl('h2', { text: 'Featured image' });
-    new Setting(this.contentEl).setName('Also insert into the post').setDesc('Uses the same image file. Leave off for a featured-only image.').addToggle(t => t.setValue(false).onChange(v => this.insert = v));
-    const input = this.contentEl.createEl('input', { attr: { type: 'file', accept: 'image/jpeg,image/png,image/webp,image/gif,image/avif,image/svg+xml' } });
+    ui.layout(this, 'Featured image');
+    new Setting(this.body).setName('Also insert into the post').setDesc('Uses the same image file. Leave off for a featured-only image.').addToggle(t => t.setValue(false).onChange(v => this.insert = v));
+    const input = this.body.createEl('input', { attr: { type: 'file', accept: 'image/jpeg,image/png,image/webp,image/gif,image/avif,image/svg+xml' } });
     input.style.display = 'none';
     input.addEventListener('change', () => { const file = input.files?.[0]; if (file) { this.resolve({ imported: file, insert: this.insert }); this.close(); } });
-    new Setting(this.contentEl).setName('Import an image').addButton(b => b.setButtonText('Choose from Mac').onClick(() => input.click()));
-    new Setting(this.contentEl).setName('No featured image').addButton(b => b.setButtonText('Remove image').onClick(() => { this.resolve({ path: '' }); this.close(); }));
+    new Setting(this.body).setName('Import an image').addButton(b => b.setButtonText('Choose from Mac').onClick(() => input.click()));
+    new Setting(this.body).setName('No featured image').addButton(b => b.setButtonText('Remove image').onClick(() => { this.resolve({ path: '' }); this.close(); }));
     let query = '';
-    const search = new Setting(this.contentEl).setName('Search existing images');
-    const list = this.contentEl.createDiv(); list.style.maxHeight = '320px'; list.style.overflowY = 'auto';
+    const search = new Setting(this.body).setName('Search existing images');
+    const list = this.body.createDiv({ cls: 'publishdesk-list' });
     const render = () => {
       list.empty();
       const matches = this.files.filter(file => file.path.toLowerCase().includes(query.toLowerCase()));
@@ -91,7 +94,7 @@ class ImageChoice extends Modal {
       if (matches.length > 40) list.createEl('p', { text: 'Showing 40 images. Search to narrow the list.' });
     };
     search.addText(t => t.setPlaceholder('Filename or folder').onChange(value => { query = value; render(); })); render();
-    new Setting(this.contentEl).addButton(b => b.setButtonText('Cancel').onClick(() => this.close()));
+    new Setting(this.footer).addButton(b => b.setButtonText('Cancel').onClick(() => this.close()));
   }
   onClose() { this.resolve?.(null); this.contentEl.empty(); }
 }
@@ -99,6 +102,7 @@ class WriterSettings extends PluginSettingTab {
   constructor(app, plugin) { super(app, plugin); this.plugin = plugin; }
   display() {
     this.containerEl.empty();
+    this.containerEl.classList.add('publishdesk-settings');
     new Setting(this.containerEl).setName('Featured image property').setDesc('Match the field used by your Jekyll theme. This site uses image.').addText(t => t.setValue(this.plugin.settings.imageProperty).onChange(async value => {
       if (/^[a-zA-Z_][a-zA-Z0-9_-]*$/.test(value)) { this.plugin.settings.imageProperty = value; await this.plugin.saveData(this.plugin.settings); }
     }));

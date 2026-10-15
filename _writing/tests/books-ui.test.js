@@ -4,8 +4,16 @@ const assert = require('node:assert/strict');
 const createUI = require('../lib/books-ui');
 
 function harness(actions) {
-  function element() { return { children: [], settings: [], style: {}, attributes: {}, events: {}, textContent: '', createEl(tag, options = {}) { const el = element(); el.tag = tag; el.textContent = options.text || ''; Object.assign(el.attributes, options.attr); this.children.push(el); return el; }, createDiv() { return this.createEl('div'); }, empty() { this.children = []; this.settings = []; }, setAttribute(key, value) { this.attributes[key] = value; }, addEventListener(key, fn) { this.events[key] = fn; }, querySelector() { return null; }, focus() {} }; }
-  class Modal { constructor(app) { this.app = app; this.contentEl = element(); } open() { this.onOpen?.(); } close() { return this.onClose?.(); } }
+  function element() {
+    return { children: [], _settings: [], style: {}, attributes: {}, events: {}, textContent: '', isConnected: true,
+      classList: { values: new Set(), add(...names) { names.forEach(name => this.values.add(name)); } },
+      get settings() { return [...this._settings, ...this.children.flatMap(child => child.settings)]; },
+      createEl(tag, options = {}) { const el = element(); el.tag = tag; el.textContent = options.text || ''; Object.assign(el.attributes, options.attr); if(options.cls) el.classList.add(options.cls); this.children.push(el); return el; },
+      createDiv(options) { return this.createEl('div', options); }, empty() { this.children = []; this._settings = []; },
+      setAttribute(key, value) { this.attributes[key] = value; }, addEventListener(key, fn) { this.events[key] = fn; }, querySelector() { return null; }, focus() { this.focused = true; }
+    };
+  }
+  class Modal { constructor(app) { this.app = app; this.contentEl = element(); this.modalEl = element(); } setTitle(title) { this.title = title; } open() { this.onOpen?.(); } close() { return this.onClose?.(); } }
   class FuzzySuggestModal extends Modal { setPlaceholder() {} }
   class Control {
     constructor() { this.inputEl = element(); this.selectEl = element(); this.buttonEl = element(); this.toggleEl = element(); }
@@ -15,7 +23,7 @@ function harness(actions) {
     onChange(fn) { this.change = fn; return this; } onClick(fn) { this.click = fn; return this; }
   }
   class Setting {
-    constructor(el) { this.settingEl = element(); this.controls = []; el.settings.push(this); }
+    constructor(el) { this.settingEl = element(); this.controls = []; el._settings.push(this); }
     setName(name) { this.name = name; return this; } setDesc() { return this; }
     add(fn) { const control = new Control(); this.controls.push(control); fn(control); return this; }
     addButton(fn) { return this.add(fn); } addText(fn) { return this.add(fn); } addTextArea(fn) { return this.add(fn); }
@@ -62,7 +70,7 @@ test('import requires review and explicit removal acknowledgement before Apply',
   const plan = { token: 't', fingerprint: 'f', summary: { counts: { finished: 1, currently_reading: 1, reviews: 0 }, added: [], changed: [], removed: [{ id: '3', title: 'Removed book' }], shelf_changes: [], reviews_needing_date_check: [], unchanged: false } };
   const { Importer } = harness({ capture: async () => ({ file: 'private.csv', cleanup: async () => { cleaned++; } }), inspect: async () => plan, apply: async (file, reviewed, allowed) => { assert.equal(file, 'private.csv'); assert.equal(reviewed, plan); assert.equal(allowed, true); applied++; return { saved: true }; } });
   const modal = new Importer({}); const result = modal.result();
-  const input = modal.contentEl.children.find(el => el.tag === 'input'); input.files = [{ name: 'export.csv' }];
+  const input = modal.body.children.find(el => el.tag === 'input'); input.files = [{ name: 'export.csv' }];
   await input.events.change(); assert.equal(applied, 0); assert.equal(modal.applyButton.disabled, true);
   modal.summaryEl.settings[0].controls[0].change(true); assert.equal(modal.applyButton.disabled, false);
   await modal.applyButton.click(); assert.equal(await result, true); assert.equal(applied, 1); assert.equal(cleaned, 1);
@@ -121,10 +129,47 @@ test('review date requires explicit confirmation and forwards a separate optiona
 test('cancelling an import during lookup resolves promptly, never applies late results and cleans the captured CSV', async()=>{
  let complete,applied=0,cleaned=0;
  const {Importer}=harness({capture:async()=>({file:'private.csv',cleanup:async()=>cleaned++}),inspect:()=>new Promise(resolve=>complete=resolve),apply:async()=>applied++});
- const modal=new Importer({}),result=modal.result(),input=modal.contentEl.children.find(el=>el.tag==='input');input.files=[{name:'library.csv'}];const change=input.events.change();await new Promise(resolve=>setImmediate(resolve));await modal.close();assert.equal(await result,null);assert.equal(modal.controller.signal.aborted,true);assert.equal(applied,0);
+ const modal=new Importer({}),result=modal.result(),input=modal.body.children.find(el=>el.tag==='input');input.files=[{name:'library.csv'}];const change=input.events.change();await new Promise(resolve=>setImmediate(resolve));await modal.close();assert.equal(await result,null);assert.equal(modal.controller.signal.aborted,true);assert.equal(applied,0);
  complete({summary:{counts:{finished:1,currently_reading:0,reviews:0}}});await change;await new Promise(resolve=>setImmediate(resolve));assert.equal(cleaned,1);assert.equal(applied,0);
 });
 test('publication review disables data-only publishing until initial page setup is committed',async()=>{
  const {Publication}=harness({});const modal=new Publication({}, {ready:false,branch:'newtheme',summary:['Add: Book'],changed:['_data/books.yml']});const result=modal.result();
  const publish=modal.contentEl.settings.flatMap(s=>s.controls).find(c=>c.text==='Publish');assert.equal(publish.disabled,true);publish.click();await modal.close();assert.equal(await result,null);
+});
+
+test('each book owns its controls and wide blurb; body and footer have separate scroll ownership', async () => {
+  let writes = 0;
+  const {Manager} = harness({save:async()=>{writes++;return {saved:true};}});
+  const initial = state(); initial.overrides['2'] = {recommended:true,recommendation_blurb:'Second book'};
+  const modal = new Manager({},initial); const result = modal.result();
+  const panels = modal.list.children.filter(el=>el.attributes['data-book-id']);
+  assert.deepEqual(panels.map(el=>el.attributes['data-book-id']),['1','2']);
+  assert(panels.every(el=>el.attributes.role==='group' && el.attributes['aria-label'].includes('Author')));
+  for (const panel of panels) {
+    assert(panel.settings.some(s=>s.name==='Cover'));
+    assert(panel.settings.some(s=>s.name==='On the blog'));
+    const field = panel.settings.find(s=>s.name==='Your blurb (optional)');
+    assert(field.settingEl.classList.values.has('publishdesk-multiline'));
+    assert.equal(field.controls[0].inputEl.rows,5);
+    field.controls[0].change(`Edit ${panel.attributes['data-book-id']}`);
+  }
+  assert.equal(modal.draft['1'].recommendation_blurb,'Edit 1');
+  assert.equal(modal.draft['2'].recommendation_blurb,'Edit 2');
+  assert.equal(modal.list.style.overflowY,undefined);
+  assert.equal(modal.body.settings.some(s=>s.controls.some(c=>c.text==='Save locally')),false);
+  assert(modal.footer.settings.some(s=>s.controls.some(c=>c.text==='Save locally')));
+  await modal.close(); assert.equal(await result,null); assert.equal(writes,0);
+  assert.equal(initial.overrides['2'].recommendation_blurb,'Second book');
+});
+
+test('pending cover remains labelled after section rerenders without changing saved settings', async () => {
+  const {Manager}=harness({}); const modal=new Manager({},state()); modal.result();
+  const start=modal.list.settings.find(s=>s.name==='Cover').controls[0];
+  const pending=start.click(); modal.coverModal.selection={cover:null};
+  modal.coverModal.contentEl.settings.flatMap(s=>s.controls).find(c=>c.text==='Done').click(); await pending;
+  assert.equal(start.text,'Cover… (unsaved)');
+  assert.match(modal.status.textContent,/Current A/);
+  assert.equal(modal.error.textContent,'');
+  modal.render(); assert.equal(modal.list.settings.find(s=>s.name==='Cover').controls[0].text,'Cover… (unsaved)');
+  assert.equal(modal.state.overrides['1'].cover,undefined); await modal.close();
 });

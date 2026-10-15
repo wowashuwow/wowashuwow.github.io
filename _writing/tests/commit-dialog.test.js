@@ -3,9 +3,9 @@ const {test}=require('node:test'),assert=require('node:assert/strict'),fs=requir
 async function dialog(notePath,note,button) {
  const file=process.env.PUBLISHDESK_TEST_BUNDLE || path.resolve(__dirname,'../../.obsidian/plugins/site-writer/main.js');
  const realRequire=createRequire(file),buttons=new Map(),text=[],attributes={};let change;
- const element=()=>({createEl:(tag,options)=>{if(options?.text)text.push(options.text);return element();},empty(){}});
- class Modal {constructor(){this.contentEl=element();}open(){this.onOpen();queueMicrotask(()=>{change(note);buttons.get(button)();});}close(){this.onClose();}}
- class Setting {setName(){return this;}setDesc(){return this;}addTextArea(fn){fn({inputEl:{setAttribute:(k,v)=>attributes[k]=v},setPlaceholder(){return this;},onChange(fn){change=fn;return this;}});return this;}addButton(fn){let label;fn({setButtonText(v){label=v;return this;},setCta(){return this;},onClick(fn){buttons.set(label,fn);return this;}});return this;}}
+ const element=()=>({classList:{add(){}},createDiv(){return element();},createEl:(tag,options)=>{if(options?.text)text.push(options.text);return element();},empty(){}});
+ class Modal {constructor(){this.contentEl=element();this.modalEl=element();}setTitle(){}open(){this.onOpen();queueMicrotask(()=>{change(note);buttons.get(button)();});}close(){this.onClose();}}
+ class Setting {constructor(){this.settingEl=element();}setName(){return this;}setDesc(){return this;}addTextArea(fn){fn({inputEl:{setAttribute:(k,v)=>attributes[k]=v},setPlaceholder(){return this;},onChange(fn){change=fn;return this;}});return this;}addButton(fn){let label;fn({setButtonText(v){label=v;return this;},setCta(){return this;},onClick(fn){buttons.set(label,fn);return this;}});return this;}}
  const obsidian={Plugin:class{},PluginSettingTab:class{},Modal,Setting};const module={exports:{}};
  vm.runInNewContext(fs.readFileSync(file,'utf8')+'\nmodule.exports=Confirm;',{module,require:n=>n==='obsidian'?obsidian:realRequire(n),Buffer,console,queueMicrotask});
  const result=await new module.exports({}, {title:'Test post',notePath,target:'_posts/test.md',assets:new Map()}).result();

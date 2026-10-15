@@ -10,22 +10,24 @@ async function json(file, value) { await fs.mkdir(path.dirname(file), { recursiv
 async function installWriter(target) {
   await fs.mkdir(target, { recursive: true });
   const modules = {};
-  for (const name of ['publishing', 'preview', 'cleanup', 'books', 'books-ui', 'books-fetch', 'books-publish']) modules[name] = await fs.readFile(path.join(__dirname, 'lib', name + '.js'), 'utf8');
+  for (const name of ['ui', 'publishing', 'preview', 'cleanup', 'books', 'books-ui', 'books-fetch', 'books-publish']) modules[name] = await fs.readFile(path.join(__dirname, 'lib', name + '.js'), 'utf8');
   let bundled = await fs.readFile(path.join(__dirname, 'main.js'), 'utf8');
   const wrap = source => `(() => { const module = { exports: {} };\n${source}\nreturn module.exports; })()`;
+  modules['books-ui'] = modules['books-ui'].replace("const ui = require('./ui');", '');
   modules.cleanup = modules.cleanup.replace("const core = require('./publishing');", '');
   modules['books-publish'] = modules['books-publish'].replace("const core = require('./publishing');", '').replace("const books = require('./books');", '');
   modules.books = modules.books.replace("const core = require('./publishing');", '');
   modules.preview = modules.preview.replace("const core = require('./publishing');", '');
-  bundled = bundled.replace("const core = require('./lib/publishing');", () => `const core = ${wrap(modules.publishing)};`)
+  bundled = bundled.replace("const ui = require('./lib/ui');", () => `const ui = ${wrap(modules.ui)};`).replace("const core = require('./lib/publishing');", () => `const core = ${wrap(modules.publishing)};`)
     .replace("const { PreviewSession } = require('./lib/preview');", () => `const { PreviewSession } = ${wrap(modules.preview)};`)
     .replace("const cleanup = require('./lib/cleanup');", () => `const cleanup = ${wrap(modules.cleanup)};`)
     .replace("const books = require('./lib/books');", () => `const books = ${wrap(modules.books)};`)
     .replace("const bookPublisher = require('./lib/books-publish');", () => `const bookPublisher = ${wrap(modules['books-publish'])};`)
-    .replace("const bookFetch = require('./lib/books-fetch');", () => `const bookFetch = ${wrap(modules['books-fetch', 'books-publish'])};`)
+    .replace("const bookFetch = require('./lib/books-fetch');", () => `const bookFetch = ${wrap(modules['books-fetch'])};`)
     .replace("const createBooksUI = require('./lib/books-ui');", () => `const createBooksUI = ${wrap(modules['books-ui'])};`);
   await fs.writeFile(path.join(target, 'main.js'), bundled);
   await fs.copyFile(path.join(__dirname, 'manifest.json'), path.join(target, 'manifest.json'));
+  await fs.copyFile(path.join(__dirname, 'styles.css'), path.join(target, 'styles.css'));
 }
 async function main() {
   if (process.argv.includes('--bundle-only')) {

@@ -1,6 +1,6 @@
 # Books import and curation
 
-PublishDesk 1.2.0 adds automatic cover fetching, optional cover/review-date corrections and Bookshelf publication. The feature is developed on `codex/books` and tested as local changes in the website vault on `newtheme`. The public feature has not been merged, pushed or deployed. Initial setup must be released before the content-only publishing command can upload. All routine commands work without AI, book-note plugins, paid services or API keys.
+PublishDesk 1.2.1 includes automatic cover fetching, optional cover/review-date corrections and Bookshelf publication. The feature is developed on `codex/books` and tested as local changes in the website vault on `newtheme`. The public feature has not been merged, pushed or deployed. Initial setup must be released before the content-only publishing command can upload. All routine commands work without AI, book-note plugins, paid services or API keys.
 
 ## Routine workflow after installation
 
@@ -66,3 +66,7 @@ The temporary bundle path avoids installing or altering an active vault while te
 The public page is now **Bookshelf**, at `/bookshelf/`. Ratings-only history is ordered by completion date (newest first), then title for ties; undated entries follow alphabetically. Goodreads date-added is never used as completion date. This applies automatically to future imports.
 
 Implementation/recovery detail: [remaining workflow specification](../../docs/bookshelf-release-spec.md) and [source/provider audit](../../docs/bookshelf-fetch-audit.md). No existing public image or post URLs are moved by this feature.
+
+### Interface update (1.2.1)
+
+Manage books groups each book and its controls in its own panel; blurbs have wider fields. Task dialogs use the same action-footer layout. Cover/date changes marked unsaved still require Save locally; saving still does not publish. After refreshing installed files, reload PublishDesk in Obsidian (Settings → Community plugins, toggle PublishDesk off/on). No vault theme/settings changes or data migration are required.

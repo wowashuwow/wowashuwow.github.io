@@ -1,0 +1,60 @@
+/* Scoped to PublishDesk. Colours and typography follow the active Obsidian theme. */
+.publishdesk-modal { width: min(640px, 94vw); display: flex; flex-direction: column; max-height: calc(100vh - 48px); }
+.publishdesk-modal-wide { width: min(820px, 94vw); }
+.publishdesk-modal .publishdesk-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+}
+.publishdesk-body { overflow-y: auto; min-height: 0; padding: 0 4px 12px; }
+.publishdesk-body > p:first-child { margin-top: 0; color: var(--text-muted); }
+.publishdesk-modal .setting-item { border: 0; padding: 10px 0; gap: 16px; }
+.publishdesk-modal .setting-item-info { min-width: 0; }
+.publishdesk-modal .setting-item-name,
+.publishdesk-modal li { overflow-wrap: anywhere; }
+.publishdesk-modal .setting-item-control { flex-wrap: wrap; gap: 8px; }
+.publishdesk-modal .publishdesk-footer {
+  flex-shrink: 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+.publishdesk-footer > .setting-item { padding: 0; }
+.publishdesk-footer .setting-item-info { display: none; }
+.publishdesk-footer .setting-item-control { width: 100%; justify-content: flex-end; }
+.publishdesk-list { margin: 12px 0; }
+.publishdesk-book {
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+  background: var(--background-primary);
+}
+.publishdesk-book .publishdesk-book-heading { padding-top: 0; margin-bottom: 4px; }
+.publishdesk-book-heading .setting-item-name { font-size: var(--font-ui-medium); font-weight: var(--font-semibold); }
+.publishdesk-book-heading .setting-item-description { margin-top: 4px; }
+.publishdesk-modal .publishdesk-multiline { display: block; }
+.publishdesk-multiline .setting-item-control { margin-top: 8px; width: 100%; }
+.publishdesk-multiline textarea { width: 100%; min-height: 7em; resize: vertical; line-height: 1.5; }
+.publishdesk-modal [role="alert"]:not(:empty) { color: var(--text-error); }
+.publishdesk-modal [role="alert"]:empty,
+.publishdesk-modal [role="status"]:empty { display: none; }
+.publishdesk-modal [role="status"] { color: var(--text-muted); }
+.publishdesk-cover-preview { max-width: 160px; max-height: 240px; object-fit: contain; }
+.publishdesk-cover-candidate { display: flex; align-items: center; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--background-modifier-border); }
+.publishdesk-cover-candidate > img { object-fit: contain; max-height: 140px; flex-shrink: 0; }
+.publishdesk-cover-candidate > .setting-item { flex: 1; }
+.publishdesk-modal details { margin: 12px 0; }
+.publishdesk-modal summary { cursor: pointer; }
+.publishdesk-modal input[type="file"] { max-width: 100%; margin: 12px 0; }
+.publishdesk-settings input { max-width: 100%; }
+@media (max-width: 600px) {
+  .publishdesk-modal .setting-item { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .publishdesk-modal .setting-item-control { width: 100%; justify-content: flex-start; }
+  .publishdesk-footer .setting-item-control { justify-content: flex-end; }
+  .publishdesk-book { padding: 14px; }
+  .publishdesk-modal input:not([type="checkbox"]):not([type="file"]),
+  .publishdesk-modal select { max-width: 100%; }
+}
+
+.publishdesk-list > .setting-item + .setting-item { border-top: 1px solid var(--background-modifier-border); }
