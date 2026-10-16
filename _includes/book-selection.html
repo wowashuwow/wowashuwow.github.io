@@ -1,0 +1,33 @@
+{%- assign selection_keys = '' -%}
+{%- assign candidates = site.data.books | sort_natural: 'title' -%}
+{%- for candidate in candidates -%}
+  {%- assign preferences = site.data.books-overrides[candidate.id] -%}
+  {%- assign eligible = false -%}
+  {%- assign position = 999999 -%}
+  {%- case include.section -%}
+    {%- when 'recommended' -%}
+      {%- if preferences.recommended == true -%}{%- assign eligible = true -%}{%- assign position = preferences.recommendation_order | default: 999999 -%}{%- endif -%}
+    {%- when 'current' -%}
+      {%- if candidate.status == 'currently-reading' and preferences.currently_reading_hidden != true -%}{%- assign eligible = true -%}{%- assign position = preferences.currently_reading_order | default: 999999 -%}{%- endif -%}
+    {%- when 'reviews' -%}
+      {%- if candidate.status == 'read' and candidate.rating and candidate.review_html and preferences.history_hidden != true -%}{%- assign eligible = true -%}{%- endif -%}
+    {%- when 'ratings' -%}
+      {%- if candidate.status == 'read' and candidate.rating and candidate.review_html == nil and preferences.history_hidden != true -%}{%- assign eligible = true -%}{%- endif -%}
+  {%- endcase -%}
+  {%- if eligible -%}
+    {%- assign order_key = position | prepend: '000000' | slice: -6, 6 -%}
+    {%- assign tie_key = forloop.index0 | prepend: '000000' | slice: -6, 6 -%}
+    {%- if include.section == 'ratings' -%}
+      {%- if candidate.date_read -%}
+        {%- assign date_number = candidate.date_read | remove: '-' | plus: 0 -%}
+        {%- assign reverse_date = 99991231 | minus: date_number | prepend: '00000000' | slice: -8, 8 -%}
+        {%- capture order_key -%}0:{{ reverse_date }}{%- endcapture -%}
+      {%- else -%}
+        {%- assign order_key = '1:00000000' -%}
+      {%- endif -%}
+    {%- endif -%}
+    {%- capture selection_keys -%}{{ selection_keys }}{{ order_key }}:{{ tie_key }}:{{ candidate.id }}|{%- endcapture -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign ordered_keys = selection_keys | split: '|' | sort -%}
+{%- for key in ordered_keys -%}{{- key | split: ':' | last -}}{%- unless forloop.last -%}|{%- endunless -%}{%- endfor -%}

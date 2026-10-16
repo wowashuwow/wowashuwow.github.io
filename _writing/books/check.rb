@@ -1,0 +1,96 @@
+# frozen_string_literal: true
+require 'yaml'
+require 'nokogiri'
+require 'uri'
+require_relative 'settings'
+
+root = ARGV[1] || File.expand_path('../..', __dir__)
+output = ARGV.fetch(0) { abort 'Usage: bundle exec ruby _writing/books/check.rb BUILD_OUTPUT' }
+books = BooksSettings.yaml(File.read(File.join(root, '_data/books.yml')))
+overrides = BooksSettings.load(File.join(root, '_data/books-overrides.yml'))
+html = Nokogiri::HTML(File.read(File.join(output, 'bookshelf/index.html')))
+errors = []
+expected_posts = []
+expected_total = 0
+books.each do |book|
+  custom = overrides[book['id']] || {}
+  current = book['status'] == 'currently-reading' && !custom['currently_reading_hidden']
+  history = book['status'] == 'read' && book['rating'] && !custom['history_hidden']
+  recommended = custom['recommended'] == true
+  entry = html.at_css("#book-#{book['id']}")
+  recommendation = html.at_css("#recommendation-#{book['id']}")
+  expected_total += 1 if current || history
+  expected_total += 1 if recommended
+  errors << "Incorrect main-section visibility: #{book['id']}" unless !!entry == !!(current || history)
+  errors << "Incorrect recommendation visibility: #{book['id']}" unless !!recommendation == recommended
+  [entry, recommendation].compact.each do |node|
+    errors << "Title missing/changed: #{book['id']}" unless node.at_css('.book__title a')&.text == book['title']
+    expected_posts.concat(custom['posts'] || [])
+    errors << "Wrong blog-link count for #{node['id']}" unless node.css('.book__posts a').length == (custom['posts'] || []).length
+    node.css('img').each do |img|
+      errors << "Invalid/missing cover: #{img['src']}" unless BooksMetadata.cover_url?(img['src']) || (img['src'].start_with?('/images/books/') && File.file?(File.join(output, img['src'])))
+    end
+  end
+  if recommendation && custom['recommendation_blurb'] && !custom['recommendation_blurb'].empty?
+    errors << "Blurb changed/not escaped: #{book['id']}" unless recommendation.at_css('.book__blurb')&.text&.delete("\n") == custom['recommendation_blurb'].delete("\n") && recommendation.css('.book__blurb *:not(br)').empty?
+  end
+  next unless entry
+  errors << "Wrong reading state: #{book['id']}" unless entry['class'].include?('book--current') == !!current
+  errors << "Review missing: #{book['id']}" if book['review_html'] && !entry.at_css('details .book__review-text')
+  errors << "Review HTML contains executable content: #{book['id']}" unless entry.css('.book__review-text script, .book__review-text iframe, .book__review-text [onclick], .book__review-text [onerror]').empty?
+  if history
+    if book['review_html']
+      expected_year = custom['review_date'] ? custom['review_date'][0, 4] : 'undated'
+      errors << "Wrong review grouping: #{book['id']}" unless entry.ancestors('section').any? { |section| section['aria-labelledby'] == "reviews-#{expected_year}" }
+      errors << "Wrong review date: #{book['id']}" if custom['review_date'] && entry.at_css('.book__review-date time')&.[]('datetime') != custom['review_date']
+    else
+      errors << "Rating-only book in wrong section: #{book['id']}" unless entry.ancestors('#finished-list').any?
+    end
+    completion = entry.at_css('.book__finished time')
+    errors << "Wrong/made-up completion date: #{book['id']}" unless completion&.[]('datetime') == book['date_read']
+  end
+  (custom['posts'] || []).each do |post|
+    errors << "Invalid or missing published post: #{post}" unless File.file?(File.join(root, '_posts', post))
+
+  end
+end
+overrides.each { |id, custom| errors << "Recommended book missing from data: #{id}" if custom['recommended'] && !books.any? { |b| b['id'] == id } }
+%w[recommended current].each do |section|
+  key = section == 'recommended' ? 'recommendation_order' : 'currently_reading_order'
+  selected = books.select { |b| c = overrides[b['id']] || {}; section == 'recommended' ? c['recommended'] : b['status'] == 'currently-reading' && !c['currently_reading_hidden'] }
+  expected = selected.sort_by { |b| [(overrides[b['id']] || {})[key] || 999999, b['title'].downcase, b['id'].to_i] }.map { |b| b['id'] }
+  selector = section == 'recommended' ? '.books-recommendations article' : '.books-shelf article'
+  actual = html.css(selector).map { |node| node['id'].split('-').last }
+  errors << "Incorrect #{section} order." unless actual == expected
+end
+ratings = books.select { |b| b['status'] == 'read' && b['rating'] && !b['review_html'] && !(overrides[b['id']] || {})['history_hidden'] }
+expected_ratings = ratings.sort_by { |b| [b['date_read'] ? 0 : 1, -(b['date_read'] || '0000-00-00').delete('-').to_i, b['title'].downcase] }.map { |b| "book-#{b['id']}" }
+errors << 'Incorrect ratings-only date/title order.' unless html.css('#finished-list article').map { |n| n['id'] } == expected_ratings
+errors << 'Obsolete ratings controls/text.' unless html.css('#book-order, .books-sort, .books-rating-note').empty? && !html.text.include?('The stars are my ratings.')
+errors << 'Wrong page heading.' unless html.at_css('h1')&.text&.strip == 'Bookshelf'
+errors << 'Wrong SEO title.' unless html.at_css('title')&.text&.start_with?('Bookshelf |')
+errors << 'Missing description.' if html.at_css('meta[name="description"]')&.[]('content').to_s.empty?
+errors << 'Wrong Open Graph URL.' unless html.at_css('meta[property="og:url"]')&.[]('content') == 'https://wowashuwow.com/bookshelf/'
+errors << 'Unexpected noindex metadata.' if html.css('meta[name="robots"]').any? { |m| m['content'].to_s.include?('noindex') }
+errors << 'Missing navigation link.' unless html.css('nav a').any? { |a| a['href'] == '/bookshelf/' && a.text.strip == 'Bookshelf' }
+errors << 'Old page emitted.' if File.exist?(File.join(output, 'books/index.html'))
+ids = html.css('[id]').map { |e| e['id'] }
+errors << 'Duplicate HTML IDs.' unless ids.uniq.length == ids.length
+errors << 'Wrong number of book entries.' unless html.css('article.book').length == expected_total
+errors << 'Some configured blog links were not rendered.' unless html.css('.book__posts a').length == expected_posts.length
+html.css('.book__posts a, .books-explore, .books-jumps a').each do |link|
+  url = URI.parse(link['href'])
+  file = url.path.empty? ? File.join(output, 'bookshelf/index.html') : File.join(output, url.path)
+  file = File.join(file, 'index.html') if File.directory?(file)
+  file += '.html' unless File.file?(file)
+  if !File.file?(file)
+    errors << "Broken public link: #{link['href']}"
+  elsif url.fragment && !Nokogiri::HTML(File.read(file)).at_css("[id='#{url.fragment}']")
+    errors << "Broken anchor: #{link['href']}"
+  end
+end
+errors << 'Wrong production canonical.' unless html.at_css('link[rel="canonical"]')&.[]('href') == 'https://wowashuwow.com/bookshelf/'
+errors << 'Books missing from sitemap.' unless File.read(File.join(output, 'sitemap.xml')).include?('https://wowashuwow.com/bookshelf/')
+%w[Drafts _drafts .obsidian _writing docs].each { |folder| errors << "Private folder emitted: #{folder}" if File.exist?(File.join(output, folder)) }
+abort errors.join("\n") unless errors.empty?
+puts "Books output passed: #{expected_total} displayed entries (including repeated recommendations), #{html.css('details.book__review').length} reviews, #{expected_posts.length} blog links; visibility, order, dates, IDs, covers, anchors, metadata and private-folder exclusion."

@@ -1,13 +1,13 @@
 'use strict';
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path'),{createRequire}=require('node:module');
 function load(file,choice){
- const element=()=>({style:{},createEl:element,createDiv:element,empty(){},addEventListener(){}});
- class Modal{constructor(){this.contentEl=element();}open(){this.onOpen();queueMicrotask(()=>{this.resolve(choice);this.close();});}close(){this.onClose();}}
+ const element=()=>({classList:{add(){}},style:{},createEl:element,createDiv:element,empty(){},addEventListener(){}});
+ class Modal{constructor(){this.contentEl=element();this.modalEl=element();}setTitle(){}open(){this.onOpen();queueMicrotask(()=>{this.resolve(choice);this.close();});}close(){this.onClose();}}
  class Setting{setName(){return this;}setDesc(){return this;}addButton(fn){fn({setButtonText(){return this;},onClick(){return this;},setCta(){return this;}});return this;}addText(fn){fn({setPlaceholder(){return this;},onChange(){return this;}});return this;}addToggle(fn){fn({setValue(){return this;},onChange(){return this;}});return this;}}
  const obsidian={Plugin:class{},Modal,Setting,Notice:class{},PluginSettingTab:class{},TFile:class{},MarkdownView:class{}};let module={exports:{}};let requireReal=createRequire(file);
  vm.runInNewContext(fs.readFileSync(file,'utf8'),{module,require:n=>n==='obsidian'?obsidian:requireReal(n),Buffer,setTimeout,clearTimeout,queueMicrotask,URL,Blob,console});return module.exports;
 }
-test('installed bundle loads without executing an Obsidian action',()=>{assert.equal(typeof load(path.resolve(__dirname,'../../.obsidian/plugins/site-writer/main.js'),null),'function');});
+test('installed bundle loads without executing an Obsidian action',()=>{assert.equal(typeof load(process.env.PUBLISHDESK_TEST_BUNDLE || path.resolve(__dirname,'../../.obsidian/plugins/site-writer/main.js'),null),'function');});
 test('featured-only import, same-file body insertion, deduplication, collision suffixes and cancel preserve files',async()=>{
  let choice;const main=path.resolve(__dirname,'../main.js');const Writer=load(main,{get imported(){return choice.imported;},get insert(){return choice.insert;},get path(){return choice.path;},set path(v){choice.path=v;}});
  const note={path:'Drafts/2026-10-12-test.md',basename:'2026-10-12-test'},files=new Map(),meta={},writes=[];
@@ -27,4 +27,15 @@ test('cancelling draft cleanup never trashes a note or attachment',async()=>{
  try {await core.git(root,'init');await fsp.mkdir(path.join(root,'Drafts'));const note='Drafts/2026-10-12-cancel.md';await fsp.writeFile(path.join(root,note),'Private draft');
  const Writer=load(path.resolve(__dirname,'../main.js'),false);const writer=new Writer();writer.root=root;writer.current=async()=>({path:note});let count=0;writer.app={vault:{trash:async()=>count++}};await writer.deleteDraft();assert.equal(count,0);assert.equal(await fsp.readFile(path.join(root,note),'utf8'),'Private draft');
  }finally{await fsp.rm(root,{recursive:true,force:true});}
+});
+
+test('generated bundle includes the cover-fetch adapter and shared layout, not another publication module',()=>{
+ const file=process.env.PUBLISHDESK_TEST_BUNDLE || path.resolve(__dirname,'../../.obsidian/plugins/site-writer/main.js');
+ const real=createRequire(file),module={exports:{}};
+ const obsidian={Plugin:class{},Modal:class{},Setting:class{},PluginSettingTab:class{}};
+ vm.runInNewContext(fs.readFileSync(file,'utf8')+'\nmodule.exports={bookFetch,ui};',{module,require:n=>n==='obsidian'?obsidian:real(n),Buffer,console,URL});
+ for(const method of ['collect','candidates','request','coverURL']) assert.equal(typeof module.exports.bookFetch[method],'function',method);
+ assert.equal(module.exports.bookFetch.coverURL('https://covers.openlibrary.org/b/id/123-L.jpg'),true);
+ assert.equal(typeof module.exports.ui.layout,'function');
+ assert.equal(fs.readFileSync(path.join(path.dirname(file),'styles.css'),'utf8'),fs.readFileSync(path.join(__dirname,'../styles.css'),'utf8'));
 });

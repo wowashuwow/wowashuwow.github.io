@@ -1,9 +1,9 @@
 {
   "id": "site-writer",
   "name": "PublishDesk",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "minAppVersion": "1.13.0",
-  "description": "Private drafts, local previews and selected-post publishing for wowashuwow.com.",
+  "description": "Write and publish posts, import Goodreads books with automatic covers, and manage your Bookshelf.",
   "author": "Ashutosh Bhosale",
   "isDesktopOnly": true
 }

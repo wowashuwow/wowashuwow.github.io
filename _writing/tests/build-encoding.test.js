@@ -21,7 +21,8 @@ test('full website preview renders Unicode under an ASCII desktop-app locale', a
     const html = await fs.readFile(path.join(built.output, built.article), 'utf8');
     assert.match(html, /Café — UTF-8 preview/);
     assert.match(html, /Unicode body: ✓ 👊/);
-    assert.match(html, /content:\s*["']✓["']/);
+    const css = await fs.readFile(path.join(built.output, 'css/site.css'), 'utf8');
+    assert.match(css, /content:\s*["']✓["']/);
     assert.equal((await core.walk(built.output)).some(file => file.startsWith('Drafts/')), false);
   } finally {
     if (built) await fs.rm(built.temp, { recursive: true, force: true });
