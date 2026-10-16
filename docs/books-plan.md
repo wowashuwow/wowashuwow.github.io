@@ -4,7 +4,7 @@ Updated: 15 October 2026. Implementation started at the author’s request on 13
 
 ## Current status — 16 October 2026
 
-PublishDesk 1.2.1 and the Goodreads-based Bookshelf are implemented locally. Current priority: finish native/user acceptance, review the existing feature branch, then release and verify the deployed page. Reload the installed PublishDesk plugin before testing its new UI. Independent online book additions are explicitly deferred; do not implement the new catalogue or change import/removal semantics during this release.
+PublishDesk 1.2.1 and the Goodreads-based Bookshelf are implemented locally. On 16 October the author confirmed the installed workflow works and authorized release. Current priority: review/release the existing feature branch, then verify the deployed page. Reload the installed PublishDesk plugin before testing its new UI. Independent online book additions are explicitly deferred; do not implement the new catalogue or change import/removal semantics during this release.
 
 ### Future scope: independent catalogue
 
@@ -350,3 +350,5 @@ Author reported that flat Setting rows and nested scrolling obscure book boundar
 Author clarified that Bookshelf must accept books directly from online search, with Goodreads as an optional import source. Confirmed one entry per book by default. Research and the preservation/matching/migration/publication compatibility contract are in [Independent Bookshelf spec](bookshelf-independent-catalogue-spec.md). Recommend a narrow Open Library adapter within PublishDesk, reusing native UI and current persistence; existing plugins are note-oriented and do not implement our safe import ownership. No import should delete existing records by default; ambiguous matches require a remembered user decision. Preserve current local IDs and two-YAML layout. Plan only; no implementation/library/installed-plugin changes. Live API smoke checks remain a pre-integration gate.
 
 16 October — author deferred the independent catalogue after reviewing its plan. Current Goodreads-based setup is accepted as the appropriate scope for now. Remaining immediate work is PublishDesk 1.2.1 user acceptance and initial Bookshelf release, not further catalogue development.
+
+16 October — author reported that everything seems to be working and explicitly authorized release. This is author acceptance of the current workflow, not a claim that agent-native automation recovered. Documentation rules, a docs index and curated release notes are now established; initial release verification is in progress.
