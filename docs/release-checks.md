@@ -33,3 +33,20 @@ GitHub Pages setup deployment [run #263](https://github.com/wowashuwow/wowashuwo
 ## Optional publication notes
 
 16 focused tests passed for the installed publication dialog, new/edit commit subjects, multiline/blank notes, actual Git commit bodies, notes absent from post content, cancel, malformed-note rejection, unchanged selected-file safeguards, and upload retry retaining its original message. No real post published. Uses the documented Obsidian Setting.addTextArea API.
+
+
+## Bookshelf and PublishDesk 1.2.1 — 16 October 2026
+
+Released [PR #5](https://github.com/wowashuwow/wowashuwow.github.io/pull/5), tested head 393e3e4a9836bff7c47110a3746110ec6d0280fc, merge d33b6bf43653e2bbb9d13ef24fe19a820ec378d0. [Pages run 38878759617](https://github.com/wowashuwow/wowashuwow.github.io/actions/runs/38878759617) completed successfully. The author reported the installed workflow works and authorized release; native agent UI input remained unavailable. This is author acceptance, not fabricated per-control native observations. Earlier browser UI harness evidence remains separately labelled in publishdesk-ui-plan.md.
+
+Final validation: 54 JavaScript cases passed against the generated 1.2.1 bundle, including packaging, imports, curation, cancellation, temporary-Git publication/retry and persistent post preview. Native Ruby suites: import 12/67 assertions, curation 22/105, post links 4/22, rendering 6/31, metadata/recovery 6/41; all pass. Some import behaviour is also exercised by the JS bridge, so these are suite results rather than an inflated unique-case total.
+
+An exact committed-source production safe-mode Jekyll build passed with the real library. All generated root-relative links/assets resolve. Bookshelf output checker passed; no Drafts, .obsidian, .trash, _writing, docs, AGENTS.md or README.md in output; no preview host/noindex metadata. The first ad-hoc release build used macOS's symlinked temporary-path alias and failed Jekyll's include safety check; rerunning with the canonical real path, as existing preview code already does, passed. No product-code change was needed for that check.
+
+Live verification: /bookshelf/, homepage and sitemap fetched successfully with the system curl trust store. Expected content fingerprint ff2395b089ce30ebef26cf5a5c763dfb39a68987e4f5b51d5363b51af008d7d4 is present. Title Bookshelf | wowashuwow, canonical https://wowashuwow.com/bookshelf/, no production noindex, homepage nav and sitemap inclusion confirmed. Rendered counts: 4 recommendations, 7 current, 35 history; existing author blurbs and related links preserved. The separate Python installation lacked a CA bundle; TLS verification was not disabled.
+
+Live browser: covers loaded without failed loaded images, review disclosure opened/closed, desktop Next books moved the horizontal shelf, 390px viewport had page width 375px, and normal viewport restored. No newsletter/comment was submitted. No full WCAG audit or guarantee of search-engine indexing.
+
+Git push briefly waited on macOS Keychain, then completed normally; no API reconstruction, force-push or credential/hosting changes. Authoring newtheme advanced to the merge with all 99 checked working-file paths byte-preserved and clean Git status. Read-only publication preparation confirms setup ready and zero unpublished Bookshelf files. Initial setup gating is lifted by the released code; routine content publication now works from newtheme.
+
+Documentation-only follow-up records this post-deployment evidence, updates stale current-status/operating-guide text and dates the release notes. It changes no page templates, content, runtime plugin files or book data. Independent online additions and their proposed new import semantics remain explicitly deferred.

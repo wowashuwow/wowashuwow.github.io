@@ -1,6 +1,6 @@
 # Bookshelf: remaining workflow and release specification
 
-16 October 2026. Specification followed by local implementation after author approval. PublishDesk 1.2.0 is installed for acceptance testing; no push/deployment. See the implementation entry in books-plan.md for actual evidence and the still-open native Obsidian walkthrough. The requirements below remain acceptance criteria, not claims that every scenario has been manually exercised.
+Released 16 October 2026 through [PR #5](https://github.com/wowashuwow/wowashuwow.github.io/pull/5), merge d33b6bf43653e2bbb9d13ef24fe19a820ec378d0. PublishDesk 1.2.1 is installed and the author confirmed the workflow works before authorizing release. Pages deployment and live /bookshelf/ verified; see [release checks](release-checks.md). Native agent UI input remained unavailable; author acceptance and browser-harness/native automation evidence are distinguished in those records. This specification retains the intended safeguards; it is not a claim that every failure case was exercised manually.
 
 ## Outcome and constraints
 
@@ -158,10 +158,10 @@ Test leap days, impossible/future/blank dates, valid/invalid URL normalization, 
 - [x] 1b. Exact-file commit/upload, crash recovery and Books-aware status/retry, preserving post workflow.
 - [x] 2. Exceptional cover-correction controls, validated private staging/save and local/hosted asset publication integration. Representative actual cover quality/dimensions checked; native file/candidate selection remains in final acceptance.
 - [x] 3. Review-date controls and persistent advisory verification state; no invented feed dates.
-- [ ] Regression pass: native Ruby/Jekyll, meaningful JS/UI/temporary-Git tests, full output/SEO/privacy checks, real Obsidian desktop walkthrough and browser desktop/mobile light/dark inspection. Test failure injection privately rather than damaging real data/network/credentials.
-- [ ] Author tests import, management, cover selection, date editing, related links, Save locally, Preview and publication review/Cancel without agent intervention; records actual acceptance, not just automated coverage.
-- [ ] Review exact feature diff and commit messages, preserve latest main-vault curation, verify GitHub Pages source, release the feature through its existing branch/PR workflow. No new branch per subtask; focused commits on codex/books.
-- [ ] Check live /bookshelf/ HTTP 200, correct canonical, title, nav, sitemap, cover/post links, no production noindex and no private output. Inspect deployed content against the intended revision.
+- [x] Release regression: full JS/native Ruby suites, committed production build, output/SEO/privacy checks and live desktop/phone inspection passed. Earlier light/dark harness checks are recorded separately. Native agent walkthrough unavailable; author accepted the installed workflow. See release-checks.md for scope and limitations.
+- [x] Author acceptance: on 16 October the author reported that everything seems to be working and authorized release. This is the author's overall acceptance report, not an item-by-item agent observation.
+- [x] Reviewed existing codex/books feature diff, preserved current authoring data, merged PR #5 into newtheme and confirmed its Pages deployment. Authoring checkout advanced without changing working-file bytes.
+- [x] Live /bookshelf/, canonical/title, homepage nav and sitemap verified; expected content fingerprint matches. Covers loaded, shelf/review controls work, no page overflow at 390px, no production noindex. Committed production output passes local links/assets and private/development exclusions.
 - [ ] Author publishes a small real Bookshelf change through PublishDesk and checks deployment/status/retry guidance. Inspect URL in GSC; request indexing once if appropriate. Indexing is not guaranteed or instantaneous.
 - [ ] Update main project checklist, workflow guide, installed plugin version and test evidence. Stop before deferred films/diary/automation/legacy image cleanup work.
 

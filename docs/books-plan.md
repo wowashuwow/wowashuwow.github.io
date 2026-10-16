@@ -1,10 +1,10 @@
 # Books — research and implementation plan
 
-Updated: 15 October 2026. Implementation started at the author’s request on 13 October; local feature work only, not released. Main tracker: [personal-site-plan.md](personal-site-plan.md).
+Updated: 16 October 2026. Bookshelf and PublishDesk 1.2.1 released through PR #5 after author acceptance. Main tracker: [personal-site-plan.md](personal-site-plan.md).
 
 ## Current status — 16 October 2026
 
-PublishDesk 1.2.1 and the Goodreads-based Bookshelf are implemented locally. On 16 October the author confirmed the installed workflow works and authorized release. Current priority: review/release the existing feature branch, then verify the deployed page. Reload the installed PublishDesk plugin before testing its new UI. Independent online book additions are explicitly deferred; do not implement the new catalogue or change import/removal semantics during this release.
+PublishDesk 1.2.1 and the Goodreads-based Bookshelf are released through [PR #5](https://github.com/wowashuwow/wowashuwow.github.io/pull/5). The author accepted the installed workflow; Pages and live content checks passed. The authoring vault is on the released newtheme revision with current curation preserved. See release-checks.md for exact evidence. Independent online book additions remain future scope. The next planned feature is Films, starting with research/planning when requested.
 
 ### Future scope: independent catalogue
 
@@ -352,3 +352,5 @@ Author clarified that Bookshelf must accept books directly from online search, w
 16 October — author deferred the independent catalogue after reviewing its plan. Current Goodreads-based setup is accepted as the appropriate scope for now. Remaining immediate work is PublishDesk 1.2.1 user acceptance and initial Bookshelf release, not further catalogue development.
 
 16 October — author reported that everything seems to be working and explicitly authorized release. This is author acceptance of the current workflow, not a claim that agent-native automation recovered. Documentation rules, a docs index and curated release notes are now established; initial release verification is in progress.
+
+16 October — initial Bookshelf release completed through PR #5. Pages run 38878759617 succeeded; live content fingerprint, 4 recommendations/7 current/35 history entries, canonical, sitemap/nav and responsive controls verified. The authoring checkout was advanced with all 99 checked working-file paths preserved. Data-only Bookshelf publication is enabled and reports no unpublished files for this release.

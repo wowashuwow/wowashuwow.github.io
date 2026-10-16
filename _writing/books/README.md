@@ -1,6 +1,6 @@
 # Books import and curation
 
-PublishDesk 1.2.1 includes automatic cover fetching, optional cover/review-date corrections and Bookshelf publication. The feature is developed on `codex/books` and tested as local changes in the website vault on `newtheme`. The public feature has not been merged, pushed or deployed. Initial setup must be released before the content-only publishing command can upload. All routine commands work without AI, book-note plugins, paid services or API keys.
+PublishDesk 1.2.1 includes automatic cover fetching, optional cover/review-date corrections and Bookshelf publication. Released on 16 October 2026 through [PR #5](https://github.com/wowashuwow/wowashuwow.github.io/pull/5); Bookshelf is live at https://wowashuwow.com/bookshelf/. Use the authoring/publishing branch `newtheme`. The initial setup is released, so normal content-only Bookshelf publication is enabled. All routine commands work without AI, book-note plugins, paid services or API keys.
 
 ## Routine workflow after installation
 

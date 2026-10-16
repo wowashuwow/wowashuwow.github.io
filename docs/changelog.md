@@ -2,7 +2,13 @@
 
 Notable user-facing releases. Older history is in Git and [release checks](release-checks.md); this is not a retroactively reconstructed list of every change.
 
-## Unreleased — Bookshelf and PublishDesk 1.2.1
+## Unreleased
+
+No additional feature is currently scheduled for implementation.
+
+## Bookshelf and PublishDesk 1.2.1 — 2026-10-16
+
+Released through [PR #5](https://github.com/wowashuwow/wowashuwow.github.io/pull/5); [Pages deployment](https://github.com/wowashuwow/wowashuwow.github.io/actions/runs/38878759617) succeeded. Live content and metadata verified.
 
 ### Added
 - Bookshelf at /bookshelf/ with Read before you die, horizontally scrollable Currently reading and reading history. Four selected recommendations include the author's blurbs.

@@ -6,7 +6,7 @@ This is the authoritative project tracker. Checked items are implemented/verifie
 
 ## Current status
 
-- Bookshelf / PublishDesk 1.2.1 release approved by the author on 16 October; final release verification in progress. [Documentation rules](development.md), [index](README.md) and [release notes](changelog.md) now define the ongoing workflow.
+- Bookshelf / PublishDesk 1.2.1 released and live-verified on 16 October through [PR #5](https://github.com/wowashuwow/wowashuwow.github.io/pull/5). [Documentation rules](development.md), [index](README.md) and [release notes](changelog.md) now define the ongoing workflow.
 
 - Current working/publishing branch: `newtheme`. PublishDesk is released; the website root is its separate Obsidian vault.
 - PublishDesk released through [PR #3](https://github.com/wowashuwow/wowashuwow.github.io/pull/3); optional publication notes released through [PR #4](https://github.com/wowashuwow/wowashuwow.github.io/pull/4). On 13 October the author confirmed both publishing Jacked and Guilty and updating another post’s description worked.
@@ -17,14 +17,14 @@ This is the authoritative project tracker. Checked items are implemented/verifie
 - [PR #1](https://github.com/wowashuwow/wowashuwow.github.io/pull/1) merged into newtheme as `5bcc5dc69d58a05c97d2d7213f0863730d909804`.
 - Deployment [run #261](https://github.com/wowashuwow/wowashuwow.github.io/actions/runs/38174520983) succeeded in 1m 30s; public verification passed.
 - Jacked and Guilty has now been published by the author through PublishDesk. Legacy standalone image remains protected; private Drafts and recovery copies remain excluded from Git/public output.
-- Next feature order agreed 13 October: Books → Films → short entries (name undecided) → deferred improvements. Bookshelf and PublishDesk 1.2.1 are implemented; on 16 October the author confirmed the tested workflow works and authorized release. See [books-plan.md](books-plan.md). Independent catalogue additions remain deferred.
+- Next feature order agreed 13 October: Books → Films → short entries (name undecided) → deferred improvements. Bookshelf and PublishDesk 1.2.1 are released; the author accepted the installed workflow and live verification passed. See [books-plan.md](books-plan.md). Independent catalogue additions remain deferred.
 - Branch protection is optional and deliberately skipped. PublishDesk's normal direct-push workflow remains in place.
 
 ## Permanent requirement: no AI dependency
 
 The author requires every routine website workflow, existing and future, to work without a coding agent, LLM, chat session or AI service. This includes writing, previewing/publishing posts, importing/managing/publishing Bookshelf, covers, related-post links, review dates and recovery. Implement ordinary deterministic software with understandable Obsidian controls, documented instructions and portable files. Do not leave agent-operated file edits, image sourcing, Git commands or troubleshooting as required routine workflow steps. AI may assist development but must not be a runtime or operational dependency. New feature development or exceptional environment/dependency failures can still need ordinary developer maintenance; do not promise software never requires maintenance. Test completion through user-operated controls with no agent intervention. Clearly distinguish implemented functionality from future plans.
 
-Current Bookshelf status (16 October): automatic cover/source fetching and the user-operated import/management/publication workflow are implemented. The author accepted the installed workflow and authorized initial release. Current catalogue remains Goodreads-based; direct online additions are deferred. Release evidence will be recorded in release-checks.md.
+Current Bookshelf status (16 October): automatic cover/source fetching and the user-operated import/management/publication workflow are implemented. The author accepted the installed workflow; initial release and live verification are complete. Current catalogue remains Goodreads-based; direct online additions are deferred. Release evidence is recorded in release-checks.md.
 
 ## Design and scope decisions
 
@@ -307,3 +307,8 @@ Installed bundle 1.2.0, refreshed plugin listing and observed v1.2.0 in native O
 ## Future scope decision — 16 October: independent Bookshelf catalogue
 
 Deferred by the author. Preserve [the full researched specification](bookshelf-independent-catalogue-spec.md) for direct online book additions and safe Goodreads matching; one entry per book by default. Do not include its source-independent IDs, migration or changed import/removal rules in the current release. Current Goodreads-based catalogue remains. Next: native/user acceptance of installed PublishDesk 1.2.1, feature review/release and live Bookshelf verification. No implementation for the deferred feature has occurred.
+
+
+## Bookshelf release — 16 October 2026
+
+[PR #5](https://github.com/wowashuwow/wowashuwow.github.io/pull/5) merged as d33b6bf43653e2bbb9d13ef24fe19a820ec378d0. [Pages deployment](https://github.com/wowashuwow/wowashuwow.github.io/actions/runs/38878759617) succeeded and https://wowashuwow.com/bookshelf/ was verified publicly. Installed PublishDesk 1.2.1 is accepted by the author; normal Bookshelf content publication is now enabled. Main authoring checkout remains newtheme with curation preserved. Documentation entry point: docs/README.md; permanent agent rules: AGENTS.md; evidence: release-checks.md. Next planned feature: Films research/planning when requested. Independent book catalogue, written Goodreads status archive, Thoughts and other deferred work are not included in this release.

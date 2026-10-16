@@ -1,6 +1,6 @@
 # PublishDesk interface improvement plan
 
-16 October 2026. Research and plan only; no runtime, plugin installation, library data or website changes in this task. Review before implementation. Continue the existing Books feature work rather than mixing the active vault overlay into an unrelated release.
+Status: implemented in PublishDesk 1.2.1 and released through PR #5 on 16 October 2026. The author accepted the installed workflow before release. The design/research plan below is retained as implementation rationale; final release evidence is in release-checks.md. Native agent UI automation remained unavailable, so its individual checks are not falsely marked passed.
 
 ## Problem and evidence
 
@@ -111,3 +111,6 @@ Package inspection found a pre-existing setup.js error: modules['books-fetch', '
 Verification: 53 JavaScript cases passed in the full suite; the final focused run passed 18 cases including one additional bundle-mapping regression (54 distinct JS cases overall). All 38 Ruby cases passed, with 199 assertions. An isolated real-library Jekyll build and output/privacy checker passed. Both real bookshelf data files and publishing.js, preview.js and cleanup.js remain byte-identical to the pre-UI backup. Backups and test logs are under /private/tmp/publishdesk-ui-*. Feature publication, site data and vault settings were not changed by these UI checks.
 
 Visual evidence comes from an isolated browser harness running actual books-ui.js/ui.js and styles.css against copied real library data, with a minimal native-control stand-in and the current theme stylesheet. It showed distinct panels, readable blurbs, no inner list scrollbar, footer visibility and no horizontal overflow at 520px, and light/dark inspection. It is NOT proof of Obsidian's actual modal sizing, focus traps or screen-reader behaviour. Native CUA observed the correct vault but its palette shortcut again produced no change. Native keyboard/theme/enlarged-text acceptance and the user's final walkthrough remain OPEN. Installed files require a PublishDesk plugin reload before the new interface appears. Screenshot: /private/tmp/publishdesk-ui-preview.png. No push or deployment.
+
+
+Release acceptance update — 16 October: author reported the installed workflow works and authorized PR #5. The native agent-only automation checklist remains a recorded tooling limitation rather than a current release blocker. Live Bookshelf browser and deployment checks passed.
