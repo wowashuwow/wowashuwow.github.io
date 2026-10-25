@@ -29,9 +29,9 @@ If Michael Mann had a magic wand that could make Pacino, De Niro, Kilmer (RIP) a
 
 But the thing is, I already did. No, not let Albert waste my motherfuckin' life, but watch Heat 2 with the original cast. How? By reading the book. No wait, don't roll your eyes. You're probably thinking "But Jackie, reading books and watching films are two totally different things. How can you compare them?" And normally, I'd agree with you, but not on this one, because this book is rare. I'll tell you why in just a bit, but the point is, you can experience Heat 2 with the original cast. All you have to do is read the book. 
 
-But there's a catch: you'll need to read it *before* you watch the film. If you try to read it after, you'll have the faces of the new cast interfering in your mind as you imagine the characters and events of the book.
+But there's a catch: you'll need to read it *before* you watch the film. If you try to read it after, you'll have the faces of the new cast interfering in your mind as you read the book, imagining the characters and events.
 
-That's why I think reading the book before before watching the film is the only possible way to experience Heat 2 like it was meant to be: with the same Neil, Hanna, Vincent and others in their uncorrupted glory, without anyone else taking their place. That's how I experienced it, and it was pure and special. 
+That's why I think reading the book before watching the film is the only possible way to experience Heat 2 like it was meant to be: with the same Neil, Hanna, Vincent and others in their uncorrupted glory, without anyone else taking their place. That's how I experienced it, and it was pure and special. 
 
 Now let me tell you exactly what it is that makes this book feel like you're watching a film and why it's rare.
 ## A real novel, not a pitch novel 
@@ -63,4 +63,4 @@ Don't get me wrong, I'm not saying it's impossible for Heat 2 to meet our expect
 
 Because the original cast was special and no one can take their place. The original Neil, Hanna and Chris were special. The original cinematography, color palette and look were special. 1995 was special. The feel of the time was special. And you can have all of that original goodness in this new story. If you want. Have Heat 2 look and feel just as good as the Heat you've always loved, with the same cast that you've always loved. Have both fuse into one story, one film, continuous, flowing, like it hasn't been three decades, like it was never really over. One cohesive masterpiece.
 
-<!-- site-writer content: 4c9aa64b17318b56b591e63921bbfb3287b4d0f90c414037d8eadca1502f1c2f -->
+<!-- site-writer content: 2bdd015676cdf977be34c672d56bd22f3d84239921468b54480dfd6e55573726 -->
